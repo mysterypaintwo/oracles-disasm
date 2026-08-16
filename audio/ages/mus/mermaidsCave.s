@@ -54,7 +54,7 @@ musicf1539:
 	note as4 $21
 	vol $4
 	note as4 $0b
-	rest $0e
+	sust $0e
 	vol $4
 	note as3 $0b
 	note b3  $0b
@@ -119,7 +119,7 @@ musicf1539:
 	note e5  $0b
 	vol $6
 	note a5  $2c
-	rest $0b
+	sust $0b
 	vol $4
 	note f3  $0b
 	note fs3 $0b
@@ -137,13 +137,13 @@ musicf1539:
 	note fs5 $0b
 	note c6  $0b
 	note cs6 $0b
-	rest $05
+	sust $05
 	vol $2
 	note cs6 $0b
-	rest $06
+	sust $06
 	vol $1
 	note cs6 $0b
-	rest $2c
+	sust $2c
 	goto musicf1539
 	cmdff
 
@@ -155,7 +155,7 @@ musMermaidsCaveChannel0:
 musicf1623:
 	vol $6
 	note as5 $05
-	rest $06
+	sust $06
 	note f5  $05
 	vol $2
 	note as5 $06
@@ -345,7 +345,7 @@ musicf1623:
 	note f5  $06
 	vol $6
 	note as5 $05
-	rest $06
+	sust $06
 	note f5  $05
 	vol $2
 	note as5 $06
@@ -392,7 +392,7 @@ musicf1623:
 	note e6  $0b
 	vol $6
 	note b5  $05
-	rest $06
+	sust $06
 	note fs5 $05
 	vol $2
 	note b5  $06
@@ -629,7 +629,7 @@ musicf1623:
 	note fs5 $0b
 	note c6  $0b
 	note cs6 $0b
-	rest $58
+	sust $58
 	goto musicf1623
 	cmdff
 
@@ -639,26 +639,26 @@ musicf1905:
 	note as3 $2c
 	note b3  $2c
 	note f4  $42
-	rest $16
+	sust $16
 	note as3 $2c
 	note b3  $2c
 	note fs4 $42
-	rest $16
+	sust $16
 	note as3 $2c
 	note b3  $2c
 	note gs4 $2c
 	note fs4 $2c
 	note ds4 $2c
 	note e4  $58
-	rest $84
+	sust $84
 	note b3  $2c
 	note cs4 $2c
 	note e4  $42
-	rest $16
+	sust $16
 	note b3  $2c
 	note cs4 $2c
 	note g4  $42
-	rest $16
+	sust $16
 	note fs4 $2c
 	note gs4 $2c
 	note a4  $2c
@@ -666,7 +666,7 @@ musicf1905:
 	note c5  $2c
 	note e5  $2c
 	note fs5 $58
-	rest $b0
+	sust $b0
 	goto musicf1905
 	cmdff
 
@@ -687,7 +687,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -703,7 +703,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -719,7 +719,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -735,7 +735,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $b0
+	sust $b0
 	vol $3
 	note $2a $0b
 	vol $1
@@ -751,7 +751,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -767,7 +767,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -783,7 +783,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $58
+	sust $58
 	vol $3
 	note $2a $0b
 	vol $1
@@ -799,7 +799,7 @@ musicf1949:
 	note $2a $0b
 	vol $4
 	note $2a $0b
-	rest $b0
+	sust $b0
 	vol $3
 	note $2a $0b
 	vol $1

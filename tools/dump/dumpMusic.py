@@ -205,7 +205,14 @@ def parseChannelData(address, channel, chanOut):
         elif b == 0x60:
             param = rom[address]
             address+=1
-            chanOut.write('\trest ' + wlahex(param,2) + '\n')
+            # Dumping from the original ROM here, where $60 never actually cut the
+            # channel off cleanly (a pre-fix audio.s bug -- it retriggered a decaying
+            # envelope from whatever volume was already playing, which sounds like a
+            # tie/sustain rather than a rest, especially when chained). Emit `sust`
+            # (tie/sustain, $61 -- see musicMacros.s) instead of `rest`, so a fresh dump
+            # of the vanilla ROM keeps sounding the way it always has once compiled
+            # through the fixed engine, which actually does cut `rest` off cleanly.
+            chanOut.write('\tsust ' + wlahex(param,2) + '\n')
 
         elif channel >= 6:
             # Noise channels
@@ -222,7 +229,7 @@ def parseChannelData(address, channel, chanOut):
         elif b == 0x61:
             param = rom[address]
             address+=1
-            chanOut.write('\trest2 ' + wlahex(param,2) + '\n')
+            chanOut.write('\tsust ' + wlahex(param,2) + '\n')
         elif b >= 0 and b <= 0x58: # and b >= 0xc
             l = rom[address]
             address+=1

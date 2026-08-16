@@ -70,7 +70,7 @@ musicf3418:
 	env $0 $00
 	vol $6
 	note a3  $03
-	rest $04
+	sust $04
 	note a3  $07
 	note gs3 $07
 	note fs3 $07
@@ -107,7 +107,7 @@ musicf3418:
 	env $0 $00
 	vol $3
 	note gs4 $1c
-	rest $46
+	sust $46
 	vibrato $f1
 	env $0 $00
 	vol $6
@@ -190,7 +190,7 @@ musicf3418:
 	env $0 $00
 	vol $3
 	note e4  $1c
-	rest $1c
+	sust $1c
 	vibrato $f1
 	env $0 $00
 	vol $6
@@ -207,7 +207,7 @@ musicf3418:
 	note e4  $07
 	note ds4 $07
 	note e4  $54
-	rest $1c
+	sust $1c
 	note fs3 $0e
 	note cs4 $0e
 	goto musicf3418
@@ -221,7 +221,7 @@ musAncientRuinsChannel0:
 	cmdf2
 	duty $02
 musicf3598:
-	rest $1c
+	sust $1c
 	vol $7
 	note fs4 $0e
 	note cs5 $0e
@@ -229,7 +229,7 @@ musicf3598:
 	note c5  $02
 	note cs5 $02
 	note c5  $33
-	rest $01
+	sust $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -245,7 +245,7 @@ musicf3598:
 	note gs4 $02
 	note a4  $02
 	note gs4 $33
-	rest $01
+	sust $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -259,7 +259,7 @@ musicf3598:
 	note c5  $02
 	note cs5 $02
 	note c5  $33
-	rest $01
+	sust $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -279,7 +279,7 @@ musicf3598:
 	note cs5 $02
 	note d5  $02
 	note cs5 $17
-	rest $01
+	sust $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -300,7 +300,7 @@ musicf3598:
 	env $0 $00
 	vol $7
 	note a4  $03
-	rest $04
+	sust $04
 	note a4  $07
 	note gs4 $07
 	note fs4 $07
@@ -339,118 +339,118 @@ musicf3598:
 	note a4  $07
 	note gs4 $07
 	note g2  $03
-	rest $04
+	sust $04
 	vol $3
 	note g2  $03
-	rest $04
+	sust $04
 	vol $7
 	note g2  $03
-	rest $04
+	sust $04
 	vol $3
 	note g2  $03
-	rest $04
+	sust $04
 	vol $7
 	note gs2 $0e
 	note g2  $03
-	rest $04
+	sust $04
 	vol $3
 	note g2  $03
-	rest $3c
+	sust $3c
 	vol $6
 	note gs2 $03
-	rest $04
+	sust $04
 	vol $3
 	note gs2 $03
-	rest $04
+	sust $04
 	vol $6
 	note gs2 $03
-	rest $04
+	sust $04
 	vol $3
 	note gs2 $03
-	rest $04
+	sust $04
 	vol $6
 	note a2  $0e
 	note gs2 $03
-	rest $04
+	sust $04
 	vol $3
 	note gs2 $03
-	rest $3c
+	sust $3c
 	vol $6
 	note a2  $03
-	rest $04
+	sust $04
 	vol $3
 	note a2  $03
-	rest $04
+	sust $04
 	vol $6
 	note a2  $03
-	rest $04
+	sust $04
 	vol $3
 	note a2  $03
-	rest $04
-	vol $6
-	note as2 $0e
-	note a2  $03
-	rest $04
-	vol $3
-	note a2  $03
-	rest $3c
-	vol $6
-	note a2  $03
-	rest $04
-	vol $3
-	note a2  $03
-	rest $04
-	vol $6
-	note a2  $03
-	rest $04
-	vol $3
-	note a2  $03
-	rest $04
+	sust $04
 	vol $6
 	note as2 $0e
 	note a2  $03
-	rest $04
+	sust $04
 	vol $3
 	note a2  $03
-	rest $3c
+	sust $3c
+	vol $6
+	note a2  $03
+	sust $04
+	vol $3
+	note a2  $03
+	sust $04
+	vol $6
+	note a2  $03
+	sust $04
+	vol $3
+	note a2  $03
+	sust $04
+	vol $6
+	note as2 $0e
+	note a2  $03
+	sust $04
+	vol $3
+	note a2  $03
+	sust $3c
 	vol $6
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $04
+	sust $04
 	vol $6
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $04
+	sust $04
 	vol $6
 	note c3  $0e
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $3c
+	sust $3c
 	vol $6
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $04
+	sust $04
 	vol $6
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $04
+	sust $04
 	vol $6
 	note c3  $0e
 	note b2  $03
-	rest $04
+	sust $04
 	vol $3
 	note b2  $03
-	rest $46
+	sust $46
 	vol $3
 	note e4  $07
 	note f4  $07
@@ -466,12 +466,12 @@ musicf3598:
 	note e4  $07
 	note ds4 $07
 	note e4  $77
-	rest $0b
+	sust $0b
 	goto musicf3598
 	cmdff
 
 musAncientRuinsChannel4:
-	rest $1c
+	sust $1c
 	cmdf2
 musicf3753:
 	duty $0e
@@ -480,119 +480,119 @@ musicf3753:
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $2a
+	sust $2a
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $1c
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs3 $07
 	duty $0f
 	note cs3 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $07
 	duty $0f
 	note fs2 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note cs2 $07
 	note d2  $07
@@ -611,104 +611,104 @@ musicf3753:
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $05
+	sust $05
 	duty $0e
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $05
+	sust $05
 	duty $0e
 	note d2  $0e
 	duty $0e
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $3d
+	sust $3d
 	duty $0e
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $05
+	sust $05
 	duty $0e
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $05
+	sust $05
 	duty $0e
 	note d2  $0e
 	duty $0e
 	note cs2 $03
 	duty $0f
 	note cs2 $06
-	rest $3d
+	sust $3d
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note ds2 $0e
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $3d
+	sust $3d
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note ds2 $0e
 	duty $0e
 	note d2  $03
 	duty $0f
 	note d2  $06
-	rest $3d
+	sust $3d
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note f2  $0e
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $3d
+	sust $3d
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $05
+	sust $05
 	duty $0e
 	note f2  $0e
 	duty $0e
 	note e2  $03
 	duty $0f
 	note e2  $06
-	rest $ad
+	sust $ad
 	duty $0e
 	note e2  $07
 	note f2  $07

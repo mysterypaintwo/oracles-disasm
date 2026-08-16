@@ -24,13 +24,13 @@ sndAgesChannel2:
 	note g5  $07
 	note e5  $07
 	note f5  $07
-	rest $07
+	sust $07
 	note a5  $07
-	rest $07
+	sust $07
 	note c6  $07
-	rest $07
+	sust $07
 	note d6  $07
-	rest $07
+	sust $07
 	note e4  $04
 	note g4  $03
 	note b4  $04
@@ -40,7 +40,7 @@ sndAgesChannel2:
 	note b5  $04
 	env $0 $06
 	note e6  $2d
-	rest $0a
+	sust $0a
 	cmdff
 
 sndAgesChannel3:
@@ -69,13 +69,13 @@ sndAgesChannel3:
 	note g5  $07
 	note e5  $07
 	note f5  $07
-	rest $07
+	sust $07
 	note a5  $07
-	rest $07
+	sust $07
 	note c6  $07
-	rest $07
+	sust $07
 	note d6  $07
-	rest $07
+	sust $07
 	note e4  $03
 	note g4  $04
 	note b4  $03
@@ -89,8 +89,8 @@ sndAgesChannel3:
 
 sndAgesChannel5:
 	duty $0e
-	rest $c8
-	rest $3a
+	sust $c8
+	sust $3a
 	cmdff
 
 sndAgesChannel7:

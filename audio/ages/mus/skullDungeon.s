@@ -63,7 +63,7 @@ musicf1a32:
 	note as4 $16
 	vol $3
 	note as4 $16
-	rest $16
+	sust $16
 	vol $6
 	note as4 $16
 	note b4  $16
@@ -83,13 +83,13 @@ musicf1a32:
 	note d4  $0b
 	note c4  $0b
 	note as3 $0b
-	rest $05
+	sust $05
 	vol $3
 	note as3 $0b
-	rest $06
+	sust $06
 	vol $1
 	note as3 $0b
-	rest $2c
+	sust $2c
 	vol $6
 	note as4 $16
 	note gs4 $16
@@ -130,7 +130,7 @@ musicf1a32:
 	vibrato $01
 	vol $3
 	note as4 $2b
-	rest $01
+	sust $01
 	vibrato $e1
 	goto musicf1a32
 	cmdff
@@ -173,18 +173,18 @@ musicf1b2a:
 	vol $6
 	note ds4 $16
 	note f4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note f4  $0b
-	rest $06
+	sust $06
 	vol $1
 	note f4  $0b
 	vol $6
 	note ds4 $0b
-	rest $05
+	sust $05
 	vol $3
 	note ds4 $0b
-	rest $06
+	sust $06
 	vol $1
 	note ds4 $0b
 	vol $6
@@ -197,22 +197,22 @@ musicf1b2a:
 	note d4  $0b
 	note f4  $0b
 	note gs3 $0b
-	rest $05
+	sust $05
 	vol $3
 	note gs3 $06
 	vol $6
 	note b3  $0b
-	rest $05
+	sust $05
 	vol $3
 	note b3  $06
 	vol $6
 	note gs3 $0b
-	rest $05
+	sust $05
 	vol $3
 	note gs3 $06
 	vol $6
 	note b3  $0b
-	rest $05
+	sust $05
 	vol $3
 	note b3  $06
 	vol $6
@@ -225,22 +225,22 @@ musicf1b2a:
 	note f4  $0b
 	note as4 $0b
 	note f4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note f4  $06
 	vol $6
 	note ds4 $0b
-	rest $05
+	sust $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note d4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note d4  $06
 	vol $6
 	note c4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note c4  $06
 	vol $6
@@ -281,10 +281,10 @@ musicf1b2a:
 	note gs4 $0b
 	note b4  $0b
 	note as4 $0b
-	rest $05
+	sust $05
 	vol $3
 	note as4 $0b
-	rest $06
+	sust $06
 	vol $1
 	note as4 $0b
 	vol $6
@@ -293,22 +293,22 @@ musicf1b2a:
 	note ds4 $16
 	note d4  $16
 	note ds4 $0b
-	rest $05
+	sust $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note as3 $0b
-	rest $05
+	sust $05
 	vol $3
 	note as3 $06
 	vol $6
 	note ds4 $0b
-	rest $05
+	sust $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note as3 $0b
-	rest $05
+	sust $05
 	vol $3
 	note as3 $06
 	vol $6
@@ -317,22 +317,22 @@ musicf1b2a:
 	note f4  $16
 	note ds4 $16
 	note f4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note f4  $06
 	vol $6
 	note d4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note d4  $06
 	vol $6
 	note f4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note f4  $06
 	vol $6
 	note d4  $0b
-	rest $05
+	sust $05
 	vol $3
 	note d4  $06
 	vol $6
@@ -367,9 +367,9 @@ musicf1c9f:
 	note d2  $42
 	note c2  $16
 	note as1 $16
-	rest $16
+	sust $16
 	note f2  $16
-	rest $16
+	sust $16
 	note as2 $16
 	note a2  $03
 	note gs2 $03
@@ -378,7 +378,7 @@ musicf1c9f:
 	note f2  $03
 	note e2  $05
 	note as1 $0e
-	rest $1e
+	sust $1e
 	note gs2 $2c
 	note a2  $2c
 	note as2 $16
@@ -387,17 +387,17 @@ musicf1c9f:
 	note as1 $0b
 	note b1  $0b
 	note as1 $0b
-	rest $0b
+	sust $0b
 	note f2  $37
 	note ds2 $0b
 	note d2  $0b
 	note b1  $0b
 	note as1 $0e
-	rest $08
+	sust $08
 	note f2  $0b
 	note a2  $0b
 	note as2 $0e
-	rest $1e
+	sust $1e
 	note e2  $16
 	note ds2 $16
 	note d2  $16
@@ -419,15 +419,15 @@ musicf1c9f:
 	note c2  $03
 	note b1  $08
 	note as1 $16
-	rest $16
+	sust $16
 	note as1 $16
-	rest $16
+	sust $16
 	note ds2 $0b
-	rest $0b
+	sust $0b
 	note ds2 $21
-	rest $0b
+	sust $0b
 	note ds2 $1b
-	rest $06
+	sust $06
 	note ds2 $0b
 	note fs2 $0b
 	note gs2 $0b
@@ -436,11 +436,11 @@ musicf1c9f:
 	note fs2 $0b
 	note ds2 $0b
 	note f2  $0b
-	rest $0b
+	sust $0b
 	note f2  $21
-	rest $0b
+	sust $0b
 	note f2  $1b
-	rest $06
+	sust $06
 	note f2  $0b
 	note fs2 $0b
 	note gs2 $0b
@@ -489,69 +489,56 @@ musicf1da1:
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	note $2a $16
 	vol $6
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	note $2a $16
 	vol $6
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	note $2a $16
 	vol $6
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	note $2a $16
 	vol $4
 	note $2e $0b
-	rest $0b
+	sust $0b
 	note $2a $0b
 	note $2a $0b
 	note $2a $0b
-	rest $21
+	sust $21
 	note $2e $0b
-	rest $0b
+	sust $0b
 	vol $4
 	note $2a $0b
 	vol $4
 	note $2a $0b
 	note $2a $0b
-	rest $21
+	sust $21
 	vol $6
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	note $2a $16
 	vol $6
 	note $24 $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	note $2a $16
-	vol $6
-	note $24 $16
-	vol $4
-	note $2e $16
-	note $2a $16
-	note $2e $16
-	vol $6
-	note $24 $16
-	vol $4
-	note $2e $16
-	note $2a $16
-	vol $4
-	note $2e $16
 	vol $6
 	note $24 $16
 	vol $4
@@ -565,6 +552,19 @@ musicf1da1:
 	note $2a $16
 	vol $4
 	note $2e $16
+	vol $6
+	note $24 $16
+	vol $4
+	note $2e $16
+	note $2a $16
+	note $2e $16
+	vol $6
+	note $24 $16
+	vol $4
+	note $2e $16
+	note $2a $16
+	vol $4
+	note $2e $16
 	vol $4
 	note $2e $16
 	note $2a $16
@@ -577,37 +577,20 @@ musicf1da1:
 	note $2a $16
 	vol $4
 	note $2e $16
-	rest $42
+	sust $42
 	vol $6
 	note $24 $16
 	vol $4
 	note $2a $16
 	vol $4
 	note $2e $16
-	rest $16
+	sust $16
 	vol $6
 	note $24 $0b
 	vol $4
 	note $2a $0b
 	note $2e $16
-	rest $0b
-	note $2a $0b
-	note $2e $16
-	vol $6
-	note $24 $0b
-	vol $4
-	note $2a $0b
-	note $2e $16
-	rest $0b
-	note $2a $0b
-	vol $4
-	note $2e $16
-	vol $6
-	note $24 $0b
-	vol $4
-	note $2a $0b
-	note $2e $16
-	rest $0b
+	sust $0b
 	note $2a $0b
 	note $2e $16
 	vol $6
@@ -615,7 +598,24 @@ musicf1da1:
 	vol $4
 	note $2a $0b
 	note $2e $16
-	rest $0b
+	sust $0b
+	note $2a $0b
+	vol $4
+	note $2e $16
+	vol $6
+	note $24 $0b
+	vol $4
+	note $2a $0b
+	note $2e $16
+	sust $0b
+	note $2a $0b
+	note $2e $16
+	vol $6
+	note $24 $0b
+	vol $4
+	note $2a $0b
+	note $2e $16
+	sust $0b
 	note $2a $0b
 	vol $4
 	note $2e $16
@@ -653,11 +653,11 @@ musicf1da1:
 	note $2a $0b
 	note $2a $0b
 	note $2e $0b
-	rest $0b
+	sust $0b
 	note $2a $0b
 	note $2a $0b
 	vol $4
 	note $2e $0b
-	rest $0b
+	sust $0b
 	goto musicf1da1
 	cmdff

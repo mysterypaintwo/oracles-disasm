@@ -58,7 +58,7 @@ musicf02f4:
 	note as3 $05
 	vol $1
 	note as3 $04
-	rest $71
+	sust $71
 	vol $6
 	note e4  $12
 	note as3 $12
@@ -92,7 +92,7 @@ musicf02f4:
 	note as4 $05
 	vol $2
 	note as4 $04
-	rest $68
+	sust $68
 	vol $6
 	note b4  $09
 	note e5  $09
@@ -158,13 +158,13 @@ musicf02f4:
 	note as6 $09
 	note f7  $09
 	note e7  $09
-	rest $0d
+	sust $0d
 	vol $3
 	note e7  $09
-	rest $0e
+	sust $0e
 	vol $1
 	note e7  $09
-	rest $24
+	sust $24
 	goto musicf02f4
 	cmdff
 
@@ -226,7 +226,7 @@ musicf041c:
 	note e3  $05
 	vol $2
 	note e3  $04
-	rest $71
+	sust $71
 	vol $6
 	note fs3 $12
 	note g3  $24
@@ -262,7 +262,7 @@ musicf041c:
 	note e4  $05
 	vol $1
 	note e4  $04
-	rest $80
+	sust $80
 	vol $2
 	note b4  $09
 	note e5  $09
@@ -328,10 +328,10 @@ musicf041c:
 	note a6  $09
 	note ds7 $09
 	note d7  $09
-	rest $03
+	sust $03
 	vol $2
 	note e7  $03
-	rest $57
+	sust $57
 	goto musicf041c
 	cmdff
 
@@ -403,9 +403,9 @@ musicf0536:
 	note gs2 $12
 	note g2  $12
 	note e2  $24
-	rest $ff
-	rest $ff
-	rest $8a
+	sust $ff
+	sust $ff
+	sust $8a
 	goto musicf0536
 	cmdff
 
@@ -568,8 +568,8 @@ musicf05c3:
 	note $22 $02
 	vol $4
 	note $23 $10
-	rest $ff
-	rest $ff
-	rest $c0
+	sust $ff
+	sust $ff
+	sust $c0
 	goto musicf05c3
 	cmdff

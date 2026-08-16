@@ -6,7 +6,7 @@ sndUnknown8eChannel2:
 	note as4 $05
 	cmdf8 $00
 	vol $0
-	rest $0c
+	sust $0c
 	vol $c
 	env $0 $01
 	cmdf8 $e6
@@ -18,14 +18,14 @@ sndUnknown8eChannel2:
 	note fs4 $06
 	cmdf8 $00
 	vol $0
-	rest $03
+	sust $03
 	vol $d
 	env $0 $01
 	cmdf8 $de
 	note b3  $0f
 	cmdf8 $00
 	vol $0
-	rest $0b
+	sust $0b
 	vol $d
 	env $0 $01
 	cmdf8 $de

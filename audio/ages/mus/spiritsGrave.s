@@ -7,186 +7,186 @@ musSpiritsGraveChannel1:
 musicf2d27:
 	vol $5
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $07
-	rest $04
+	sust $04
 	vol $1
 	note as4 $07
 	vol $5
 	note f5  $07
-	rest $03
+	sust $03
 	vol $2
 	note f5  $07
-	rest $04
+	sust $04
 	vol $1
 	note f5  $07
-	rest $1c
+	sust $1c
 	vol $5
 	note e5  $07
-	rest $03
+	sust $03
 	vol $2
 	note e5  $07
-	rest $04
+	sust $04
 	vol $1
 	note e5  $07
 	vol $5
 	note f5  $07
-	rest $03
+	sust $03
 	vol $2
 	note f5  $07
-	rest $04
+	sust $04
 	vol $1
 	note f5  $07
-	rest $1c
+	sust $1c
 	vol $5
 	note gs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note gs5 $07
-	rest $04
+	sust $04
 	vol $1
 	note gs5 $07
 	vol $5
 	note b6  $02
-	rest $01
+	sust $01
 	vol $2
 	note b6  $02
-	rest $02
+	sust $02
 	vol $1
 	note b6  $02
-	rest $01
+	sust $01
 	vol $0
 	note b6  $02
-	rest $2c
+	sust $2c
 	vol $5
 	note g5  $07
-	rest $03
+	sust $03
 	vol $2
 	note g5  $07
-	rest $04
+	sust $04
 	vol $1
 	note g5  $07
 	vol $5
 	note as6 $02
-	rest $01
+	sust $01
 	vol $2
 	note as6 $02
-	rest $02
+	sust $02
 	vol $1
 	note as6 $02
-	rest $01
+	sust $01
 	vol $0
 	note as6 $02
-	rest $2c
+	sust $2c
 	vol $5
 	note e5  $38
 	note f5  $07
-	rest $03
+	sust $03
 	vol $3
 	note f5  $07
-	rest $04
+	sust $04
 	vol $1
 	note f5  $07
 	vol $5
 	note b7  $02
-	rest $01
+	sust $01
 	vol $2
 	note b7  $02
-	rest $02
+	sust $02
 	vol $1
 	note b7  $02
-	rest $01
+	sust $01
 	vol $0
 	note b7  $02
-	rest $48
+	sust $48
 	vol $5
 	note f5  $07
-	rest $03
+	sust $03
 	vol $3
 	note f5  $07
-	rest $04
+	sust $04
 	vol $1
 	note f5  $07
 	vol $5
 	note e5  $07
-	rest $03
+	sust $03
 	vol $3
 	note e5  $07
-	rest $04
+	sust $04
 	vol $2
 	note e5  $07
-	rest $03
+	sust $03
 	vol $2
 	note e5  $07
-	rest $12
+	sust $12
 	vol $5
 	note ds5 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds5 $07
-	rest $04
+	sust $04
 	vol $1
 	note ds5 $07
 	vol $5
 	note d5  $07
-	rest $03
+	sust $03
 	vol $3
 	note d5  $07
-	rest $04
+	sust $04
 	vol $2
 	note d5  $07
-	rest $03
+	sust $03
 	vol $2
 	note d5  $07
-	rest $12
+	sust $12
 	vol $5
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $1
 	note cs5 $07
 	vol $4
 	note f6  $02
-	rest $02
+	sust $02
 	vol $4
 	note b6  $03
-	rest $02
+	sust $02
 	vol $3
 	note b6  $02
-	rest $03
+	sust $03
 	vol $3
 	note b6  $02
-	rest $28
+	sust $28
 	vol $5
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $07
-	rest $04
+	sust $04
 	vol $2
 	note c5  $07
-	rest $03
+	sust $03
 	vol $2
 	note c5  $07
-	rest $12
+	sust $12
 	vol $5
 	note as6 $02
-	rest $02
+	sust $02
 	vol $5
 	note e6  $03
-	rest $02
+	sust $02
 	vol $3
 	note e6  $02
-	rest $03
+	sust $03
 	vol $3
 	note e6  $02
-	rest $02
+	sust $02
 	vol $2
 	note e6  $03
-	rest $07
+	sust $07
 	vol $5
 	note e3  $07
 	note f3  $07
@@ -205,13 +205,13 @@ musicf2d27:
 	note g6  $03
 	note fs6 $04
 	note f6  $03
-	rest $01
+	sust $01
 	vol $3
 	note f6  $04
-	rest $01
+	sust $01
 	vol $2
 	note f6  $03
-	rest $72
+	sust $72
 	goto musicf2d27
 	cmdff
 
@@ -224,181 +224,181 @@ musicf2e8d:
 	note gs3 $1c
 	vol $5
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $1
 	note cs5 $07
-	rest $1c
+	sust $1c
 	vol $5
 	note c5  $07
-	rest $03
+	sust $03
 	vol $2
 	note c5  $07
-	rest $04
+	sust $04
 	vol $1
 	note c5  $07
 	vol $5
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $1
 	note cs5 $07
-	rest $1c
+	sust $1c
 	vol $5
 	note d5  $07
-	rest $03
+	sust $03
 	vol $2
 	note d5  $07
-	rest $04
+	sust $04
 	vol $1
 	note d5  $07
 	vol $5
 	note f7  $02
-	rest $02
+	sust $02
 	vol $3
 	note f7  $03
-	rest $02
+	sust $02
 	vol $2
 	note f7  $02
-	rest $03
+	sust $03
 	vol $1
 	note f7  $02
-	rest $28
+	sust $28
 	vol $5
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $1
 	note cs5 $07
 	vol $5
 	note e7  $02
-	rest $02
+	sust $02
 	vol $3
 	note e7  $03
-	rest $02
+	sust $02
 	vol $2
 	note e7  $02
-	rest $03
+	sust $03
 	vol $1
 	note e7  $02
-	rest $28
+	sust $28
 	vol $5
 	note cs5 $38
 	note d5  $07
-	rest $03
+	sust $03
 	vol $2
 	note d5  $07
-	rest $04
+	sust $04
 	vol $1
 	note d5  $07
 	vol $5
 	note f6  $02
-	rest $02
+	sust $02
 	vol $3
 	note f6  $03
-	rest $02
+	sust $02
 	vol $2
 	note f6  $02
-	rest $03
+	sust $03
 	vol $1
 	note f6  $02
-	rest $44
+	sust $44
 	vol $5
 	note d5  $07
-	rest $03
+	sust $03
 	vol $2
 	note d5  $07
-	rest $04
+	sust $04
 	vol $1
 	note d5  $07
 	vol $5
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $3
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs5 $07
-	rest $12
+	sust $12
 	vol $5
 	note c5  $07
-	rest $03
+	sust $03
 	vol $2
 	note c5  $07
-	rest $04
+	sust $04
 	vol $1
 	note c5  $07
 	vol $5
 	note b4  $07
-	rest $03
+	sust $03
 	vol $3
 	note b4  $07
-	rest $04
+	sust $04
 	vol $3
 	note b4  $07
-	rest $03
+	sust $03
 	vol $2
 	note b4  $07
-	rest $12
+	sust $12
 	vol $5
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $07
-	rest $04
+	sust $04
 	vol $3
 	note as4 $07
-	rest $03
+	sust $03
 	vol $2
 	note as4 $04
 	vol $4
 	note f7  $03
-	rest $01
+	sust $01
 	vol $4
 	note b7  $03
-	rest $02
+	sust $02
 	vol $2
 	note b7  $02
-	rest $03
+	sust $03
 	vol $2
 	note b7  $02
-	rest $21
+	sust $21
 	vol $5
 	note a4  $07
-	rest $03
+	sust $03
 	vol $3
 	note a4  $07
-	rest $04
+	sust $04
 	vol $3
 	note a4  $07
-	rest $03
+	sust $03
 	vol $2
 	note a4  $07
-	rest $19
+	sust $19
 	vol $5
 	note as5 $02
-	rest $02
+	sust $02
 	vol $5
 	note e5  $03
-	rest $02
+	sust $02
 	vol $3
 	note e5  $02
-	rest $03
+	sust $03
 	vol $2
 	note e5  $02
-	rest $02
+	sust $02
 	vol $2
 	note e5  $03
-	rest $0b
+	sust $0b
 	vol $4
 	note e3  $07
 	note f3  $07
@@ -419,13 +419,13 @@ musicf2e8d:
 	note fs6 $03
 	vol $2
 	note f6  $03
-	rest $70
+	sust $70
 	goto musicf2e8d
 	cmdff
 
 musSpiritsGraveChannel4:
 musicf2fe0:
-	rest $c4
+	sust $c4
 	duty $0e
 	note d2  $54
 	note cs2 $2a
@@ -438,7 +438,7 @@ musicf2fe0:
 	note fs1 $46
 	duty $0f
 	note fs1 $07
-	rest $07
+	sust $07
 	duty $0e
 	note cs2 $38
 	note a2  $38
@@ -448,51 +448,51 @@ musicf2fe0:
 	note c3  $38
 	note fs1 $38
 	note f1  $38
-	rest $70
+	sust $70
 	goto musicf2fe0
 	cmdff
 
 musSpiritsGraveChannel6:
 musicf3014:
-	rest $38
+	sust $38
 	vol $2
 	note $2a $0e
 	note $2a $0e
-	rest $38
+	sust $38
 	note $2e $0e
-	rest $0e
+	sust $0e
 	note $2a $0e
-	rest $46
+	sust $46
 	note $2a $0e
-	rest $62
-	note $2a $0e
-	note $2a $0e
-	note $2e $0e
-	rest $0e
-	note $2a $0e
-	rest $62
-	note $2a $0e
-	rest $0e
-	note $2e $0e
-	rest $0e
-	note $2a $0e
-	rest $46
+	sust $62
 	note $2a $0e
 	note $2a $0e
 	note $2e $0e
-	rest $2a
+	sust $0e
 	note $2a $0e
-	rest $46
+	sust $62
+	note $2a $0e
+	sust $0e
+	note $2e $0e
+	sust $0e
+	note $2a $0e
+	sust $46
 	note $2a $0e
 	note $2a $0e
-	rest $38
+	note $2e $0e
+	sust $2a
+	note $2a $0e
+	sust $46
+	note $2a $0e
+	note $2a $0e
+	sust $38
 	note $2a $07
 	note $2a $0e
-	rest $23
+	sust $23
 	note $2a $0e
 	note $2a $0e
-	rest $1c
+	sust $1c
 	note $2e $0e
-	rest $0e
+	sust $0e
 	goto musicf3014
 	cmdff

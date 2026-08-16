@@ -36,83 +36,83 @@ musicec007:
 	note fs5 $20
 	note cs6 $20
 	note b5  $18
-	rest $08
+	sust $08
 	note b5  $10
 	note as5 $10
 	vibrato $00
 	env $0 $00
 	note gs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note gs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs6 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs6 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note gs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note gs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs6 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs6 $04
-	rest $04
+	sust $04
 	vol $6
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $3
 	note cs5 $04
-	rest $04
+	sust $04
 	vol $6
 	note fs5 $08
 	note gs5 $08
 	note fs5 $08
 	note gs5 $08
 	note fs5 $08
-	rest $04
+	sust $04
 	vol $3
 	note fs5 $08
-	rest $04
+	sust $04
 	vol $6
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	rest $04
+	sust $04
 	vol $3
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	rest $04
+	sust $04
 	vol $1
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	rest $1c
+	sust $1c
 	vibrato $00
 	env $0 $03
 	goto musicec007
@@ -221,7 +221,7 @@ musicec157:
 	note fs5 $20
 	note cs6 $20
 	note b5  $18
-	rest $08
+	sust $08
 	note b5  $10
 	note as5 $10
 	note gs5 $10
@@ -237,11 +237,11 @@ musicec157:
 	note fs5 $08
 	note gs5 $08
 	note fs5 $10
-	rest $08
+	sust $08
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	rest $2e
+	sust $2e
 	goto musicec157
 	cmdff
 

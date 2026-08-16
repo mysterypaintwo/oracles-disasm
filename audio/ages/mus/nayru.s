@@ -17,7 +17,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note a5  $12
-	rest $09
+	sust $09
 	vibrato $e1
 	vol $6
 	note d6  $24
@@ -42,7 +42,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note a5  $24
-	rest $09
+	sust $09
 	vibrato $e1
 	vol $6
 	note a5  $24
@@ -52,7 +52,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note g5  $1e
-	rest $0f
+	sust $0f
 	vibrato $e1
 	goto musicee9ec
 	cmdff
@@ -65,142 +65,142 @@ musiceea48:
 	note gs3 $12
 	vol $6
 	note g4  $06
-	rest $0c
+	sust $0c
 	note as4 $06
-	rest $03
+	sust $03
 	vol $4
 	note g4  $06
-	rest $03
+	sust $03
 	vol $6
 	note d5  $06
-	rest $03
+	sust $03
 	vol $4
 	note as4 $06
-	rest $03
+	sust $03
 	vol $6
 	note g5  $06
-	rest $03
+	sust $03
 	vol $4
 	note d5  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note g5  $06
-	rest $15
+	sust $15
 	vol $6
 	note d4  $06
-	rest $0c
+	sust $0c
 	note f4  $06
-	rest $03
+	sust $03
 	vol $4
 	note d4  $06
-	rest $03
+	sust $03
 	vol $6
 	note a4  $06
-	rest $03
+	sust $03
 	vol $4
 	note f4  $06
-	rest $03
+	sust $03
 	vol $6
 	note d5  $06
-	rest $03
+	sust $03
 	vol $4
 	note a4  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note d5  $06
-	rest $15
+	sust $15
 	vol $6
 	note g4  $06
-	rest $0c
+	sust $0c
 	note as4 $06
-	rest $03
+	sust $03
 	vol $4
 	note g4  $06
-	rest $03
+	sust $03
 	vol $6
 	note d5  $06
-	rest $03
+	sust $03
 	vol $4
 	note as4 $06
-	rest $03
+	sust $03
 	vol $6
 	note g5  $06
-	rest $03
+	sust $03
 	vol $4
 	note d5  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note g5  $06
-	rest $15
+	sust $15
 	vol $6
 	note d4  $06
-	rest $0c
+	sust $0c
 	note f4  $06
-	rest $03
+	sust $03
 	vol $4
 	note d4  $06
-	rest $03
+	sust $03
 	vol $6
 	note a4  $06
-	rest $03
+	sust $03
 	vol $4
 	note f4  $06
-	rest $03
+	sust $03
 	vol $6
 	note d5  $06
-	rest $03
+	sust $03
 	vol $4
 	note a4  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note d5  $06
-	rest $03
+	sust $03
 	vol $6
 	note c4  $06
-	rest $0c
+	sust $0c
 	note ds4 $06
-	rest $03
+	sust $03
 	vol $4
 	note c4  $06
-	rest $03
+	sust $03
 	vol $6
 	note g4  $06
-	rest $03
+	sust $03
 	vol $4
 	note ds4 $06
-	rest $03
+	sust $03
 	vol $6
 	note c5  $06
-	rest $03
+	sust $03
 	vol $4
 	note g4  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note c5  $06
-	rest $15
+	sust $15
 	vol $6
 	note d4  $06
-	rest $0c
+	sust $0c
 	note f4  $06
-	rest $03
+	sust $03
 	vol $4
 	note d4  $06
-	rest $03
+	sust $03
 	vol $6
 	note a4  $06
-	rest $03
+	sust $03
 	vol $4
 	note f4  $06
-	rest $03
+	sust $03
 	vol $6
 	note d5  $06
-	rest $03
+	sust $03
 	vol $4
 	note a4  $06
-	rest $0c
+	sust $0c
 	vol $4
 	note d5  $06
-	rest $15
+	sust $15
 	env $0 $00
 	vol $6
 	note d5  $24
@@ -209,19 +209,19 @@ musiceea48:
 	note d5  $3f
 	vol $3
 	note d5  $1e
-	rest $0f
+	sust $0f
 	goto musiceea48
 	cmdff
 
 musNayruChannel4:
 musiceeb4d:
 	duty $0f
-	rest $16
+	sust $16
 	note d6  $24
 	note a5  $36
 	note g5  $12
 	note a5  $51
-	rest $1b
+	sust $1b
 	note d6  $24
 	note a5  $36
 	note g5  $12
@@ -231,7 +231,7 @@ musiceeb4d:
 	note g5  $24
 	note as5 $24
 	note a5  $56
-	rest $48
+	sust $48
 	duty $2c
 	note a4  $24
 	duty $0f

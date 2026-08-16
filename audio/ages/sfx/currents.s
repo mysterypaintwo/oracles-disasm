@@ -92,8 +92,8 @@ sndCurrentsChannel3:
 
 sndCurrentsChannel5:
 	duty $0e
-	rest $c8
-	rest $3a
+	sust $c8
+	sust $3a
 	cmdff
 
 sndCurrentsChannel7:

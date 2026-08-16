@@ -11,12 +11,12 @@ musiced6de:
 	env $0 $00
 	note c5  $07
 	note e5  $07
-	rest $03
+	sust $03
 	vol $3
 	note e5  $04
 	vol $7
 	note g5  $07
-	rest $03
+	sust $03
 	vol $3
 	note g5  $04
 	vibrato $32
@@ -26,10 +26,10 @@ musiced6de:
 	vibrato $00
 	env $0 $00
 	note g5  $07
-	rest $03
+	sust $03
 	vol $3
 	note g5  $07
-	rest $04
+	sust $04
 	vol $1
 	note g5  $07
 	vibrato $32
@@ -40,12 +40,12 @@ musiced6de:
 	env $0 $00
 	note a5  $07
 	note gs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs5 $04
 	vol $7
 	note g5  $07
-	rest $03
+	sust $03
 	vol $3
 	note g5  $04
 	vibrato $32
@@ -55,13 +55,13 @@ musiced6de:
 	vibrato $00
 	env $0 $00
 	note g5  $07
-	rest $03
+	sust $03
 	vol $3
 	note g5  $07
-	rest $04
+	sust $04
 	vol $1
 	note g5  $07
-	rest $0e
+	sust $0e
 	vibrato $00
 	env $0 $02
 	vol $7
@@ -78,7 +78,7 @@ musiced6de:
 	note b4  $0e
 	note a4  $0e
 	note g4  $1c
-	rest $1c
+	sust $1c
 	vibrato $00
 	env $0 $00
 	vol $6
@@ -91,12 +91,12 @@ musiced6de:
 	note g3  $07
 	vol $7
 	note as3 $07
-	rest $03
+	sust $03
 	vol $3
 	note as3 $04
 	vol $7
 	note as3 $07
-	rest $03
+	sust $03
 	vol $3
 	note as3 $04
 	vol $8
@@ -113,17 +113,17 @@ musiced6de:
 	note g3  $07
 	vol $7
 	note d4  $07
-	rest $03
+	sust $03
 	vol $3
 	note d4  $04
 	vol $9
 	note d4  $07
-	rest $03
+	sust $03
 	vol $4
 	note d4  $04
 	vol $8
 	note g3  $1c
-	rest $2a
+	sust $2a
 	vibrato $00
 	env $0 $03
 	vol $7
@@ -138,61 +138,61 @@ musiced6de:
 	note a4  $1c
 	note gs4 $1c
 	note g4  $1c
-	rest $1c
+	sust $1c
 	vibrato $81
 	env $0 $00
 	note e5  $15
 	note c5  $07
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $7
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $7
 	note f5  $15
 	note cs5 $07
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $04
 	vol $7
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $04
 	vol $7
 	note e5  $15
 	note c5  $07
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $7
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $7
 	note d5  $15
 	note as4 $07
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $04
 	vol $7
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $04
 	vibrato $00
 	env $0 $02
 	vol $7
 	note g4  $07
-	rest $07
+	sust $07
 	note g5  $07
 	note fs5 $07
 	note f5  $0e
@@ -205,7 +205,7 @@ musiced6de:
 	note as4 $1c
 	note a4  $1c
 	note g4  $1b
-	rest $01
+	sust $01
 	vibrato $32
 	env $0 $00
 	goto musiced6de
@@ -239,7 +239,7 @@ musiced84b:
 	note a3  $07
 	vol $b
 	note g3  $0e
-	rest $fc
+	sust $fc
 	vol $7
 	note a4  $07
 	note gs4 $07
@@ -252,7 +252,7 @@ musiced84b:
 	note cs4 $1c
 	note c4  $1c
 	note b3  $1c
-	rest $1c
+	sust $1c
 	vibrato $81
 	env $0 $00
 	note g4  $1c
@@ -291,43 +291,43 @@ musiced8d1:
 	vol $b
 	note c3  $1c
 	note g3  $07
-	rest $07
+	sust $07
 	note g3  $07
-	rest $07
+	sust $07
 	note ds3 $1c
 	note e3  $07
-	rest $15
+	sust $15
 	note c3  $1c
 	note g3  $07
-	rest $07
+	sust $07
 	note g3  $07
-	rest $07
+	sust $07
 	note gs3 $1c
 	note g3  $07
-	rest $15
+	sust $15
 	note c3  $0e
-	rest $ee
+	sust $ee
 	vol $c
 	note g2  $07
-	rest $07
+	sust $07
 	note g2  $07
-	rest $07
+	sust $07
 	vol $d
 	note g2  $1c
 	note cs3 $03
 	note d3  $07
-	rest $2e
+	sust $2e
 	note g2  $07
-	rest $07
+	sust $07
 	vol $b
 	note g2  $07
-	rest $07
+	sust $07
 	vol $b
 	note g2  $1c
 	vol $c
 	note fs3 $03
 	note g3  $07
-	rest $cf
+	sust $cf
 	vol $b
 	note g2  $07
 	vol $b
@@ -356,30 +356,30 @@ musiced8d1:
 	note e3  $07
 	note f3  $07
 	note g2  $07
-	rest $07
+	sust $07
 	note b4  $07
 	note as4 $07
 	note a4  $07
-	rest $07
+	sust $07
 	note gs4 $07
-	rest $07
+	sust $07
 	note g4  $07
-	rest $07
+	sust $07
 	note fs4 $07
-	rest $07
+	sust $07
 	note f4  $07
-	rest $07
+	sust $07
 	note e4  $07
-	rest $07
+	sust $07
 	note ds4 $07
-	rest $15
+	sust $15
 	note d4  $07
-	rest $15
+	sust $15
 	note cs4 $07
-	rest $11
+	sust $11
 	note fs2 $04
 	note g2  $07
-	rest $15
+	sust $15
 	goto musiced8d1
 	cmdff
 

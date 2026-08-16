@@ -404,7 +404,7 @@ musicf02ac:
 	note e4  $38
 	duty $0c
 	note e4  $38
-	rest $c4
+	sust $c4
 	duty $17
 	note d4  $1c
 	note cs4 $1c
@@ -422,8 +422,8 @@ musicf02ac:
 	note b3  $38
 	duty $0c
 	note b3  $38
-	rest $ff
-	rest $c1
+	sust $ff
+	sust $c1
 	goto musicf02ac
 	cmdff
 

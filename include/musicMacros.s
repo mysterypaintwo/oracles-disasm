@@ -222,13 +222,18 @@
 	.endr
 .endm
 
-; 60/61: set wait counters.
-
+; 60: cuts the channel off (immediate, clean silence -- see @cmd60/standardCmdChannel6 in
+;     code/audio.s). Use this for an actual audible rest.
 .macro rest
 	.db $60 \1
 .endm
 
-.macro rest2 ; Unused?
+; 61: extends the currently playing note/rest without retriggering or otherwise
+;     affecting it -- a tie/sustain, not a rest. (Named `rest2` prior to the `rest` fix
+;     above; renamed since a name implying "another kind of rest" was actively
+;     misleading for what's the opposite of one. Not named `wait`: that name is already
+;     taken by the unrelated cutscene-script `wait` macro in script_commands.s.)
+.macro sust
 	.db $61 \1
 .endm
 
@@ -240,16 +245,20 @@
 	.db $d0 | \1
 .endm
 
-; e0-e7: set envelopes
+; e0-e7: set envelope (\1 $0-$7: software-simulated attack pace, starting at volume 1 and
+;        snapping to the note's target volume after a fixed delay -- see func_39_464c)
+; e8-ef: \1 $8-$f (i.e. $8 | pace): true hardware envelope fade-in, starting at volume 0
+;        and increasing to volume 15 entirely in hardware at the given pace (\1 & $7) --
+;        see hardwareAttackEnvelope in code/audio.s
+; \2 ($0-$7 either way): decay pace -- an exact hardware envelope match in both cases,
+;        decreasing from the note's target volume to 0
 .macro env
-	.if \1 > $7
+	.if \1 > $f
 		.fail
 	.endif
 	.db $e0 | \1
 	.db \2
 .endm
-
-; e8-ef: same as e0-e7
 
 ; f0: unknown
 ; Sometimes sets wc039

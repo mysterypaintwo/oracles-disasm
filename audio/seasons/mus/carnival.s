@@ -95,7 +95,7 @@ musiceeb67:
 	vibrato $00
 	env $0 $04
 	note d6  $1c
-	rest $1c
+	sust $1c
 	vibrato $00
 	env $0 $03
 	goto musiceeb67
@@ -233,7 +233,7 @@ musiceecb1:
 	note c6  $0e
 	note e6  $0e
 	note d6  $1c
-	rest $1c
+	sust $1c
 	goto musiceecb1
 	cmdff
 

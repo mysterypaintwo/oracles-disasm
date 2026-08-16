@@ -17,13 +17,13 @@ sndEchoesChannel2:
 	note a5  $0c
 	note c6  $0c
 	note g5  $0c
-	rest $0c
+	sust $0c
 	note g5  $03
 	note b5  $03
 	note d6  $03
 	env $0 $07
 	note g6  $3f
-	rest $14
+	sust $14
 	cmdff
 
 sndEchoesChannel3:
@@ -45,7 +45,7 @@ sndEchoesChannel3:
 	note a5  $0c
 	note c6  $0c
 	note g5  $0c
-	rest $0c
+	sust $0c
 	note g5  $03
 	note b5  $03
 	note d6  $03
@@ -55,8 +55,8 @@ sndEchoesChannel3:
 
 sndEchoesChannel5:
 	duty $0e
-	rest $fa
-	rest $08
+	sust $fa
+	sust $08
 	cmdff
 
 sndEchoesChannel7:

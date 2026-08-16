@@ -376,7 +376,7 @@ musicefa3e:
 musSamasaDesertChannel4:
 musicefcb4:
 	duty $0c
-	rest $0c
+	sust $0c
 	vol $2
 	note e6  $08
 	note b5  $08
@@ -615,8 +615,8 @@ musicefcb4:
 	note e3  $20
 	duty $0c
 	note e3  $20
-	rest $bf
-	rest $21
+	sust $bf
+	sust $21
 	goto musicefcb4
 	cmdff
 

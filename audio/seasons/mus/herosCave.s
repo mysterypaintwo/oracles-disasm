@@ -18,13 +18,13 @@ musicf0c91:
 	note cs3 $05
 	note d3  $05
 	note ds3 $07
-	rest $0b
+	sust $0b
 	vol $2
 	note ds3 $07
-	rest $0c
+	sust $0c
 	vol $1
 	note ds3 $07
-	rest $0c
+	sust $0c
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -39,13 +39,13 @@ musicf0c91:
 	note d6  $05
 	note c6  $05
 	note a5  $07
-	rest $0b
+	sust $0b
 	vol $2
 	note a5  $07
-	rest $0c
+	sust $0c
 	vol $1
 	note a5  $07
-	rest $0c
+	sust $0c
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -68,13 +68,13 @@ musicf0c91:
 	note gs3 $05
 	note a3  $05
 	note as3 $07
-	rest $0b
+	sust $0b
 	vol $3
 	note as3 $07
-	rest $0c
+	sust $0c
 	vol $2
 	note as3 $07
-	rest $0c
+	sust $0c
 	vibrato $00
 	env $0 $03
 	goto musicf0c91
@@ -91,13 +91,13 @@ musicf0d21:
 	note as2 $1c
 	note c3  $1c
 	note as2 $2a
-	rest $46
+	sust $46
 	note as2 $1c
 	note c3  $1c
 	note as2 $1c
 	note c3  $1c
 	note as2 $2a
-	rest $46
+	sust $46
 	note as2 $1c
 	note c3  $1c
 	note as2 $1c
@@ -111,7 +111,7 @@ musicf0d21:
 	note as2 $1c
 	note c3  $1c
 	note as2 $2a
-	rest $46
+	sust $46
 	goto musicf0d21
 	cmdff
 musHerosCaveChannel4:
@@ -119,42 +119,42 @@ musHerosCaveChannel4:
 musicf0d5b:
 	duty $17
 	note ds4 $07
-	rest $15
+	sust $15
 	note g4  $15
 	note ds4 $07
 	note as4 $07
-	rest $15
+	sust $15
 	note a4  $2a
-	rest $62
+	sust $62
 	note ds4 $07
-	rest $15
+	sust $15
 	note g4  $15
 	note ds4 $07
 	note a3  $07
-	rest $15
+	sust $15
 	note as3 $38
-	rest $54
+	sust $54
 	note ds4 $07
-	rest $15
+	sust $15
 	note g4  $15
 	note as4 $07
 	note d5  $07
-	rest $15
+	sust $15
 	note fs4 $23
-	rest $07
+	sust $07
 	note as4 $1c
 	note a4  $1c
 	note g4  $0e
 	note c4  $0e
 	note d4  $0e
 	note fs4 $07
-	rest $15
+	sust $15
 	note as4 $15
 	note g4  $07
 	note as4 $07
-	rest $15
+	sust $15
 	note e4  $2a
-	rest $62
+	sust $62
 	goto musicf0d5b
 	cmdff
 

@@ -8,11 +8,11 @@ musMoonlitGrottoChannel1:
 musicf0008:
 	vol $6
 	note f3  $23
-	rest $01
+	sust $01
 	vibrato $01
 	vol $3
 	note f3  $09
-	rest $09
+	sust $09
 	vibrato $e1
 	vol $6
 	note c3  $09
@@ -26,7 +26,7 @@ musicf0008:
 	note c3  $09
 	vol $3
 	note c3  $09
-	rest $12
+	sust $12
 	vol $6
 	note c3  $09
 	vol $3
@@ -44,7 +44,7 @@ musicf0008:
 	vibrato $01
 	vol $3
 	note f3  $09
-	rest $09
+	sust $09
 	vibrato $e1
 	vol $6
 	note ds3 $09
@@ -53,7 +53,7 @@ musicf0008:
 	note c3  $09
 	vol $3
 	note c3  $09
-	rest $63
+	sust $63
 	vol $6
 	note fs4 $09
 	note f4  $09
@@ -63,7 +63,7 @@ musicf0008:
 	note c4  $09
 	vol $3
 	note c4  $09
-	rest $6c
+	sust $6c
 	vol $6
 	note c5  $09
 	vol $3
@@ -72,7 +72,7 @@ musicf0008:
 	note b4  $09
 	vol $3
 	note b4  $09
-	rest $09
+	sust $09
 	vol $6
 	note b4  $09
 	vol $6
@@ -83,7 +83,7 @@ musicf0008:
 	note b4  $09
 	vol $3
 	note b4  $09
-	rest $12
+	sust $12
 	vol $6
 	note b4  $09
 	vol $3
@@ -118,7 +118,7 @@ musicf0008:
 	note b5  $09
 	vol $3
 	note b5  $09
-	rest $12
+	sust $12
 	vol $6
 	note b5  $09
 	vol $3
@@ -127,7 +127,7 @@ musicf0008:
 	note as5 $09
 	vol $3
 	note as5 $09
-	rest $12
+	sust $12
 	vol $6
 	note gs5 $09
 	vol $3
@@ -136,7 +136,7 @@ musicf0008:
 	note as5 $09
 	vol $3
 	note as5 $09
-	rest $12
+	sust $12
 	vol $6
 	note as5 $09
 	vol $3
@@ -145,7 +145,7 @@ musicf0008:
 	note gs5 $09
 	vol $3
 	note gs5 $09
-	rest $12
+	sust $12
 	vol $6
 	note gs5 $09
 	vol $3
@@ -162,12 +162,12 @@ musicf0008:
 	note g5  $09
 	vol $3
 	note g5  $09
-	rest $12
+	sust $12
 	vol $6
 	note c5  $09
 	vol $3
 	note c5  $09
-	rest $12
+	sust $12
 	vol $6
 	note ds5 $09
 	vol $3
@@ -210,7 +210,7 @@ musicf0144:
 	vibrato $01
 	vol $2
 	note c3  $09
-	rest $09
+	sust $09
 	vibrato $e1
 	vol $6
 	note g2  $09
@@ -224,7 +224,7 @@ musicf0144:
 	note g2  $09
 	vol $2
 	note g2  $09
-	rest $12
+	sust $12
 	vol $6
 	note g2  $09
 	vol $2
@@ -242,7 +242,7 @@ musicf0144:
 	vibrato $01
 	vol $2
 	note c3  $09
-	rest $12
+	sust $12
 	vibrato $e1
 	vol $6
 	note as2 $09
@@ -251,7 +251,7 @@ musicf0144:
 	note g2  $09
 	vol $2
 	note g2  $09
-	rest $63
+	sust $63
 	vol $7
 	note cs4 $09
 	note c4  $09
@@ -259,7 +259,7 @@ musicf0144:
 	note c4  $09
 	note as3 $09
 	note g3  $09
-	rest $75
+	sust $75
 	note gs4 $09
 	vol $3
 	note gs4 $09
@@ -267,7 +267,7 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	rest $09
+	sust $09
 	vol $7
 	note g4  $09
 	note gs4 $09
@@ -277,7 +277,7 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	rest $12
+	sust $12
 	vol $7
 	note g4  $09
 	vol $3
@@ -364,12 +364,12 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	rest $12
+	sust $12
 	vol $7
 	note c4  $09
 	vol $3
 	note c4  $09
-	rest $09
+	sust $09
 	vol $7
 	note c4  $09
 	note as4 $09
@@ -387,45 +387,45 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	rest $12
+	sust $12
 	vol $7
 	note c5  $04
-	rest $05
+	sust $05
 	note c5  $04
-	rest $05
+	sust $05
 	note c6  $04
-	rest $05
+	sust $05
 	vol $6
 	note c6  $04
-	rest $05
+	sust $05
 	vol $3
 	note c6  $04
-	rest $05
+	sust $05
 	vol $2
 	note c6  $04
-	rest $05
+	sust $05
 	vol $7
 	note c5  $04
-	rest $05
+	sust $05
 	note c5  $04
-	rest $05
+	sust $05
 	note c6  $04
-	rest $05
+	sust $05
 	vol $6
 	note c6  $04
-	rest $05
+	sust $05
 	vol $7
 	note c6  $04
-	rest $05
+	sust $05
 	vol $5
 	note c6  $04
-	rest $05
+	sust $05
 	vol $7
 	note c7  $04
-	rest $05
+	sust $05
 	vol $4
 	note c7  $04
-	rest $05
+	sust $05
 	goto musicf0144
 	cmdff
 
@@ -434,130 +434,130 @@ musMoonlitGrottoChannel4:
 musicf02b1:
 	duty $0e
 	note f1  $12
-	rest $12
+	sust $12
 	note f2  $12
-	rest $09
+	sust $09
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note c2  $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $09
+	sust $09
 	note f2  $12
-	rest $09
+	sust $09
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note d2  $09
-	rest $09
+	sust $09
 	note c2  $09
-	rest $09
+	sust $09
 	note f1  $12
-	rest $12
+	sust $12
 	note f2  $12
-	rest $09
+	sust $09
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note c2  $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $1b
+	sust $1b
 	note f2  $12
-	rest $09
+	sust $09
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
 	note d2  $09
 	note cs2 $09
 	note c2  $09
 	note f1  $12
-	rest $12
+	sust $12
 	note f2  $12
-	rest $09
+	sust $09
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note c2  $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $1b
+	sust $1b
 	note f2  $12
 	duty $0f
 	note f2  $09
 	duty $0e
 	note c2  $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note ds2 $09
-	rest $09
+	sust $09
 	note c2  $09
-	rest $09
+	sust $09
 	note as1 $0d
-	rest $17
+	sust $17
 	note as2 $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $09
+	sust $09
 	note gs2 $09
-	rest $09
+	sust $09
 	note gs2 $09
-	rest $09
+	sust $09
 	note gs2 $09
-	rest $09
+	sust $09
 	note f2  $09
-	rest $09
+	sust $09
 	note as2 $0d
-	rest $17
+	sust $17
 	note as2 $12
 	duty $0f
 	note as2 $09
 	duty $0e
 	note f2  $09
 	note gs2 $09
-	rest $09
+	sust $09
 	note gs2 $09
-	rest $09
+	sust $09
 	note gs2 $09
 	note g2  $09
 	note f2  $09
 	note e2  $09
 	note c2  $0d
-	rest $71
+	sust $71
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $0d
-	rest $05
+	sust $05
 	note c2  $0d
-	rest $05
+	sust $05
 	note c2  $0d
-	rest $05
+	sust $05
 	note c2  $0d
-	rest $05
+	sust $05
 	note c2  $09
 	note cs2 $09
 	note d2  $09
@@ -574,73 +574,73 @@ musMoonlitGrottoChannel6:
 musicf03c2:
 	vol $6
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $0e
+	sust $0e
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $0e
+	sust $0e
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $0e
+	sust $0e
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $0e
+	sust $0e
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $0e
+	sust $0e
 	note $24 $04
-	rest $7a
+	sust $7a
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $05
+	sust $05
 	vol $4
 	note $2e $04
-	rest $20
+	sust $20
 	note $2e $04
-	rest $20
+	sust $20
 	note $2e $04
-	rest $20
+	sust $20
 	note $2e $04
-	rest $0e
+	sust $0e
 	vol $6
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $05
+	sust $05
 	note $24 $04
-	rest $0e
+	sust $0e
 	vol $4
 	note $2a $04
-	rest $0e
+	sust $0e
 	vol $4
 	note $2e $04
-	rest $20
+	sust $20
 	vol $4
 	note $2a $04
-	rest $0e
+	sust $0e
 	note $2e $04
-	rest $0e
+	sust $0e
 	note $2a $04
-	rest $0e
+	sust $0e
 	note $2e $04
-	rest $0e
+	sust $0e
 	goto musicf03c2
 	cmdff

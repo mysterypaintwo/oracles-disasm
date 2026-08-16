@@ -765,7 +765,7 @@ channelCmdfd:
 
 ;;
 cmde0Toef:
-	and $07
+	and $0f
 	ld hl,wChannelEnvelopes
 	push af
 	ld a,(wSoundChannel)
@@ -791,6 +791,12 @@ channelCmdf0:
 	ld a,(wSoundChannel)
 	cp $07
 	jr z,label_39_038
+.ifndef BUILD_VANILLA
+	cp $06 ; also allow raw NR42 writes on the music noise channel, not just sfx (7);
+	       ; confirmed unused by any vanilla music channel 6 data (bank $39 has no free
+	       ; space in the vanilla ROM to carry this unconditionally)
+	jr z,label_39_038
+.endif
 
 	call getNextChannelByte
 	push af
@@ -968,13 +974,11 @@ standardSoundCmd:
 	add hl,de
 	pop af
 	ld (hl),a
-	call getChannelVolume
-	sla a
-	sla a
-	sla a
-	sla a
-	ld c,$01
-	or c
+	ld a,$08 ; volume 0, no envelope stepping: immediate, clean, permanent silence,
+	         ; instead of the old fast-decay-from-current-volume (which could sound like
+	         ; it never actually cuts off if another command retriggers the channel again
+	         ; before the decay finishes -- see the mml2wla documentation's "rest blip"
+	         ; writeup, and the reason it recommends against chaining bare `rest`s)
 	ld (wSoundCmdEnvelope),a
 	call updateChannelVolume
 	call func_39_41f3
@@ -1125,6 +1129,11 @@ label_39_047:
 	cp $00
 	jr z,label_39_049
 
+.ifndef BUILD_VANILLA
+	bit 3,a
+	jr nz,hardwareAttackEnvelope
+.endif
+
 	ld c,a
 	or $18
 	ld (wSoundCmdEnvelope),a
@@ -1151,6 +1160,33 @@ label_39_047:
 	pop af
 	ld (hl),a
 	jp updateChannelVolume
+
+;;
+; True hardware envelope fade-in (attack param had bit 3 set, i.e. an $e8-$ef `env`
+; command instead of $e0-$e7). Unlike the software-simulated ramp above -- which always
+; starts at volume 1 and snaps to the target volume after a fixed table-driven delay --
+; this triggers one real hardware envelope (initial volume 0, direction increase, pace
+; from the low 3 bits) and lets it run to completion entirely in hardware, exactly like
+; the decay path below (label_39_049), just increasing from 0 instead of decreasing from
+; the target. Only compiled into the editable build (see the .ifndef BUILD_VANILLA guard
+; on the branch to this label above) -- bank $39 has no free space in the vanilla ROM,
+; and vanilla song data never uses this (env's attack param never has bit 3 set there).
+.ifndef BUILD_VANILLA
+hardwareAttackEnvelope:
+	and $07
+	or $08
+	ld (wSoundCmdEnvelope),a
+	ld a,$02
+	ld hl,wc05d
+	push af
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
+	add hl,de
+	pop af
+	ld (hl),a
+	jp updateChannelVolume
+.endif
 
 label_39_048:
 	ld hl,wc061
@@ -1492,6 +1528,16 @@ label_39_067:
 
 ;;
 standardCmdChannel6:
+	ld a,(wSoundCmd)
+	cp $60 ; rest: unlike the square/wave channels, this byte was never special-cased
+	       ; here before, so it just failed to match any noiseFrequencyTable row and
+	       ; fell through as a pure no-op -- the noise channel never actually silenced
+	       ; on a rest at all. Force volume 0 (no envelope stepping) directly instead.
+	jr nz,+
+	ld a,$08
+	ld ($ff00+R_NR42),a
+	jp setChannelWaitCounter
++
 	ld a,(wSoundCmd)
 	ld c,a
 	ld de,noiseFrequencyTable
@@ -1992,7 +2038,9 @@ playSound:
 	ld h,b
 
 @nextSoundChannel:
-	ldh a,(<hSoundDataBaseBank)
+	ld a,(wLoadingSoundBank) ; the sound's own bank (base + per-sound delta), not just the
+	                         ; fixed base -- lets soundChannelPointers.s live in a
+	                         ; different bank than the base audio code (see its .include)
 	call wMusicReadFunction
 	cp $ff
 	jr nz,+
@@ -2127,13 +2175,13 @@ playSound:
 	sla a
 	ld b,a
 	push bc
-	ldh a,(<hSoundDataBaseBank)
+	ld a,(wLoadingSoundBank) ; see @nextSoundChannel above
 	call wMusicReadFunction
 	pop bc
 	ld c,<hSoundChannelAddresses
 	call writeIndexedHighRamAndIncrement
 	push bc
-	ldh a,(<hSoundDataBaseBank)
+	ld a,(wLoadingSoundBank)
 	call wMusicReadFunction
 	pop bc
 	ld ($ff00+c),a
@@ -2175,16 +2223,6 @@ writeIndexedHighRamAndIncrement:
 	inc c
 	ret
 
-	push af
-	ld a,(wSoundChannel)
-	ld b,a
-	ld a,b
-	add c
-	ld c,a
-	pop af
-	ld ($ff00+c),a
-	ret
-
 
 ; A function which doesn't exist. Call this if you want your game to crash.
 nonExistentFunction:
@@ -2192,10 +2230,27 @@ nonExistentFunction:
 
 .include "audio/common/noise.s"
 .include "audio/common/waveforms.s"
+; soundChannelPointers.s content is read exclusively via playSound's @nextSoundChannel
+; loop, which already goes through the bank-aware wMusicReadFunction (see the
+; wLoadingSoundBank use there) -- unlike soundPointers/waveforms/noise/frequency tables
+; below and above, which are all read via direct same-bank pointer dereferences and so
+; must stay in this bank. That makes soundChannelPointers.s the one piece of this bank's
+; data safe to relocate elsewhere for room, which matters because this bank is otherwise
+; completely full. BUILD_VANILLA (which forces exact, fixed section placement for
+; byte-for-byte reproduction of the original ROM) keeps it here unchanged; the editable
+; build moves it to its own freely-placed section below, past `.ends`.
+.ifdef BUILD_VANILLA
 .include {"audio/{GAME}/soundChannelPointers.s"}
+.endif
 .include {"audio/{GAME}/soundPointers.s"}
 
 .ends ; End of section AudioCode
+
+.ifndef BUILD_VANILLA
+m_section_superfree AudioChannelPointers NAMESPACE audio
+.include {"audio/{GAME}/soundChannelPointers.s"}
+.ends
+.endif
 
 
 .include {"audio/{GAME}/soundChannelData.s"}

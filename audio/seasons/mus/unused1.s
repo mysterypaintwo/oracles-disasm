@@ -7,10 +7,10 @@ musUnused1Channel1:
 musicedeb0:
 	vol $6
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $07
-	rest $04
+	sust $04
 	vol $6
 	note c4  $07
 	note f4  $2a
@@ -25,10 +25,10 @@ musicedeb0:
 	note gs4 $07
 	note as4 $07
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $07
-	rest $04
+	sust $04
 	vol $6
 	note ds4 $07
 	note c5  $31
@@ -43,10 +43,10 @@ musicedeb0:
 	note ds5 $07
 	note cs5 $07
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $07
-	rest $04
+	sust $04
 	vol $6
 	note ds4 $07
 	note c5  $31
@@ -70,7 +70,7 @@ musicedeb0:
 	vol $6
 	note c5  $1c
 	note cs5 $0e
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $04
 	vol $6
@@ -83,10 +83,10 @@ musicedeb0:
 	note c5  $2a
 	note as4 $0e
 	note gs4 $0e
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $07
-	rest $0b
+	sust $0b
 	vol $6
 	note c5  $07
 	note f5  $07
@@ -110,17 +110,17 @@ musicedeb0:
 	note c6  $2a
 	note g5  $0e
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $07
-	rest $0b
+	sust $0b
 	vol $6
 	note c5  $1c
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $6
 	note f4  $07
 	note cs5 $31
@@ -133,10 +133,10 @@ musicedeb0:
 	note as4 $04
 	vol $6
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $07
-	rest $04
+	sust $04
 	vol $6
 	note c5  $03
 	vol $3
@@ -159,10 +159,10 @@ musicedeb0:
 	env $0 $00
 	vol $6
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $07
-	rest $04
+	sust $04
 	vol $6
 	note d4  $07
 	note as4 $2a
@@ -202,10 +202,10 @@ musicedeb0:
 	note as4 $0e
 	note c5  $0e
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $6
 	note f4  $07
 	note cs5 $2a
@@ -234,10 +234,10 @@ musicedeb0:
 	note f5  $0e
 	note g5  $0e
 	note gs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs5 $07
-	rest $04
+	sust $04
 	vol $6
 	note b4  $07
 	note gs5 $2a
@@ -254,10 +254,10 @@ musicedeb0:
 	note as5 $07
 	note b5  $07
 	note c6  $07
-	rest $03
+	sust $03
 	vol $3
 	note c6  $07
-	rest $04
+	sust $04
 	vol $6
 	note g5  $07
 	note c6  $3f
@@ -265,7 +265,7 @@ musicedeb0:
 	env $0 $00
 	vol $3
 	note c6  $0e
-	rest $07
+	sust $07
 	vibrato $f1
 	env $0 $00
 	goto musicedeb0
@@ -278,21 +278,21 @@ musUnused1Channel0:
 musicee08a:
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note gs3 $07
 	note f3  $07
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note gs3 $07
 	note f3  $07
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
@@ -303,7 +303,7 @@ musicee08a:
 	note f3  $07
 	note g3  $07
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
@@ -316,42 +316,42 @@ musicee08a:
 	note gs3 $04
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note ds3 $07
 	note gs3 $07
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
 	note c4  $07
 	note gs3 $07
 	note as3 $07
-	rest $03
+	sust $03
 	vol $3
 	note as3 $04
 	vol $6
 	note as3 $07
 	note g3  $07
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
 	note c4  $07
 	note gs3 $07
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
 	note c4  $07
 	note gs3 $07
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
@@ -361,7 +361,7 @@ musicee08a:
 	note f3  $07
 	note g3  $07
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
@@ -374,7 +374,7 @@ musicee08a:
 	note ds3 $04
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
@@ -387,7 +387,7 @@ musicee08a:
 	note ds3 $04
 	vol $6
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
@@ -403,9 +403,9 @@ musicee08a:
 	note gs3 $07
 	note as3 $07
 	note gs3 $03
-	rest $04
+	sust $04
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
@@ -418,57 +418,57 @@ musicee08a:
 	note g3  $04
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
 	vol $6
 	note g3  $07
 	note f3  $07
 	note as3 $07
-	rest $03
+	sust $03
 	vol $3
 	note as3 $04
 	vol $6
 	note c4  $07
 	note as3 $07
 	note g3  $07
-	rest $03
+	sust $03
 	vol $3
 	note g3  $04
 	vol $6
 	note g3  $07
 	note as3 $07
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note c4  $07
 	note cs4 $07
 	note d4  $07
-	rest $03
+	sust $03
 	vol $3
 	note d4  $04
 	vol $6
 	note ds4 $03
-	rest $04
+	sust $04
 	note ds4 $07
 	note d4  $07
-	rest $03
+	sust $03
 	vol $3
 	note d4  $04
 	vol $6
 	note ds4 $07
 	note d4  $07
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs4 $04
 	vol $6
 	note cs4 $07
 	note c4  $07
 	note b3  $07
-	rest $03
+	sust $03
 	vol $3
 	note b3  $04
 	vol $6
@@ -476,29 +476,29 @@ musicee08a:
 	note g3  $07
 	note f3  $0e
 	note g3  $03
-	rest $04
+	sust $04
 	note g3  $07
 	note b3  $0e
 	note g3  $03
-	rest $04
+	sust $04
 	note g3  $07
 	note d4  $0e
 	note b3  $03
-	rest $04
+	sust $04
 	note b3  $07
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
 	note c4  $03
-	rest $04
+	sust $04
 	note c4  $07
 	note cs4 $09
 	note ds4 $09
 	note cs4 $0a
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
@@ -508,7 +508,7 @@ musicee08a:
 	note g3  $07
 	note c4  $07
 	note e4  $07
-	rest $23
+	sust $23
 	vol $6
 	note f3  $07
 	note as3 $07
@@ -542,7 +542,7 @@ musicee08a:
 	note c4  $07
 	note cs4 $0e
 	note c4  $0e
-	rest $07
+	sust $07
 	note c3  $07
 	note g3  $07
 	note e3  $07
@@ -557,18 +557,18 @@ musicee08a:
 	note g4  $0e
 	note gs4 $0e
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $07
-	rest $12
+	sust $12
 	vol $6
 	note as3 $03
-	rest $04
+	sust $04
 	note as3 $07
 	note gs3 $07
 	note g3  $1c
 	note cs4 $1c
-	rest $07
+	sust $07
 	note gs3 $07
 	note cs4 $07
 	note b3  $07
@@ -583,10 +583,10 @@ musicee08a:
 	note d4  $0e
 	note e4  $0e
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $07
-	rest $04
+	sust $04
 	vol $6
 	note g3  $07
 	note f4  $1c
@@ -617,187 +617,187 @@ musicee2da:
 	note f2  $07
 	duty $0f
 	note f2  $07
-	rest $0e
+	sust $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	rest $2a
+	sust $2a
 	duty $11
 	note ds2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $0e
+	sust $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $2a
+	sust $2a
 	duty $11
 	note as2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $0e
+	sust $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $2a
+	sust $2a
 	duty $11
 	note ds2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $0e
+	sust $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	rest $2a
+	sust $2a
 	duty $11
 	note gs2 $1c
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	rest $0e
+	sust $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	rest $2a
+	sust $2a
 	duty $11
 	note c2  $1c
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	rest $0e
+	sust $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	rest $2a
+	sust $2a
 	duty $11
 	note f2  $1c
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	rest $0e
+	sust $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	rest $2a
+	sust $2a
 	duty $11
 	note g2  $1c
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $07
-	rest $0e
+	sust $0e
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $07
-	rest $2a
+	sust $2a
 	duty $11
 	note c2  $1c
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	rest $02
+	sust $02
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	rest $10
+	sust $10
 	duty $11
 	note as2 $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	rest $02
+	sust $02
 	duty $11
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	rest $10
+	sust $10
 	duty $11
 	note g2  $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	rest $02
+	sust $02
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	rest $10
+	sust $10
 	duty $11
 	note ds2 $0e
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	rest $02
+	sust $02
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	rest $10
+	sust $10
 	duty $11
 	note gs2 $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	rest $02
+	sust $02
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	rest $10
+	sust $10
 	duty $11
 	note g2  $0e
 	note c2  $07
 	duty $0f
 	note c2  $05
-	rest $02
+	sust $02
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $05
-	rest $10
+	sust $10
 	duty $11
 	note e2  $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	rest $02
+	sust $02
 	duty $11
 	note f2  $0e
 	duty $0f
 	note f2  $05
-	rest $09
+	sust $09
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	rest $02
+	sust $02
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	rest $02
+	sust $02
 	duty $11
 	note f2  $0e
 	note g2  $0e
@@ -806,76 +806,76 @@ musicee2da:
 	note as2 $07
 	duty $0f
 	note as2 $05
-	rest $02
+	sust $02
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	rest $10
+	sust $10
 	duty $11
 	note as2 $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	rest $02
+	sust $02
 	duty $11
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	rest $10
+	sust $10
 	duty $11
 	note ds2 $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	rest $02
+	sust $02
 	duty $11
 	note f2  $0e
 	duty $0f
 	note f2  $05
-	rest $09
+	sust $09
 	duty $11
 	note f2  $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	rest $02
+	sust $02
 	duty $11
 	note ds2 $0e
 	duty $0f
 	note ds2 $05
-	rest $09
+	sust $09
 	duty $11
 	note ds2 $0e
 	duty $11
 	note d2  $07
 	duty $0f
 	note d2  $05
-	rest $02
+	sust $02
 	duty $11
 	note d2  $07
 	duty $0f
 	note d2  $05
-	rest $10
+	sust $10
 	duty $11
 	note d2  $0e
 	note g2  $07
 	duty $0f
 	note g2  $05
-	rest $02
+	sust $02
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	rest $10
+	sust $10
 	duty $11
 	note g2  $0e
 	duty $11
 	note c2  $0e
 	duty $0f
 	note c2  $05
-	rest $09
+	sust $09
 	duty $11
 	note c2  $1c
 	note d2  $1c

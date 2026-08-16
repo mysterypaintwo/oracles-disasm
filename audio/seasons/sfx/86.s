@@ -30,7 +30,7 @@ sndUnknown86Channel2:
 	note c6  $01
 	note fs6 $01
 	vol $0
-	rest $0f
+	sust $0f
 	vol $7
 	note c5  $01
 	note d5  $02

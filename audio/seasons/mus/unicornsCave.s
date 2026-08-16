@@ -7,7 +7,7 @@ musUnicornsCaveChannel1:
 	duty $02
 	vol $6
 	note fs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs3 $04
 	vol $6
@@ -22,48 +22,48 @@ musicf1423:
 	vol $6
 	note cs4 $38
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $07
-	rest $0b
+	sust $0b
 	vol $6
 	note a3  $0b
-	rest $06
+	sust $06
 	vol $3
 	note a3  $04
 	vol $6
 	note fs3 $07
 	note e4  $38
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds4 $07
-	rest $0b
+	sust $0b
 	vol $6
 	note fs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs3 $04
 	vol $6
 	note fs3 $03
-	rest $01
+	sust $01
 	vol $3
 	note fs3 $03
 	vol $6
 	note fs3 $03
-	rest $01
+	sust $01
 	vol $3
 	note fs3 $03
 	vol $6
 	note cs4 $38
 	note c4  $07
-	rest $07
+	sust $07
 	vol $3
 	note c4  $07
-	rest $07
+	sust $07
 	vol $6
 	note a3  $0b
-	rest $06
+	sust $06
 	vol $3
 	note a3  $04
 	vol $6
@@ -72,58 +72,58 @@ musicf1423:
 	note fs3 $05
 	note e3  $05
 	note ds3 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds3 $07
-	rest $0b
+	sust $0b
 	vol $6
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs4 $04
 	vol $6
 	note cs4 $03
-	rest $01
+	sust $01
 	vol $3
 	note cs4 $03
 	vol $6
 	note cs4 $03
-	rest $01
+	sust $01
 	vol $3
 	note cs4 $03
 	vol $6
 	note gs4 $38
 	note a4  $07
-	rest $03
+	sust $03
 	vol $3
 	note a4  $07
-	rest $0b
+	sust $0b
 	vol $6
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $07
-	rest $04
+	sust $04
 	vol $6
 	note gs5 $07
 	note f5  $1c
 	note a4  $03
-	rest $01
+	sust $01
 	vol $3
 	note a4  $03
 	vol $6
 	note a4  $03
-	rest $01
+	sust $01
 	vol $3
 	note a4  $03
 	vol $6
 	note a4  $03
-	rest $01
+	sust $01
 	vol $3
 	note a4  $03
 	vol $6
 	note a4  $03
-	rest $01
+	sust $01
 	vol $3
 	note a4  $03
 	vol $6
@@ -132,7 +132,7 @@ musicf1423:
 	note ds4 $0b
 	vol $6
 	note a3  $07
-	rest $03
+	sust $03
 	vol $3
 	note a3  $04
 	vol $6
@@ -140,271 +140,271 @@ musicf1423:
 	note fs3 $07
 	note cs4 $38
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $07
-	rest $0b
+	sust $0b
 	vol $6
 	note a3  $07
-	rest $03
+	sust $03
 	vol $3
 	note a3  $07
-	rest $04
+	sust $04
 	vol $6
 	note gs4 $07
 	note ds4 $1c
 	note a3  $03
-	rest $01
+	sust $01
 	vol $3
 	note a3  $03
 	vol $6
 	note a3  $03
-	rest $01
+	sust $01
 	vol $3
 	note a3  $03
 	vol $6
 	note a3  $03
-	rest $01
+	sust $01
 	vol $3
 	note a3  $03
 	vol $6
 	note a3  $03
-	rest $01
+	sust $01
 	vol $3
 	note a3  $03
 	vol $6
 	note ds3 $0e
 	vol $3
 	note ds3 $0e
-	rest $1c
+	sust $1c
 	vol $6
 	note c4  $0e
 	vol $5
 	note b3  $07
-	rest $03
+	sust $03
 	vol $2
 	note b3  $04
 	vol $6
 	note c4  $0e
 	vol $5
 	note b3  $07
-	rest $03
+	sust $03
 	vol $2
 	note b3  $07
-	rest $35
+	sust $35
 	vol $6
 	note d4  $0e
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $04
 	vol $6
 	note d4  $0e
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $07
-	rest $35
+	sust $35
 	vol $7
 	note e4  $0e
 	vol $6
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $2
 	note ds4 $04
 	vol $6
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $6
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $04
 	vol $5
 	note e4  $07
-	rest $03
+	sust $03
 	vol $2
 	note e4  $04
 	vol $5
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $2
 	note ds4 $04
 	vol $5
 	note e4  $07
-	rest $03
+	sust $03
 	vol $2
 	note e4  $04
 	vol $5
 	note f4  $07
-	rest $03
+	sust $03
 	vol $2
 	note f4  $04
 	vol $5
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note fs4 $04
 	vol $5
 	note g4  $07
-	rest $03
+	sust $03
 	vol $2
 	note g4  $04
 	vol $6
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note gs4 $04
 	vol $6
 	note a4  $07
-	rest $03
+	sust $03
 	vol $3
 	note a4  $04
 	vol $6
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $04
 	vol $6
 	note b4  $07
-	rest $03
+	sust $03
 	vol $3
 	note b4  $04
 	vol $6
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $04
-	rest $1c
+	sust $1c
 	vol $6
 	note fs4 $0e
 	vol $6
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $04
 	vol $6
 	note a4  $0e
 	vol $6
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $07
-	rest $0b
+	sust $0b
 	vol $6
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note fs4 $0e
 	vol $5
 	note f4  $07
-	rest $03
+	sust $03
 	vol $2
 	note f4  $04
 	vol $6
 	note a4  $0e
 	vol $5
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note gs4 $04
 	vol $6
 	note g4  $0e
 	vol $6
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs4 $07
-	rest $0b
+	sust $0b
 	vol $6
 	note a4  $07
-	rest $03
+	sust $03
 	vol $3
 	note a4  $04
 	vol $6
 	note a4  $0e
 	vol $6
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $04
 	vol $6
 	note d5  $0e
 	vol $6
 	note cs5 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs5 $04
 	vol $6
 	note c5  $07
-	rest $03
+	sust $03
 	vol $3
 	note c5  $04
 	vol $6
 	note b4  $07
-	rest $03
+	sust $03
 	vol $3
 	note b4  $04
 	vol $6
 	note as4 $07
-	rest $03
+	sust $03
 	vol $3
 	note as4 $04
 	vol $5
 	note a4  $07
-	rest $03
+	sust $03
 	vol $2
 	note a4  $04
 	vol $5
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note gs4 $04
 	vol $5
 	note g4  $07
-	rest $03
+	sust $03
 	vol $2
 	note g4  $04
 	vol $5
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note fs4 $04
 	vol $6
 	note f4  $07
-	rest $03
+	sust $03
 	vol $2
 	note f4  $04
 	vol $6
 	note e4  $07
-	rest $03
+	sust $03
 	vol $3
 	note e4  $04
-	rest $0e
+	sust $0e
 	vol $6
 	note fs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs3 $04
 	vol $6
 	note fs3 $03
-	rest $01
+	sust $01
 	vol $3
 	note fs3 $03
 	vol $6
 	note fs3 $03
-	rest $01
+	sust $01
 	vol $3
 	note fs3 $03
 	goto musicf1423
@@ -418,416 +418,416 @@ musUnicornsCaveChannel0:
 	cmdf2
 	duty $02
 musicf16a7:
-	rest $1c
+	sust $1c
 	vol $6
 	note fs3 $11
-	rest $04
+	sust $04
 	note fs3 $03
-	rest $04
+	sust $04
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
-	rest $2a
+	sust $2a
 	vol $6
 	note e3  $07
-	rest $07
+	sust $07
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
-	rest $38
+	sust $38
 	vol $6
 	note fs3 $11
-	rest $04
+	sust $04
 	note fs3 $03
-	rest $04
+	sust $04
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
-	rest $2a
+	sust $2a
 	vol $6
 	note e3  $07
-	rest $03
+	sust $03
 	vol $3
 	note e3  $04
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note e3  $03
-	rest $01
+	sust $01
 	vol $3
 	note e3  $03
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
-	rest $03
+	sust $03
 	vol $3
 	note f3  $04
-	rest $38
+	sust $38
 	vol $6
 	note cs3 $11
-	rest $04
+	sust $04
 	note cs3 $03
-	rest $04
+	sust $04
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
-	rest $2a
+	sust $2a
 	vol $6
 	note b2  $07
-	rest $03
+	sust $03
 	vol $3
 	note b2  $04
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
-	rest $38
+	sust $38
 	vol $6
 	note cs3 $11
-	rest $04
+	sust $04
 	note cs3 $03
-	rest $04
+	sust $04
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
-	rest $2a
+	sust $2a
 	vol $6
 	note b2  $07
-	rest $03
+	sust $03
 	vol $3
 	note b2  $04
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note b2  $03
-	rest $01
+	sust $01
 	vol $3
 	note b2  $03
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
 	vol $6
 	note c3  $07
-	rest $03
+	sust $03
 	vol $3
 	note c3  $04
-	rest $1c
+	sust $1c
 	vol $6
 	note a3  $0e
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note a3  $0e
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $07
-	rest $35
+	sust $35
 	vol $6
 	note b3  $0e
 	vol $5
 	note as3 $07
-	rest $03
+	sust $03
 	vol $2
 	note as3 $04
 	vol $6
 	note b3  $0e
 	vol $5
 	note as3 $07
-	rest $03
+	sust $03
 	vol $2
 	note as3 $07
-	rest $35
+	sust $35
 	vol $6
 	note c4  $0e
 	vol $6
 	note b3  $07
-	rest $03
+	sust $03
 	vol $2
 	note b3  $04
 	vol $6
 	note e4  $07
-	rest $03
+	sust $03
 	vol $3
 	note e4  $04
 	vol $6
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds4 $04
 	vol $5
 	note d4  $07
-	rest $03
+	sust $03
 	vol $2
 	note d4  $04
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $04
 	vol $5
 	note c4  $07
-	rest $03
+	sust $03
 	vol $2
 	note c4  $04
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $04
 	vol $5
 	note d4  $07
-	rest $03
+	sust $03
 	vol $2
 	note d4  $04
 	vol $5
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $2
 	note ds4 $04
 	vol $6
 	note e4  $07
-	rest $03
+	sust $03
 	vol $2
 	note e4  $04
 	vol $6
 	note f4  $07
-	rest $03
+	sust $03
 	vol $3
 	note f4  $04
 	vol $6
 	note fs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note g4  $07
-	rest $03
+	sust $03
 	vol $3
 	note g4  $04
 	vol $6
 	note gs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs4 $04
 	vol $7
 	note a4  $07
-	rest $03
+	sust $03
 	vol $3
 	note a4  $04
-	rest $1c
+	sust $1c
 	vol $6
 	note d4  $0e
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $04
 	vol $6
 	note fs4 $0e
 	vol $5
 	note f4  $07
-	rest $03
+	sust $03
 	vol $2
 	note f4  $07
-	rest $0b
+	sust $0b
 	vol $6
 	note d4  $07
-	rest $03
+	sust $03
 	vol $3
 	note d4  $04
 	vol $6
 	note d4  $0e
 	vol $5
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $2
 	note cs4 $04
 	vol $6
 	note fs4 $0e
 	vol $5
 	note f4  $07
-	rest $03
+	sust $03
 	vol $2
 	note f4  $04
 	vol $6
 	note e4  $0e
 	vol $6
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds4 $07
-	rest $35
+	sust $35
 	vol $6
 	note f4  $0e
 	vol $6
 	note e4  $07
-	rest $03
+	sust $03
 	vol $3
 	note e4  $04
 	vol $6
 	note ds4 $07
-	rest $03
+	sust $03
 	vol $3
 	note ds4 $04
 	vol $6
 	note d4  $07
-	rest $03
+	sust $03
 	vol $3
 	note d4  $04
 	vol $6
 	note cs4 $07
-	rest $03
+	sust $03
 	vol $3
 	note cs4 $04
 	vol $6
 	note c4  $07
-	rest $03
+	sust $03
 	vol $3
 	note c4  $04
 	vol $6
 	note b3  $07
-	rest $03
+	sust $03
 	vol $3
 	note b3  $04
 	vol $6
 	note as3 $07
-	rest $03
+	sust $03
 	vol $2
 	note as3 $04
 	vol $5
 	note a3  $07
-	rest $03
+	sust $03
 	vol $2
 	note a3  $04
 	vol $6
 	note gs3 $07
-	rest $03
+	sust $03
 	vol $3
 	note gs3 $04
 	vol $6
 	note g3  $07
-	rest $03
+	sust $03
 	vol $3
 	note g3  $04
-	rest $2a
+	sust $2a
 	goto musicf16a7
 	cmdff
 
 musUnicornsCaveChannel4:
-	rest $1c
+	sust $1c
 	cmdf2
 musicf1941:
 	duty $0e
@@ -850,7 +850,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	rest $20
+	sust $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -883,7 +883,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	rest $1c
+	sust $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -904,7 +904,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	rest $20
+	sust $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -937,7 +937,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	rest $1c
+	sust $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -958,7 +958,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	rest $20
+	sust $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -991,7 +991,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	rest $1c
+	sust $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -1012,7 +1012,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	rest $20
+	sust $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -1045,7 +1045,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	rest $62
+	sust $62
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -1062,20 +1062,16 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	rest $2e
+	sust $2e
 	duty $0e
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	rest $0e
+	sust $0e
 	duty $0e
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	duty $0e
-	note fs2 $03
-	duty $0c
-	note fs2 $04
 	duty $0e
 	note fs2 $03
 	duty $0c
@@ -1083,8 +1079,12 @@ musicf1941:
 	duty $0e
 	note fs2 $03
 	duty $0c
+	note fs2 $04
+	duty $0e
+	note fs2 $03
+	duty $0c
 	note fs2 $07
-	rest $20
+	sust $20
 	duty $0e
 	note e3  $07
 	duty $0c
@@ -1153,7 +1153,7 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $07
-	rest $3c
+	sust $3c
 	duty $0e
 	note b2  $03
 	duty $0c
@@ -1174,12 +1174,12 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $04
-	rest $31
+	sust $31
 	duty $0e
 	note b2  $03
 	duty $0c
 	note b2  $07
-	rest $12
+	sust $12
 	duty $0e
 	note b1  $03
 	duty $0c
@@ -1196,7 +1196,7 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $0b
-	rest $62
+	sust $62
 	duty $0e
 	note cs2 $07
 	duty $0c
@@ -1221,12 +1221,12 @@ musicf1941:
 	note cs2 $03
 	duty $0c
 	note cs2 $07
-	rest $19
+	sust $19
 	goto musicf1941
 	cmdff
 
 musUnicornsCaveChannel6:
-	rest $1c
+	sust $1c
 	cmdf2
 musicf1c58:
 	vol $5
@@ -1361,7 +1361,7 @@ musicf1c58:
 	note $26 $07
 	vol $4
 	note $26 $2a
-	rest $46
+	sust $46
 	note $26 $0e
 	vol $3
 	note $26 $07
@@ -1371,7 +1371,7 @@ musicf1c58:
 	note $26 $07
 	vol $4
 	note $26 $07
-	rest $2a
+	sust $2a
 	vol $4
 	note $26 $1c
 	note $26 $0e
@@ -1383,7 +1383,7 @@ musicf1c58:
 	note $26 $07
 	vol $4
 	note $26 $07
-	rest $1c
+	sust $1c
 	vol $4
 	note $2a $0e
 	note $2a $0e

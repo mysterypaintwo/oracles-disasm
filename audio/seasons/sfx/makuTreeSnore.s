@@ -7,7 +7,7 @@ sndMakuTreeSnoreChannel2:
 	cmdfd $fc
 	note b3  $41
 	vol $0
-	rest $11
+	sust $11
 	env $3 $03
 	vol $4
 	cmdf8 $f8

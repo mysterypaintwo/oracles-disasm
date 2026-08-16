@@ -8,19 +8,19 @@ sndCreepyLaughChannel2:
 	note d6  $07
 	cmdf8 $00
 	vol $0
-	rest $04
+	sust $04
 	vol $9
 	cmdf8 $08
 	note d6  $08
 	cmdf8 $00
 	vol $0
-	rest $03
+	sust $03
 	vol $7
 	cmdf8 $08
 	note cs6 $08
 	cmdf8 $00
 	vol $0
-	rest $02
+	sust $02
 	vol $5
 	cmdf8 $09
 	note c6  $0a
