@@ -399,7 +399,7 @@ musiceee03:
 	note c3  $09
 	duty $0f
 	note c3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note ds3 $09
 	duty $0f
@@ -412,7 +412,7 @@ musiceee03:
 	note g2  $09
 	duty $0f
 	note g2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note as2 $09
 	duty $0f
@@ -425,7 +425,7 @@ musiceee03:
 	note c3  $09
 	duty $0f
 	note c3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note ds3 $12
 	note e3  $09
@@ -435,7 +435,7 @@ musiceee03:
 	note g2  $09
 	duty $0f
 	note g2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note g2  $09
 	duty $0f
@@ -460,7 +460,7 @@ musiceee03:
 	note c3  $09
 	duty $0f
 	note c3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note c3  $09
 	duty $0f
@@ -565,7 +565,7 @@ musiceee03:
 	note g2  $09
 	duty $0f
 	note g2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note g3  $09
 	duty $0f
@@ -598,7 +598,7 @@ musiceee03:
 	note c2  $09
 	duty $0f
 	note c2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note ds3 $09
 	duty $0f
@@ -611,7 +611,7 @@ musiceee03:
 	note g2  $09
 	duty $0f
 	note g2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note as2 $09
 	duty $0f
@@ -624,7 +624,7 @@ musiceee03:
 	note c2  $09
 	duty $0f
 	note c2  $09
-	sust $12
+	rest $12
 	duty $0e
 	note ds3 $12
 	note e3  $09

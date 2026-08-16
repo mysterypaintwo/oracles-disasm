@@ -216,12 +216,12 @@ musiceea48:
 musNayruChannel4:
 musiceeb4d:
 	duty $0f
-	sust $16
+	rest $16
 	note d6  $24
 	note a5  $36
 	note g5  $12
 	note a5  $51
-	sust $1b
+	rest $1b
 	note d6  $24
 	note a5  $36
 	note g5  $12
@@ -231,7 +231,7 @@ musiceeb4d:
 	note g5  $24
 	note as5 $24
 	note a5  $56
-	sust $48
+	rest $48
 	duty $2c
 	note a4  $24
 	duty $0f

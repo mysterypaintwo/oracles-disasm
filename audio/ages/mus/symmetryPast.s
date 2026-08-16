@@ -616,7 +616,7 @@ musicfba6b:
 	note g3  $03
 	note fs3 $05
 	note f3  $0b
-	sust $21
+	rest $21
 	note a5  $21
 	note g5  $0b
 	note c5  $16
@@ -626,7 +626,7 @@ musicfba6b:
 	note g5  $0b
 	duty $0f
 	note g5  $07
-	sust $1a
+	rest $1a
 	duty $0e
 	note a3  $21
 	note g3  $0b
@@ -645,14 +645,14 @@ musicfba6b:
 	duty $0e
 	note b2  $04
 	note c3  $07
-	sust $0f
+	rest $0f
 	note f3  $2c
 	note as3 $16
 	note c4  $16
 	note ds4 $2c
 	note d4  $16
 	note c4  $10
-	sust $06
+	rest $06
 	note f3  $16
 	duty $0f
 	note f3  $16

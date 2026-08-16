@@ -347,60 +347,60 @@ musicef173:
 musLynnaCityChannel4:
 	cmdf2
 musicef2b0:
-	sust $0d
+	rest $0d
 	duty $2b
 	note g5  $24
 	duty $2b
 	note c6  $24
 	note a5  $24
-	sust $12
+	rest $12
 	note b5  $09
 	note c6  $09
 	note b5  $12
 	note a5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note a5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note g5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note g5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note f5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note f5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note e5  $12
 	note f5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note f5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note g5  $09
 	duty $2c
 	note g5  $09
-	sust $12
+	rest $12
 	duty $2b
 	note a5  $12
 	note e6  $09
-	sust $09
+	rest $09
 	note e6  $09
-	sust $03
+	rest $03
 	vol $3
 	note e6  $03
-	sust $06
+	rest $06
 	duty $2c
 	note e6  $03
-	sust $06
+	rest $06
 	duty $2c
 	note e6  $03
-	sust $27
+	rest $27
 	duty $2b
 	note d6  $09
 	note c6  $09
@@ -408,23 +408,23 @@ musicef2b0:
 	note a5  $09
 	note g5  $12
 	note a5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note a5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note g5  $09
-	sust $09
+	rest $09
 	note a5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note a5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note g5  $12
 	duty $2c
 	note g5  $09
-	sust $09
+	rest $09
 	duty $2b
 	note f5  $12
 	note g5  $12
@@ -433,14 +433,14 @@ musicef2b0:
 	note b5  $24
 	duty $2c
 	note b5  $09
-	sust $09
+	rest $09
 	duty $2b
 	note a5  $12
 	note g5  $24
 	note e5  $12
 	note g5  $12
 	note c6  $24
-	sust $12
+	rest $12
 	note a5  $09
 	note g5  $09
 	note fs5 $12
@@ -454,22 +454,22 @@ musicef2b0:
 	note c6  $12
 	note a5  $12
 	note d6  $09
-	sust $03
+	rest $03
 	vol $3
 	note d6  $03
-	sust $03
+	rest $03
 	duty $2c
 	note d6  $03
-	sust $03
+	rest $03
 	duty $2c
 	note d6  $03
-	sust $09
+	rest $09
 	duty $2b
 	note g5  $09
-	sust $03
+	rest $03
 	duty $2c
 	note g5  $03
-	sust $03
+	rest $03
 	duty $2b
 	note b5  $09
 	duty $2b
@@ -477,7 +477,7 @@ musicef2b0:
 	note g5  $24
 	duty $2c
 	note g5  $0f
-	sust $03
+	rest $03
 	duty $2b
 	note g5  $05
 	goto musicef2b0

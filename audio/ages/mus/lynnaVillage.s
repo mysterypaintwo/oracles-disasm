@@ -328,12 +328,12 @@ musicef5c9:
 	note c4  $21
 	duty $0f
 	note c4  $21
-	sust $16
+	rest $16
 	duty $0e
 	note d4  $21
 	duty $0f
 	note d4  $21
-	sust $16
+	rest $16
 	duty $0e
 	note g3  $2c
 	duty $0f
@@ -344,7 +344,7 @@ musicef5c9:
 	note e3  $0b
 	duty $0f
 	note e3  $0b
-	sust $16
+	rest $16
 	duty $0e
 	note f3  $2c
 	note e3  $2c
@@ -353,7 +353,7 @@ musicef5c9:
 	note g3  $42
 	note b3  $16
 	note d4  $21
-	sust $37
+	rest $37
 	note d4  $42
 	note c4  $16
 	note b3  $2c
@@ -380,7 +380,7 @@ musicef5c9:
 	note b3  $16
 	note a3  $16
 	note g3  $2c
-	sust $2c
+	rest $2c
 	goto musicef5c9
 	cmdff
 

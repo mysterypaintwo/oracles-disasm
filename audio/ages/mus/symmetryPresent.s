@@ -503,7 +503,7 @@ musicefd1a:
 	note f3  $09
 	duty $0f
 	note f3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note as3 $12
 	note c4  $09
@@ -519,7 +519,7 @@ musicefd1a:
 	note c4  $09
 	duty $0f
 	note c4  $09
-	sust $12
+	rest $12
 	duty $0e
 	note f3  $12
 	note as3 $12
@@ -535,7 +535,7 @@ musicefd1a:
 	note e3  $09
 	duty $0f
 	note e3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note a3  $12
 	note b3  $09
@@ -551,7 +551,7 @@ musicefd1a:
 	note b3  $09
 	duty $0f
 	note b3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note e3  $12
 	note a3  $12
@@ -579,12 +579,12 @@ musicefd1a:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $12
+	rest $12
 	duty $0e
 	note cs3 $09
 	duty $0f
 	note cs3 $09
-	sust $12
+	rest $12
 	duty $0e
 	note a5  $1b
 	note g5  $09
@@ -630,7 +630,7 @@ musicefd1a:
 	note f3  $09
 	duty $0f
 	note f3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note as3 $12
 	note c4  $09
@@ -646,7 +646,7 @@ musicefd1a:
 	note c4  $09
 	duty $0f
 	note c4  $09
-	sust $12
+	rest $12
 	duty $0e
 	note f3  $12
 	note as3 $12

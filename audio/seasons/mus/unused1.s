@@ -617,187 +617,187 @@ musicee2da:
 	note f2  $07
 	duty $0f
 	note f2  $07
-	sust $0e
+	rest $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	sust $2a
+	rest $2a
 	duty $11
 	note ds2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $0e
+	rest $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $2a
+	rest $2a
 	duty $11
 	note as2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $0e
+	rest $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $2a
+	rest $2a
 	duty $11
 	note ds2 $1c
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $0e
+	rest $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $07
-	sust $2a
+	rest $2a
 	duty $11
 	note gs2 $1c
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	sust $0e
+	rest $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	sust $2a
+	rest $2a
 	duty $11
 	note c2  $1c
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	sust $0e
+	rest $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $07
-	sust $2a
+	rest $2a
 	duty $11
 	note f2  $1c
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	sust $0e
+	rest $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $07
-	sust $2a
+	rest $2a
 	duty $11
 	note g2  $1c
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $07
-	sust $0e
+	rest $0e
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $07
-	sust $2a
+	rest $2a
 	duty $11
 	note c2  $1c
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	sust $02
+	rest $02
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	sust $10
+	rest $10
 	duty $11
 	note as2 $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	sust $02
+	rest $02
 	duty $11
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	sust $10
+	rest $10
 	duty $11
 	note g2  $0e
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	sust $02
+	rest $02
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	sust $10
+	rest $10
 	duty $11
 	note ds2 $0e
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	sust $02
+	rest $02
 	duty $11
 	note gs2 $07
 	duty $0f
 	note gs2 $05
-	sust $10
+	rest $10
 	duty $11
 	note gs2 $0e
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	sust $02
+	rest $02
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	sust $10
+	rest $10
 	duty $11
 	note g2  $0e
 	note c2  $07
 	duty $0f
 	note c2  $05
-	sust $02
+	rest $02
 	duty $11
 	note c2  $07
 	duty $0f
 	note c2  $05
-	sust $10
+	rest $10
 	duty $11
 	note e2  $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	sust $02
+	rest $02
 	duty $11
 	note f2  $0e
 	duty $0f
 	note f2  $05
-	sust $09
+	rest $09
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	sust $02
+	rest $02
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	sust $02
+	rest $02
 	duty $11
 	note f2  $0e
 	note g2  $0e
@@ -806,76 +806,76 @@ musicee2da:
 	note as2 $07
 	duty $0f
 	note as2 $05
-	sust $02
+	rest $02
 	duty $11
 	note as2 $07
 	duty $0f
 	note as2 $05
-	sust $10
+	rest $10
 	duty $11
 	note as2 $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	sust $02
+	rest $02
 	duty $11
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	sust $10
+	rest $10
 	duty $11
 	note ds2 $0e
 	duty $11
 	note f2  $07
 	duty $0f
 	note f2  $05
-	sust $02
+	rest $02
 	duty $11
 	note f2  $0e
 	duty $0f
 	note f2  $05
-	sust $09
+	rest $09
 	duty $11
 	note f2  $0e
 	note ds2 $07
 	duty $0f
 	note ds2 $05
-	sust $02
+	rest $02
 	duty $11
 	note ds2 $0e
 	duty $0f
 	note ds2 $05
-	sust $09
+	rest $09
 	duty $11
 	note ds2 $0e
 	duty $11
 	note d2  $07
 	duty $0f
 	note d2  $05
-	sust $02
+	rest $02
 	duty $11
 	note d2  $07
 	duty $0f
 	note d2  $05
-	sust $10
+	rest $10
 	duty $11
 	note d2  $0e
 	note g2  $07
 	duty $0f
 	note g2  $05
-	sust $02
+	rest $02
 	duty $11
 	note g2  $07
 	duty $0f
 	note g2  $05
-	sust $10
+	rest $10
 	duty $11
 	note g2  $0e
 	duty $11
 	note c2  $0e
 	duty $0f
 	note c2  $05
-	sust $09
+	rest $09
 	duty $11
 	note c2  $1c
 	note d2  $1c

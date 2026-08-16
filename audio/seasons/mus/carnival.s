@@ -233,7 +233,7 @@ musiceecb1:
 	note c6  $0e
 	note e6  $0e
 	note d6  $1c
-	sust $1c
+	rest $1c
 	goto musiceecb1
 	cmdff
 

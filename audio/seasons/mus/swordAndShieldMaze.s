@@ -403,9 +403,9 @@ musicf0536:
 	note gs2 $12
 	note g2  $12
 	note e2  $24
-	sust $ff
-	sust $ff
-	sust $8a
+	rest $ff
+	rest $ff
+	rest $8a
 	goto musicf0536
 	cmdff
 

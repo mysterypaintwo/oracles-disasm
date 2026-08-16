@@ -340,7 +340,7 @@ musSongOfStormsChannel4:
 .rept 2
 	duty $17
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 2
 	duty $17
@@ -351,7 +351,7 @@ musSongOfStormsChannel4:
 .rept 2
 	duty $17
 	note a3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 4
 	duty $17
@@ -363,7 +363,7 @@ musicf8741:
 	note d2  $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 6
 	note e2  $10
@@ -372,7 +372,7 @@ musicf8741:
 	note f2  $10
 .rept 2
 	note a3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 8
 	note e2  $10
@@ -381,7 +381,7 @@ musicf8741:
 	note as2 $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 10
 	note f2  $10
@@ -390,7 +390,7 @@ musicf8741:
 	note as2 $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 12
 	note a2  $10
@@ -399,7 +399,7 @@ musicf8741:
 	note d2  $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 14
 	note e2  $10
@@ -408,7 +408,7 @@ musicf8741:
 	note f2  $10
 .rept 2
 	note a3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 16
 	note e2  $10
@@ -417,7 +417,7 @@ musicf8741:
 	note as2 $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 18
 	note a2  $10
@@ -426,7 +426,7 @@ musicf8741:
 	note d2  $10
 .rept 2
 	note f3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 20
 	note e2  $10
@@ -435,7 +435,7 @@ musicf8741:
 	note f2  $10
 .rept 2
 	note a3  $04
-	sust $0c
+	rest $0c
 .endr
 ; Measure 22
 	note e2  $10

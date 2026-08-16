@@ -291,43 +291,43 @@ musiced8d1:
 	vol $b
 	note c3  $1c
 	note g3  $07
-	sust $07
+	rest $07
 	note g3  $07
-	sust $07
+	rest $07
 	note ds3 $1c
 	note e3  $07
-	sust $15
+	rest $15
 	note c3  $1c
 	note g3  $07
-	sust $07
+	rest $07
 	note g3  $07
-	sust $07
+	rest $07
 	note gs3 $1c
 	note g3  $07
-	sust $15
+	rest $15
 	note c3  $0e
-	sust $ee
+	rest $ee
 	vol $c
 	note g2  $07
-	sust $07
+	rest $07
 	note g2  $07
-	sust $07
+	rest $07
 	vol $d
 	note g2  $1c
 	note cs3 $03
 	note d3  $07
-	sust $2e
+	rest $2e
 	note g2  $07
-	sust $07
+	rest $07
 	vol $b
 	note g2  $07
-	sust $07
+	rest $07
 	vol $b
 	note g2  $1c
 	vol $c
 	note fs3 $03
 	note g3  $07
-	sust $cf
+	rest $cf
 	vol $b
 	note g2  $07
 	vol $b
@@ -356,30 +356,30 @@ musiced8d1:
 	note e3  $07
 	note f3  $07
 	note g2  $07
-	sust $07
+	rest $07
 	note b4  $07
 	note as4 $07
 	note a4  $07
-	sust $07
+	rest $07
 	note gs4 $07
-	sust $07
+	rest $07
 	note g4  $07
-	sust $07
+	rest $07
 	note fs4 $07
-	sust $07
+	rest $07
 	note f4  $07
-	sust $07
+	rest $07
 	note e4  $07
-	sust $07
+	rest $07
 	note ds4 $07
-	sust $15
+	rest $15
 	note d4  $07
-	sust $15
+	rest $15
 	note cs4 $07
-	sust $11
+	rest $11
 	note fs2 $04
 	note g2  $07
-	sust $15
+	rest $15
 	goto musiced8d1
 	cmdff
 

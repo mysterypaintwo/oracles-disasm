@@ -211,42 +211,42 @@ musiceda60:
 
 musSunkenCityChannel4:
 musicedaef:
-	sust $ff
-	sust $5f
+	rest $ff
+	rest $5f
 	duty $17
 	note g4  $07
-	sust $07
+	rest $07
 	note g5  $07
-	sust $23
+	rest $23
 	note g4  $07
-	sust $07
+	rest $07
 	note g5  $07
-	sust $23
+	rest $23
 	note g4  $07
-	sust $07
+	rest $07
 	note g5  $07
-	sust $23
+	rest $23
 	note g4  $07
-	sust $07
+	rest $07
 	note g5  $07
-	sust $15
+	rest $15
 	duty $10
 	note fs2 $03
 	note g2  $6d
-	sust $1c
+	rest $1c
 	note g2  $07
 	note gs2 $07
 	note a2  $07
 	note b2  $05
 	note b2  $02
 	note c3  $07
-	sust $07
+	rest $07
 	note g2  $07
-	sust $05
+	rest $05
 	note as2 $02
 	note gs2 $0e
 	note g2  $07
-	sust $07
+	rest $07
 	goto musicedaef
 	cmdff
 

@@ -119,42 +119,42 @@ musHerosCaveChannel4:
 musicf0d5b:
 	duty $17
 	note ds4 $07
-	sust $15
+	rest $15
 	note g4  $15
 	note ds4 $07
 	note as4 $07
-	sust $15
+	rest $15
 	note a4  $2a
-	sust $62
+	rest $62
 	note ds4 $07
-	sust $15
+	rest $15
 	note g4  $15
 	note ds4 $07
 	note a3  $07
-	sust $15
+	rest $15
 	note as3 $38
-	sust $54
+	rest $54
 	note ds4 $07
-	sust $15
+	rest $15
 	note g4  $15
 	note as4 $07
 	note d5  $07
-	sust $15
+	rest $15
 	note fs4 $23
-	sust $07
+	rest $07
 	note as4 $1c
 	note a4  $1c
 	note g4  $0e
 	note c4  $0e
 	note d4  $0e
 	note fs4 $07
-	sust $15
+	rest $15
 	note as4 $15
 	note g4  $07
 	note as4 $07
-	sust $15
+	rest $15
 	note e4  $2a
-	sust $62
+	rest $62
 	goto musicf0d5b
 	cmdff
 

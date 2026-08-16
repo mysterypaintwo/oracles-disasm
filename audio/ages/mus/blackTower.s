@@ -275,12 +275,12 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $09
 	duty $0f
 	note cs2 $09
@@ -288,12 +288,12 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $09
 	duty $0f
 	note cs2 $09
@@ -301,12 +301,12 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $09
 	duty $0f
 	note cs2 $09
@@ -314,12 +314,12 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $09
 	duty $0f
 	note cs2 $09
@@ -327,12 +327,12 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $09
 	duty $0f
 	note cs2 $09
@@ -340,84 +340,84 @@ musicf20b0:
 	note cs2 $09
 	duty $0f
 	note cs2 $09
-	sust $5a
+	rest $5a
 	duty $18
 	note cs2 $04
-	sust $05
+	rest $05
 	note cs2 $04
-	sust $05
+	rest $05
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note gs1 $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note a1  $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note b1  $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note gs1 $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note a1  $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note b1  $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note c2  $09
 	vol $8
 	note f1  $04
-	sust $05
+	rest $05
 	duty $18
 	note as1 $09
 	duty $0f
@@ -426,7 +426,7 @@ musicf20b0:
 	note as1 $09
 	duty $0f
 	note as1 $09
-	sust $24
+	rest $24
 	duty $18
 	note as1 $09
 	duty $0f
@@ -435,12 +435,12 @@ musicf20b0:
 	note as1 $09
 	duty $0f
 	note as1 $09
-	sust $12
+	rest $12
 	duty $18
 	note as1 $04
-	sust $05
+	rest $05
 	note as1 $04
-	sust $05
+	rest $05
 	note as1 $09
 	duty $0f
 	note as1 $09
@@ -448,7 +448,7 @@ musicf20b0:
 	note as1 $09
 	duty $0f
 	note as1 $09
-	sust $24
+	rest $24
 	duty $18
 	note as1 $09
 	duty $0f
@@ -457,12 +457,12 @@ musicf20b0:
 	note as1 $09
 	duty $0f
 	note as1 $09
-	sust $12
+	rest $12
 	duty $18
 	note as1 $04
-	sust $05
+	rest $05
 	note as1 $04
-	sust $05
+	rest $05
 	note c1  $09
 	duty $0f
 	note c1  $09
@@ -470,7 +470,7 @@ musicf20b0:
 	note c1  $09
 	duty $0f
 	note c1  $09
-	sust $24
+	rest $24
 	duty $18
 	note c2  $09
 	duty $0f
@@ -479,7 +479,7 @@ musicf20b0:
 	note c2  $09
 	duty $0f
 	note c2  $09
-	sust $24
+	rest $24
 	duty $18
 	note f2  $12
 	duty $0f

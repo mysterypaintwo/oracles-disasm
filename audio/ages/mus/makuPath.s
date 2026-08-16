@@ -370,57 +370,57 @@ musicef79b:
 musMakuPathChannel4:
 	cmdf2
 musicef89e:
-	sust $20
+	rest $20
 	duty $0e
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
 	note g2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note as2 $08
 	duty $0f
 	note as2 $08
-	sust $10
+	rest $10
 	duty $0e
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
 	note g2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note as2 $08
 	duty $0f
 	note as2 $08
-	sust $10
+	rest $10
 	duty $0e
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
@@ -449,22 +449,22 @@ musicef89e:
 	note ds3 $08
 	duty $0f
 	note ds3 $08
-	sust $50
+	rest $50
 	duty $0e
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
 	note g2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $0a
 	note as2 $0b
@@ -472,17 +472,17 @@ musicef89e:
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
 	note g2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $0a
 	note as2 $0b
@@ -490,22 +490,22 @@ musicef89e:
 	note c3  $08
 	duty $0f
 	note c3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g3  $08
 	duty $0f
 	note g3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note g2  $08
 	duty $0f
 	note g2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note a2  $08
 	duty $0f
 	note a2  $08
-	sust $10
+	rest $10
 	duty $0e
 	note b2  $08
 	duty $0f
@@ -518,12 +518,12 @@ musicef89e:
 	note d3  $08
 	duty $0f
 	note d3  $08
-	sust $10
+	rest $10
 	duty $0e
 	note ds3 $08
 	duty $0f
 	note ds3 $08
-	sust $10
+	rest $10
 	goto musicef89e
 	cmdff
 

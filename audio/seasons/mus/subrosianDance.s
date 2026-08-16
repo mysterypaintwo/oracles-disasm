@@ -462,20 +462,20 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $38
 	note g2  $07
@@ -485,13 +485,13 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note c2  $03
@@ -504,7 +504,7 @@ musicf3194:
 	note b1  $03
 	duty $0f
 	note b1  $06
-	sust $13
+	rest $13
 	duty $0e
 	note cs2 $03
 	note d2  $04
@@ -523,20 +523,20 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $38
 	note g2  $07
@@ -546,20 +546,20 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $38
 	note g2  $07
@@ -569,7 +569,7 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $04
@@ -580,14 +580,14 @@ musicf3194:
 	note b2  $05
 	duty $0f
 	note b2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $20
 	note b2  $05
@@ -602,20 +602,20 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $38
 	note g2  $07
@@ -625,20 +625,20 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note b2  $0e
 	note as2 $1c
 	duty $0f
 	note as2 $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $0e
 	note e2  $0e
 	note b2  $07
 	duty $0f
 	note b2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note as2 $38
 	note g2  $07
@@ -648,7 +648,7 @@ musicf3194:
 	note e2  $1c
 	duty $0f
 	note e2  $0e
-	sust $46
+	rest $46
 	duty $0e
 	note as2 $0b
 	duty $0f
@@ -657,22 +657,22 @@ musicf3194:
 	note a2  $07
 	duty $0f
 	note a2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note g2  $07
 	duty $0f
 	note g2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note f2  $07
 	duty $0f
 	note f2  $04
-	sust $03
+	rest $03
 	duty $0e
 	note e2  $0e
 	duty $0f
 	note e2  $0a
-	sust $04
+	rest $04
 	duty $0e
 	note g2  $07
 	note a2  $07

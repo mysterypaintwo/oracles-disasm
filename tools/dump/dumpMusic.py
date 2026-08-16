@@ -205,14 +205,21 @@ def parseChannelData(address, channel, chanOut):
         elif b == 0x60:
             param = rom[address]
             address+=1
-            # Dumping from the original ROM here, where $60 never actually cut the
-            # channel off cleanly (a pre-fix audio.s bug -- it retriggered a decaying
-            # envelope from whatever volume was already playing, which sounds like a
-            # tie/sustain rather than a rest, especially when chained). Emit `sust`
-            # (tie/sustain, $61 -- see musicMacros.s) instead of `rest`, so a fresh dump
-            # of the vanilla ROM keeps sounding the way it always has once compiled
-            # through the fixed engine, which actually does cut `rest` off cleanly.
-            chanOut.write('\tsust ' + wlahex(param,2) + '\n')
+            if channel == 4 or channel == 5:
+                # The wave channel's $60 handler (standardCmdChannels4To5) already did a
+                # clean, non-retriggering NR32 mute even before the engine fix -- it was
+                # never buggy, so it decodes to a real `rest` unchanged.
+                chanOut.write('\trest ' + wlahex(param,2) + '\n')
+            else:
+                # Square and noise channels' $60 never actually cut the channel off
+                # cleanly on the original hardware (a pre-fix audio.s bug -- square
+                # retriggered a decaying envelope from whatever volume was already
+                # playing, and noise did nothing at all -- both sound like a tie/sustain
+                # rather than a rest, especially when chained). Emit `sust` (tie/sustain,
+                # $61 -- see musicMacros.s) instead of `rest`, so a fresh dump of the
+                # vanilla ROM keeps sounding the way it always has once compiled through
+                # the fixed engine, which actually does cut `rest` off cleanly.
+                chanOut.write('\tsust ' + wlahex(param,2) + '\n')
 
         elif channel >= 6:
             # Noise channels

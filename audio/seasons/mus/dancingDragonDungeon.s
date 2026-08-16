@@ -655,145 +655,145 @@ musicf2441:
 	cmdff
 
 musDancingDragonDungeonChannel4:
-	sust $3f
+	rest $3f
 	cmdf2
 musicf25dc:
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
-	duty $0e
-	note g2  $12
-	note gs2 $09
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $49
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note g2  $12
 	note gs2 $09
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $49
+	rest $49
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
-	duty $0e
-	note g2  $12
-	note gs2 $09
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $49
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note g2  $12
 	note gs2 $09
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $49
+	rest $49
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
-	duty $0e
-	note g2  $12
-	note gs2 $09
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $49
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note g2  $12
 	note gs2 $09
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $49
+	rest $49
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $0a
-	duty $0e
-	note g2  $12
-	note gs2 $09
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $49
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
-	duty $0e
-	note a2  $04
-	duty $0f
-	note a2  $04
-	sust $0a
+	rest $0a
 	duty $0e
 	note g2  $12
 	note gs2 $09
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $25
+	rest $49
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note g2  $12
+	note gs2 $09
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $49
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note g2  $12
+	note gs2 $09
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $49
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note g2  $12
+	note gs2 $09
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $49
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $0a
+	duty $0e
+	note g2  $12
+	note gs2 $09
+	note a2  $04
+	duty $0f
+	note a2  $04
+	rest $25
 	duty $0e
 	note a2  $09
 	note e2  $09
@@ -811,7 +811,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -824,7 +824,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -837,7 +837,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -850,7 +850,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -863,7 +863,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -876,7 +876,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -889,7 +889,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -902,7 +902,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $12
+	rest $12
 	duty $0e
 	note e2  $09
 	note g2  $09
@@ -921,7 +921,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -934,7 +934,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -947,7 +947,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -960,7 +960,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -973,7 +973,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note a2  $04
 	duty $0f
@@ -986,7 +986,7 @@ musicf25dc:
 	note a2  $04
 	duty $0f
 	note a2  $05
-	sust $3f
+	rest $3f
 	duty $0e
 	note b2  $04
 	duty $0f
@@ -999,7 +999,7 @@ musicf25dc:
 	note b2  $04
 	duty $0f
 	note b2  $05
-	sust $1b
+	rest $1b
 	duty $0e
 	note b2  $04
 	duty $0f
@@ -1012,7 +1012,7 @@ musicf25dc:
 	note e2  $04
 	duty $0f
 	note e2  $05
-	sust $3f
+	rest $3f
 	goto musicf25dc
 	cmdff
 

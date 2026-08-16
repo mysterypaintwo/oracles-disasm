@@ -400,7 +400,7 @@ sndTimewarpInitiatedChannel3:
 	cmdff
 
 sndTimewarpInitiatedChannel5:
-	sust $cc
+	rest $cc
 	cmdff
 
 sndTimewarpInitiatedChannel7:

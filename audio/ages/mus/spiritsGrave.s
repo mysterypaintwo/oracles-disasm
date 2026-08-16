@@ -425,7 +425,7 @@ musicf2e8d:
 
 musSpiritsGraveChannel4:
 musicf2fe0:
-	sust $c4
+	rest $c4
 	duty $0e
 	note d2  $54
 	note cs2 $2a
@@ -438,7 +438,7 @@ musicf2fe0:
 	note fs1 $46
 	duty $0f
 	note fs1 $07
-	sust $07
+	rest $07
 	duty $0e
 	note cs2 $38
 	note a2  $38
@@ -448,7 +448,7 @@ musicf2fe0:
 	note c3  $38
 	note fs1 $38
 	note f1  $38
-	sust $70
+	rest $70
 	goto musicf2fe0
 	cmdff
 

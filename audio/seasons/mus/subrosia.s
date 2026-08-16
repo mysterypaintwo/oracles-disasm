@@ -256,7 +256,7 @@ musicfb193:
 	note fs3 $09
 	duty $0f
 	note fs3 $09
-	sust $5a
+	rest $5a
 	duty $0e
 	note b2  $24
 	note f3  $12
@@ -272,26 +272,26 @@ musicfb193:
 	note fs3 $09
 	duty $0f
 	note fs3 $09
-	sust $5a
+	rest $5a
 	duty $0e
 	note g3  $36
 	note fs3 $12
 	note e3  $09
 	duty $0f
 	note e3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note d3  $09
 	duty $0f
 	note d3  $09
-	sust $12
+	rest $12
 	duty $0e
 	note c3  $48
 	note b2  $12
-	sust $36
+	rest $36
 	note as2 $48
 	note a2  $12
-	sust $36
+	rest $36
 	note gs2 $48
 	note fs2 $36
 	duty $0f
@@ -306,13 +306,13 @@ musicfb193:
 	note fs2 $09
 	duty $0f
 	note fs2 $09
-	sust $12
+	rest $12
 	duty $0e
 	note f2  $03
 	note fs2 $09
 	duty $0f
 	note fs2 $09
-	sust $0f
+	rest $0f
 	duty $0e
 	goto musicfb193
 	cmdff

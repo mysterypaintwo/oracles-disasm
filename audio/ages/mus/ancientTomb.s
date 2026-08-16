@@ -477,8 +477,8 @@ musicf7e2a:
 	note f2  $24
 	note e2  $24
 	note f2  $24
-	sust $ff
-	sust $21
+	rest $ff
+	rest $21
 	goto musicf7e2a
 	cmdff
 

@@ -220,20 +220,20 @@ musicfbf0a:
 	note d4  $05
 	note ds4 $2d
 	note c4  $0a
-	sust $32
+	rest $32
 	note g3  $0a
 	note as3 $14
 	note a3  $0a
 	note as3 $14
 	note a3  $0a
 	note g3  $0a
-	sust $14
+	rest $14
 	note f3  $0a
-	sust $14
+	rest $14
 	note d4  $05
 	note ds4 $2d
 	note c4  $0a
-	sust $32
+	rest $32
 	note g3  $0a
 	note as3 $0a
 	note a3  $0a
@@ -244,25 +244,25 @@ musicfbf0a:
 	note g3  $14
 	note as3 $0a
 	note c4  $0a
-	sust $0a
+	rest $0a
 	note ds4 $0a
 	note e4  $05
 	note f4  $2d
 	note c4  $0a
-	sust $32
+	rest $32
 	note d4  $0a
 	note ds4 $14
 	note d4  $0a
 	note ds4 $14
 	note d4  $0a
 	note c4  $0a
-	sust $14
+	rest $14
 	note as3 $0a
-	sust $14
+	rest $14
 	note e4  $05
 	note f4  $2d
 	note a4  $0a
-	sust $32
+	rest $32
 	note c5  $0a
 	note ds5 $0a
 	note d5  $0a
@@ -270,7 +270,7 @@ musicfbf0a:
 	note ds5 $0a
 	note d5  $0a
 	note c5  $05
-	sust $05
+	rest $05
 	note c5  $14
 	note ds5 $0a
 	note d5  $14
@@ -279,7 +279,7 @@ musicfbf0a:
 	note g2  $3c
 	duty $0f
 	note g2  $14
-	sust $78
+	rest $78
 	duty $0e
 	note g2  $07
 	duty $0f
@@ -296,7 +296,7 @@ musicfbf0a:
 	note gs2 $3c
 	duty $0f
 	note gs2 $14
-	sust $78
+	rest $78
 	duty $0e
 	note gs2 $07
 	duty $0f
@@ -313,13 +313,13 @@ musicfbf0a:
 	note g2  $3c
 	duty $0f
 	note g2  $14
-	sust $be
+	rest $be
 	duty $0e
 	note g2  $0f
-	sust $2d
+	rest $2d
 	duty $0e
 	note g2  $0f
-	sust $2d
+	rest $2d
 	duty $0e
 	note g2  $0f
 	duty $0f

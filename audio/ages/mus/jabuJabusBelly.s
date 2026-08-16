@@ -343,7 +343,7 @@ musicf396d:
 	note a2  $0b
 	duty $0f
 	note a2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note a2  $0b
 	duty $0f
@@ -352,16 +352,7 @@ musicf396d:
 	note a2  $0b
 	duty $0f
 	note a2  $0b
-	sust $2c
-	duty $0e
-	note g2  $0b
-	duty $0f
-	note g2  $0b
-	duty $0e
-	note g2  $0b
-	duty $0f
-	note g2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note g2  $0b
 	duty $0f
@@ -370,25 +361,7 @@ musicf396d:
 	note g2  $0b
 	duty $0f
 	note g2  $0b
-	sust $2c
-	duty $0e
-	note a2  $0b
-	duty $0f
-	note a2  $0b
-	duty $0e
-	note a2  $0b
-	duty $0f
-	note a2  $0b
-	sust $2c
-	duty $0e
-	note a2  $0b
-	duty $0f
-	note a2  $0b
-	duty $0e
-	note a2  $0b
-	duty $0f
-	note a2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note g2  $0b
 	duty $0f
@@ -397,7 +370,25 @@ musicf396d:
 	note g2  $0b
 	duty $0f
 	note g2  $0b
-	sust $2c
+	rest $2c
+	duty $0e
+	note a2  $0b
+	duty $0f
+	note a2  $0b
+	duty $0e
+	note a2  $0b
+	duty $0f
+	note a2  $0b
+	rest $2c
+	duty $0e
+	note a2  $0b
+	duty $0f
+	note a2  $0b
+	duty $0e
+	note a2  $0b
+	duty $0f
+	note a2  $0b
+	rest $2c
 	duty $0e
 	note g2  $0b
 	duty $0f
@@ -406,7 +397,16 @@ musicf396d:
 	note g2  $0b
 	duty $0f
 	note g2  $0b
-	sust $2c
+	rest $2c
+	duty $0e
+	note g2  $0b
+	duty $0f
+	note g2  $0b
+	duty $0e
+	note g2  $0b
+	duty $0f
+	note g2  $0b
+	rest $2c
 	duty $0e
 	note a2  $0b
 	duty $0f
@@ -415,7 +415,7 @@ musicf396d:
 	note a2  $0b
 	duty $0f
 	note a2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note a2  $0b
 	duty $0f
@@ -424,7 +424,7 @@ musicf396d:
 	note a2  $0b
 	duty $0f
 	note a2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note gs2 $0b
 	duty $0f
@@ -433,7 +433,7 @@ musicf396d:
 	note gs2 $0b
 	duty $0f
 	note gs2 $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note gs2 $0b
 	duty $0f
@@ -442,7 +442,7 @@ musicf396d:
 	note gs2 $0b
 	duty $0f
 	note gs2 $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note as2 $0b
 	duty $0f
@@ -451,7 +451,7 @@ musicf396d:
 	note as2 $0b
 	duty $0f
 	note as2 $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note as2 $0b
 	duty $0f
@@ -460,7 +460,7 @@ musicf396d:
 	note as2 $0b
 	duty $0f
 	note as2 $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note b2  $0b
 	duty $0f
@@ -469,7 +469,7 @@ musicf396d:
 	note b2  $0b
 	duty $0f
 	note b2  $0b
-	sust $2c
+	rest $2c
 	duty $0e
 	note b2  $0b
 	duty $0f
@@ -478,7 +478,7 @@ musicf396d:
 	note b2  $0b
 	duty $0f
 	note b2  $0b
-	sust $2c
+	rest $2c
 	goto musicf396d
 	cmdff
 

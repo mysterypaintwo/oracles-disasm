@@ -314,88 +314,88 @@ musicf25a9:
 	note e3  $07
 	duty $2b
 	note e3  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note fs3 $07
 	duty $2b
 	note fs3 $07
-	sust $2a
+	rest $2a
 	duty $18
 	note b3  $07
 	duty $2b
 	note b3  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note e3  $07
 	duty $2b
 	note e3  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note c3  $2e
 	note b2  $0a
 	duty $2b
 	note b2  $09
-	sust $2f
+	rest $2f
 	duty $18
 	note e3  $07
 	duty $2b
 	note e3  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $2a
+	rest $2a
 	duty $18
 	note fs3 $07
 	duty $2b
 	note fs3 $07
-	sust $2a
+	rest $2a
 	duty $18
 	note cs3 $07
 	duty $2b
 	note cs3 $07
-	sust $2a
+	rest $2a
 	duty $18
 	note b3  $07
 	duty $2b
 	note b3  $07
-	sust $0e
+	rest $0e
 	duty $18
 	note fs3 $07
 	duty $2b
 	note fs3 $07
-	sust $0e
+	rest $0e
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $0e
+	rest $0e
 	duty $18
 	note f2  $07
 	duty $2b
 	note f2  $07
-	sust $0e
+	rest $0e
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $46
+	rest $46
 	duty $18
 	note b2  $07
 	duty $2b
 	note b2  $07
-	sust $0e
+	rest $0e
 	goto musicf25a9
 	cmdff
 

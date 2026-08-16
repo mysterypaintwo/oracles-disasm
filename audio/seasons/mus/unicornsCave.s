@@ -827,7 +827,7 @@ musicf16a7:
 	cmdff
 
 musUnicornsCaveChannel4:
-	sust $1c
+	rest $1c
 	cmdf2
 musicf1941:
 	duty $0e
@@ -850,7 +850,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	sust $20
+	rest $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -883,7 +883,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	sust $1c
+	rest $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -904,7 +904,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	sust $20
+	rest $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -937,7 +937,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	sust $1c
+	rest $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -958,7 +958,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	sust $20
+	rest $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -991,7 +991,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	sust $1c
+	rest $1c
 	duty $0e
 	note fs2 $0e
 	duty $0c
@@ -1012,7 +1012,7 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	sust $20
+	rest $20
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -1045,7 +1045,7 @@ musicf1941:
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	sust $62
+	rest $62
 	duty $0e
 	note fs2 $07
 	duty $0c
@@ -1062,20 +1062,16 @@ musicf1941:
 	note fs2 $03
 	duty $0c
 	note fs2 $07
-	sust $2e
+	rest $2e
 	duty $0e
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	sust $0e
+	rest $0e
 	duty $0e
 	note fs2 $07
 	duty $0c
 	note fs2 $07
-	duty $0e
-	note fs2 $03
-	duty $0c
-	note fs2 $04
 	duty $0e
 	note fs2 $03
 	duty $0c
@@ -1083,8 +1079,12 @@ musicf1941:
 	duty $0e
 	note fs2 $03
 	duty $0c
+	note fs2 $04
+	duty $0e
+	note fs2 $03
+	duty $0c
 	note fs2 $07
-	sust $20
+	rest $20
 	duty $0e
 	note e3  $07
 	duty $0c
@@ -1153,7 +1153,7 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $07
-	sust $3c
+	rest $3c
 	duty $0e
 	note b2  $03
 	duty $0c
@@ -1174,12 +1174,12 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $04
-	sust $31
+	rest $31
 	duty $0e
 	note b2  $03
 	duty $0c
 	note b2  $07
-	sust $12
+	rest $12
 	duty $0e
 	note b1  $03
 	duty $0c
@@ -1196,7 +1196,7 @@ musicf1941:
 	note b1  $03
 	duty $0c
 	note b1  $0b
-	sust $62
+	rest $62
 	duty $0e
 	note cs2 $07
 	duty $0c
@@ -1221,7 +1221,7 @@ musicf1941:
 	note cs2 $03
 	duty $0c
 	note cs2 $07
-	sust $19
+	rest $19
 	goto musicf1941
 	cmdff
 

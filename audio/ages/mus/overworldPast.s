@@ -661,7 +661,7 @@ musicee79b:
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 2	
 .rept 4
@@ -669,7 +669,7 @@ musicee79b:
 	note g2  $04
 	duty $0f
 	note g2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 3
 .rept 4
@@ -677,7 +677,7 @@ musicee79b:
 	note f2  $04
 	duty $0f
 	note f2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 4
 .rept 4
@@ -685,7 +685,7 @@ musicee79b:
 	note c3  $04
 	duty $0f
 	note c3  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 5
 .rept 4
@@ -693,7 +693,7 @@ musicee79b:
 	note as2 $04
 	duty $0f
 	note as2 $04
-	sust $14
+	rest $14
 .endr
 ; Measure 6
 .rept 4
@@ -701,7 +701,7 @@ musicee79b:
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 7
 .rept 4
@@ -709,20 +709,20 @@ musicee79b:
 	note b2  $04
 	duty $0f
 	note b2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 8
 	duty $0e
 	note e3  $04
 	duty $0f
 	note e3  $04
-	sust $14
+	rest $14
 
 	duty $0e
 	note a3  $04
 	duty $0f
 	note a3  $04
-	sust $14
+	rest $14
 
 	duty $0e
 	note b3  $1c
@@ -730,20 +730,20 @@ musicee79b:
 	note fs3 $04
 	duty $0f
 	note fs3 $04
-	sust $06
+	rest $06
 
 	duty $0e
 	note gs3 $04
 	duty $0f
 	note gs3 $04
-	sust $06
+	rest $06
 ; Measure 9
 .rept 4
 	duty $0e
 	note a2  $04
 	duty $0f
 	note a2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 10
 .rept 4
@@ -751,7 +751,7 @@ musicee79b:
 	note g2  $04
 	duty $0f
 	note g2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 11
 .rept 4
@@ -759,7 +759,7 @@ musicee79b:
 	note f2  $04
 	duty $0f
 	note f2  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 12
 .rept 4
@@ -767,7 +767,7 @@ musicee79b:
 	note c3  $04
 	duty $0f
 	note c3  $04
-	sust $14
+	rest $14
 .endr
 ; Measure 13
 .rept 4
@@ -775,7 +775,7 @@ musicee79b:
 	note as2 $04
 	duty $0f
 	note as2 $04
-	sust $14
+	rest $14
 .endr
 ; Measure 14
 	duty $17
@@ -788,7 +788,7 @@ musicee79b:
 	note b4  $0a
 
 	note c5  $09
-	sust $09
+	rest $09
 	note c5  $0a
 
 	note c5  $09
@@ -796,13 +796,13 @@ musicee79b:
 	note a4  $0a
 ; Measure 15	
 	note e5  $0e
-	sust $04
+	rest $04
 	note c5  $0e
-	sust $05
+	rest $05
 
 	note a4  $13
 	note gs4 $12
-	sust $0a
+	rest $0a
 
 	note gs4 $09
 	note fs4 $09
@@ -817,7 +817,7 @@ musicee79b:
 	note b4  $0a
 
 	note c5  $1c
-	sust $1c
+	rest $1c
 	goto musicee79b
 	cmdff
 

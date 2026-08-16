@@ -173,7 +173,7 @@ musiceddee:
 	note a2  $09
 	duty $0f
 	note a2  $09
-	sust $24
+	rest $24
 	duty $0e
 	note a2  $24
 	duty $0f
@@ -188,7 +188,7 @@ musiceddee:
 	note a2  $09
 	duty $0f
 	note a2  $09
-	sust $24
+	rest $24
 	duty $0e
 	note a2  $24
 	note e3  $24
@@ -218,7 +218,7 @@ musiceddee:
 	note a2  $09
 	duty $0f
 	note a2  $09
-	sust $24
+	rest $24
 	duty $0e
 	note a2  $24
 	duty $0f
@@ -233,7 +233,7 @@ musiceddee:
 	note a2  $09
 	duty $0f
 	note a2  $09
-	sust $24
+	rest $24
 	goto musiceddee
 	cmdff
 

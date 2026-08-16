@@ -55,8 +55,8 @@ sndEchoesChannel3:
 
 sndEchoesChannel5:
 	duty $0e
-	sust $fa
-	sust $08
+	rest $fa
+	rest $08
 	cmdff
 
 sndEchoesChannel7:

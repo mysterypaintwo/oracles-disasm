@@ -335,30 +335,30 @@ musicf1037:
 	cmdff
 
 musAmbiPalaceChannel4:
-	sust $18
+	rest $18
 musicf115f:
 	duty $0e
 	note e3  $1e
-	sust $06
+	rest $06
 	note e3  $06
-	sust $06
+	rest $06
 	note e3  $18
-	sust $0c
+	rest $0c
 	note e3  $06
-	sust $06
+	rest $06
 	duty $0e
 	note e3  $12
-	sust $06
+	rest $06
 	note e3  $12
-	sust $06
+	rest $06
 	note e3  $12
-	sust $06
+	rest $06
 	note a2  $12
-	sust $06
+	rest $06
 	note b2  $12
-	sust $06
+	rest $06
 	note b2  $12
-	sust $06
+	rest $06
 	note e3  $0c
 	note ds3 $0c
 	note e3  $0c
@@ -385,11 +385,11 @@ musicf115f:
 	note d3  $30
 	note b2  $30
 	note e2  $12
-	sust $06
+	rest $06
 	note e2  $12
-	sust $06
+	rest $06
 	note e2  $1e
-	sust $06
+	rest $06
 	note gs2 $0c
 	note a2  $18
 	note e3  $0c
@@ -418,9 +418,9 @@ musicf115f:
 	note a2  $24
 	note fs2 $0c
 	note b2  $12
-	sust $06
+	rest $06
 	note b2  $12
-	sust $06
+	rest $06
 	note e3  $30
 	note d3  $30
 	note cs3 $30

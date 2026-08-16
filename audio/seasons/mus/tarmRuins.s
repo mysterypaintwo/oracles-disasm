@@ -756,30 +756,30 @@ musicee701:
 musTarmRuinsChannel4:
 	duty $08
 ; Measure 1-3a 		2 measures + 1.125 beats
-	sust $ff
-	sust $25
+	rest $ff
+	rest $25
 musiceeac7:
 ; Measure 3b
 	note g5  $30
-	sust $10
+	rest $10
 
 	note fs5 $20
 ; Measure 4a
 	note g5  $10
 	note fs5 $10
 	note e5  $10
-	sust $10
+	rest $10
 	note a4  $10
-	sust $10
+	rest $10
 	note a4  $10
-	sust $10
+	rest $10
 ; Measure 5a
 	note a4  $0c
-	sust $04
+	rest $04
 	note a4  $08
 	note b4  $08
 	note c5  $38
-	sust $08
+	rest $08
 	note b4  $20
 ; Measure 6a
 	note d5  $20
@@ -787,51 +787,51 @@ musiceeac7:
 	note b4  $10
 	note a4  $10
 	note b4  $10
-	sust $10
+	rest $10
 ; Measure 7a
 	note g4  $10
-	sust $10
+	rest $10
 	note a4  $60
 ; Measure 8a
-	sust $10
+	rest $10
 	note e5  $08
-	sust $08
+	rest $08
 	note e5  $60
 ; Measure 9a-10a
-	sust $10
+	rest $10
 .rept 3
 	note e5  $08
 	note a5  $08
 	note e5  $30
 .endr
 ; Measure 11a-14a		4 measures + 1.5 beats
-	sust $ff
-	sust $ff
+	rest $ff
+	rest $ff
 	duty $08		;pointless?
-	sust $32
+	rest $32
 ; Measure 15b
 	note g5  $10
 	note a5  $10
 	note b5  $30
-	sust $10
+	rest $10
 	note e6  $30
 ; Measure 16a
 	note e6  $10
 	note d6  $18
-	sust $08
+	rest $08
 	note a5  $18
-	sust $08
+	rest $08
 	note f5  $18
-	sust $08
+	rest $08
 ; Measure 17a
 	note d5  $18
-	sust $38
+	rest $38
 	note b4  $05
 	note e5  $05
 	note a4  $06
 	note b4  $2a
 ; Measure 18a
-	sust $06
+	rest $06
 	note b4  $04
 	note e5  $04
 	note fs5 $04

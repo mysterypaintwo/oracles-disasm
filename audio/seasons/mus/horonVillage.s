@@ -221,7 +221,7 @@ musicec157:
 	note fs5 $20
 	note cs6 $20
 	note b5  $18
-	sust $08
+	rest $08
 	note b5  $10
 	note as5 $10
 	note gs5 $10
@@ -237,11 +237,11 @@ musicec157:
 	note fs5 $08
 	note gs5 $08
 	note fs5 $10
-	sust $08
+	rest $08
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	sust $2e
+	rest $2e
 	goto musicec157
 	cmdff
 

@@ -442,42 +442,42 @@ musicf31d1:
 
 musWingDungeonChannel4:
 musicf332d:
-	sust $ff
-	sust $c1
+	rest $ff
+	rest $c1
 	duty $0e
 	note c3  $07
-	sust $15
+	rest $15
 	note c3  $07
-	sust $15
+	rest $15
 	note d3  $07
-	sust $31
+	rest $31
 	note c3  $07
-	sust $07
+	rest $07
 	note c3  $07
-	sust $07
+	rest $07
 	note c3  $07
-	sust $07
+	rest $07
 	note c3  $07
-	sust $07
+	rest $07
 	note d3  $07
-	sust $31
+	rest $31
 	note c3  $07
-	sust $15
+	rest $15
 	note d3  $07
-	sust $15
+	rest $15
 	note ds3 $07
-	sust $15
+	rest $15
 	note fs3 $07
-	sust $15
+	rest $15
 	note as3 $07
-	sust $07
+	rest $07
 	note a3  $07
-	sust $07
+	rest $07
 	note ds3 $07
-	sust $07
+	rest $07
 	note d3  $07
-	sust $ff
-	sust $20
+	rest $ff
+	rest $20
 	goto musicf332d
 	cmdff
 

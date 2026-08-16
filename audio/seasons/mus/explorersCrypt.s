@@ -460,131 +460,131 @@ musExplorersCryptChannel4:
 musicf10cc:
 	duty $0e
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note d2  $0a
-	sust $6e
+	rest $6e
 	note cs2 $05
-	sust $05
+	rest $05
 	note cs2 $05
-	sust $05
+	rest $05
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note d2  $0a
-	sust $6e
+	rest $6e
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note cs2 $0b
-	sust $09
+	rest $09
 	note cs2 $0d
-	sust $6b
+	rest $6b
 	vol $b
 	note cs2 $05
-	sust $05
+	rest $05
 	note cs2 $05
-	sust $05
+	rest $05
 	vol $b
 	note cs2 $0d
-	sust $07
+	rest $07
 	note cs2 $0d
-	sust $6b
+	rest $6b
 	note cs2 $0a
-	sust $0a
+	rest $0a
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note d2  $0a
-	sust $6e
+	rest $6e
 	note cs2 $05
-	sust $05
+	rest $05
 	note cs2 $05
-	sust $05
+	rest $05
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note d2  $0a
-	sust $6e
+	rest $6e
 	note d2  $0a
-	sust $0a
+	rest $0a
 	note cs2 $0b
-	sust $09
+	rest $09
 	note d2  $0d
-	sust $7f
+	rest $7f
 	note d2  $0d
-	sust $07
+	rest $07
 	note d2  $0d
-	sust $6b
+	rest $6b
 	note c2  $05
-	sust $05
+	rest $05
 	note c2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note a1  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note a1  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note c2  $0a
 	note cs2 $0a
@@ -592,47 +592,47 @@ musicf10cc:
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note a1  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note a1  $05
 	duty $0f
@@ -645,67 +645,67 @@ musicf10cc:
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note a1  $0a
 	duty $0f
 	note a1  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $2d
+	rest $2d
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $05
+	rest $05
 	duty $0e
 	note d2  $0a
 	duty $0f
 	note d2  $05
-	sust $19
+	rest $19
 	duty $0e
 	note c2  $0a
 	note cs2 $0a

@@ -442,62 +442,62 @@ musicf5c94:
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $15
 	duty $0f
@@ -518,67 +518,67 @@ musicf5c94:
 	note e3  $07
 	duty $0f
 	note e3  $0e
-	sust $07
+	rest $07
 	duty $0e
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $05
 	duty $0f
 	note e3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b2  $05
 	duty $0f
 	note b2  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note b3  $05
 	duty $0f
 	note b3  $0f
-	sust $08
+	rest $08
 	duty $0e
 	note e3  $15
 	duty $0f
@@ -597,7 +597,7 @@ musicf5c94:
 	note e3  $07
 	duty $0f
 	note e3  $0e
-	sust $07
+	rest $07
 	goto musicf5c94
 	cmdff
 

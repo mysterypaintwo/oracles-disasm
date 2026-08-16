@@ -441,42 +441,42 @@ musice7a42:
 	note d2  $18
 	duty $0f
 	note d2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note c2  $18
 	duty $0f
 	note c2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note d2  $18
 	duty $0f
 	note d2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note c2  $18
 	duty $0f
 	note c2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note d2  $18
 	duty $0f
 	note d2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note c2  $18
 	duty $0f
 	note c2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note d2  $18
 	duty $0f
 	note d2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note c2  $18
 	duty $0f
 	note c2  $06
-	sust $2a
+	rest $2a
 	duty $0e
 	note a1  $0c
 	duty $0f
@@ -511,26 +511,26 @@ musice7a42:
 	note a2  $18
 	duty $0e
 	note a1  $0c
-	sust $04
+	rest $04
 	note a1  $08
 	note a2  $18
 	note g2  $08
 	note e2  $08
 	note g2  $08
 	note a1  $0c
-	sust $04
+	rest $04
 	note a1  $08
 	note a2  $0c
-	sust $04
+	rest $04
 	note a2  $08
 	note e2  $08
 	note g2  $08
 	note e2  $08
 	note a1  $0c
-	sust $04
+	rest $04
 	note a1  $08
 	note a2  $0c
-	sust $04
+	rest $04
 	note a2  $08
 	note g2  $08
 	note e2  $08

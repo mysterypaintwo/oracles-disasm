@@ -639,26 +639,26 @@ musicf1905:
 	note as3 $2c
 	note b3  $2c
 	note f4  $42
-	sust $16
+	rest $16
 	note as3 $2c
 	note b3  $2c
 	note fs4 $42
-	sust $16
+	rest $16
 	note as3 $2c
 	note b3  $2c
 	note gs4 $2c
 	note fs4 $2c
 	note ds4 $2c
 	note e4  $58
-	sust $84
+	rest $84
 	note b3  $2c
 	note cs4 $2c
 	note e4  $42
-	sust $16
+	rest $16
 	note b3  $2c
 	note cs4 $2c
 	note g4  $42
-	sust $16
+	rest $16
 	note fs4 $2c
 	note gs4 $2c
 	note a4  $2c
@@ -666,7 +666,7 @@ musicf1905:
 	note c5  $2c
 	note e5  $2c
 	note fs5 $58
-	sust $b0
+	rest $b0
 	goto musicf1905
 	cmdff
 

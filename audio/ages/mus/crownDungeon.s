@@ -367,7 +367,7 @@ musicf361a:
 	duty $0e
 	note f3  $1a
 	note fs3 $1a
-	sust $1a
+	rest $1a
 	note c3  $0d
 	duty $0f
 	note c3  $0d
@@ -381,7 +381,7 @@ musicf361a:
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $1a
+	rest $1a
 	duty $0e
 	note c3  $0d
 	duty $0f
@@ -396,7 +396,7 @@ musicf361a:
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $1a
+	rest $1a
 	duty $0e
 	note c3  $0d
 	duty $0f
@@ -411,23 +411,23 @@ musicf361a:
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $1a
+	rest $1a
 	duty $0e
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $34
+	rest $34
 	duty $0e
 	note c4  $0d
 	duty $0f
 	note c4  $0d
-	sust $34
+	rest $34
 	duty $0e
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $ff
-	sust $39
+	rest $ff
+	rest $39
 	duty $0e
 	note d3  $0d
 	duty $0f
@@ -439,7 +439,7 @@ musicf361a:
 	duty $0e
 	note a3  $1a
 	note as3 $1a
-	sust $1a
+	rest $1a
 	note d3  $0d
 	duty $0f
 	note d3  $0d
@@ -461,27 +461,27 @@ musicf361a:
 	note as3 $0d
 	duty $0f
 	note as3 $0d
-	sust $34
+	rest $34
 	duty $0e
 	note d3  $0d
 	duty $0f
 	note d3  $0d
-	sust $34
+	rest $34
 	duty $0e
 	note d3  $0d
 	duty $0f
 	note d3  $0d
-	sust $d0
+	rest $d0
 	duty $0e
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $34
+	rest $34
 	duty $0e
 	note c3  $0d
 	duty $0f
 	note c3  $0d
-	sust $34
+	rest $34
 	duty $0e
 	note d4  $0d
 	note cs4 $0d
@@ -493,7 +493,7 @@ musicf361a:
 	note fs3 $0d
 	duty $0f
 	note fs3 $0d
-	sust $5b
+	rest $5b
 	goto musicf361a
 	cmdff
 

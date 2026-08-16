@@ -391,7 +391,7 @@ musice7dbf:
 	cmdff
 
 musMakuTreeChannel4:
-	sust $14
+	rest $14
 musice7f16:
 	duty $17
 	note a3  $1c
@@ -407,7 +407,7 @@ musice7f16:
 	note e4  $38
 	duty $0c
 	note e4  $38
-	sust $c4
+	rest $c4
 	duty $17
 	note d4  $1c
 	note cs4 $1c
@@ -425,8 +425,8 @@ musice7f16:
 	note b3  $38
 	duty $0c
 	note b3  $38
-	sust $ff
-	sust $c1
+	rest $ff
+	rest $c1
 	goto musice7f16
 	cmdff
 
