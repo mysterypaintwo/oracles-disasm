@@ -2239,9 +2239,13 @@ playSound:
 	ld h,b
 
 @nextSoundChannel:
-	ld a,(wLoadingSoundBank) ; the sound's own bank (base + per-sound delta), not just the
-	                         ; fixed base -- lets soundChannelPointers.s live in a
-	                         ; different bank than the base audio code (see its .include)
+	; NOTE: this reads soundChannelPointers.s's own bytes (the per-sound/per-channel
+	; pointer table), which always lives in the fixed base bank -- NOT wLoadingSoundBank,
+	; which tracks where that *song's note data* (soundChannelData.s) lives instead, a
+	; separate and generally different bank. (An earlier version of this code
+	; incorrectly used wLoadingSoundBank here, corrupting every sound's setup by reading
+	; the pointer table from whatever random bank a song's note data happened to be in.)
+	ldh a,(<hSoundDataBaseBank)
 	call wMusicReadFunction
 	cp $ff
 	jr nz,+
@@ -2376,13 +2380,14 @@ playSound:
 	sla a
 	ld b,a
 	push bc
-	ld a,(wLoadingSoundBank) ; see @nextSoundChannel above
+	ldh a,(<hSoundDataBaseBank) ; see @nextSoundChannel above -- also reading from
+	                            ; soundChannelPointers.s, so also the fixed base bank
 	call wMusicReadFunction
 	pop bc
 	ld c,<hSoundChannelAddresses
 	call writeIndexedHighRamAndIncrement
 	push bc
-	ld a,(wLoadingSoundBank)
+	ldh a,(<hSoundDataBaseBank)
 	call wMusicReadFunction
 	pop bc
 	ld ($ff00+c),a
@@ -2431,27 +2436,18 @@ nonExistentFunction:
 
 .include "audio/common/noise.s"
 .include "audio/common/waveforms.s"
-; soundChannelPointers.s content is read exclusively via playSound's @nextSoundChannel
-; loop, which already goes through the bank-aware wMusicReadFunction (see the
-; wLoadingSoundBank use there) -- unlike soundPointers/waveforms/noise/frequency tables
-; below and above, which are all read via direct same-bank pointer dereferences and so
-; must stay in this bank. That makes soundChannelPointers.s the one piece of this bank's
-; data safe to relocate elsewhere for room, which matters because this bank is otherwise
-; completely full. BUILD_VANILLA (which forces exact, fixed section placement for
-; byte-for-byte reproduction of the original ROM) keeps it here unchanged; the editable
-; build moves it to its own freely-placed section below, past `.ends`.
-.ifdef BUILD_VANILLA
+; soundChannelPointers.s is read exclusively via playSound's @nextSoundChannel loop,
+; always from the fixed base bank (hSoundDataBaseBank) -- unlike soundChannelData.s
+; (the actual song note-data, which legitimately lives in whatever bank each song was
+; placed in; tracked separately via wLoadingSoundBank), there is no delta/relocation
+; mechanism for *this* table, so it must stay in this bank in every build. (An earlier
+; version of this comment claimed otherwise and relocated it for the editable build --
+; that was wrong, reused wLoadingSoundBank for the wrong purpose, and corrupted every
+; sound's setup. Fixed by reverting the relocation entirely.)
 .include {"audio/{GAME}/soundChannelPointers.s"}
-.endif
 .include {"audio/{GAME}/soundPointers.s"}
 
 .ends ; End of section AudioCode
-
-.ifndef BUILD_VANILLA
-m_section_superfree AudioChannelPointers NAMESPACE audio
-.include {"audio/{GAME}/soundChannelPointers.s"}
-.ends
-.endif
 
 
 .include {"audio/{GAME}/soundChannelData.s"}
