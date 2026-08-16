@@ -174,6 +174,22 @@
 	.endr
 .endm
 
+; Editable-build-only (see setDefaultLength below and code/audio.s's @channel0To3 short-
+; note dispatch): plays a pitch (square channels only for now) using the channel's
+; current default length instead of an explicit one -- 1 byte total instead of 2. Set
+; the default length first with setDefaultLength.
+.ifndef BUILD_VANILLA
+.macro shortNote
+	.db $62 + \1
+.endm
+
+; f4: sets the channel's default length, used by shortNote whenever it's called
+; afterward (until changed again or the channel restarts).
+.macro setDefaultLength
+	.db $f4 \1
+.endm
+.endif
+
 ; This is NOT used by the base game; it's an attempt to provide a more sane way to define music
 ; (multiple notes per line). Each pair of arguments is a note followed by a length. Can define
 ; "NOTE_END_WAIT" to set a certain amount of a note to be "rest" instead of being actually played.
@@ -266,15 +282,26 @@
 	.db $f0 \1
 .endm
 
-; f1-f3: does nothing
-.macro cmdf1
+; f1/f3: pattern-call / pattern-end (editable-build only -- see code/audio.s). Confirmed
+; unused as bare no-op bytes by every vanilla song, which is what let them be repurposed.
+; Only valid on channels 0, 1, 4, and 6 (square 1/2, wave, noise -- see
+; patternChannelSlotTable in code/audio.s); not nestable.
+.ifndef BUILD_VANILLA
+.macro patternCall
 	.db $f1
+	.dw \1
+	.db \2
 .endm
+
+.macro patternEnd
+	.db $f3
+	.dw \1
+.endm
+.endif
+
+; f2: does nothing
 .macro cmdf2
 	.db $f2
-.endm
-.macro cmdf3
-	.db $f3
 .endm
 
 ; f4-f5: duplicates of ff?

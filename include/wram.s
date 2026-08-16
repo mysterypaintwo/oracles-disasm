@@ -121,7 +121,23 @@ wChannelWaitCounters: ; $c075
 wChannelVolumes: ; $c07d
 	dsb 8
 
-; $c085-$c09f unused?
+; Editable-build-only audio engine additions (see code/audio.s's patternCall/patternEnd
+; and setDefaultLength). Not used by vanilla song data, so kept out of the vanilla build
+; entirely -- bank $39 has no free space there. Slotted into what was previously unused
+; space ($c085-$c09f, 27 bytes).
+.ifndef BUILD_VANILLA
+wPatternReturnAddr: ; $c085 -- one per pattern-call-capable channel (0,1,4,6 -> slot 0-3)
+	dsb 8
+wPatternRepeatRemaining: ; $c08d
+	dsb 4
+wChannelDefaultLength: ; $c091 -- one per channel (all 8)
+	dsb 8
+; A single shared flag, not per-channel: at most one channel's command is ever being
+; processed at a time, so this only needs to survive between a short-note dispatch and
+; setChannelWaitCounter's very next read, both within the same doNextChannelCommand call.
+wUseChannelDefaultLength: ; $c099
+	db
+.endif
 
 .ENDS
 

@@ -685,21 +685,189 @@ doNextChannelCommand:
 	.dw channelCmdff
 	.dw channelCmdf6
 	.dw channelCmdff
+.ifdef BUILD_VANILLA
 	.dw channelCmdff
+.else
+	.dw channelCmdf4
+.endif
 	.dw channelCmdf3
 	.dw channelCmdf2
 	.dw channelCmdf1
 	.dw channelCmdf0
 
 ;;
-channelCmdf1:
-	jp doNextChannelCommand
-;;
 channelCmdf2:
+	jp doNextChannelCommand
+
+.ifndef BUILD_VANILLA
+;;
+; setDefaultLength $len -- sets wChannelDefaultLength[ch], used by short notes ($62-$c1
+; in @channel0To3/standardCmdChannels4To5/standardCmdChannel6) whenever they omit an
+; explicit length byte.
+channelCmdf4:
+	call getNextChannelByte
+	ld hl,wChannelDefaultLength
+	push af
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
+	add hl,de
+	pop af
+	ld (hl),a
+	jp doNextChannelCommand
+.endif
+
+.ifdef BUILD_VANILLA
+;;
+channelCmdf1:
 	jp doNextChannelCommand
 ;;
 channelCmdf3:
 	jp doNextChannelCommand
+.else
+; Channel -> pattern-call-slot lookup (indexed by wSoundChannel 0-7). Only the 4 music
+; channels (square 1/2, wave, noise) get pattern-call RAM slots -- sfx are short one-shots
+; that don't benefit, and RAM here is scarce. $ff marks a channel with no slot; using
+; patternCall/patternEnd on one of those channels is undefined (mml2wla must never emit
+; it there).
+patternChannelSlotTable:
+	.db $00 $01 $ff $ff $02 $ff $03 $ff
+
+;;
+; patternCall $addrLo $addrHi $count -- jumps the channel's read cursor to $addr, having
+; first remembered where to come back to (the address right after this instruction) and
+; how many times total to play the pattern before returning. Pairs with patternEnd,
+; placed at the end of the pattern body. Not nestable: a pattern must not itself contain
+; a patternCall, since there's only one RAM slot per channel, not a call stack.
+channelCmdf1:
+	call getNextChannelByte
+	ld c,a                  ; c = pattern address, low byte
+	call getNextChannelByte
+	ld b,a                  ; b = pattern address, high byte (bc = pattern start address)
+	call getNextChannelByte
+	ld e,a                  ; e = repeat count
+	push bc                 ; stash the pattern start address for later
+
+	; d = slot = patternChannelSlotTable[wSoundChannel]
+	ld a,(wSoundChannel)
+	ld hl,patternChannelSlotTable
+	ld c,a
+	ld b,$00
+	add hl,bc
+	ld d,(hl)
+
+	; wPatternRepeatRemaining[slot] = count
+	ld hl,wPatternRepeatRemaining
+	ld c,d
+	ld b,$00
+	add hl,bc
+	ld (hl),e
+
+	; wPatternReturnAddr[slot] = current read cursor (already past this instruction --
+	; this is exactly where execution should resume once the pattern finishes repeating)
+	ld a,(wSoundChannel)
+	sla a
+	add <hSoundChannelAddresses
+	ld c,a
+	ld a,($ff00+c)
+	ld l,a
+	inc c
+	ld a,($ff00+c)
+	ld h,a                  ; hl = current hSoundChannelAddresses[ch]
+
+	ld a,d
+	sla a                   ; a = slot*2 (word array index)
+	ld c,a
+	ld b,$00
+	push hl                 ; stash the return address value
+	ld hl,wPatternReturnAddr
+	add hl,bc
+	pop de                  ; de = return address value
+	ld a,e
+	ld (hl),a
+	inc hl
+	ld a,d
+	ld (hl),a
+
+	; hSoundChannelAddresses[ch] = pattern start address (stashed on the stack above)
+	pop hl
+	ld a,(wSoundChannel)
+	sla a
+	ld b,a
+	ld a,l
+	ld c,<hSoundChannelAddresses
+	call writeIndexedHighRamAndIncrement
+	ld a,h
+	ld ($ff00+c),a
+	inc c
+	jp doNextChannelCommand
+
+;;
+; patternEnd $addrLo $addrHi -- placed at the end of a pattern body. $addr is the
+; pattern's own start address (a cheap redundant copy of patternCall's target, so no
+; extra RAM is needed to remember it). Decrements the repeat counter; if still nonzero,
+; loops the read cursor back to $addr; once it hits zero, resumes at the address
+; patternCall originally remembered.
+channelCmdf3:
+	call getNextChannelByte
+	ld c,a                  ; c = pattern start address, low byte
+	call getNextChannelByte
+	ld b,a                  ; b = pattern start address, high byte
+	push bc                 ; stash it in case we need to loop back to it
+
+	; e = slot = patternChannelSlotTable[wSoundChannel]
+	ld a,(wSoundChannel)
+	ld hl,patternChannelSlotTable
+	ld c,a
+	ld b,$00
+	add hl,bc
+	ld e,(hl)
+
+	; if --wPatternRepeatRemaining[slot] != 0, loop back to the pattern start
+	ld hl,wPatternRepeatRemaining
+	ld c,e
+	ld b,$00
+	add hl,bc
+	ld a,(hl)
+	dec a
+	ld (hl),a
+	cp $00
+	jr z,@returnFromPattern
+
+	pop hl                  ; hl = pattern start address
+	ld a,(wSoundChannel)
+	sla a
+	ld b,a
+	ld a,l
+	ld c,<hSoundChannelAddresses
+	call writeIndexedHighRamAndIncrement
+	ld a,h
+	ld ($ff00+c),a
+	inc c
+	jp doNextChannelCommand
+
+@returnFromPattern:
+	pop bc                  ; discard the pattern start address, not needed anymore
+	ld hl,wPatternReturnAddr
+	ld a,e
+	sla a                   ; a = slot*2 (word array index)
+	ld c,a
+	ld b,$00
+	add hl,bc
+	ld e,(hl)
+	inc hl
+	ld d,(hl)                ; de = wPatternReturnAddr[slot]
+	ld a,(wSoundChannel)
+	sla a
+	ld b,a
+	ld a,e
+	ld c,<hSoundChannelAddresses
+	call writeIndexedHighRamAndIncrement
+	ld a,d
+	ld ($ff00+c),a
+	inc c
+	jp doNextChannelCommand
+.endif
 
 ;;
 ; Vibrato
@@ -953,6 +1121,21 @@ standardSoundCmd:
 	cp $61
 	jr z,@cmd61
 
+.ifndef BUILD_VANILLA
+	; Short note ($62-$c1): plays pitch (byte-$62) using the channel's stored default
+	; length instead of reading an explicit length byte -- 1 byte total instead of 2.
+	; Confirmed unused by any vanilla song. $62-$c1 covers the full 0-95 pitch range
+	; with headroom before $d0 (volume commands).
+	cp $62
+	jr c,@notShortNote
+	cp $c2
+	jr nc,@notShortNote
+	sub $62
+	ld (wSoundCmd),a
+	ld a,$01
+	ld (wUseChannelDefaultLength),a
+@notShortNote:
+.endif
 	jp @cmdFrequency
 
 @cmd60:
@@ -1032,9 +1215,27 @@ standardSoundCmd:
 	ld (hl),a
 	call func_42ea
 ;;
-; Read a byte, set the channel wait counter to the value
+; Read a byte, set the channel wait counter to the value -- unless a short note (see
+; the $62-$c1 dispatch in @channel0To3) set wUseChannelDefaultLength, in which case the
+; "byte" comes from wChannelDefaultLength[ch] instead of the channel data stream.
 setChannelWaitCounter:
+.ifndef BUILD_VANILLA
+	ld a,(wUseChannelDefaultLength)
+	cp $00
+	jr z,@readLengthByte
+	xor a
+	ld (wUseChannelDefaultLength),a
+	ld hl,wChannelDefaultLength
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
+	add hl,de
+	ld a,(hl)
+	jr @gotLength
+@readLengthByte:
+.endif
 	call getNextChannelByte
+@gotLength:
 	dec a
 	ld hl,wChannelWaitCounters
 	push af
