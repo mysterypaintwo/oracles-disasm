@@ -25,9 +25,14 @@ PYTHON = python3
 
 TOPDIR = $(CURDIR)
 
-# Default to parallel build to make things much faster
+# Default to parallel build to make things much faster. `nproc` isn't available on
+# macOS -- fall back to sysctl (macOS), then getconf (other POSIX systems), then a
+# fixed default so this can never silently resolve to an empty string (which `make -j`
+# would treat as *unlimited* parallelism, not "1" -- a real source of flaky,
+# race-condition-prone builds, e.g. concurrent mml2wla runs racing on the same output
+# directory).
 ifeq (,$(findstring -j,$(MAKEFLAGS)))
-CPUS ?= $(shell nproc)
+CPUS ?= $(shell nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || getconf _NPROCESSORS_ONLN 2>/dev/null || echo 4)
 MAKEFLAGS += -j $(CPUS)
 $(info Note: using $(CPUS) threads by default, use -j flag to override.)
 endif
@@ -43,12 +48,29 @@ MAKEFLAGS += --no-print-directory
 .SUFFIXES:
 
 # Rules which don't correspond to filenames
-.PHONY: all ages seasons clean test-gfx
+.PHONY: all ages seasons clean test-gfx dumpmusic dumpsfx
 
 
 all:
 	@$(MAKE) ages
 	@$(MAKE) seasons
+
+# Regenerates the gitignored audio/*/mus/*.mml sources from a clean vanilla ROM
+# (see tools/audio/dumpMusicMml.py and .gitignore for why they're not committed).
+# Run once per game -- ROM=path/to/ages.gbc and ROM=path/to/seasons.gbc -- to
+# populate both games' own songs plus the shared audio/common/mus/ ones.
+dumpmusic:
+	@test -n "$(ROM)" || (echo "Usage: make dumpmusic ROM=path/to/rom.gbc" && exit 1)
+	$(PYTHON) tools/audio/dumpMusicMml.py "$(ROM)"
+
+# Regenerates the gitignored audio/*/sfx/*.mml sources from clean vanilla ROMs
+# (see tools/audio/dumpSfxMml.py). Needs both ROMs in one invocation, unlike
+# dumpmusic -- sfx has no hand-curated common/per-game manifest, so this
+# decides that by directly comparing both games' decoded content.
+dumpsfx:
+	@test -n "$(ROM_AGES_FILE)" -a -n "$(ROM_SEASONS_FILE)" || \
+		(echo "Usage: make dumpsfx ROM_AGES_FILE=path/to/ages.gbc ROM_SEASONS_FILE=path/to/seasons.gbc" && exit 1)
+	$(PYTHON) tools/audio/dumpSfxMml.py "$(ROM_AGES_FILE)" "$(ROM_SEASONS_FILE)"
 
 ages:
 	@echo -e "$(BOLD)====================$(NC)"
@@ -178,12 +200,59 @@ MAIN_ASM_FILES = $(shell find code/ object_code/ objects/ scripts/ -name '*.s' |
 AUDIO_FILES = $(shell find audio/ -name '*.s' -o -name '*.bin' | grep -v '/$(OTHERGAME)/')
 COMMON_INCLUDE_FILES = $(shell find constants/ include/ -name '*.s' | grep -v '/$(OTHERGAME)/')
 
-# .mml sources (mml2wla, see tools/mml2wla/) are converted to generated .s files rather
+# .mml sources (mml2wla, see tools/audio/mml2wla/) are converted to generated .s files rather
 # than committed directly -- a song either lives as committed audio/.../*.s (included
-# directly by soundChannelData.s) or as committed audio/.../*.mml (included from
-# $(BUILD_DIR) once converted here), never both.
+# directly by soundChannelData.s) or as committed audio/.../*.mml, whose generated .s
+# lands in a bin/ subdirectory right next to it (e.g. audio/ages/mus/foo.mml ->
+# audio/ages/mus/bin/foo.s), never both. bin/ is generated (gitignored, see .gitignore)
+# -- kept alongside its source rather than under $(BUILD_DIR) so .include paths in
+# soundChannelData.s stay one fixed literal regardless of which $(BUILD_DIR) variant is
+# being built (ages/seasons/vanilla/editable all share the same source tree).
 AUDIO_MML_FILES = $(shell find audio/ -name '*.mml' | grep -v '/$(OTHERGAME)/')
-AUDIO_GENERATED_FILES = $(AUDIO_MML_FILES:audio/%.mml=$(BUILD_DIR)/audio/%.s)
+AUDIO_GENERATED_FILES = $(foreach f,$(AUDIO_MML_FILES),$(dir $(f))bin/$(basename $(notdir $(f))).s)
+
+# The wave channel's waveform table and the noise channel's fixed frequency palette are
+# also authored as JSON now (audio/common/{waveforms,noise}.json), not committed .s --
+# see tools/audio/{waveformsJsonToS,noiseJsonToS}.py. Every .mml conversion also needs
+# these (as --waveforms-json/--noise-json) so a song can reference an existing named
+# entry directly by numeric id.
+WAVEFORMS_JSON = audio/common/waveforms.json
+NOISE_JSON = audio/common/noise.json
+WAVEFORMS_S = audio/common/bin/waveforms.s
+NOISE_S = audio/common/bin/noise.s
+
+$(NOISE_S): $(NOISE_JSON) tools/audio/noiseJsonToS.py
+	@mkdir -p $(dir $@)
+	@$(PYTHON) tools/audio/noiseJsonToS.py $< $@
+
+# Every .mml -> .s conversion for *both* games runs together in one process (regardless
+# of which single game is currently building -- see ALL_AUDIO_MML_FILES, deliberately
+# not the $(OTHERGAME)-filtered AUDIO_MML_FILES above), sharing one WaveformAggregator,
+# via tools/audio/buildAudio.py -- not one independent `mml2wla` invocation per file.
+# This is what lets a song's own newly-authored local waveform (`@waveN = {...}` for an
+# id that isn't already in waveforms.json) actually compile into the genuinely single,
+# always-complete $(WAVEFORMS_S), instead of only ever landing in a `_waveforms_new.s`
+# side file nothing includes. See buildAudio.py's own docstring for the full reasoning.
+#
+# One command producing many output files (every bin/*.s plus $(WAVEFORMS_S)) doesn't
+# fit a normal pattern rule, so this uses the standard "stamp file" idiom instead: every
+# real output depends on the stamp, and only the stamp itself has a recipe.
+ALL_AUDIO_MML_FILES = $(shell find audio/ -name '*.mml')
+AUDIO_MML_STAMP = $(BUILD_DIR)/audio_mml.stamp
+
+# Deliberately NOT GNU Make 4.3+'s grouped-target ("&:") syntax -- macOS still ships the
+# ancient Make 3.81 (GPLv3 licensing, not a version gap), which doesn't have it. Every
+# consumer's recipe is a no-op: the stamp's own recipe already wrote the real file: see
+# the portable "stamp file" idiom this is (a target with prerequisites recorded, but no
+# actual work of its own -- the real work already happened as a side effect of building
+# the shared prerequisite).
+$(AUDIO_GENERATED_FILES) $(WAVEFORMS_S): $(AUDIO_MML_STAMP)
+	@:
+
+$(AUDIO_MML_STAMP): $(ALL_AUDIO_MML_FILES) $(WAVEFORMS_JSON) $(NOISE_JSON) $(wildcard tools/audio/mml2wla/*.py) tools/audio/buildAudio.py tools/audio/waveformsJsonToS.py | $(BUILD_DIR)
+	@echo "Converting .mml audio sources..."
+	@$(PYTHON) tools/audio/buildAudio.py --waveforms-json $(WAVEFORMS_JSON) --noise-json $(NOISE_JSON) --waveforms-out $(WAVEFORMS_S) $(ALL_AUDIO_MML_FILES)
+	@touch $@
 
 
 ifneq ($(BUILD_VANILLA),true)
@@ -213,13 +282,13 @@ $(BUILD_DIR)/$(GAME).o: $(BUILD_DIR)/tileset_layouts/tileMappingIndexData.bin
 $(BUILD_DIR)/$(GAME).o: $(BUILD_DIR)/tileset_layouts/tileMappingAttributeData.bin
 $(BUILD_DIR)/$(GAME).o: rooms/$(GAME)/*.bin
 
-$(BUILD_DIR)/audio.o: $(AUDIO_FILES) $(AUDIO_GENERATED_FILES)
+$(BUILD_DIR)/$(GAME).o: $(AUDIO_FILES) $(AUDIO_GENERATED_FILES) $(WAVEFORMS_S) $(NOISE_S)
+# code/audio.s is what actually `.include`s soundChannelData.s/waveforms.s/noise.s (via
+# the generic $(BUILD_DIR)/%.o: code/%.s rule below) -- audio.o needs these same
+# prerequisites directly, not just $(GAME).o, or a from-scratch build can compile it
+# before any of the generated audio content exists.
+$(BUILD_DIR)/audio.o: $(AUDIO_FILES) $(AUDIO_GENERATED_FILES) $(WAVEFORMS_S) $(NOISE_S)
 $(BUILD_DIR)/*.o: $(COMMON_INCLUDE_FILES) Makefile
-
-$(BUILD_DIR)/audio/%.s: audio/%.mml $(wildcard tools/mml2wla/*.py) | $(BUILD_DIR)
-	@echo "Converting $< to $@..."
-	@mkdir -p $(dir $@)
-	@PYTHONPATH=tools $(PYTHON) -m mml2wla $< $@
 
 $(BUILD_DIR)/$(GAME).o: $(GAME).s $(BUILD_DIR)/textData.s $(BUILD_DIR)/textDefines.s Makefile | $(BUILD_DIR)
 	$(CC) -o $@ $(CFLAGS) $<
@@ -382,8 +451,9 @@ endif # End of check for either ROM_AGES or ROM_SEASONS being defined
 
 
 clean:
-	-rm -R build build_ages_* build_seasons_* \
-		ages.gbc ages.sym seasons.gbc seasons.sym
+	-rm -Rf build_ages_* build_seasons_* \
+		ages.gbc ages.sym seasons.gbc seasons.sym \
+		audio/*/*/bin
 
 # --------------------------------------------------------------------------------
 # Testing graphics encoding: ensure that pngs are encoded correctly.

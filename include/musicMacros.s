@@ -470,8 +470,14 @@
 
 ; f7: duplicate of ff?
 
-; f8: sets wc03f (for channels 0-5)
-.macro cmdf8
+; f8: continuous pitch slide (channels 0-5 only -- see func_39_41c2/func_39_41f3
+; in code/audio.s). \1 is a signed byte, re-added to the note's frequency every
+; single frame for as long as it stays nonzero, so the pitch keeps sliding
+; indefinitely rather than settling on a target -- matches mmlgb's `@s`
+; (pitch slide), not `@p` (portamento, which glides toward and stops at a
+; target note -- this engine has no equivalent of that). Use pitchSlide $00
+; to stop an ongoing slide.
+.macro pitchSlide
 	.db $f8 \1
 .endm
 
@@ -484,9 +490,13 @@
 
 ; fa-fc: duplicates of ff?
 
-; fd: sets wc033
-; Shifts pitch
-.macro cmdfd
+; fd: flat pitch offset (channels 0-5 only, i.e. square/wave, both the music
+; and sfx slots -- see channelCmdfd/setSoundFrequency in code/audio.s; a
+; no-op on noise, 6-7). \1 is a signed byte, added once to the frequency
+; every time a note triggers on this channel and held constant for that
+; note's whole duration -- matches mmlgb's `@po` (pitch offset) exactly.
+; Use pitchOffset $00 to disable again.
+.macro pitchOffset
 	.db $fd \1
 .endm
 

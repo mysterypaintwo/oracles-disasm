@@ -85,15 +85,24 @@ wc02d: ; $c02d
 	dsb 6
 
 wChannelPitchShift: ; $c033
-; An offset for wSoundFrequencyL,H
+; A signed offset added to the note's own frequency once, at trigger time
+; (see setSoundFrequency), and held constant for as long as the note plays --
+; a flat per-channel detune, not a slide (contrast wChannelPitchSlide below).
+; Set by cmdfd (see musicMacros.s's pitchOffset macro).
 	dsb 6
 
 wc039: ; $c039
 ; c039 might be related to the "counter" bit (NRx4)
 	dsb 6
 
-wc03f: ; $c03f
-; c03f might be related to sweep
+wChannelPitchSlide: ; $c03f
+; A signed per-frame delta continuously added to wSoundFrequencyL,H every frame
+; while a note is sustaining (see func_39_41f3, called every frame from
+; func_39_41c2) -- unlike wChannelPitchShift above (a flat, one-time offset
+; re-applied at each note trigger), this accumulates indefinitely for as long
+; as it stays nonzero, producing a continuous pitch slide. Set by cmdf8
+; (see musicMacros.s's pitchSlide macro); cleared to 0 whenever a channel is
+; (re)initialized for a new sound.
 	dsb 6
 
 wc045: ; $c045

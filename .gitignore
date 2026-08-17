@@ -4,6 +4,12 @@
 /build_ages/
 /build_seasons_*/
 /build_ages_*/
+audio/*/*/bin/
+audio/common/bin/
+audio/*/mus/*.mml
+audio/*/sfx/*.mml
+audio/*/mus/*.s
+audio/*/sfx/*.s
 /doc/
 /LynnaLab/Logs/
 /linkfile

@@ -357,7 +357,7 @@ func_39_41c2:
 
 ;;
 func_39_41f3:
-	ld hl,wc03f
+	ld hl,wChannelPitchSlide
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
@@ -377,7 +377,7 @@ func_39_41f3:
 	ld d,$ff
 ++
 	push de
-	ld hl,wc03f
+	ld hl,wChannelPitchSlide
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
@@ -890,7 +890,7 @@ channelCmdf8:
 	jr nc,++
 
 	call getNextChannelByte
-	ld hl,wc03f
+	ld hl,wChannelPitchSlide
 	push af
 	ld a,(wSoundChannel)
 	ld e,a
@@ -2309,7 +2309,7 @@ playSound:
 	ld d,$00
 	add hl,de
 	ld (hl),a
-	ld hl,wc03f
+	ld hl,wChannelPitchSlide
 	ld d,$00
 	add hl,de
 	ld (hl),a
@@ -2345,7 +2345,7 @@ playSound:
 	ld d,$00
 	add hl,de
 	ld (hl),a
-	ld hl,wc03f
+	ld hl,wChannelPitchSlide
 	ld d,$00
 	add hl,de
 	ld (hl),a
@@ -2425,8 +2425,8 @@ writeIndexedHighRamAndIncrement:
 nonExistentFunction:
 
 
-.include "audio/common/noise.s"
-.include "audio/common/waveforms.s"
+.include "audio/common/bin/noise.s"
+.include "audio/common/bin/waveforms.s"
 ; soundChannelPointers.s is read exclusively via playSound's @nextSoundChannel loop,
 ; always from the fixed base bank (hSoundDataBaseBank) -- unlike soundChannelData.s
 ; (the actual song note-data, which legitimately lives in whatever bank each song was

@@ -193,10 +193,14 @@ def parseChannelData(address, channel, chanOut):
             chanOut.write('\tcmdf0 ' + wlahex(param,2) + '\n')
             if channel != 7:
                 c039 = 1
-        elif b == 0xf0 or b == 0xf6 or b == 0xf8 or b == 0xf9 or b == 0xfd:
+        elif b == 0xf8:
             param = rom[address]
             address+=1
-            chanOut.write('\tcmd' + myhex(b) + ' ' + wlahex(param,2) + '\n')
+            chanOut.write('\tpitchSlide ' + wlahex(param,2) + '\n')
+        elif b == 0xfd:
+            param = rom[address]
+            address+=1
+            chanOut.write('\tpitchOffset ' + wlahex(param,2) + '\n')
         elif b >= 0xf0:
             chanOut.write('\tcmd' + myhex(b) + '\n')
         elif b >= 0xe0:

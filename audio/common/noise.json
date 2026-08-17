@@ -1,0 +1,117 @@
+[
+  {
+    "note": 36,
+    "env": 1,
+    "nr43": 71,
+    "name": "snare",
+    "description": "snare drum, short dash noise"
+  },
+  {
+    "note": 34,
+    "env": 0,
+    "nr43": 71,
+    "name": "crash",
+    "description": "crash"
+  },
+  {
+    "note": 35,
+    "env": 2,
+    "nr43": 70,
+    "name": "tom",
+    "description": "tom-like drum sound"
+  },
+  {
+    "note": 38,
+    "env": 2,
+    "nr43": 38,
+    "name": "dashLong",
+    "description": "long dash noise"
+  },
+  {
+    "note": 40,
+    "env": 0,
+    "nr43": 53,
+    "name": "waveCrash",
+    "description": "wave crash"
+  },
+  {
+    "note": 39,
+    "env": 2,
+    "nr43": 20,
+    "name": "dashLonger",
+    "description": "longer dash noise"
+  },
+  {
+    "note": 42,
+    "env": 1,
+    "nr43": 20,
+    "name": "dash",
+    "description": "dash noise"
+  },
+  {
+    "note": 46,
+    "env": 6,
+    "nr43": 7,
+    "name": "dashBush",
+    "description": "long dash noise, like a bush break"
+  },
+  {
+    "note": 82,
+    "env": 3,
+    "nr43": 23,
+    "name": "dashAlt",
+    "description": "dash noise"
+  },
+  {
+    "note": 50,
+    "env": 2,
+    "nr43": 55,
+    "name": "tomDash",
+    "description": "tom-like, dash sound"
+  },
+  {
+    "note": 47,
+    "env": 2,
+    "nr43": 69,
+    "name": "crumble",
+    "description": "crumble noise"
+  },
+  {
+    "note": 41,
+    "env": 2,
+    "nr43": 71,
+    "name": "dig",
+    "description": "digging, bumping"
+  },
+  {
+    "note": 48,
+    "env": 0,
+    "nr43": 7,
+    "name": "crashAlt",
+    "description": "crash"
+  },
+  {
+    "note": 37,
+    "env": 9,
+    "nr43": 71,
+    "name": "crashIn",
+    "description": "fade-in variant of crash ($22)",
+    "editableOnly": true
+  },
+  {
+    "note": 44,
+    "env": 9,
+    "nr43": 71,
+    "name": "snareIn",
+    "description": "fade-in variant of snare ($24)",
+    "editableOnly": true
+  },
+  {
+    "note": 43,
+    "env": 10,
+    "nr43": 55,
+    "name": "tomDashIn",
+    "description": "fade-in variant of tomDash ($32)",
+    "editableOnly": true
+  }
+]
