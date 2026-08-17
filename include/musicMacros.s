@@ -98,6 +98,147 @@
 	b8: db
 .ende
 
+; Not used by the base game -- a hand-authoring convenience matching mmlgb's 192-tick-
+; per-whole-note model (see s_file_documentation.mediawikipage's Tempo section), so
+; note lengths can be written as tick-relative names (W, HF, Q, ...) instead of literal
+; frame counts. This engine has no runtime tempo timer at all (every length byte is a
+; literal frame count baked in at compile time) -- there's no hardware quantization to
+; replicate here the way mml2wla's own tempo handling has to for mmlgb's driver, so this
+; just uses the direct BPM<->frames relationship.
+;
+; W/HF/Q (whole/half/quarter) are each rounded independently -- they aren't fractions of
+; a shared parent that need to sum exactly, so there's nothing to carry between them.
+; Each finer subdivision family (E1/E2; S1-S4; T1-T8; R1-R3; Y1-Y6; W1-W12) does need
+; this, though: every member of a family divides the same quarter note, so its members'
+; lengths are computed with a carried remainder (reset to 0 at the start of that family)
+; to guarantee they sum to the same total the quarter note itself resolves to, instead
+; of letting independent rounding drift away from it. (This mirrors mml2wla's own
+; error-carry technique for the exact same reason -- see timing.py.)
+.macro tempo
+	.redefine tempoFramesPerTick (60 * 4194304) / (70224 * 48 * \1)
+
+	.redefine W ROUND(192 * tempoFramesPerTick)
+	.redefine HF ROUND(96 * tempoFramesPerTick)
+	.redefine Q ROUND(48 * tempoFramesPerTick)
+
+	; Eighth notes (24 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (24 * tempoFramesPerTick) + tempoCarry
+	.redefine E1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - E1)
+	.redefine tempoNumer (24 * tempoFramesPerTick) + tempoCarry
+	.redefine E2 ROUND(tempoNumer)
+
+	; Sixteenth notes (12 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (12 * tempoFramesPerTick) + tempoCarry
+	.redefine S1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - S1)
+	.redefine tempoNumer (12 * tempoFramesPerTick) + tempoCarry
+	.redefine S2 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - S2)
+	.redefine tempoNumer (12 * tempoFramesPerTick) + tempoCarry
+	.redefine S3 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - S3)
+	.redefine tempoNumer (12 * tempoFramesPerTick) + tempoCarry
+	.redefine S4 ROUND(tempoNumer)
+
+	; Thirty-second notes (6 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T1)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T2 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T2)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T3 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T3)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T4 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T4)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T5 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T5)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T6 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T6)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T7 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - T7)
+	.redefine tempoNumer (6 * tempoFramesPerTick) + tempoCarry
+	.redefine T8 ROUND(tempoNumer)
+
+	; Quarter-note triplets (16 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (16 * tempoFramesPerTick) + tempoCarry
+	.redefine R1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - R1)
+	.redefine tempoNumer (16 * tempoFramesPerTick) + tempoCarry
+	.redefine R2 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - R2)
+	.redefine tempoNumer (16 * tempoFramesPerTick) + tempoCarry
+	.redefine R3 ROUND(tempoNumer)
+
+	; Eighth-note triplets (8 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - Y1)
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y2 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - Y2)
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y3 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - Y3)
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y4 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - Y4)
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y5 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - Y5)
+	.redefine tempoNumer (8 * tempoFramesPerTick) + tempoCarry
+	.redefine Y6 ROUND(tempoNumer)
+
+	; Sixteenth-note triplets (4 ticks each)
+	.redefine tempoCarry 0
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W1 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W1)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W2 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W2)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W3 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W3)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W4 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W4)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W5 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W5)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W6 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W6)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W7 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W7)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W8 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W8)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W9 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W9)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W10 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W10)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W11 ROUND(tempoNumer)
+	.redefine tempoCarry (tempoNumer - W11)
+	.redefine tempoNumer (4 * tempoFramesPerTick) + tempoCarry
+	.redefine W12 ROUND(tempoNumer)
+.endm
+
 ; Other values that can be use within note/beat macros
 .redefine od (-1) ; octave down
 .redefine ou (-2) ; octave up

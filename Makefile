@@ -178,6 +178,13 @@ MAIN_ASM_FILES = $(shell find code/ object_code/ objects/ scripts/ -name '*.s' |
 AUDIO_FILES = $(shell find audio/ -name '*.s' -o -name '*.bin' | grep -v '/$(OTHERGAME)/')
 COMMON_INCLUDE_FILES = $(shell find constants/ include/ -name '*.s' | grep -v '/$(OTHERGAME)/')
 
+# .mml sources (mml2wla, see tools/mml2wla/) are converted to generated .s files rather
+# than committed directly -- a song either lives as committed audio/.../*.s (included
+# directly by soundChannelData.s) or as committed audio/.../*.mml (included from
+# $(BUILD_DIR) once converted here), never both.
+AUDIO_MML_FILES = $(shell find audio/ -name '*.mml' | grep -v '/$(OTHERGAME)/')
+AUDIO_GENERATED_FILES = $(AUDIO_MML_FILES:audio/%.mml=$(BUILD_DIR)/audio/%.s)
+
 
 ifneq ($(BUILD_VANILLA),true)
 
@@ -206,8 +213,13 @@ $(BUILD_DIR)/$(GAME).o: $(BUILD_DIR)/tileset_layouts/tileMappingIndexData.bin
 $(BUILD_DIR)/$(GAME).o: $(BUILD_DIR)/tileset_layouts/tileMappingAttributeData.bin
 $(BUILD_DIR)/$(GAME).o: rooms/$(GAME)/*.bin
 
-$(BUILD_DIR)/audio.o: $(AUDIO_FILES)
+$(BUILD_DIR)/audio.o: $(AUDIO_FILES) $(AUDIO_GENERATED_FILES)
 $(BUILD_DIR)/*.o: $(COMMON_INCLUDE_FILES) Makefile
+
+$(BUILD_DIR)/audio/%.s: audio/%.mml $(wildcard tools/mml2wla/*.py) | $(BUILD_DIR)
+	@echo "Converting $< to $@..."
+	@mkdir -p $(dir $@)
+	@PYTHONPATH=tools $(PYTHON) -m mml2wla $< $@
 
 $(BUILD_DIR)/$(GAME).o: $(GAME).s $(BUILD_DIR)/textData.s $(BUILD_DIR)/textDefines.s Makefile | $(BUILD_DIR)
 	$(CC) -o $@ $(CFLAGS) $<
