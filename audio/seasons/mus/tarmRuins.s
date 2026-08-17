@@ -22,25 +22,25 @@ musicee549:
 	note fs5 $10
 ; Measure 4
 	note e5  $10
-	sust $08
+	release $08
 	vol $3
 	note e5  $08
 
 	vol $6
 	note a4  $10
-	sust $08
+	release $08
 	vol $3
 	note a4  $08
 
 	vol $6
 	note a4  $10
-	sust $08
+	release $08
 	vol $3
 	note a4  $08
 
 	vol $6
 	note a4  $0c
-	sust $04
+	release $04
 	note a4  $08
 	note b4  $08
 ; Measure 5
@@ -57,13 +57,13 @@ musicee549:
 	note a4  $10
 
 	note b4  $10
-	sust $08
+	release $08
 	vol $3
 	note b4  $08
 
 	vol $6
 	note g4  $10
-	sust $08
+	release $08
 	vol $3
 	note g4  $08
 ; Measure 7
@@ -77,7 +77,7 @@ musicee549:
 	vol $6
 	note a4  $10
 	note e5  $08
-	sust $04
+	release $04
 	vol $3
 	note e5  $04
 ; Measure 8
@@ -87,7 +87,7 @@ musicee549:
 	note e5  $20	
 	vol $1
 	note e5  $10
-	sust $10
+	release $10
 
 	vol $6
 	note e5  $08
@@ -111,79 +111,79 @@ musicee549:
 ; Measure 11
 	vol $6
 	note c6  $08
-	sust $04
+	release $04
 	vol $3
 	note c6  $08
-	sust $04
+	release $04
 	vol $1
 	note c6  $08
 
 	vol $6
 	note b5  $08
-	sust $04
+	release $04
 	vol $3
 	note b5  $08
-	sust $04
+	release $04
 	vol $1
 	note b5  $08
 
 	vol $6
 	note a5  $08
-	sust $04
+	release $04
 	vol $3
 	note a5  $08
-	sust $04
+	release $04
 	vol $1
 	note a5  $08
 
 	vol $6
 	note g5  $08
-	sust $04
+	release $04
 	vol $3
 	note g5  $08
-	sust $04
+	release $04
 	vol $1
 	note g5  $08
 ; Measure 12
 	vol $6
 	note fs5 $48
-	sust $08
+	release $08
 	note g5  $10
 	note a5  $10
 	note b5  $10
 ; Measure 13
 	note c6  $08
-	sust $04
+	release $04
 	vol $3
 	note c6  $08
-	sust $04
+	release $04
 	vol $1
 	note c6  $08
 
 	vol $6
 	note b5  $08
-	sust $04
+	release $04
 	vol $3
 	note b5  $08
-	sust $04
+	release $04
 	vol $1
 	note b5  $08
 
 	vol $6
 	note a5  $08
-	sust $04
+	release $04
 	vol $3
 	note a5  $08
-	sust $04
+	release $04
 	vol $1
 	note a5  $08
 
 	vol $6
 	note g5  $08
-	sust $04
+	release $04
 	vol $3
 	note g5  $08
-	sust $04
+	release $04
 	vol $1
 	note g5  $08
 ; Measure 14
@@ -226,14 +226,14 @@ musicee549:
 	vol $3
 	note d5  $08
 ; Measure 17
-	sust $30
+	release $30
 
 	vol $6
 	note b4  $05
 	note e5  $05
 	note a4  $06
 	note b4  $2a
-	sust $06
+	release $06
 
 	note b4  $04
 	note e5  $04
@@ -259,7 +259,7 @@ musTarmRuinsChannel0:
 ; Measure 1
 	vol $6
 	note a3  $08
-	sust $08
+	release $08
 	note b3  $08
 	vol $3
 	note a3  $08
@@ -449,7 +449,7 @@ musicee701:
 ; Measure 11
 	vol $6
 	note ds3 $04
-	sust $04
+	release $04
 	note fs3 $04
 	vol $3
 	note ds3 $04
@@ -619,7 +619,7 @@ musicee701:
 ; Measure 15
 	vol $6
 	note g3  $08
-	sust $08
+	release $08
 	note b3  $08
 	vol $3
 	note g3  $08

@@ -26,22 +26,22 @@ musRoomOfRitesChannel1:
 	note e6  $04
 	note f6  $03
 	note b6  $2c
-	rest $02
+	release $02
 	vol $5
 	note b6  $02
-	rest $02
+	release $02
 	vol $4
 	note b6  $03
-	rest $02
+	release $02
 	vol $4
 	note b6  $02
-	rest $03
+	release $03
 musicf5d7e:
 	vol $7
 	note f4  $0e
 	note gs4 $0e
 	note c5  $07
-	rest $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $7
@@ -49,7 +49,7 @@ musicf5d7e:
 	note gs4 $0e
 	note f4  $0e
 	note ds5 $07
-	rest $03
+	release $03
 	vol $3
 	note ds5 $04
 	vol $7
@@ -119,7 +119,7 @@ musicf5d7e:
 	note g4  $0e
 	note f4  $0e
 	note e4  $07
-	rest $03
+	release $03
 	vol $4
 	note e4  $04
 	vol $8
@@ -137,7 +137,7 @@ musicf5d7e:
 	note c4  $07
 	note f4  $07
 	note c4  $07
-	rest $07
+	release $07
 	vol $5
 	note f4  $0e
 	note c4  $07
@@ -145,7 +145,7 @@ musicf5d7e:
 	note c4  $07
 	note f4  $07
 	note c4  $07
-	rest $07
+	release $07
 	vol $8
 	note e4  $0e
 	note b3  $07
@@ -153,7 +153,7 @@ musicf5d7e:
 	note b3  $07
 	note e4  $07
 	note b3  $07
-	rest $07
+	release $07
 	vol $5
 	note e4  $0e
 	note b3  $07
@@ -161,7 +161,7 @@ musicf5d7e:
 	note b3  $07
 	note e4  $07
 	note b3  $07
-	rest $07
+	release $07
 	vol $8
 	note f4  $0e
 	note c4  $07
@@ -199,7 +199,7 @@ musicf5d7e:
 	note f4  $07
 	note c5  $07
 	note f4  $07
-	rest $07
+	release $07
 	vol $5
 	note c5  $0e
 	note f4  $07
@@ -207,7 +207,7 @@ musicf5d7e:
 	note f4  $07
 	note c5  $07
 	note f4  $07
-	rest $07
+	release $07
 	vol $8
 	note b4  $0e
 	note e4  $07
@@ -215,7 +215,7 @@ musicf5d7e:
 	note e4  $07
 	note b4  $07
 	note e4  $07
-	rest $07
+	release $07
 	vol $5
 	note b4  $0e
 	note e4  $07
@@ -223,7 +223,7 @@ musicf5d7e:
 	note e4  $07
 	note b4  $07
 	note e4  $07
-	rest $07
+	release $07
 	vol $8
 	note a4  $0e
 	note d4  $07
@@ -233,23 +233,23 @@ musicf5d7e:
 	note d4  $0e
 	vol $4
 	note d4  $0e
-	rest $1c
+	release $1c
 	vol $8
 	note f5  $0e
 	note fs5 $07
-	rest $07
+	release $07
 	vol $4
 	note f5  $0e
 	note fs5 $07
-	rest $07
+	release $07
 	vol $2
 	note f5  $0e
 	note fs5 $07
-	rest $07
+	release $07
 	vol $1
 	note f5  $0e
 	note fs5 $07
-	rest $85
+	release $85
 	goto musicf5d7e
 	cmdff
 
@@ -276,7 +276,7 @@ musRoomOfRitesChannel0:
 	note e6  $04
 	note f6  $03
 	note b6  $04
-	rest $2f
+	release $2f
 musicf5f2e:
 	vol $8
 	note c3  $0e
@@ -349,7 +349,7 @@ musicf5f2e:
 	note gs3 $0e
 	vol $8
 	note gs3 $07
-	rest $03
+	release $03
 	vol $4
 	note gs3 $04
 	vol $8
@@ -361,7 +361,7 @@ musicf5f2e:
 	note g3  $0e
 	vol $8
 	note g3  $07
-	rest $03
+	release $03
 	vol $4
 	note g3  $04
 	vol $8
@@ -373,7 +373,7 @@ musicf5f2e:
 	note gs3 $0e
 	vol $8
 	note gs3 $07
-	rest $03
+	release $03
 	vol $4
 	note gs3 $04
 	vol $8
@@ -386,10 +386,10 @@ musicf5f2e:
 	note d4  $0e
 	note e4  $0e
 	note f4  $07
-	rest $03
+	release $03
 	vol $4
 	note f4  $07
-	rest $04
+	release $04
 	vol $2
 	note f4  $07
 	vol $8
@@ -401,10 +401,10 @@ musicf5f2e:
 	note f4  $0e
 	note gs4 $0e
 	note g4  $07
-	rest $03
+	release $03
 	vol $4
 	note g4  $07
-	rest $04
+	release $04
 	vol $2
 	note g4  $07
 	vol $8
@@ -424,16 +424,16 @@ musicf5f2e:
 	note f4  $0e
 	note a4  $0e
 	note as4 $07
-	rest $03
+	release $03
 	vol $4
 	note as4 $07
-	rest $04
+	release $04
 	vol $2
 	note as4 $07
-	rest $03
+	release $03
 	vol $1
 	note as4 $07
-	rest $20
+	release $20
 	vol $8
 	note cs4 $0e
 	note c4  $0e
@@ -704,7 +704,7 @@ musicf606c:
 	cmdff
 
 musRoomOfRitesChannel6:
-	rest $70
+	sust $70
 musicf6258:
 	vol $5
 	note $26 $2a

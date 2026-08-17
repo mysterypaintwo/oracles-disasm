@@ -21,12 +21,12 @@ musRalphChannel1:
 	vibrato $01
 	vol $3
 	note f5  $07
-	sust $15
+	release $15
 	vibrato $e1
 musicf275f:
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
@@ -41,27 +41,27 @@ musicf275f:
 	note as4 $11
 	vol $3
 	note as4 $07
-	sust $04
+	release $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note a4  $07
 	note fs4 $07
 	note d4  $07
-	sust $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
@@ -76,10 +76,10 @@ musicf275f:
 	note as4 $11
 	vol $3
 	note as4 $07
-	sust $04
+	release $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
@@ -92,17 +92,17 @@ musicf275f:
 	note a4  $04
 	vol $6
 	note d5  $07
-	sust $03
+	release $03
 	vol $3
 	note d5  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note gs4 $07
-	sust $03
+	release $03
 	vol $3
 	note gs4 $04
 	vol $6
@@ -115,17 +115,17 @@ musicf275f:
 	note gs4 $04
 	vol $6
 	note cs5 $07
-	sust $03
+	release $03
 	vol $3
 	note cs5 $04
 	vol $6
 	note gs4 $07
-	sust $03
+	release $03
 	vol $3
 	note gs4 $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
@@ -135,32 +135,32 @@ musicf275f:
 	vol $6
 	note g4  $07
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note b4  $07
-	sust $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
 	note f4  $07
-	sust $03
+	release $03
 	vol $3
 	note f4  $04
 	vol $6
 	note as4 $07
-	sust $03
+	release $03
 	vol $3
 	note as4 $04
 	vol $6
@@ -171,10 +171,10 @@ musicf275f:
 	note c4  $11
 	vol $3
 	note c4  $07
-	sust $04
+	release $04
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
@@ -186,7 +186,7 @@ musicf275f:
 	note as4 $0e
 	vol $3
 	note as4 $07
-	sust $07
+	release $07
 	vol $6
 	note a4  $03
 	vol $3
@@ -197,18 +197,18 @@ musicf275f:
 	note a4  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note d4  $0e
 	note cs4 $07
-	sust $03
+	release $03
 	vol $3
 	note cs4 $04
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
@@ -220,7 +220,7 @@ musicf275f:
 	note as4 $0e
 	vol $3
 	note as4 $07
-	sust $07
+	release $07
 	vol $6
 	note a4  $03
 	vol $3
@@ -231,7 +231,7 @@ musicf275f:
 	note a4  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
@@ -242,25 +242,25 @@ musicf275f:
 	note d5  $07
 	vol $6
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $6
 	note c5  $03
-	sust $04
+	release $04
 	note c5  $07
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $6
 	note b4  $07
-	sust $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
@@ -273,36 +273,36 @@ musicf275f:
 	note b4  $04
 	vol $6
 	note e5  $07
-	sust $03
+	release $03
 	vol $3
 	note e5  $04
 	vol $6
 	note b4  $07
-	sust $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
 	note as4 $0e
 	vol $3
 	note as4 $07
-	sust $07
+	release $07
 	vol $6
 	note as4 $07
 	note a4  $07
 	note gs4 $07
 	note g4  $07
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $07
-	sust $04
+	release $04
 	vol $1
 	note fs4 $07
 	vol $6
 	note as4 $11
 	vol $3
 	note as4 $07
-	sust $04
+	release $04
 	goto musicf275f
 	cmdff
 
@@ -329,12 +329,12 @@ musRalphChannel0:
 	vibrato $01
 	vol $2
 	note f5  $07
-	sust $0e
+	release $0e
 	vibrato $e1
 musicf294f:
 	vol $6
 	note g3  $07
-	sust $03
+	release $03
 	vol $3
 	note g3  $04
 	vol $6
@@ -349,41 +349,41 @@ musicf294f:
 	note ds4 $11
 	vol $3
 	note ds4 $07
-	sust $04
+	release $04
 	vol $6
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note fs4 $07
 	note d4  $07
 	note a3  $07
-	sust $03
+	release $03
 	vol $3
 	note a3  $04
 	vol $6
 	note d4  $07
-	sust $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
 	note g3  $07
-	sust $03
+	release $03
 	vol $3
 	note g3  $04
 	vol $6
 	note g3  $03
-	sust $04
+	release $04
 	note g3  $03
-	sust $04
+	release $04
 	note ds4 $11
 	vol $3
 	note ds4 $07
-	sust $04
+	release $04
 	vol $6
 	note e4  $07
-	sust $03
+	release $03
 	vol $3
 	note e4  $04
 	vol $6
@@ -396,17 +396,17 @@ musicf294f:
 	note e4  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note e4  $07
-	sust $03
+	release $03
 	vol $3
 	note e4  $04
 	vol $6
 	note cs4 $07
-	sust $03
+	release $03
 	vol $3
 	note cs4 $04
 	vol $6
@@ -421,12 +421,12 @@ musicf294f:
 	note gs4 $07
 	note f4  $07
 	note cs4 $07
-	sust $03
+	release $03
 	vol $3
 	note cs4 $04
 	vol $6
 	note c4  $07
-	sust $03
+	release $03
 	vol $3
 	note c4  $04
 	vol $6
@@ -441,27 +441,27 @@ musicf294f:
 	note a4  $07
 	note f4  $07
 	note b3  $07
-	sust $03
+	release $03
 	vol $3
 	note b3  $04
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
 	note d4  $07
-	sust $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $04
 	vol $6
@@ -472,10 +472,10 @@ musicf294f:
 	note a3  $11
 	vol $3
 	note a3  $07
-	sust $04
+	release $04
 	vol $6
 	note as3 $07
-	sust $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $6
@@ -486,7 +486,7 @@ musicf294f:
 	note as3 $03
 	vol $3
 	note as3 $04
-	sust $07
+	release $07
 	vol $6
 	note as3 $07
 	note ds4 $07
@@ -510,7 +510,7 @@ musicf294f:
 	note b3  $07
 	note a3  $07
 	note g3  $07
-	sust $03
+	release $03
 	vol $3
 	note g3  $04
 	vol $6
@@ -535,22 +535,22 @@ musicf294f:
 	note fs4 $04
 	vol $6
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $04
 	vol $6
 	note d4  $07
-	sust $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
 	note a4  $07
-	sust $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
@@ -569,7 +569,7 @@ musicf294f:
 	note g4  $07
 	vol $6
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 	vol $6
@@ -590,7 +590,7 @@ musicf294f:
 	note fs4 $0e
 	vol $3
 	note fs4 $07
-	sust $07
+	release $07
 	vol $6
 	note fs4 $07
 	note f4  $07
@@ -599,12 +599,12 @@ musicf294f:
 	note d4  $07
 	vol $3
 	note d4  $07
-	sust $0e
+	release $0e
 	vol $6
 	note d4  $11
 	vol $3
 	note d4  $07
-	sust $04
+	release $04
 	goto musicf294f
 	cmdff
 

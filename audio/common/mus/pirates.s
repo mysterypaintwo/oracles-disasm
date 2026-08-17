@@ -18,7 +18,7 @@ musicf4e9d:
 	note e3  $08
 	note ds3 $0e
 	note e3  $08
-	rest $2c
+	release $2c
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
@@ -31,7 +31,7 @@ musicf4e9d:
 	note e4  $08
 	note f4  $0e
 	note e4  $08
-	rest $2c
+	release $2c
 	note e5  $0e
 	note ds5 $08
 	note e5  $0e
@@ -54,222 +54,222 @@ musicf4e9d:
 	note gs4 $0e
 	note f4  $08
 	note e4  $07
-	rest $1d
+	release $1d
 	note d4  $08
 	note c4  $07
-	rest $0f
+	release $0f
 	note b3  $07
-	rest $0f
+	release $0f
 	vol $6
 	note e4  $0e
 	note ds4 $08
 	note e4  $0e
 	note ds4 $08
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $04
+	release $04
 	vol $6
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $6
 	note ds4 $0e
 	note d4  $08
 	note ds4 $0e
 	note d4  $08
-	rest $03
+	release $03
 	vol $3
 	note d4  $08
-	rest $03
+	release $03
 	vol $1
 	note d4  $08
-	rest $16
+	release $16
 	vol $6
 	note e4  $0e
 	note ds4 $08
 	note e4  $0e
 	note ds4 $08
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $04
+	release $04
 	vol $6
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $6
 	note c5  $0e
 	note gs4 $08
 	note c5  $0e
 	note gs4 $08
-	rest $03
+	release $03
 	vol $3
 	note gs4 $08
-	rest $03
+	release $03
 	vol $1
 	note gs4 $08
-	rest $16
+	release $16
 	vol $6
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
 	note gs4 $08
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $6
 	note c5  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $07
-	rest $04
+	release $04
 	vol $6
 	note gs4 $0e
 	note g4  $08
 	note gs4 $0e
 	note g4  $08
-	rest $03
+	release $03
 	vol $3
 	note g4  $08
-	rest $03
+	release $03
 	vol $1
 	note g4  $08
-	rest $16
+	release $16
 	vol $6
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
 	note gs4 $08
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $6
 	note e5  $07
-	rest $04
+	release $04
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $6
 	note ds5 $0e
 	note e5  $08
 	note f5  $0e
 	note e5  $08
-	rest $03
+	release $03
 	vol $3
 	note e5  $08
-	rest $03
+	release $03
 	vol $1
 	note e5  $08
-	rest $24
+	release $24
 	vol $6
 	note a4  $08
 	note e4  $0e
-	rest $03
+	release $03
 	vol $3
 	note e4  $05
 	vol $6
 	note e4  $0e
 	note ds4 $08
-	rest $03
+	release $03
 	vol $3
 	note ds4 $08
-	rest $03
+	release $03
 	vol $6
 	note d4  $08
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $07
-	rest $04
+	release $04
 	vol $6
 	note c4  $0e
 	note b3  $08
-	rest $03
+	release $03
 	vol $3
 	note b3  $08
-	rest $03
+	release $03
 	vol $6
 	note e4  $08
 	note ds4 $0e
 	note e4  $08
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $03
 	vol $6
 	note e5  $08
 	note ds5 $0e
-	rest $03
+	release $03
 	vol $3
 	note ds5 $05
 	vol $6
 	note ds5 $0e
 	note d5  $08
-	rest $03
+	release $03
 	vol $3
 	note d5  $08
-	rest $03
+	release $03
 	vol $6
 	note d5  $08
 	note c5  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $07
-	rest $04
+	release $04
 	vol $6
 	note c5  $0e
 	note b4  $08
-	rest $03
+	release $03
 	vol $3
 	note b4  $08
-	rest $03
+	release $03
 	vol $6
 	note e4  $03
-	rest $05
+	release $05
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $03
 	vol $6
 	note e4  $08
 	note f4  $16
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $04
+	release $04
 	vol $6
 	note g4  $16
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $04
+	release $04
 	vol $6
 	note f4  $16
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $04
+	release $04
 	vol $6
 	note g4  $16
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note e4  $07
-	rest $5c
+	release $5c
 	vol $6
 	note e4  $07
 	note gs4 $07
@@ -306,7 +306,7 @@ musicf5098:
 	note e3  $08
 	note ds3 $0e
 	note e3  $08
-	rest $2c
+	release $2c
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
@@ -319,7 +319,7 @@ musicf5098:
 	note e4  $08
 	note f4  $0e
 	note e4  $08
-	rest $21
+	release $21
 	vol $6
 	note a4  $2c
 	note gs4 $2c
@@ -328,201 +328,201 @@ musicf5098:
 	note f4  $2c
 	note d4  $2c
 	note b3  $07
-	rest $07
+	release $07
 	vol $3
 	note b3  $08
-	rest $07
+	release $07
 	vol $1
 	note b3  $07
-	rest $08
+	release $08
 	vol $6
 	note gs3 $07
-	rest $07
+	release $07
 	vol $3
 	note gs3 $08
-	rest $07
+	release $07
 	vol $1
 	note gs3 $07
-	rest $13
+	release $13
 	vol $3
 	note e4  $0e
 	note ds4 $08
 	note e4  $0e
 	note ds4 $08
 	note e4  $07
-	rest $04
+	release $04
 	vol $1
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $1
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note ds4 $0e
 	note d4  $08
 	note ds4 $0e
 	note d4  $08
-	rest $03
+	release $03
 	vol $1
 	note d4  $08
-	rest $03
+	release $03
 	vol $0
 	note d4  $08
-	rest $16
+	release $16
 	vol $3
 	note e4  $0e
 	note ds4 $08
 	note e4  $0e
 	note ds4 $08
 	note e4  $07
-	rest $04
+	release $04
 	vol $1
 	note e4  $07
-	rest $04
+	release $04
 	vol $3
 	note a4  $07
-	rest $04
+	release $04
 	vol $1
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $0e
 	note gs4 $08
 	note c5  $0e
 	note gs4 $08
-	rest $03
+	release $03
 	vol $1
 	note gs4 $08
-	rest $03
+	release $03
 	vol $0
 	note gs4 $08
-	rest $16
+	release $16
 	vol $3
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
 	note gs4 $08
 	note a4  $07
-	rest $04
+	release $04
 	vol $1
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $07
-	rest $04
+	release $04
 	vol $1
 	note c5  $07
-	rest $04
+	release $04
 	vol $3
 	note gs4 $0e
 	note g4  $08
 	note gs4 $0e
 	note g4  $08
-	rest $03
+	release $03
 	vol $1
 	note g4  $08
-	rest $03
+	release $03
 	vol $0
 	note g4  $08
-	rest $16
+	release $16
 	vol $3
 	note a4  $0e
 	note gs4 $08
 	note a4  $0e
 	note gs4 $08
 	note a4  $07
-	rest $04
+	release $04
 	vol $1
 	note a4  $07
-	rest $04
+	release $04
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $1
 	note e5  $07
-	rest $04
+	release $04
 	vol $3
 	note ds5 $0e
 	note e5  $08
 	note f5  $0e
 	note e5  $08
-	rest $03
+	release $03
 	vol $1
 	note e5  $08
-	rest $03
+	release $03
 	vol $0
 	note e5  $08
-	rest $24
+	release $24
 	vol $3
 	note a4  $08
 	note e4  $0e
-	rest $03
+	release $03
 	vol $1
 	note e4  $05
 	vol $3
 	note e4  $0e
 	note ds4 $08
-	rest $03
+	release $03
 	vol $1
 	note ds4 $08
-	rest $03
+	release $03
 	vol $3
 	note d4  $08
 	note c4  $07
-	rest $04
+	release $04
 	vol $1
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $0e
 	note b3  $08
-	rest $03
+	release $03
 	vol $1
 	note b3  $08
-	rest $03
+	release $03
 	vol $3
 	note e4  $08
 	note ds4 $0b
 	vol $6
 	note c5  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $03
 	vol $6
 	note c5  $08
 	note b4  $0e
-	rest $03
+	release $03
 	vol $3
 	note b4  $05
 	vol $6
 	note b4  $0e
 	note as4 $08
-	rest $03
+	release $03
 	vol $3
 	note as4 $08
-	rest $03
+	release $03
 	vol $6
 	note as4 $08
 	note gs4 $07
-	rest $04
+	release $04
 	vol $3
 	note gs4 $07
-	rest $04
+	release $04
 	vol $6
 	note gs4 $0e
 	note e4  $08
-	rest $03
+	release $03
 	vol $3
 	note e4  $08
-	rest $03
+	release $03
 	vol $6
 	note c4  $03
-	rest $05
+	release $05
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $03
 	vol $6
@@ -530,31 +530,31 @@ musicf5098:
 	vol $6
 	note cs4 $16
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $07
-	rest $04
+	release $04
 	vol $6
 	note ds4 $16
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $07
-	rest $04
+	release $04
 	vol $6
 	note cs4 $16
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $07
-	rest $04
+	release $04
 	vol $6
 	note ds4 $16
 	note c4  $07
-	rest $04
+	release $04
 	vol $3
 	note c4  $07
-	rest $67
+	release $67
 	note e4  $07
 	note gs4 $07
 	note as4 $08
@@ -768,9 +768,9 @@ musPiratesChannel6:
 
 .ifdef ROM_SEASONS
 musicf5403:
-	rest $ff
-	rest $ff
-	rest $28
+	sust $ff
+	sust $ff
+	sust $28
 	vol $4
 	vol $3
 	note $2a $2c
@@ -812,7 +812,7 @@ musicf5403:
 	vol $4
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	vol $3
 	note $2a $2c
@@ -828,7 +828,7 @@ musicf5403:
 	vol $4
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	vol $3
 	note $2a $2c
@@ -844,7 +844,7 @@ musicf5403:
 	vol $4
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	vol $3
 	note $2a $2c
@@ -860,7 +860,7 @@ musicf5403:
 	vol $4
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $4
 	vol $3
 	note $2a $2c
@@ -940,9 +940,9 @@ musicf5403:
 .else ; ROM_AGES
 
 musicf5400:
-	rest $ff
-	rest $ff
-	rest $28
+	sust $ff
+	sust $ff
+	sust $28
 	vol $3
 	note $2a $2c
 	note $2a $2c
@@ -974,7 +974,7 @@ musicf5400:
 	note $2a $08
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $3
 	note $2a $2c
 	note $2a $2c
@@ -985,7 +985,7 @@ musicf5400:
 	note $2a $08
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $3
 	note $2a $2c
 	vol $3
@@ -997,7 +997,7 @@ musicf5400:
 	note $2a $08
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $3
 	note $2a $2c
 	note $2a $2c
@@ -1008,7 +1008,7 @@ musicf5400:
 	note $2a $08
 	vol $2
 	note $2e $16
-	rest $16
+	sust $16
 	vol $3
 	note $2a $2c
 	vol $3

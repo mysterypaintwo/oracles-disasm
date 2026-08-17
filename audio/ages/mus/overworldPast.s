@@ -16,61 +16,61 @@ musicee3c8:
 	note e4  $0e
 	vol $3
 	note e4  $0e
-	sust $15
+	release $15
 
 	vol $5
 	note a4  $03
-	sust $04
+	release $04
 
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 	note cs5 $05
-	sust $02
+	release $02
 	note d5  $05
-	sust $02
+	release $02
 ; Measure 2
 	note e5  $38
 	vibrato $01
 	vol $3
 	note e5  $0e
-	sust $04
+	release $04
 
 	vibrato $e1
 	vol $5
 	note e5  $06
-	sust $04
+	release $04
 	note e5  $05
-	sust $04
+	release $04
 	note f5  $06
-	sust $03
+	release $03
 	note g5  $06
-	sust $04
+	release $04
 ; Measure 3
 	note a5  $38
 
 	vibrato $01
 	vol $3
 	note a5  $0e
-	sust $04
+	release $04
 
 	vibrato $e1
 	vol $5
 	note a5  $06
-	sust $04
+	release $04
 	note a5  $05
-	sust $04
+	release $04
 	note g5  $06
-	sust $03
+	release $03
 	note f5  $06
-	sust $04
+	release $04
 ; Measure 4
 	note g5  $09
-	sust $05
+	release $05
 	vol $3
 	note g5  $03
-	sust $01
+	release $01
 
 	vol $5
 	note f5  $0a
@@ -138,18 +138,18 @@ musicee3c8:
 	note e5  $0e
 
 	note e4  $01
-	sust $02
+	release $02
 	note e4  $01
-	sust $05
+	release $05
 	note e4  $01
-	sust $04
+	release $04
 
 	note fs4 $05
-	sust $04
+	release $04
 	note fs4 $06
-	sust $03
+	release $03
 	note fs4 $06
-	sust $04
+	release $04
 
 	note gs4 $1c
 	vibrato $01
@@ -166,69 +166,69 @@ musicee3c8:
 	note e4  $0e
 	vol $3
 	note e4  $0e	
-	sust $15
+	release $15
 
 	vol $5
 	note a4  $03
-	sust $04
+	release $04
 
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 
 	note cs5 $05
-	sust $02
+	release $02
 	note d5  $05
-	sust $02
+	release $02
 ; Measure 10
 	note e5  $38
 	vibrato $01
 	vol $3
 	note e5  $0e
-	sust $04
+	release $04
 
 	vibrato $e1
 	vol $5
 	note e5  $06
-	sust $04
+	release $04
 	note e5  $05
-	sust $04
+	release $04
 	note f5  $06
-	sust $03
+	release $03
 	note g5  $06
-	sust $04
+	release $04
 ; Measure 11
 	note a5  $38
 
 	vibrato $01
 	vol $3
 	note a5  $0e
-	sust $04
+	release $04
 
 	vibrato $e1
 	vol $5
 	note a5  $06
-	sust $04
+	release $04
 	note a5  $05
-	sust $04
+	release $04
 	note g5  $06
-	sust $03
+	release $03
 	note f5  $06
-	sust $04
+	release $04
 ; Measure 12
 	note g5  $07
-	sust $03
+	release $03
 	vol $3
 	note g5  $07
-	sust $01
+	release $01
 
 	vol $5
 	note f5  $0a
 	note e5  $1c
 	vol $3
 	note e5  $0e
-	sust $0e
+	release $0e
 
 	vol $5
 	note e5  $09
@@ -263,11 +263,11 @@ musicee3c8:
 	note e5  $07
 	vol $3
 	note e5  $07
-	sust $04
+	release $04
 
 	vol $5
 	note e5  $04
-	sust $06
+	release $06
 
 	note e5  $09
 	note d5  $09
@@ -277,24 +277,24 @@ musicee3c8:
 	note e6  $38
 ; Measure 16
 	note a5  $46
-	sust $0e
+	release $0e
 
 	note e5  $03
 	vol $3
 	note e5  $04
-	sust $02
+	release $02
 
 	vol $5
 	note c5  $03
 	vol $3
 	note c5  $04
-	sust $02
+	release $02
 
 	vol $5
 	note a4  $04
 	vol $3
 	note a4  $03
-	sust $03
+	release $03
 
 	goto musicee3c8
 	cmdff
@@ -323,33 +323,33 @@ musicee57d:
 	note cs4 $07
 
 	note cs4 $05
-	sust $02
+	release $02
 	note d4  $05
-	sust $02
+	release $02
 	note e4  $05
-	sust $02
+	release $02
 	note fs4 $05
-	sust $02
+	release $02
 ; Measure 2	
 	note g4  $15
 
 	note a4  $05
-	sust $02
+	release $02
 
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 	note cs5 $05
-	sust $02
+	release $02
 	note d5  $05
-	sust $02
+	release $02
 
 	note e5  $07
-	sust $03
+	release $03
 	vol $3
 	note e5  $07
-	sust $04
+	release $04
 	vol $2
 	note e5  $07
 
@@ -360,72 +360,72 @@ musicee57d:
 ; Measure 3
 	note c5  $12
 	note f4  $06
-	sust $04
+	release $04
 
 	note f4  $05
-	sust $02
+	release $02
 	note g4  $05
-	sust $02
+	release $02
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 
 	note c5  $07
-	sust $07
+	release $07
 	vol $3
 	note c5  $03
-	sust $01
+	release $01
 	vol $5
 	note c5  $06
-	sust $04
+	release $04
 
 	note c5  $05
-	sust $04	
+	release $04
 	note b4  $06
-	sust $03
+	release $03
 	note a4  $06
-	sust $04
+	release $04
 ; Measure 4
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $07
-	sust $01
+	release $01
 	vol $5
 	note g4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $04
+	release $04
 	note g4  $06
-	sust $03
+	release $03
 	note f4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $05
+	release $05
 	vol $3
 	note g4  $06
-	sust $02
+	release $02
 	vol $5
 	note g4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $04
+	release $04
 	note f4  $06
-	sust $03
+	release $03
 	note g4  $06
-	sust $04
+	release $04
 ; Measure 5
 	note f4  $0b
-	sust $03
+	release $03
 	note f4  $07
 	note e4  $07
 
 	note f4  $0b
-	sust $03
+	release $03
 	note f4  $07
 	note g4  $07
 
@@ -434,12 +434,12 @@ musicee57d:
 	note f4  $0e
 ; Measure 6
 	note e4  $0b
-	sust $03
+	release $03
 	note e4  $07
 	note d4  $07
 
 	note e4  $0b
-	sust $03
+	release $03
 	note e4  $07
 	note f4  $07
 
@@ -448,9 +448,9 @@ musicee57d:
 	note e4  $0e
 ; Measure 7
 	note ds4 $15
-	sust $07
+	release $07
 	note ds4 $07
-	sust $03
+	release $03
 	vol $3
 	note ds4 $04
 
@@ -458,7 +458,7 @@ musicee57d:
 	note ds4 $07
 	note e4  $07
 	note fs4 $07
-	sust $03
+	release $03
 	vol $3
 	note fs4 $04
 
@@ -474,11 +474,11 @@ musicee57d:
 	note b4  $1c
 
 	note d4  $05
-	sust $04
+	release $04
 	note d4  $06
-	sust $03
+	release $03
 	note d4  $06
-	sust $04
+	release $04
 
 	note e4  $1c
 	vibrato $01
@@ -504,27 +504,27 @@ musicee57d:
 	note cs4 $07
 
 	note cs4 $05
-	sust $02
+	release $02
 	note d4  $05
-	sust $02
+	release $02
 	note e4  $05
-	sust $02
+	release $02
 	note fs4 $05
-	sust $02
+	release $02
 ; Measure 10		same as M2 except for beat 3
 	note g4  $15
 
 	note a4  $05
-	sust $02
+	release $02
 
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 	note cs5 $05
-	sust $02
+	release $02
 	note d5  $05
-	sust $02
+	release $02
 
 	note e5  $1c		;different than M2
 	note g4  $09
@@ -533,73 +533,73 @@ musicee57d:
 ; Measure 11
 	note c5  $12
 	note f4  $06
-	sust $04
+	release $04
 
 	note f4  $05
-	sust $02
+	release $02
 	note g4  $05
-	sust $02
+	release $02
 	note a4  $05
-	sust $02
+	release $02
 	note b4  $05
-	sust $02
+	release $02
 
 	note c5  $07		;different than M3
-	sust $03
+	release $03
 	vol $3
 	note c5  $07
-	sust $01
+	release $01
 
 	vol $5
 	note c5  $06
-	sust $04
+	release $04
 
 	note c5  $05
-	sust $04
+	release $04
 	note b4  $06
-	sust $03
+	release $03
 	note a4  $06
-	sust $04
+	release $04
 ; Measure 12
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $07
-	sust $01
+	release $01
 	vol $5
 	note g4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $04
+	release $04
 	note g4  $06
-	sust $03
+	release $03
 	note f4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $05
+	release $05
 	vol $3
 	note g4  $06
-	sust $02
+	release $02
 	vol $5
 	note g4  $06
-	sust $04
+	release $04
 
 	note g4  $05
-	sust $04
+	release $04
 	note f4  $06
-	sust $03
+	release $03
 	note g4  $06
-	sust $04
+	release $04
 ; Measure 13
 	note f4  $0b
-	sust $03
+	release $03
 	note f4  $07
 	note e4  $07
 
 	note f4  $0b
-	sust $03
+	release $03
 	note f4  $07
 	note g4  $07
 
@@ -614,42 +614,42 @@ musicee57d:
 	note fs3 $1c
 	note d3  $1c
 	note e3  $15
-	sust $07
+	release $07
 
 	vol $8
 	note e3  $04
-	sust $05
+	release $05
 	note e4  $05
-	sust $04
+	release $04
 	note d4  $05
-	sust $05
+	release $05
 ; Measure 16
 	note c4  $04
-	sust $05
+	release $05
 	note b3  $05
-	sust $04
+	release $04
 	note a3  $05
-	sust $05
+	release $05
 
 	note b3  $04
-	sust $06
+	release $06
 	vol $5
 	note b3  $05
-	sust $06
+	release $06
 	vol $3
 	note b3  $04
-	sust $03
+	release $03
 
 	vol $8
 	note a3  $04
-	sust $06
+	release $06
 	vol $5
 	note a3  $05
-	sust $06
+	release $06
 	vol $3
 	note a3  $04
 
-	sust $1f		;$03+$1c
+	release $1f
 	goto musicee57d
 	cmdff
 

@@ -32,7 +32,7 @@ sndTimewarpInitiatedChannel2:
 	vol $1
 	note cs5 $02
 	note ds5 $02
-	sust $0a
+	release $0a
 	duty $02
 	vol $1
 	note as3 $01
@@ -376,7 +376,7 @@ sndTimewarpInitiatedChannel3:
 	vol $1
 	note cs5 $02
 	note ds5 $02
-	sust $0a
+	release $0a
 	duty $00
 	env $2 $00
 	cmdfd $00
@@ -396,7 +396,7 @@ sndTimewarpInitiatedChannel3:
 	note c7  $0a
 	vol $1
 	note c7  $10
-	sust $18
+	release $18
 	cmdff
 
 sndTimewarpInitiatedChannel5:

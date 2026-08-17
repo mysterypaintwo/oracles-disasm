@@ -20,13 +20,13 @@ musicf0453:
 	note b4  $09
 	note c5  $09
 	note b4  $09
-	rest $6c
+	release $6c
 	vol $4
 	note c5  $09
 	note b4  $09
 	note c5  $09
 	note b4  $09
-	rest $90
+	release $90
 	duty $01
 	vol $6
 	note d4  $24
@@ -42,14 +42,14 @@ musicf0453:
 	note f5  $09
 	note e5  $09
 	note gs4 $48
-	rest $24
+	release $24
 	vol $4
 	note f5  $09
 	note e5  $09
 	note f5  $09
 	note e5  $09
 	note gs4 $48
-	rest $24
+	release $24
 	vol $6
 	note e5  $09
 	note ds5 $09
@@ -61,31 +61,31 @@ musicf0453:
 	note ds5 $09
 	note d5  $09
 	note fs4 $5a
-	rest $12
+	release $12
 	vol $6
 	note c5  $12
 	note b4  $09
-	rest $04
+	release $04
 	vol $3
 	note b4  $05
 	vol $6
 	note e5  $12
 	vol $6
 	note ds5 $09
-	rest $04
+	release $04
 	vol $3
 	note ds5 $05
 	vol $6
 	note g5  $12
 	vol $6
 	note fs5 $09
-	rest $04
+	release $04
 	vol $3
 	note fs5 $05
 	vol $6
 	note c6  $12
 	note b5  $09
-	rest $04
+	release $04
 	vol $3
 	note b5  $05
 	vol $6
@@ -94,7 +94,7 @@ musicf0453:
 	note g6  $09
 	note fs6 $09
 	note f6  $09
-	rest $04
+	release $04
 	vol $3
 	note f6  $05
 	vol $6
@@ -103,7 +103,7 @@ musicf0453:
 	note ds6 $09
 	note d6  $09
 	note cs6 $09
-	rest $04
+	release $04
 	vol $3
 	note cs6 $05
 	vol $6
@@ -169,20 +169,20 @@ musicf0453:
 	note as4 $12
 	note c5  $12
 	note cs5 $12
-	rest $04
+	release $04
 	vol $3
 	note cs5 $09
-	rest $09
+	release $09
 	vol $1
 	note cs5 $09
-	rest $05
+	release $05
 	vol $6
 	note e4  $51
 	vibrato $01
 	env $0 $00
 	vol $3
 	note e4  $1b
-	rest $48
+	release $48
 	vibrato $c1
 	env $0 $00
 	goto musicf0453
@@ -211,13 +211,13 @@ musicf059e:
 	note b4  $09
 	note c5  $09
 	note b4  $09
-	rest $6c
+	release $6c
 	vol $2
 	note c5  $09
 	note b4  $09
 	note c5  $09
 	note b4  $09
-	rest $99
+	release $99
 	duty $01
 	vol $3
 	note d4  $24
@@ -226,7 +226,7 @@ musicf059e:
 	note cs5 $48
 	note d5  $24
 	note e5  $24
-	rest $03
+	release $03
 	vol $3
 	note f5  $09
 	note e5  $09
@@ -235,7 +235,7 @@ musicf059e:
 	note e5  $09
 	vol $3
 	note gs4 $48
-	rest $24
+	release $24
 	vol $2
 	note f5  $09
 	note e5  $09
@@ -258,25 +258,25 @@ musicf059e:
 	vol $6
 	note a4  $12
 	note gs4 $09
-	rest $04
+	release $04
 	vol $3
 	note gs4 $05
 	vol $6
 	note c5  $12
 	note b4  $09
-	rest $04
+	release $04
 	vol $3
 	note b4  $05
 	vol $6
 	note e5  $12
 	note ds5 $09
-	rest $04
+	release $04
 	vol $3
 	note ds5 $05
 	vol $6
 	note a5  $12
 	note gs5 $09
-	rest $04
+	release $04
 	vol $3
 	note gs5 $05
 	vol $6
@@ -285,7 +285,7 @@ musicf059e:
 	note e6  $09
 	note ds6 $09
 	note d6  $09
-	rest $04
+	release $04
 	vol $3
 	note d6  $05
 	vol $6
@@ -294,7 +294,7 @@ musicf059e:
 	note c6  $09
 	note b5  $09
 	note as5 $09
-	rest $04
+	release $04
 	vol $3
 	note as5 $05
 	vol $6
@@ -304,7 +304,7 @@ musicf059e:
 	note g5  $09
 	duty $02
 	note d4  $04
-	rest $05
+	release $05
 	note f4  $04
 	vol $3
 	note d4  $05
@@ -571,20 +571,20 @@ musicf059e:
 	note as3 $12
 	note c4  $12
 	note cs4 $12
-	rest $04
+	release $04
 	vol $3
 	note cs4 $09
-	rest $05
+	release $05
 	vol $1
 	note cs4 $09
-	rest $09
+	release $09
 	vol $6
 	note e3  $48
 	vibrato $01
 	env $0 $00
 	vol $3
 	note e3  $24
-	rest $48
+	release $48
 	vibrato $d1
 	env $0 $00
 	goto musicf059e

@@ -16,7 +16,7 @@ sndSolvePuzzle2Channel3:
 	duty $02
 	env $0 $02
 	vol $0
-	rest $08
+	sust $08
 	vol $c
 	note f6  $10
 	vol $b

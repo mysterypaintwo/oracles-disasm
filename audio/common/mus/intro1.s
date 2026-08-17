@@ -66,10 +66,10 @@ musIntro1Channel1:
 	note e5  $1c
 	vol $4
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $2
 	note e5  $07
 	duty $02
@@ -79,31 +79,31 @@ musIntro1Channel1:
 	note ds5 $07
 	vol $6
 	note as4 $07
-	rest $03
+	release $03
 	vol $4
 	note as4 $04
 	vol $6
 	note as5 $07
-	rest $03
+	release $03
 	vol $4
 	note as5 $04
 	vol $6
 	note gs5 $1c
 	note g5  $07
-	rest $03
+	release $03
 	vol $4
 	note g5  $04
 	vol $6
 	note f5  $1c
 	note cs5 $07
-	rest $03
+	release $03
 	vol $4
 	note cs5 $04
 	vol $6
 	note ds5 $07
 	note f5  $07
 	note g5  $07
-	rest $03
+	release $03
 	vol $4
 	note g5  $04
 	vol $6
@@ -123,13 +123,13 @@ musIntro1Channel1:
 	note f5  $07
 	note g5  $07
 	note gs5 $07
-	rest $03
+	release $03
 	vol $4
 	note gs5 $07
-	rest $04
+	release $04
 	vol $2
 	note gs5 $07
-	rest $03
+	release $03
 	vol $1
 	note gs5 $04
 	vol $6
@@ -145,7 +145,7 @@ musIntro1Channel1:
 	note ds6 $07
 	note f6  $07
 	note fs6 $07
-	rest $03
+	release $03
 	vol $4
 	note fs6 $04
 	vol $6
@@ -153,20 +153,20 @@ musIntro1Channel1:
 	note ds6 $0e
 	note cs6 $0e
 	note as5 $0e
-	rest $03
+	release $03
 	vol $4
 	note as5 $07
-	rest $04
+	release $04
 	vol $6
 	note f6  $07
-	rest $03
+	release $03
 	vol $4
 	note f6  $04
 	vol $6
 	note fs6 $07
 	note gs6 $07
 	note a6  $07
-	rest $03
+	release $03
 	vol $4
 	note a6  $04
 	vol $6
@@ -176,13 +176,13 @@ musIntro1Channel1:
 	note d6  $0e
 	note c6  $1c
 	note b5  $07
-	rest $03
+	release $03
 	vol $4
 	note b5  $04
 	vol $6
 	note a5  $1c
 	note g5  $07
-	rest $03
+	release $03
 	vol $4
 	note g5  $04
 	vol $6
@@ -196,13 +196,13 @@ musIntro1Channel1:
 	note gs5 $1c
 	vol $6
 	note fs5 $07
-	rest $03
+	release $03
 	vol $3
 	note fs5 $04
 	vol $6
 	note e5  $1c
 	note d5  $07
-	rest $03
+	release $03
 	vol $3
 	note d5  $04
 	vol $6
@@ -214,27 +214,27 @@ musIntro1Channel1:
 	vibrato $e1
 	vol $6
 	note b4  $07
-	rest $07
+	release $07
 	vol $4
 	note b4  $07
-	rest $07
+	release $07
 	vol $2
 	note b4  $07
-	rest $07
+	release $07
 	vol $1
 	note b4  $07
-	rest $07
+	release $07
 	vibrato $e1
 	env $0 $00
 	vol $0
 	note b4  $07
-	rest $15
+	release $15
 	vibrato $00
 	duty $02
 musicf6ed3:
 	vol $5
 	note e5  $05
-	rest $05
+	release $05
 	vol $7
 	note d5  $05
 	vol $3
@@ -917,19 +917,19 @@ musIntro1Channel0:
 	note d5  $07
 	note g5  $07
 	note d6  $07
-	rest $03
+	release $03
 	vol $3
 	note d6  $07
-	rest $04
+	release $04
 	vol $2
 	note d6  $07
-	rest $03
+	release $03
 	vol $2
 	note d6  $07
-	rest $04
+	release $04
 	vol $1
 	note d6  $07
-	rest $07
+	release $07
 	duty $01
 	vol $4
 	note b3  $1c
@@ -947,19 +947,19 @@ musIntro1Channel0:
 	note c6  $07
 	note f5  $07
 	note c5  $07
-	rest $03
+	release $03
 	vol $4
 	note c5  $07
-	rest $04
+	release $04
 	vol $3
 	note c5  $07
-	rest $03
+	release $03
 	vol $2
 	note c5  $07
-	rest $04
+	release $04
 	vol $1
 	note c5  $07
-	rest $31
+	release $31
 	duty $01
 	vol $5
 	note ds4 $0e
@@ -974,19 +974,19 @@ musIntro1Channel0:
 	note ds5 $07
 	note gs5 $07
 	note cs6 $07
-	rest $03
+	release $03
 	vol $4
 	note cs6 $07
-	rest $04
+	release $04
 	vol $3
 	note cs6 $07
-	rest $03
+	release $03
 	vol $2
 	note cs6 $07
-	rest $04
+	release $04
 	vol $1
 	note cs6 $07
-	rest $07
+	release $07
 	duty $01
 	vol $6
 	note c4  $1c
@@ -1005,19 +1005,19 @@ musIntro1Channel0:
 	note b5  $07
 	vol $6
 	note e6  $07
-	rest $03
+	release $03
 	vol $5
 	note e6  $07
-	rest $04
+	release $04
 	vol $4
 	note e6  $07
-	rest $03
+	release $03
 	vol $3
 	note e6  $07
-	rest $04
+	release $04
 	vol $2
 	note e6  $07
-	rest $07
+	release $07
 	vol $6
 	note b3  $07
 	vol $6
@@ -1036,10 +1036,10 @@ musIntro1Channel0:
 	note b4  $07
 	vol $3
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $07
-	rest $04
+	release $04
 	vol $2
 	note b4  $07
 	vol $6
@@ -1048,12 +1048,12 @@ musIntro1Channel0:
 	note as4 $07
 	vol $6
 	note ds4 $07
-	rest $03
+	release $03
 	vol $4
 	note ds4 $04
 	vol $6
 	note g4  $07
-	rest $03
+	release $03
 	vol $4
 	note g4  $04
 	vol $6
@@ -1063,13 +1063,13 @@ musIntro1Channel0:
 	vol $6
 	note cs4 $1c
 	note as3 $07
-	rest $03
+	release $03
 	vol $4
 	note as3 $04
 	vol $6
 	note b3  $0e
 	note ds4 $07
-	rest $03
+	release $03
 	vol $4
 	note ds4 $04
 	vol $6
@@ -1084,21 +1084,21 @@ musIntro1Channel0:
 	note ds3 $07
 	note as3 $07
 	note ds4 $03
-	rest $04
+	release $04
 	note ds4 $07
 	note as4 $03
-	rest $04
+	release $04
 	note as4 $07
 	note ds5 $03
-	rest $04
+	release $04
 	note ds5 $07
-	rest $03
+	release $03
 	vol $4
 	note ds5 $07
-	rest $04
+	release $04
 	vol $2
 	note ds5 $07
-	rest $03
+	release $03
 	vol $1
 	note ds5 $04
 	vol $6
@@ -1112,7 +1112,7 @@ musIntro1Channel0:
 	note fs5 $07
 	note gs5 $07
 	note as5 $07
-	rest $03
+	release $03
 	vol $4
 	note as5 $04
 	vol $6
@@ -1125,7 +1125,7 @@ musIntro1Channel0:
 	note d5  $07
 	note e5  $07
 	note fs5 $07
-	rest $03
+	release $03
 	vol $4
 	note fs5 $04
 	vol $6
@@ -1135,13 +1135,13 @@ musIntro1Channel0:
 	note fs5 $0e
 	note a5  $1c
 	note g5  $07
-	rest $03
+	release $03
 	vol $4
 	note g5  $04
 	vol $6
 	note f5  $1c
 	note e5  $07
-	rest $03
+	release $03
 	vol $4
 	note e5  $04
 	vol $6
@@ -1151,46 +1151,46 @@ musIntro1Channel0:
 	note c5  $0e
 	note b4  $1c
 	note a4  $07
-	rest $03
+	release $03
 	vol $4
 	note a4  $04
 	vol $6
 	note gs4 $1c
 	note fs4 $07
-	rest $03
+	release $03
 	vol $4
 	note fs4 $04
 	vol $6
 	note gs4 $1c
 	note a4  $07
-	rest $03
+	release $03
 	vol $4
 	note a4  $04
 	vol $6
 	note gs4 $1c
 	note fs4 $07
-	rest $03
+	release $03
 	vol $4
 	note fs4 $04
 	vol $6
 	note gs4 $07
-	rest $07
+	release $07
 	vol $5
 	note gs4 $07
-	rest $07
+	release $07
 	vol $3
 	note gs4 $07
-	rest $07
+	release $07
 	vol $2
 	note gs4 $07
-	rest $07
+	release $07
 	vol $1
 	note gs4 $07
-	rest $15
+	release $15
 	vibrato $00
 	duty $01
 musicf74a6:
-	rest $78
+	release $78
 	vol $7
 	note e3  $28
 	note g3  $46
@@ -1256,7 +1256,7 @@ musicf74a6:
 	note b2  $1e
 	vol $0
 	note b2  $1e
-	rest $78
+	release $78
 	goto musicf74a6
 	cmdff
 
@@ -1868,12 +1868,12 @@ musIntro1Channel6:
 	vol $2
 	note $2e $1c
 	note $2e $2a
-	rest $02
+	sust $02
 	note $2a $05
 	note $2a $04
 	note $2a $03
 	note $2e $46
-	rest $03
+	sust $03
 	note $2a $04
 	note $2a $03
 	note $2a $04

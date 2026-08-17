@@ -11,12 +11,12 @@ musiced6de:
 	env $0 $00
 	note c5  $07
 	note e5  $07
-	sust $03
+	release $03
 	vol $3
 	note e5  $04
 	vol $7
 	note g5  $07
-	sust $03
+	release $03
 	vol $3
 	note g5  $04
 	vibrato $32
@@ -26,10 +26,10 @@ musiced6de:
 	vibrato $00
 	env $0 $00
 	note g5  $07
-	sust $03
+	release $03
 	vol $3
 	note g5  $07
-	sust $04
+	release $04
 	vol $1
 	note g5  $07
 	vibrato $32
@@ -40,12 +40,12 @@ musiced6de:
 	env $0 $00
 	note a5  $07
 	note gs5 $07
-	sust $03
+	release $03
 	vol $3
 	note gs5 $04
 	vol $7
 	note g5  $07
-	sust $03
+	release $03
 	vol $3
 	note g5  $04
 	vibrato $32
@@ -55,13 +55,13 @@ musiced6de:
 	vibrato $00
 	env $0 $00
 	note g5  $07
-	sust $03
+	release $03
 	vol $3
 	note g5  $07
-	sust $04
+	release $04
 	vol $1
 	note g5  $07
-	sust $0e
+	release $0e
 	vibrato $00
 	env $0 $02
 	vol $7
@@ -91,12 +91,12 @@ musiced6de:
 	note g3  $07
 	vol $7
 	note as3 $07
-	sust $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $7
 	note as3 $07
-	sust $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $8
@@ -113,17 +113,17 @@ musiced6de:
 	note g3  $07
 	vol $7
 	note d4  $07
-	sust $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $9
 	note d4  $07
-	sust $03
+	release $03
 	vol $4
 	note d4  $04
 	vol $8
 	note g3  $1c
-	sust $2a
+	release $2a
 	vibrato $00
 	env $0 $03
 	vol $7
@@ -144,48 +144,48 @@ musiced6de:
 	note e5  $15
 	note c5  $07
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $7
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $7
 	note f5  $15
 	note cs5 $07
 	note gs4 $07
-	sust $03
+	release $03
 	vol $3
 	note gs4 $04
 	vol $7
 	note gs4 $07
-	sust $03
+	release $03
 	vol $3
 	note gs4 $04
 	vol $7
 	note e5  $15
 	note c5  $07
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $7
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $7
 	note d5  $15
 	note as4 $07
 	note f4  $07
-	sust $03
+	release $03
 	vol $3
 	note f4  $04
 	vol $7
 	note f4  $07
-	sust $03
+	release $03
 	vol $3
 	note f4  $04
 	vibrato $00

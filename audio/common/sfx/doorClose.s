@@ -3,7 +3,7 @@ sndDoorCloseStart:
 sndDoorCloseChannel2:
 	duty $01
 	vol $0
-	rest $02
+	release $02
 	vol $6
 	note c4  $01
 	cmdf8 $0f

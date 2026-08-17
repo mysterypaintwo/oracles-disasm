@@ -12,577 +12,577 @@ musicf83e8:
 	note gs3 $30
 	vol $6
 	note e4  $0d
-	rest $03
+	release $03
 	vol $3
 	note e4  $02
-	rest $02
+	release $02
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $10
+	release $10
 	vol $6
 	note d4  $08
-	rest $02
+	release $02
 	vol $3
 	note d4  $04
-	rest $02
+	release $02
 	vol $6
 	note c4  $08
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
-	rest $ae
+	release $ae
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note d4  $05
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $05
-	rest $03
+	release $03
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $2
 	note c4  $02
-	rest $5e
+	release $5e
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $04
-	rest $02
+	release $02
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $2
 	note c4  $02
-	rest $2e
+	release $2e
 	vol $6
 	note e4  $0d
-	rest $03
+	release $03
 	note e4  $02
-	rest $02
+	release $02
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $10
+	release $10
 	vol $6
 	note d4  $08
-	rest $02
+	release $02
 	vol $3
 	note d4  $04
-	rest $02
+	release $02
 	vol $6
 	note c4  $08
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $1
 	note c4  $02
-	rest $ac
+	release $ac
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note d4  $05
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $05
-	rest $03
+	release $03
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $2
 	note c4  $02
-	rest $5e
+	release $5e
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $04
-	rest $02
+	release $02
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $1
 	note c4  $02
-	rest $5e
+	release $5e
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $06
+	release $06
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $46
+	release $46
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $06
+	release $06
 	vol $1
 	note c4  $02
-	rest $5e
+	release $5e
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $06
+	release $06
 	vol $6
 	note d4  $08
-	rest $02
+	release $02
 	vol $3
 	note d4  $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $06
+	release $06
 	vol $6
 	note as3 $08
-	rest $02
+	release $02
 	vol $3
 	note as3 $02
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $02
-	rest $06
+	release $06
 	vol $1
 	note c4  $02
-	rest $ff
-	rest $ff
-	rest $10
+	release $ff
+	release $ff
+	release $10
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $0c
-	rest $01
+	release $01
 	vol $3
 	note as4 $03
-	rest $02
+	release $02
 	note as4 $02
-	rest $0c
+	release $0c
 	vol $6
 	note as4 $0a
-	rest $02
+	release $02
 	vol $1
 	note as4 $04
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	vol $2
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $34
+	release $34
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $0c
-	rest $01
+	release $01
 	vol $3
 	note as4 $03
-	rest $05
+	release $05
 	vol $3
 	note as4 $03
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $10
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $0
-	rest $ff
+	release $ff
 	vol $0
-	rest $ff
-	rest $36
+	release $ff
+	release $36
 	vol $6
 	note e4  $0d
-	rest $03
+	release $03
 	note e4  $02
-	rest $02
+	release $02
 	vol $4
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $10
+	release $10
 	vol $6
 	note d4  $08
-	rest $02
+	release $02
 	vol $3
 	note d4  $04
-	rest $02
+	release $02
 	vol $6
 	note c4  $08
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $2
 	note c4  $02
-	rest $ac
+	release $ac
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $03
+	release $03
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $6
 	note d4  $05
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $05
-	rest $03
+	release $03
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $2
 	note c4  $02
-	rest $4e
+	release $4e
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $08
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	note as4 $02
-	rest $06
+	release $06
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $08
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	vol $2
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $34
+	release $34
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $08
-	rest $02
+	release $02
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	vol $3
 	note as4 $02
-	rest $06
+	release $06
 	vol $3
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note as4 $08
-	rest $02
+	release $02
 	vol $5
 	note as4 $02
-	rest $06
+	release $06
 	vol $4
 	note as4 $02
-	rest $06
+	release $06
 	vol $3
 	note as4 $02
-	rest $04
+	release $04
 	vol $6
 	note a4  $08
-	rest $02
+	release $02
 	vol $3
 	note a4  $02
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $0
-	rest $ff
+	release $ff
 	vol $0
-	rest $85
+	release $85
 	goto musicf83e8
 	cmdff
 
@@ -596,456 +596,456 @@ musGoronCaveChannel0:
 musicf87b3:
 	vol $6
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $18
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
 	note as2 $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $10
-	rest $10
+	release $10
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $20
 	note e3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
-	rest $18
+	release $18
 	note g2  $10
 	note as2 $10
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $10
+	release $10
 	note c2  $08
 	note e3  $18
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $08
-	rest $08
+	release $08
 	note g2  $08
 	note as2 $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note c3  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $10
-	rest $08
+	release $08
 	note ds3 $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $10
-	rest $10
+	release $10
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note c3  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $10
-	rest $08
+	release $08
 	note ds3 $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $18
+	release $18
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
-	note e3  $10
-	note c3  $08
-	note g2  $04
-	rest $04
-	note g2  $08
-	rest $08
-	note as2 $08
-	rest $08
-	note c3  $08
-	rest $08
-	note g2  $08
-	rest $08
-	note c2  $08
-	rest $08
-	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $04
-	rest $04
+	release $04
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
+	note c2  $08
+	release $08
+	note c2  $08
+	release $08
+	note e3  $10
+	note c3  $08
+	note g2  $04
+	release $04
+	note g2  $08
+	release $08
+	note as2 $08
+	release $08
+	note c3  $08
+	release $08
+	note g2  $08
+	release $08
 	note c2  $20
 	note e3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $10
+	release $10
 	note c2  $08
 	note e3  $18
 	note g2  $08
-	rest $10
+	release $10
 	note g2  $08
 	note as2 $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $18
+	release $18
 	note g2  $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note c2  $08
-	rest $08
+	release $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
-	rest $10
+	release $10
 	note c3  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	note c2  $0a
-	rest $0e
+	release $0e
 	note ds3 $08
 	note e3  $10
 	note c3  $08
 	note g2  $08
 	note c3  $08
-	rest $08
+	release $08
 	note g2  $08
-	rest $08
+	release $08
 	note as2 $08
-	rest $08
+	release $08
 	note c3  $08
-	rest $08
+	release $08
 	goto musicf87b3
 	cmdff
 

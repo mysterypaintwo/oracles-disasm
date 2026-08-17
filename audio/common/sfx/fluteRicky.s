@@ -2,13 +2,13 @@ sndFluteRickyStart:
 
 sndFluteRickyChannel3:
 	vol $0
-	rest $f1
+	release $f1
 	cmdff
 
 sndFluteRickyChannel2:
 	vol $0
 	duty $02
-	rest $1f
+	release $1f
 	vol $2
 	note c6  $05
 	note f6  $04

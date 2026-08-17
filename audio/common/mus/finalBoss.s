@@ -84,54 +84,54 @@ musice6c42:
 	vol $6
 	note ds5 $12
 	note d5  $06
-	rest $03
+	release $03
 	vol $3
 	note d5  $06
-	rest $03
+	release $03
 	vol $1
 	note d5  $06
-	rest $06
+	release $06
 	vol $6
 	note cs5 $12
 	note c5  $06
-	rest $03
+	release $03
 	vol $3
 	note c5  $06
-	rest $03
+	release $03
 	vol $1
 	note c5  $06
-	rest $06
+	release $06
 	vol $6
 	note ds5 $06
-	rest $03
+	release $03
 	vol $3
 	note ds5 $03
 	vol $6
 	note ds5 $06
 	note d5  $06
-	rest $03
+	release $03
 	vol $3
 	note d5  $06
-	rest $03
+	release $03
 	vol $1
 	note d5  $06
-	rest $06
+	release $06
 	vol $6
 	note cs5 $03
-	rest $03
+	release $03
 	vol $6
 	note cs5 $03
-	rest $03
+	release $03
 	vol $6
 	note cs5 $06
 	note c5  $06
-	rest $03
+	release $03
 	vol $3
 	note c5  $06
-	rest $03
+	release $03
 	vol $1
 	note c5  $06
-	rest $06
+	release $06
 	vol $6
 	note e5  $12
 	note ds5 $06
@@ -150,7 +150,7 @@ musice6c42:
 	note ds4 $06
 	vol $6
 	note e5  $06
-	rest $03
+	release $03
 	vol $3
 	note e5  $03
 	vol $6
@@ -163,10 +163,10 @@ musice6c42:
 	note as4 $06
 	vol $6
 	note d5  $03
-	rest $03
+	release $03
 	vol $6
 	note d5  $03
-	rest $03
+	release $03
 	vol $6
 	note d5  $06
 	note cs5 $06
@@ -179,10 +179,10 @@ musice6c42:
 	note b4  $04
 	vol $6
 	note d5  $06
-	rest $03
+	release $03
 	vol $3
 	note d5  $06
-	rest $03
+	release $03
 	vol $6
 	note as5 $06
 	note a5  $30

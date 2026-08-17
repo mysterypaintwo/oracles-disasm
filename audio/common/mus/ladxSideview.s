@@ -26,7 +26,7 @@ musicf8204:
 	note f2  $08
 	vol $2
 	note f2  $04
-	rest $48
+	release $48
 	vol $c
 	note c2  $02
 	vol $5
@@ -55,7 +55,7 @@ musicf8204:
 	note b2  $08
 	vol $2
 	note b2  $04
-	rest $f8
+	release $f8
 	goto musicf8204
 	cmdff
 

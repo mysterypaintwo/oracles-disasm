@@ -8,11 +8,11 @@ musMoonlitGrottoChannel1:
 musicf0008:
 	vol $6
 	note f3  $23
-	sust $01
+	release $01
 	vibrato $01
 	vol $3
 	note f3  $09
-	sust $09
+	release $09
 	vibrato $e1
 	vol $6
 	note c3  $09
@@ -26,7 +26,7 @@ musicf0008:
 	note c3  $09
 	vol $3
 	note c3  $09
-	sust $12
+	release $12
 	vol $6
 	note c3  $09
 	vol $3
@@ -44,7 +44,7 @@ musicf0008:
 	vibrato $01
 	vol $3
 	note f3  $09
-	sust $09
+	release $09
 	vibrato $e1
 	vol $6
 	note ds3 $09
@@ -53,7 +53,7 @@ musicf0008:
 	note c3  $09
 	vol $3
 	note c3  $09
-	sust $63
+	release $63
 	vol $6
 	note fs4 $09
 	note f4  $09
@@ -63,7 +63,7 @@ musicf0008:
 	note c4  $09
 	vol $3
 	note c4  $09
-	sust $6c
+	release $6c
 	vol $6
 	note c5  $09
 	vol $3
@@ -72,7 +72,7 @@ musicf0008:
 	note b4  $09
 	vol $3
 	note b4  $09
-	sust $09
+	release $09
 	vol $6
 	note b4  $09
 	vol $6
@@ -83,7 +83,7 @@ musicf0008:
 	note b4  $09
 	vol $3
 	note b4  $09
-	sust $12
+	release $12
 	vol $6
 	note b4  $09
 	vol $3
@@ -118,7 +118,7 @@ musicf0008:
 	note b5  $09
 	vol $3
 	note b5  $09
-	sust $12
+	release $12
 	vol $6
 	note b5  $09
 	vol $3
@@ -127,7 +127,7 @@ musicf0008:
 	note as5 $09
 	vol $3
 	note as5 $09
-	sust $12
+	release $12
 	vol $6
 	note gs5 $09
 	vol $3
@@ -136,7 +136,7 @@ musicf0008:
 	note as5 $09
 	vol $3
 	note as5 $09
-	sust $12
+	release $12
 	vol $6
 	note as5 $09
 	vol $3
@@ -145,7 +145,7 @@ musicf0008:
 	note gs5 $09
 	vol $3
 	note gs5 $09
-	sust $12
+	release $12
 	vol $6
 	note gs5 $09
 	vol $3
@@ -162,12 +162,12 @@ musicf0008:
 	note g5  $09
 	vol $3
 	note g5  $09
-	sust $12
+	release $12
 	vol $6
 	note c5  $09
 	vol $3
 	note c5  $09
-	sust $12
+	release $12
 	vol $6
 	note ds5 $09
 	vol $3
@@ -210,7 +210,7 @@ musicf0144:
 	vibrato $01
 	vol $2
 	note c3  $09
-	sust $09
+	release $09
 	vibrato $e1
 	vol $6
 	note g2  $09
@@ -224,7 +224,7 @@ musicf0144:
 	note g2  $09
 	vol $2
 	note g2  $09
-	sust $12
+	release $12
 	vol $6
 	note g2  $09
 	vol $2
@@ -242,7 +242,7 @@ musicf0144:
 	vibrato $01
 	vol $2
 	note c3  $09
-	sust $12
+	release $12
 	vibrato $e1
 	vol $6
 	note as2 $09
@@ -251,7 +251,7 @@ musicf0144:
 	note g2  $09
 	vol $2
 	note g2  $09
-	sust $63
+	release $63
 	vol $7
 	note cs4 $09
 	note c4  $09
@@ -259,7 +259,7 @@ musicf0144:
 	note c4  $09
 	note as3 $09
 	note g3  $09
-	sust $75
+	release $75
 	note gs4 $09
 	vol $3
 	note gs4 $09
@@ -267,7 +267,7 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	sust $09
+	release $09
 	vol $7
 	note g4  $09
 	note gs4 $09
@@ -277,7 +277,7 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	sust $12
+	release $12
 	vol $7
 	note g4  $09
 	vol $3
@@ -364,12 +364,12 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	sust $12
+	release $12
 	vol $7
 	note c4  $09
 	vol $3
 	note c4  $09
-	sust $09
+	release $09
 	vol $7
 	note c4  $09
 	note as4 $09
@@ -387,45 +387,45 @@ musicf0144:
 	note g4  $09
 	vol $3
 	note g4  $09
-	sust $12
+	release $12
 	vol $7
 	note c5  $04
-	sust $05
+	release $05
 	note c5  $04
-	sust $05
+	release $05
 	note c6  $04
-	sust $05
+	release $05
 	vol $6
 	note c6  $04
-	sust $05
+	release $05
 	vol $3
 	note c6  $04
-	sust $05
+	release $05
 	vol $2
 	note c6  $04
-	sust $05
+	release $05
 	vol $7
 	note c5  $04
-	sust $05
+	release $05
 	note c5  $04
-	sust $05
+	release $05
 	note c6  $04
-	sust $05
+	release $05
 	vol $6
 	note c6  $04
-	sust $05
+	release $05
 	vol $7
 	note c6  $04
-	sust $05
+	release $05
 	vol $5
 	note c6  $04
-	sust $05
+	release $05
 	vol $7
 	note c7  $04
-	sust $05
+	release $05
 	vol $4
 	note c7  $04
-	sust $05
+	release $05
 	goto musicf0144
 	cmdff
 

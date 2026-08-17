@@ -31,37 +31,37 @@ musicf8251:
 	vibrato $00
 	env $0 $03
 	note cs5 $05
-	rest $0f
+	sust $0f
 	note d5  $05
-	rest $0f
+	sust $0f
 	note ds6 $05
-	rest $0f
+	sust $0f
 	note d6  $05
-	rest $0f
+	sust $0f
 	note cs6 $05
-	rest $0f
+	sust $0f
 	note d6  $05
-	rest $0f
+	sust $0f
 	note c6  $05
-	rest $0f
+	sust $0f
 	note cs6 $05
-	rest $0f
+	sust $0f
 	note b5  $05
-	rest $0f
+	sust $0f
 	note c6  $05
-	rest $0f
+	sust $0f
 	note as5 $05
-	rest $0f
+	sust $0f
 	note b5  $05
-	rest $0f
+	sust $0f
 	note a5  $05
-	rest $05
+	sust $05
 	note as5 $05
-	rest $05
+	sust $05
 	note gs5 $05
-	rest $05
+	sust $05
 	note a5  $05
-	rest $55
+	sust $55
 	vol $3
 	note as7 $01
 	note as5 $01
@@ -69,7 +69,7 @@ musicf8251:
 	note cs5 $03
 	cmdf8 $00
 	vol $0
-	rest $05
+	sust $05
 	vol $3
 	note as7 $01
 	note as5 $01
@@ -77,7 +77,7 @@ musicf8251:
 	note cs5 $03
 	cmdf8 $00
 	vol $0
-	rest $05
+	sust $05
 	goto musicf8251
 	cmdff
 
@@ -154,32 +154,32 @@ musicf82e1:
 	vol $3
 	note c4  $0a
 	vol $3
-	rest $28
+	sust $28
 	note d6  $05
-	rest $0f
+	sust $0f
 	note cs6 $05
-	rest $0f
+	sust $0f
 	env $0 $03
 	note c6  $05
-	rest $0f
+	sust $0f
 	note cs6 $05
-	rest $0f
+	sust $0f
 	note b5  $05
-	rest $0f
+	sust $0f
 	note c6  $05
-	rest $0f
+	sust $0f
 	note as5 $05
-	rest $0f
+	sust $0f
 	note b5  $05
-	rest $0f
+	sust $0f
 	note a5  $05
-	rest $0f
+	sust $0f
 	note as5 $05
-	rest $0f
+	sust $0f
 	note gs5 $05
-	rest $0f
+	sust $0f
 	note g5  $05
-	rest $73
+	sust $73
 	goto musicf82e1
 	cmdff
 

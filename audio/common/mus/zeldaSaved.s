@@ -14,7 +14,7 @@ musicf65f2:
 	note ds5 $16
 	note gs5 $16
 	note as5 $0b
-	rest $05
+	release $05
 	vol $3
 	note as5 $06
 	vol $6
@@ -29,7 +29,7 @@ musicf65f2:
 	note as5 $0b
 	note gs5 $0b
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $6
@@ -39,7 +39,7 @@ musicf65f2:
 	note ds5 $0b
 	note cs5 $0b
 	note as4 $0b
-	rest $05
+	release $05
 	vol $3
 	note as4 $06
 	vol $6
@@ -54,14 +54,14 @@ musicf65f2:
 	env $0 $00
 	vol $6
 	note as5 $0b
-	rest $05
+	release $05
 	vol $3
 	note as5 $06
 	vol $6
 	note c6  $0b
 	note cs6 $0b
 	note ds6 $0b
-	rest $05
+	release $05
 	vol $3
 	note ds6 $06
 	vol $6
@@ -91,40 +91,40 @@ musicf65f2:
 	note ds6 $0b
 	note f6  $2c
 	note ds6 $05
-	rest $01
+	release $01
 	vol $4
 	note ds6 $07
-	rest $01
+	release $01
 	vol $3
 	note ds6 $05
-	rest $03
+	release $03
 	vol $6
 	note cs6 $05
-	rest $01
+	release $01
 	vol $4
 	note cs6 $07
-	rest $01
+	release $01
 	vol $3
 	note cs6 $05
-	rest $03
+	release $03
 	vol $6
 	note c6  $05
-	rest $01
+	release $01
 	vol $4
 	note c6  $07
-	rest $01
+	release $01
 	vol $3
 	note c6  $05
-	rest $03
+	release $03
 	vol $6
 	note as5 $05
-	rest $01
+	release $01
 	vol $3
 	note as5 $07
-	rest $01
+	release $01
 	vol $3
 	note as5 $05
-	rest $03
+	release $03
 	vol $6
 	note as4 $16
 	note f5  $16
@@ -138,13 +138,13 @@ musicf65f2:
 	note gs5 $16
 	vol $1
 	note gs5 $0b
-	rest $0b
+	release $0b
 	vibrato $f1
 	env $0 $00
 	vol $6
 	note as5 $16
 	note f6  $0b
-	rest $05
+	release $05
 	vol $3
 	note f6  $06
 	vol $6
@@ -156,50 +156,50 @@ musicf65f2:
 	note as5 $0b
 	note gs5 $0b
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $6
 	note as5 $0b
 	note gs5 $0b
 	note f5  $07
-	rest $04
+	release $04
 	note f5  $0b
 	note ds5 $0b
 	note cs5 $0b
 	note as4 $05
-	rest $01
+	release $01
 	vol $5
 	note as4 $07
-	rest $01
+	release $01
 	vol $4
 	note as4 $05
-	rest $03
+	release $03
 	vol $6
 	note f5  $05
-	rest $01
+	release $01
 	vol $4
 	note f5  $07
-	rest $01
+	release $01
 	vol $3
 	note f5  $05
-	rest $03
+	release $03
 	vol $6
 	note as5 $05
-	rest $06
+	release $06
 	vol $5
 	note as5 $05
-	rest $06
+	release $06
 	vol $4
 	note as5 $05
-	rest $27
+	release $27
 	vol $6
 	note as5 $0b
 	note c6  $0b
 	note cs6 $0b
 	note ds6 $0b
 	note f6  $0b
-	rest $05
+	release $05
 	vol $3
 	note f6  $06
 	vol $6
@@ -211,13 +211,13 @@ musicf65f2:
 	note as5 $0b
 	note gs5 $0b
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $0b
-	rest $06
+	release $06
 	vol $6
 	note as5 $0b
-	rest $05
+	release $05
 	vol $3
 	note as5 $06
 	vol $6
@@ -243,25 +243,25 @@ musicf65f2:
 	note as4 $07
 	note gs4 $08
 	note as4 $05
-	rest $01
+	release $01
 	vol $4
 	note as4 $07
-	rest $09
+	release $09
 	vol $6
 	note ds5 $05
-	rest $01
+	release $01
 	vol $4
 	note ds5 $07
-	rest $09
+	release $09
 	vol $6
 	note as5 $05
-	rest $01
+	release $01
 	vol $4
 	note as5 $07
-	rest $01
+	release $01
 	vol $2
 	note as5 $05
-	rest $45
+	release $45
 	goto musicf65f2
 	cmdff
 musZeldaSavedChannel0:
@@ -321,23 +321,23 @@ musicf67c7:
 	env $0 $00
 	note fs4 $2c
 	note f3  $58
-	rest $16
+	release $16
 	note fs3 $16
 	note f3  $4d
-	rest $0b
+	release $0b
 	note fs3 $2c
 	note gs3 $2c
 	note fs3 $2c
 	note g3  $16
 	note gs3 $0b
-	rest $0b
+	release $0b
 	note gs3 $16
 	vol $6
 	note as3 $0b
-	rest $0b
+	release $0b
 	note as3 $16
 	note c4  $0b
-	rest $0b
+	release $0b
 	note cs4 $16
 	note as3 $16
 	note c4  $16

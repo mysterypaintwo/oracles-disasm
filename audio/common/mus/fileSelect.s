@@ -8,7 +8,7 @@ musFileSelectChannel1:
 	note as4 $07
 	vol $3
 	note as4 $07
-	rest $0e
+	release $0e
 	env $0 $00
 	vol $5
 	note f4  $15
@@ -17,7 +17,7 @@ musFileSelectChannel1:
 	env $0 $02
 	vol $5
 	note as4 $07
-	rest $07
+	sust $07
 	vibrato $00
 	env $0 $02
 	note as4 $07
@@ -31,13 +31,13 @@ musFileSelectChannel1:
 	note f5  $0e
 	vol $2
 	note f5  $0e
-	rest $38
+	release $38
 	env $0 $00
 	vol $5
 	note as5 $07
 	vol $3
 	note as5 $07
-	rest $0e
+	release $0e
 	env $0 $00
 	vol $5
 	note f5  $15
@@ -46,7 +46,7 @@ musFileSelectChannel1:
 	env $0 $02
 	vol $5
 	note as5 $07
-	rest $07
+	sust $07
 	env $0 $02
 	note as5 $07
 	note c6  $07
@@ -58,14 +58,14 @@ musFileSelectChannel1:
 	note f6  $0e
 	vol $2
 	note f6  $0e
-	rest $38
+	release $38
 musicec37c:
 	env $0 $00
 	vol $5
 	note as4 $07
 	vol $3
 	note as4 $07
-	rest $0e
+	release $0e
 	env $0 $00
 	vol $5
 	note f4  $15
@@ -74,7 +74,7 @@ musicec37c:
 	env $0 $02
 	vol $5
 	note as4 $07
-	rest $07
+	sust $07
 	env $0 $02
 	note as4 $07
 	note c5  $07
@@ -87,13 +87,13 @@ musicec37c:
 	note f5  $0e
 	vol $2
 	note f5  $0e
-	rest $38
+	release $38
 	env $0 $00
 	vol $5
 	note as5 $07
 	vol $3
 	note as5 $07
-	rest $0e
+	release $0e
 	env $0 $00
 	vol $5
 	note f5  $15
@@ -102,7 +102,7 @@ musicec37c:
 	env $0 $02
 	vol $5
 	note as5 $07
-	rest $07
+	sust $07
 	env $0 $02
 	note as5 $07
 	note c6  $07
@@ -115,7 +115,7 @@ musicec37c:
 	note f6  $0e
 	vol $2
 	note f6  $0e
-	rest $38
+	sust $38
 	goto musicec37c
 	cmdff
 
@@ -129,7 +129,7 @@ musFileSelectChannel0:
 	note gs3 $07
 	vol $4
 	note gs3 $07
-	rest $0e
+	release $0e
 	vol $8
 	note ds3 $15
 	vol $3
@@ -137,7 +137,7 @@ musFileSelectChannel0:
 	vol $8
 	env $0 $01
 	note gs3 $07
-	rest $07
+	sust $07
 	env $0 $00
 	vol $8
 	note gs3 $04
@@ -160,13 +160,13 @@ musFileSelectChannel0:
 	note fs4 $04
 	vol $2
 	note fs4 $03
-	rest $85
+	release $85
 	env $0 $00
 	vol $8
 	note gs4 $07
 	vol $4
 	note gs4 $07
-	rest $0e
+	release $0e
 	vol $8
 	note ds4 $0e
 	vol $3
@@ -193,13 +193,13 @@ musicec44d:
 	note as3 $04
 	vol $2
 	note as3 $03
-	rest $69
+	release $69
 	env $0 $00
 	vol $8
 	note gs3 $07
 	vol $4
 	note gs3 $07
-	rest $0e
+	release $0e
 	vol $8
 	note ds3 $15
 	vol $3
@@ -207,7 +207,7 @@ musicec44d:
 	vol $8
 	env $0 $01
 	note gs3 $07
-	rest $07
+	sust $07
 	env $0 $00
 	vol $8
 	note gs3 $04
@@ -229,13 +229,13 @@ musicec44d:
 	note fs4 $04
 	vol $2
 	note fs4 $03
-	rest $85
+	release $85
 	env $0 $00
 	vol $8
 	note gs4 $07
 	vol $4
 	note gs4 $07
-	rest $0e
+	release $0e
 	vol $8
 	note ds4 $0e
 	vol $3

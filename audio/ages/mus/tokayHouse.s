@@ -7,191 +7,191 @@ musTokayHouseChannel1:
 musicf1239:
 	vol $6
 	note a4  $1c
-	sust $08
+	release $08
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $03
-	sust $02
+	release $02
 	vol $6
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $03
-	sust $02
+	release $02
 	vol $6
 	note a5  $1c
-	sust $08
+	release $08
 	note gs5 $07
-	sust $0b
+	release $0b
 	note f5  $07
-	sust $06
+	release $06
 	vol $3
 	note f5  $03
-	sust $02
+	release $02
 	vol $6
 	note gs5 $1c
-	sust $08
+	release $08
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $03
-	sust $02
+	release $02
 	vol $6
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $03
-	sust $02
+	release $02
 	vol $6
 	note f5  $1c
-	sust $08
+	release $08
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $07
-	sust $07
+	release $07
 	vol $2
 	note fs5 $07
-	sust $02
+	release $02
 	vol $6
 	note as5 $1c
-	sust $08
+	release $08
 	note a5  $07
-	sust $06
+	release $06
 	vol $3
 	note a5  $07
-	sust $07
+	release $07
 	vol $2
 	note a5  $07
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note a5  $07
-	sust $06
+	release $06
 	vol $3
 	note a5  $07
-	sust $07
+	release $07
 	vol $2
 	note a5  $07
-	sust $02
+	release $02
 	vol $6
 	note a4  $1c
-	sust $08
+	release $08
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $03
-	sust $02
+	release $02
 	vol $6
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $03
-	sust $02
+	release $02
 	vol $6
 	note a5  $1c
-	sust $08
+	release $08
 	note gs5 $07
-	sust $06
+	release $06
 	vol $3
 	note gs5 $03
-	sust $02
+	release $02
 	vol $6
 	note f5  $07
-	sust $06
+	release $06
 	vol $3
 	note f5  $03
-	sust $02
+	release $02
 	vol $6
 	note gs5 $1c
-	sust $08
+	release $08
 	note d6  $07
-	sust $06
+	release $06
 	vol $3
 	note d6  $03
-	sust $02
+	release $02
 	vol $6
 	note gs5 $07
-	sust $06
+	release $06
 	vol $3
 	note gs5 $03
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note a5  $07
-	sust $06
+	release $06
 	vol $3
 	note a5  $07
-	sust $07
+	release $07
 	vol $2
 	note a5  $07
-	sust $02
+	release $02
 	vol $6
 	note d6  $1c
-	sust $08
+	release $08
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $07
-	sust $07
+	release $07
 	vol $2
 	note fs5 $07
-	sust $02
+	release $02
 	vol $6
 	note d6  $07
-	sust $06
+	release $06
 	vol $3
 	note d6  $03
-	sust $02
+	release $02
 	vol $6
 	note d6  $07
-	sust $06
+	release $06
 	vol $3
 	note d6  $03
-	sust $02
+	release $02
 	vol $6
 	note fs5 $07
-	sust $06
+	release $06
 	vol $3
 	note fs5 $07
-	sust $07
+	release $07
 	vol $2
 	note fs5 $07
-	sust $02
+	release $02
 	vol $6
 	note d6  $1c
-	sust $08
+	release $08
 	note fs5 $15
-	sust $06
+	release $06
 	note g5  $07
-	sust $02
+	release $02
 	note a5  $24
 	vol $3
 	note a5  $12
-	sust $12
+	release $12
 	goto musicf1239
 	cmdff
 
@@ -204,176 +204,176 @@ musicf1383:
 	note gs3 $12
 	vol $6
 	note d4  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $0b
+	release $0b
 	vol $6
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $07
-	sust $07
+	release $07
 	vol $2
 	note d5  $07
-	sust $02
+	release $02
 	vol $6
 	note d4  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $0b
+	release $0b
 	vol $6
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $07
-	sust $07
+	release $07
 	vol $2
 	note d5  $07
-	sust $02
+	release $02
 	vol $6
 	note d4  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $06
+	release $06
 	vol $4
 	note cs4 $07
-	sust $07
+	release $07
 	vol $6
 	note gs3 $0e
-	sust $04
+	release $04
 	note a3  $07
-	sust $06
+	release $06
 	vol $3
 	note a3  $03
-	sust $02
+	release $02
 	vol $6
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $07
-	sust $07
+	release $07
 	vol $2
 	note d5  $07
-	sust $92
+	release $92
 	vol $6
 	note a3  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $06
+	release $06
 	vol $3
 	note d4  $07
-	sust $07
+	release $07
 	vol $6
 	note gs3 $07
-	sust $06
+	release $06
 	vol $3
 	note gs3 $07
-	sust $07
+	release $07
 	vol $6
 	note gs3 $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $06
+	release $06
 	vol $3
 	note d4  $03
-	sust $02
+	release $02
 	vol $6
 	note gs3 $07
-	sust $06
+	release $06
 	vol $3
 	note gs3 $07
-	sust $07
+	release $07
 	vol $2
 	note gs3 $07
-	sust $02
+	release $02
 	vol $6
 	note a3  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $06
+	release $06
 	vol $3
 	note d4  $07
-	sust $07
+	release $07
 	vol $6
 	note gs3 $07
-	sust $02
+	release $02
 	note a3  $07
-	sust $02
+	release $02
 	note as3 $07
-	sust $02
+	release $02
 	note b3  $07
-	sust $02
+	release $02
 	note cs4 $07
-	sust $02
+	release $02
 	note d4  $07
-	sust $06
+	release $06
 	vol $3
 	note d4  $07
-	sust $07
+	release $07
 	vol $2
 	note d4  $07
-	sust $02
+	release $02
 	vol $6
 	note as5 $1c
-	sust $08
+	release $08
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $07
-	sust $07
+	release $07
 	vol $2
 	note d5  $07
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note as5 $07
-	sust $06
+	release $06
 	vol $3
 	note as5 $03
-	sust $02
+	release $02
 	vol $6
 	note d5  $07
-	sust $06
+	release $06
 	vol $3
 	note d5  $07
-	sust $07
+	release $07
 	vol $2
 	note d5  $07
-	sust $02
+	release $02
 	vol $6
 	note as5 $1c
-	sust $08
+	release $08
 	note d5  $15
-	sust $06
+	release $06
 	note e5  $07
-	sust $02
+	release $02
 	note fs5 $24
 	vol $3
 	note fs5 $12
-	sust $12
+	release $12
 	goto musicf1383
 	cmdff
 

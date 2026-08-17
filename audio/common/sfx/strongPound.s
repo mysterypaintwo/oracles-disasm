@@ -5,13 +5,13 @@ sndStrongPoundChannel2:
 	vol $f
 	note ds2 $03
 	vol $0
-	rest $01
+	release $01
 	vol $f
 	note ds2 $01
 	vol $f
 	note ds2 $02
 	vol $0
-	rest $01
+	release $01
 	vol $f
 	env $0 $01
 	note c2  $0a

@@ -31,28 +31,28 @@ musicf0f36:
 	note cs5 $0c
 	note b4  $0c
 	note cs5 $10
-	sust $02
+	release $02
 	vol $5
 	note cs5 $06
 	vol $8
 	note a4  $10
-	sust $02
+	release $02
 	vol $5
 	note a4  $06
 	vol $8
 	note fs4 $10
-	sust $02
+	release $02
 	vol $5
 	note fs4 $06
 	vol $8
 	note cs5 $10
-	sust $02
+	release $02
 	vol $5
 	note cs5 $06
 	vol $8
 	note b4  $24
 	note e4  $06
-	sust $06
+	release $06
 	note e4  $18
 	vol $5
 	note e4  $0c
@@ -63,12 +63,12 @@ musicf0f36:
 	note e4  $0c
 	note d4  $0c
 	note b3  $0c
-	sust $06
+	release $06
 	vol $5
 	note b3  $06
 	vol $8
 	note d4  $0c
-	sust $06
+	release $06
 	vol $5
 	note d4  $06
 	vol $8
@@ -79,17 +79,17 @@ musicf0f36:
 	vibrato $e1
 	vol $8
 	note e4  $0c
-	sust $06
+	release $06
 	vol $5
 	note e4  $06
 	vol $8
 	note b4  $0c
-	sust $06
+	release $06
 	vol $5
 	note b4  $06
 	vol $8
 	note b4  $18
-	sust $06
+	release $06
 	vol $5
 	note b4  $06
 	vol $8
@@ -98,14 +98,14 @@ musicf0f36:
 	note cs5 $0c
 	note a4  $0c
 	note b4  $0c
-	sust $06
+	release $06
 	vol $5
 	note b4  $06
 	vol $8
 	note b4  $0c
 	note d5  $0c
 	note e5  $0c
-	sust $06
+	release $06
 	vol $5
 	note e5  $06
 	vol $8
@@ -120,7 +120,7 @@ musicf0f36:
 	note d5  $0c
 	note a4  $0c
 	note b4  $0c
-	sust $06
+	release $06
 	vol $5
 	note b4  $06
 	vol $8
@@ -131,7 +131,7 @@ musicf0f36:
 	note e4  $18
 	note d4  $18
 	note fs4 $0c
-	sust $06
+	release $06
 	vol $5
 	note fs4 $06
 	vol $8
@@ -177,17 +177,17 @@ musicf1037:
 	vol $8
 	note gs4 $0c
 	note a4  $0c
-	sust $06
+	release $06
 	vol $5
 	note a4  $06
 	vol $8
 	note a4  $0c
-	sust $06
+	release $06
 	vol $5
 	note a4  $06
 	vol $8
 	note a4  $0c
-	sust $06
+	release $06
 	vol $5
 	note a4  $06
 	vol $8
@@ -204,7 +204,7 @@ musicf1037:
 	note gs4 $0c
 	note b3  $0c
 	note gs3 $0c
-	sust $06
+	release $06
 	vol $5
 	note gs3 $06
 	vol $8
@@ -215,7 +215,7 @@ musicf1037:
 	note b3  $0c
 	note a3  $0c
 	note fs3 $0c
-	sust $06
+	release $06
 	vol $5
 	note fs3 $06
 	vol $8
@@ -223,17 +223,17 @@ musicf1037:
 	note a3  $0c
 	vol $5
 	note a3  $0c
-	sust $0c
+	release $0c
 	vol $8
 	note a3  $0c
 	note b3  $0c
 	note a3  $0c
-	sust $06
+	release $06
 	vol $5
 	note a3  $06
 	vol $8
 	note fs3 $0c
-	sust $06
+	release $06
 	vol $5
 	note fs3 $06
 	vol $8
@@ -242,14 +242,14 @@ musicf1037:
 	note fs3 $0c
 	note d3  $0c
 	note g3  $0c
-	sust $06
+	release $06
 	vol $5
 	note g3  $06
 	vol $8
 	note g3  $0c
 	note a3  $0c
 	note b3  $0c
-	sust $06
+	release $06
 	vol $5
 	note b3  $06
 	vol $8
@@ -260,12 +260,12 @@ musicf1037:
 	note b3  $0c
 	note fs3 $0c
 	note a3  $0c
-	sust $06
+	release $06
 	vol $5
 	note a3  $06
 	vol $8
 	note b3  $0c
-	sust $06
+	release $06
 	vol $5
 	note b3  $06
 	vol $8
@@ -276,12 +276,12 @@ musicf1037:
 	note cs4 $0c
 	note b3  $0c
 	note d4  $0c
-	sust $06
+	release $06
 	vol $5
 	note d4  $06
 	vol $8
 	note a3  $0c
-	sust $06
+	release $06
 	vol $5
 	note a3  $06
 	vol $8
@@ -294,17 +294,17 @@ musicf1037:
 	note e4  $0c
 	note d4  $0c
 	note cs4 $0c
-	sust $06
+	release $06
 	vol $5
 	note cs4 $06
 	vol $8
 	note b3  $0c
-	sust $06
+	release $06
 	vol $5
 	note b3  $06
 	vol $8
 	note d4  $0c
-	sust $06
+	release $06
 	vol $5
 	note d4  $06
 	vol $8
@@ -312,7 +312,7 @@ musicf1037:
 	note d4  $0c
 	note b3  $18
 	note as3 $12
-	sust $06
+	release $06
 	note b2  $24
 	note c3  $0c
 	note ds3 $0c
@@ -323,12 +323,12 @@ musicf1037:
 	note g3  $0c
 	note fs3 $0c
 	note c4  $0c
-	sust $06
+	release $06
 	vol $5
 	note c4  $06
 	vol $8
 	note b3  $0c
-	sust $06
+	release $06
 	vol $5
 	note b3  $06
 	goto musicf1037

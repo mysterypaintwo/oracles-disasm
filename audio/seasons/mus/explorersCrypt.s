@@ -115,35 +115,35 @@ musicf0db2:
 	vol $6
 	note gs4 $14
 	note g4  $0a
-	sust $05
+	release $05
 	vol $3
 	note g4  $05
 	vol $6
 	note f4  $0a
-	sust $05
+	release $05
 	vol $3
 	note f4  $05
 	vol $6
 	note d4  $0a
-	sust $05
+	release $05
 	vol $3
 	note d4  $05
 	vol $6
 	note f4  $14
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $3
 	note f4  $14
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $2
 	note f4  $14
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $1
 	note f4  $14
 	note d4  $0a
-	sust $0a
+	release $0a
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -183,31 +183,31 @@ musicf0db2:
 	vol $6
 	note ds5 $14
 	note b4  $0a
-	sust $05
+	release $05
 	vol $3
 	note b4  $05
 	vol $6
 	note g4  $0a
-	sust $05
+	release $05
 	vol $3
 	note g4  $05
 	vol $6
 	note ds4 $0a
-	sust $05
+	release $05
 	vol $3
 	note ds4 $05
 	vol $6
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $4
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $2
 	note d4  $0a
-	sust $0a
+	release $0a
 	vol $1
 	note d4  $0a
-	sust $5a
+	release $5a
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -252,7 +252,7 @@ musicf0f4a:
 	env $0 $00
 	vol $4
 	note gs3 $14
-	sust $0f
+	release $0f
 	vibrato $00
 	env $0 $03
 	note cs4 $0d
@@ -306,7 +306,7 @@ musicf0f4a:
 	env $0 $00
 	vol $4
 	note cs5 $14
-	sust $0f
+	release $0f
 	vibrato $00
 	env $0 $03
 	vol $3
@@ -364,20 +364,20 @@ musicf0f4a:
 	vol $6
 	note ds4 $14
 	note d4  $0a
-	sust $05
+	release $05
 	vol $3
 	note d4  $05
 	vol $6
 	note c4  $0a
-	sust $05
+	release $05
 	vol $3
 	note c4  $05
 	vol $6
 	note a3  $0a
-	sust $05
+	release $05
 	vol $3
 	note a3  $05
-	sust $af
+	release $af
 	vibrato $00
 	env $0 $03
 	vol $4
@@ -416,20 +416,20 @@ musicf0f4a:
 	vol $6
 	note b4  $14
 	note g4  $0a
-	sust $05
+	release $05
 	vol $3
 	note g4  $05
 	vol $6
 	note ds4 $0a
-	sust $05
+	release $05
 	vol $3
 	note ds4 $05
 	vol $6
 	note a3  $0a
-	sust $05
+	release $05
 	vol $3
 	note a3  $05
-	sust $af
+	release $af
 	vibrato $00
 	env $0 $03
 	note d5  $0a

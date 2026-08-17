@@ -5,7 +5,7 @@ sndTingleChannel2:
 	cmdf8 $fc
 	vol $b
 	note ds4 $05
-	sust $01
+	release $01
 	vol $0
 	note ds4 $01
 	cmdf8 $02

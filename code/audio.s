@@ -439,24 +439,18 @@ label_39_024:
 	jp func_42d1
 
 label_39_025:
-	ld a,$10
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
 	ld hl,wc045
-	push af
+	add hl,de
+	ld (hl),$10
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
-	add hl,de
-	pop af
-	ld (hl),a
-	ld a,$00
 	ld hl,wc051
-	push af
-	ld a,(wSoundChannel)
-	ld e,a
-	ld d,$00
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 label_39_026:
 	ld hl,wc051
 	ld a,(wSoundChannel)
@@ -467,15 +461,12 @@ label_39_026:
 	cp $08
 	jr nz,label_39_027
 
-	ld a,$00
-	ld hl,wc051
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc051
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 	ld a,$00
 label_39_027:
 	ld hl,data_4b40
@@ -684,7 +675,7 @@ doNextChannelCommand:
 	.dw channelCmdf8
 	.dw channelCmdff
 	.dw channelCmdf6
-	.dw channelCmdff
+	.dw channelCmdf5
 .ifdef BUILD_VANILLA
 	.dw channelCmdff
 .else
@@ -980,15 +971,12 @@ channelCmdf0:
 	add hl,de
 	pop af
 	ld (hl),a
-	ld a,$41
-	ld hl,wc039
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc039
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$41
 	jp doNextChannelCommand
 label_39_037:
 	pop af
@@ -1001,15 +989,12 @@ label_39_037:
 	add hl,de
 	pop af
 	ld (hl),a
-	ld a,$01
-	ld hl,wc039
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc039
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$01
 	jp doNextChannelCommand
 label_39_038:
 	call getNextChannelByte
@@ -1082,6 +1067,39 @@ channelCmdf6:
 	jp doNextChannelCommand
 
 ;;
+; release $len -- decays the currently playing note from its current volume at a fixed
+; fast hardware envelope pace, instead of cutting it off immediately like the (fixed)
+; `rest` command now does. This is exactly the original, pre-fix `rest` command's
+; behavior, byte for byte -- it turns out that was the *dominant* use of `rest` across
+; existing vanilla content (roughly 90% of occurrences had no decay envelope already
+; running when `rest` fired, meaning `rest`'s accidental decay-from-current-volume *was*
+; the intended note-release effect, not an edge case), so it's kept available under its
+; own opcode rather than dropped, both to let existing content keep sounding the same
+; with new bytes and as a genuine new authoring option (a soft/decaying release,
+; distinct from a hard `rest` cutoff or a `sust` hold). Square channels only (0-3) --
+; a no-op elsewhere, since the original behavior only ever existed in their dispatch.
+channelCmdf5:
+	; No channel-range guard: every emitter of this opcode (the vanilla-data conversion
+	; and dumpMusic.py) only ever targets square channels 0-3, and bank $39 has no spare
+	; bytes in the vanilla build for a safety check nothing here actually needs.
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
+	ld hl,wc05d
+	add hl,de
+	ld (hl),$02
+	call getChannelVolume
+	sla a
+	sla a
+	sla a
+	sla a
+	or $01
+	ld (wSoundCmdEnvelope),a
+	call updateChannelVolume
+	call func_39_41f3
+	jp setChannelWaitCounter
+
+;;
 standardSoundCmd:
 	ld a,(wSoundChannel)
 	ld hl,@table
@@ -1148,15 +1166,12 @@ standardSoundCmd:
 	cp $00
 	jr nz,@cmd61
 
-	ld a,$02
-	ld hl,wc05d
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc05d
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$02
 	ld a,$08 ; volume 0, no envelope stepping: immediate, clean, permanent silence,
 	         ; instead of the old fast-decay-from-current-volume (which could sound like
 	         ; it never actually cuts off if another command retriggers the channel again
@@ -1175,25 +1190,19 @@ standardSoundCmd:
 	call readWordFromTable
 @cmdUnknown:
 	call setSoundFrequency
-	ld a,$00
+	ld a,(wSoundChannel)
+	ld e,a
+	ld d,$00
 	ld hl,wc05d
-	push af
-	ld a,(wSoundChannel)
-	ld e,a
-	ld d,$00
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 	call func_39_464c
-	ld a,$00
-	ld hl,wc045
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc045
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 	ld a,$00
 	ld hl,wChannelVibratos
 	ld a,(wSoundChannel)
@@ -1351,15 +1360,12 @@ label_39_047:
 	add hl,de
 	pop af
 	ld (hl),a
-	ld a,$01
-	ld hl,wc05d
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc05d
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$01
 	jp updateChannelVolume
 
 ;;
@@ -1377,15 +1383,12 @@ hardwareAttackEnvelope:
 	and $07
 	or $08
 	ld (wSoundCmdEnvelope),a
-	ld a,$02
-	ld hl,wc05d
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc05d
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$02
 	jp updateChannelVolume
 .endif
 
@@ -1593,15 +1596,12 @@ standardCmdChannels4To5:
 	cp $60
 	jr nz,@freqCommand
 @cmd60:
-	ld a,$01
-	ld hl,wc02d
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc02d
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$01
 	call func_39_489e
 	ld hl,wc025
 	push af
@@ -1625,29 +1625,23 @@ standardCmdChannels4To5:
 +
 	jp setChannelWaitCounter
 @freqCommand:
-	ld a,$00
-	ld hl,wc02d
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc02d
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 	ld a,(wSoundCmd)
 	ld hl,soundFrequencyTable
 	call readWordFromTable
 @cmdUnknown:
 	call setSoundFrequency
-	ld a,$00
-	ld hl,wc045
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wc045
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 	ld a,$00
 	ld hl,wChannelVibratos
 	ld a,(wSoundChannel)
@@ -1796,15 +1790,12 @@ standardCmdChannel7:
 	jp setChannelWaitCounter
 
 channelCmdff:
-	ld a,$00
-	ld hl,wChannelsEnabled
-	push af
 	ld a,(wSoundChannel)
 	ld e,a
 	ld d,$00
+	ld hl,wChannelsEnabled
 	add hl,de
-	pop af
-	ld (hl),a
+	ld (hl),$00
 ;;
 ; Checks whether to call updateChannelVolume on square channels, does some other things
 ; with the other types of channels...

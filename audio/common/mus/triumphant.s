@@ -9,385 +9,385 @@ musicf4007:
 	note gs3 $20
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $04
-	rest $02
+	release $02
 	vol $1
 	note e4  $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
+	release $04
 	vol $1
 	note fs4 $04
-	rest $1c
+	release $1c
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $04
-	rest $06
+	release $06
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
-	vol $6
-	note e4  $04
-	rest $04
-	vol $3
-	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
+	vol $6
+	note e4  $04
+	release $04
+	vol $3
+	note e4  $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
+	release $04
 	vol $1
 	note fs4 $04
-	rest $1c
+	release $1c
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $04
-	rest $06
+	release $06
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $18
 	vol $3
 	note e4  $08
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $18
 	vol $3
 	note g4  $08
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $14
 	vol $3
 	note e4  $0c
-	rest $20
+	release $20
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note fs4 $04
-	rest $04
+	release $04
 	vol $3
 	note fs4 $04
-	rest $24
+	release $24
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $04
-	rest $06
+	release $06
 	vol $6
 	note a4  $05
-	rest $03
+	release $03
 	vol $3
 	note a4  $05
-	rest $03
+	release $03
 	vol $6
 	note b4  $05
-	rest $03
+	release $03
 	vol $3
 	note b4  $05
-	rest $03
+	release $03
 	vol $6
 	note c5  $05
-	rest $03
+	release $03
 	vol $3
 	note c5  $05
-	rest $03
+	release $03
 	vol $6
 	note d5  $05
-	rest $03
+	release $03
 	vol $3
 	note d5  $05
-	rest $03
+	release $03
 	vol $6
 	note c5  $05
-	rest $03
+	release $03
 	vol $3
 	note c5  $05
-	rest $23
+	release $23
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $02
 	vol $6
 	note b4  $04
-	rest $02
+	release $02
 	vol $3
 	note b4  $04
-	rest $06
+	release $06
 	vol $6
 	note c5  $04
-	rest $04
+	release $04
 	vol $3
 	note c5  $04
-	rest $04
+	release $04
 	vol $6
 	note b4  $04
-	rest $04
+	release $04
 	vol $3
 	note b4  $04
-	rest $04
+	release $04
 	vol $6
 	note a4  $04
-	rest $04
+	release $04
 	vol $3
 	note a4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $08
 	note fs4 $08
@@ -398,7 +398,7 @@ musicf4007:
 	note e4  $10
 	vol $1
 	note e4  $08
-	rest $18
+	release $18
 	goto musicf4007
 	cmdff
 
@@ -411,377 +411,377 @@ musicf4298:
 	note gs3 $20
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $06
+	release $06
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $24
+	release $24
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $04
-	rest $06
+	release $06
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $24
+	release $24
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $06
+	release $06
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $14
 	vol $3
 	note c4  $0c
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $18
 	vol $3
 	note d4  $08
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $14
 	vol $3
 	note c4  $0c
-	rest $20
+	release $20
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $02
 	vol $6
 	note c4  $04
-	rest $02
+	release $02
 	vol $3
 	note c4  $04
-	rest $06
+	release $06
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note b3  $04
-	rest $04
+	release $04
 	vol $3
 	note b3  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $24
+	release $24
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $02
 	vol $6
 	note e4  $04
-	rest $02
+	release $02
 	vol $3
 	note e4  $04
-	rest $06
+	release $06
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $3
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note f4  $04
-	rest $04
+	release $04
 	vol $3
 	note f4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $24
+	release $24
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $02
 	vol $6
 	note g4  $04
-	rest $02
+	release $02
 	vol $3
 	note g4  $04
-	rest $06
+	release $06
 	vol $6
 	note a4  $04
-	rest $04
+	release $04
 	vol $3
 	note a4  $04
-	rest $04
+	release $04
 	vol $6
 	note g4  $04
-	rest $04
+	release $04
 	vol $3
 	note g4  $04
-	rest $04
+	release $04
 	vol $6
 	note e4  $04
-	rest $04
+	release $04
 	vol $3
 	note e4  $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $04
-	rest $04
+	release $04
 	vol $3
 	note c4  $04
-	rest $04
+	release $04
 	vol $6
 	note a3  $04
-	rest $04
+	release $04
 	vol $3
 	note a3  $04
-	rest $84
+	release $84
 	goto musicf4298
 	cmdff
 

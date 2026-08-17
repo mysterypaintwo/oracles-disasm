@@ -8,10 +8,10 @@ musIntro2Channel1:
 	duty $01
 	vol $6
 	note as4 $04
-	rest $04
+	release $04
 	vol $4
 	note as4 $04
-	rest $04
+	release $04
 	vol $6
 	note f4  $05
 	note as4 $05
@@ -29,10 +29,10 @@ musIntro2Channel1:
 	note as4 $0b
 	note f4  $0b
 	note cs4 $04
-	rest $04
+	release $04
 	vol $4
 	note cs4 $04
-	rest $04
+	release $04
 	vol $6
 	note as3 $05
 	note cs4 $05
@@ -46,10 +46,10 @@ musIntro2Channel1:
 	env $0 $00
 	vol $6
 	note ds4 $04
-	rest $04
+	release $04
 	vol $4
 	note ds4 $04
-	rest $04
+	release $04
 	vol $6
 	note c4  $05
 	note ds4 $05
@@ -63,10 +63,10 @@ musIntro2Channel1:
 	env $0 $00
 	vol $6
 	note as4 $08
-	rest $04
+	release $04
 	vol $4
 	note as4 $08
-	rest $04
+	release $04
 	vol $6
 	note f4  $08
 	note d4  $30
@@ -129,10 +129,10 @@ musIntro2Channel0:
 	duty $01
 	vol $6
 	note d4  $04
-	rest $04
+	release $04
 	vol $4
 	note d4  $04
-	rest $04
+	release $04
 	vol $6
 	note f3  $05
 	note as3 $05
@@ -167,7 +167,7 @@ musIntro2Channel0:
 	note gs3 $05
 	note c4  $06
 	note f3  $08
-	rest $04
+	release $04
 	vol $4
 	note f3  $04
 	vol $6
@@ -178,7 +178,7 @@ musIntro2Channel0:
 	note as3 $08
 	vol $5
 	note f5  $04
-	rest $04
+	release $04
 	note as4 $04
 	vol $3
 	note f5  $04

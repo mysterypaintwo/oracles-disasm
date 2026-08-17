@@ -253,6 +253,16 @@
 	.db $61 \1
 .endm
 
+; f5: decays the currently playing note from its current volume at a fixed fast pace
+;     (square channels 0-3 only -- see channelCmdf5 in code/audio.s). This is what `rest`
+;     accidentally did before its fix, and turned out to be the actual note-release
+;     technique used by the vast majority of existing content, so it's kept available
+;     as its own command: a soft/decaying release, distinct from `rest` (hard cutoff)
+;     and `sust` (hold).
+.macro release
+	.db $f5 \1
+.endm
+
 ; d0-df: set volume
 .macro vol
 	.if \1 > $f

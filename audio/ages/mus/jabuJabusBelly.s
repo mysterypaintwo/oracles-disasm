@@ -66,7 +66,7 @@ musicf3770:
 	vibrato $01
 	vol $3
 	note f3  $15
-	sust $01
+	release $01
 	vibrato $e1
 	goto musicf3770
 	cmdff
@@ -79,7 +79,7 @@ musJabuJabusBellyChannel0:
 musicf37ec:
 	vol $5
 	note a4  $0b
-	sust $0b
+	release $0b
 	note as4 $0b
 	vol $2
 	note a4  $0b
@@ -269,7 +269,7 @@ musicf37ec:
 	note g4  $0b
 	vol $5
 	note b4  $0b
-	sust $0b
+	release $0b
 	note c5  $0b
 	vol $2
 	note b4  $0b

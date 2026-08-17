@@ -9,28 +9,28 @@ musicfaffc:
 	note gs3 $24
 	vol $6
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
-	sust $24
+	release $24
 	vol $6
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
-	sust $24
+	release $24
 	vol $6
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
 	vibrato $00
@@ -45,28 +45,28 @@ musicfaffc:
 	vibrato $00
 	env $0 $00
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
-	sust $24
+	release $24
 	vol $6
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
-	sust $24
+	release $24
 	vol $6
 	note f4  $09
-	sust $04
+	release $04
 	vol $3
 	note f4  $09
-	sust $05
+	release $05
 	vol $1
 	note f4  $09
 	vibrato $00
@@ -83,46 +83,46 @@ musicfaffc:
 	note e4  $36
 	note d4  $12
 	note c4  $09
-	sust $04
+	release $04
 	vol $3
 	note c4  $09
-	sust $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
 	note b3  $09
-	sust $04
+	release $04
 	vol $3
 	note b3  $09
-	sust $05
+	release $05
 	vol $1
 	note b3  $09
 	vol $6
 	note as3 $48
 	note a3  $09
-	sust $04
+	release $04
 	vol $3
 	note a3  $09
-	sust $05
+	release $05
 	vol $1
 	note a3  $09
-	sust $24
+	release $24
 	vol $6
 	note gs3 $48
 	note g3  $09
-	sust $04
+	release $04
 	vol $3
 	note g3  $09
-	sust $05
+	release $05
 	vol $1
 	note g3  $09
-	sust $24
+	release $24
 	vol $6
 	note f3  $09
-	sust $04
+	release $04
 	vol $3
 	note f3  $09
-	sust $05
+	release $05
 	vol $1
 	note f3  $09
 	vol $6
@@ -130,32 +130,32 @@ musicfaffc:
 	note fs3 $09
 	note f3  $09
 	note fs3 $09
-	sust $04
+	release $04
 	vol $3
 	note fs3 $09
-	sust $05
+	release $05
 	vol $6
 	note f4  $09
 	note fs4 $09
 	note f4  $09
 	note fs4 $09
-	sust $04
+	release $04
 	vol $3
 	note fs4 $09
-	sust $05
+	release $05
 	vol $6
 	note g4  $12
 	note a4  $09
 	note g4  $09
 	note f4  $24
 	note fs4 $09
-	sust $04
+	release $04
 	vol $3
 	note fs4 $09
-	sust $05
+	release $05
 	vol $1
 	note fs4 $09
-	sust $24
+	release $24
 	goto musicfaffc
 	cmdff
 
@@ -168,28 +168,28 @@ musicfb10b:
 	note gs3 $24
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
-	sust $24
+	release $24
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
-	sust $24
+	release $24
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
 	env $0 $03
@@ -203,28 +203,28 @@ musicfb10b:
 	env $0 $00
 	duty $01
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
-	sust $24
+	release $24
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
-	sust $24
+	release $24
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $09
-	sust $05
+	release $05
 	vol $1
 	note d4  $09
 	vibrato $00

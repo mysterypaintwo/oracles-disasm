@@ -6,7 +6,7 @@ sndRupeeChannel2:
 	vol $d
 	note gs7 $02
 	vol $0
-	rest $01
+	sust $01
 	vol $f
 	note e8  $02
 	vol $9

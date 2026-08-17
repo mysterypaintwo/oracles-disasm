@@ -69,52 +69,52 @@ musicfbd80:
 	vol $6
 	note g5  $0a
 	note fs5 $0a
-	sust $14
+	release $14
 	note fs5 $14
 	note f5  $0a
-	sust $14
+	release $14
 	note f5  $0a
 	note e5  $0a
-	sust $14
+	release $14
 	note e5  $14
 	note ds5 $0a
-	sust $14
+	release $14
 	note ds5 $0a
 	note d5  $14
 	vol $3
 	note d5  $0a
-	sust $14
+	release $14
 	vol $6
 	note as5 $0a
 	note a5  $0a
-	sust $14
+	release $14
 	note a5  $14
 	note gs5 $0a
-	sust $14
+	release $14
 	note gs5 $0a
 	note g5  $0a
-	sust $14
+	release $14
 	note g5  $14
 	note fs5 $0a
-	sust $14
+	release $14
 	note fs5 $0a
 	note f5  $14
 	vol $3
 	note f5  $0a
-	sust $14
+	release $14
 	vol $6
 	note c6  $0a
 	note b5  $0a
-	sust $14
+	release $14
 	note b5  $14
 	note as5 $0a
-	sust $14
+	release $14
 	note as5 $0a
 	note a5  $0a
-	sust $14
+	release $14
 	note a5  $14
 	note gs5 $0a
-	sust $14
+	release $14
 	note gs5 $0a
 	note g5  $14
 	vol $3
@@ -142,58 +142,58 @@ musUnused2Channel0:
 musicfbe80:
 	vol $0
 	note gs3 $ff
-	sust $ff
-	sust $ff
-	sust $d7
+	release $ff
+	release $ff
+	release $d7
 	vol $6
 	note ds5 $0a
 	note d5  $0a
-	sust $14
+	release $14
 	note d5  $14
 	note cs5 $0a
-	sust $14
+	release $14
 	note cs5 $0a
 	note c5  $0a
-	sust $14
+	release $14
 	note c5  $14
 	note b4  $0a
-	sust $14
+	release $14
 	note b4  $0a
 	note as4 $14
 	vol $3
 	note as4 $0a
-	sust $14
+	release $14
 	vol $6
 	note g5  $0a
 	note fs5 $0a
-	sust $14
+	release $14
 	note fs5 $14
 	note f5  $0a
-	sust $14
+	release $14
 	note f5  $0a
 	note e5  $0a
-	sust $14
+	release $14
 	note e5  $14
 	note ds5 $0a
-	sust $14
+	release $14
 	note ds5 $0a
 	note d5  $14
 	vol $3
 	note d5  $0a
-	sust $14
+	release $14
 	vol $6
 	note a5  $0a
 	note gs5 $0a
-	sust $14
+	release $14
 	note gs5 $14
 	note g5  $0a
-	sust $14
+	release $14
 	note g5  $0a
 	note fs5 $0a
-	sust $14
+	release $14
 	note fs5 $14
 	note f5  $0a
-	sust $14
+	release $14
 	note f5  $0a
 	note e5  $14
 	vol $3

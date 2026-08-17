@@ -108,49 +108,49 @@ musicf09bb:
 	note as3 $10
 	note a3  $10
 	note gs3 $10
-	sust $04
+	release $04
 	vol $3
 	note gs3 $08
-	sust $04
+	release $04
 	vol $1
 	note gs3 $08
-	sust $08
+	release $08
 	vol $6
 	note gs3 $10
 	note g3  $10
 	note fs3 $10
 	note f3  $10
-	sust $04
+	release $04
 	vol $3
 	note f3  $08
-	sust $04
+	release $04
 	vol $1
 	note f3  $08
-	sust $08
+	release $08
 	vol $6
 	note f3  $10
 	note e3  $10
 	note ds3 $10
 	note d3  $10
-	sust $04
+	release $04
 	vol $3
 	note d3  $08
-	sust $04
+	release $04
 	vol $1
 	note d3  $08
-	sust $08
+	release $08
 	vol $6
 	note d3  $10
 	note cs3 $10
 	note c3  $10
 	note b2  $10
-	sust $04
+	release $04
 	vol $3
 	note b2  $08
-	sust $04
+	release $04
 	vol $1
 	note b2  $08
-	sust $08
+	release $08
 	goto musicf09bb
 	cmdff
 
@@ -188,7 +188,7 @@ musicf0adb:
 	note a4  $10
 	note ds4 $10
 	note d4  $10
-	sust $10
+	release $10
 	note d4  $10
 	note ds4 $10
 	note a4  $10
@@ -261,7 +261,7 @@ musicf0adb:
 	note b4  $10
 	note f4  $10
 	note e4  $0a
-	sust $04
+	release $04
 	vol $6
 	note e3  $10
 	vol $6
@@ -269,52 +269,52 @@ musicf0adb:
 	vol $6
 	note d3  $10
 	note cs3 $10
-	sust $04
+	release $04
 	vol $3
 	note cs3 $08
-	sust $04
+	release $04
 	vol $1
 	note cs3 $08
-	sust $08
+	release $08
 	vol $6
 	note cs3 $10
 	vol $6
 	note c3  $10
 	note b2  $10
 	note as2 $10
-	sust $04
+	release $04
 	vol $3
 	note as2 $08
-	sust $04
+	release $04
 	vol $1
 	note as2 $08
-	sust $08
+	release $08
 	vol $6
 	note as2 $10
 	note a2  $10
 	vol $6
 	note gs2 $10
 	note g2  $10
-	sust $04
+	release $04
 	vol $3
 	note g2  $08
-	sust $04
+	release $04
 	vol $1
 	note g2  $08
-	sust $08
+	release $08
 	vol $6
 	note g2  $10
 	note fs2 $10
 	note f2  $10
 	vol $6
 	note e2  $10
-	sust $04
+	release $04
 	vol $3
 	note e2  $08
-	sust $04
+	release $04
 	vol $1
 	note e2  $08
-	sust $08
+	release $08
 	goto musicf0adb
 	cmdff
 

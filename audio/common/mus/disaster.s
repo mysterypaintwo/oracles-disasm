@@ -7,7 +7,7 @@ musDisasterChannel1:
 musicf47e4:
 	vol $6
 	note d4  $07
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
@@ -35,51 +35,51 @@ musicf47e4:
 	vol $6
 	note ds4 $0e
 	note a3  $07
-	rest $03
+	release $03
 	vol $3
 	note a3  $04
 	note ds4 $0e
 	note a3  $07
-	rest $03
+	release $03
 	vol $1
 	note a3  $04
 	note ds4 $0e
 	note a3  $07
-	rest $03
+	release $03
 	vol $0
 	note a3  $04
 	note ds4 $0e
 	note a3  $07
-	rest $03
+	release $03
 	vol $0
 	note a3  $04
 	vol $6
 	note ds4 $0e
 	note a4  $07
-	rest $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $5
 	note ds5 $0e
 	note a5  $07
-	rest $03
+	release $03
 	vol $2
 	note a5  $04
 	vol $3
 	note ds4 $0e
 	note a4  $07
-	rest $03
+	release $03
 	vol $1
 	note a4  $04
 	vol $2
 	note ds5 $0e
 	note a5  $07
-	rest $03
+	release $03
 	vol $1
 	note a5  $04
 	vol $6
 	note f4  $07
-	rest $03
+	release $03
 	vol $3
 	note f4  $04
 	vol $6
@@ -106,118 +106,118 @@ musicf47e4:
 	note g4  $07
 	note fs4 $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $3
 	note cs4 $04
 	note fs4 $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $1
 	note cs4 $04
 	note fs4 $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $0
 	note cs4 $04
 	note fs4 $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $0
 	note cs4 $04
 	vol $6
 	note g4  $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $3
 	note cs4 $04
 	note g4  $0e
 	note cs4 $07
-	rest $03
+	release $03
 	vol $1
 	note cs4 $04
 	vol $6
 	note g4  $0e
 	note cs5 $07
-	rest $03
+	release $03
 	vol $3
 	note cs5 $04
 	note g4  $0e
 	note cs5 $07
-	rest $03
+	release $03
 	vol $1
 	note cs5 $04
 	vol $6
 	note a4  $07
 	note e5  $07
 	note a5  $07
-	rest $03
+	release $03
 	vol $3
 	note a5  $04
 	vol $6
 	note a4  $07
 	note e5  $07
 	note a5  $07
-	rest $03
+	release $03
 	vol $3
 	note a5  $04
 	vol $6
 	note as4 $07
 	note f5  $07
 	note as5 $07
-	rest $03
+	release $03
 	vol $3
 	note as5 $07
-	rest $19
+	release $19
 	vol $6
 	note a4  $07
 	note e5  $07
 	note a5  $07
-	rest $03
+	release $03
 	vol $3
 	note a5  $04
 	vol $6
 	note a4  $07
 	note e5  $07
 	note a5  $07
-	rest $03
+	release $03
 	vol $3
 	note a5  $04
 	vol $6
 	note gs5 $07
 	note gs4 $03
-	rest $04
+	release $04
 	note gs4 $07
-	rest $03
+	release $03
 	vol $3
 	note gs4 $07
-	rest $19
+	release $19
 	vol $6
 	note a4  $07
 	note e5  $07
 	vol $6
 	note a5  $07
-	rest $03
+	release $03
 	vol $3
 	note a5  $04
 	vol $6
 	note as4 $07
 	note f5  $07
 	note as5 $07
-	rest $03
+	release $03
 	vol $3
 	note as5 $04
 	vol $6
 	note b4  $07
 	note fs5 $07
 	note b5  $07
-	rest $03
+	release $03
 	vol $3
 	note b5  $04
 	vol $6
 	note c5  $07
 	note g5  $07
 	note c6  $07
-	rest $03
+	release $03
 	vol $3
 	note c6  $04
 	vol $6
@@ -247,7 +247,7 @@ musDisasterChannel0:
 musicf497c:
 	vol $6
 	note a2  $07
-	rest $07
+	release $07
 	note b2  $07
 	vol $3
 	note a2  $07

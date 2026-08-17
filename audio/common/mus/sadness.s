@@ -22,7 +22,7 @@ musicf08e7:
 	note as4 $12
 	vol $1
 	note as4 $12
-	rest $12
+	release $12
 	vol $6
 	note f4  $24
 	note c5  $24
@@ -30,13 +30,13 @@ musicf08e7:
 	note ds5 $24
 	note g4  $24
 	note gs4 $0d
-	rest $05
+	release $05
 	vol $4
 	note gs4 $04
-	rest $05
+	release $05
 	vol $2
 	note gs4 $04
-	rest $05
+	release $05
 	vol $6
 	note ds5 $12
 	vol $3
@@ -80,10 +80,10 @@ musicf08e7:
 	note gs4 $24
 	note as4 $24
 	note ds5 $09
-	rest $04
+	release $04
 	vol $3
 	note ds5 $09
-	rest $05
+	release $05
 	vol $1
 	note ds5 $09
 	vol $6
@@ -105,22 +105,22 @@ musicf08e7:
 	note c5  $24
 	vol $6
 	note f5  $09
-	rest $04
+	release $04
 	vol $4
 	note f5  $05
-	rest $04
+	release $04
 	vol $2
 	note f5  $05
-	rest $09
+	release $09
 	vol $6
 	note f5  $09
-	rest $04
+	release $04
 	vol $4
 	note f5  $05
-	rest $04
+	release $04
 	vol $2
 	note f5  $05
-	rest $09
+	release $09
 	vol $6
 	note f4  $12
 	vol $3
@@ -135,7 +135,7 @@ musicf08e7:
 	note cs5 $24
 	vol $1
 	note cs5 $24
-	rest $12
+	release $12
 	vibrato $e1
 	env $0 $00
 	vol $6
@@ -151,7 +151,7 @@ musicf08e7:
 	note as4 $24
 	vol $1
 	note as4 $24
-	rest $48
+	release $48
 	vibrato $e1
 	env $0 $00
 	goto musicf08e7
@@ -174,7 +174,7 @@ musicf09ee:
 	note c3  $24
 	vol $3
 	note c3  $12
-	rest $12
+	release $12
 	vol $6
 	note cs3 $24
 	note gs3 $24
@@ -184,7 +184,7 @@ musicf09ee:
 	note f3  $24
 	vol $3
 	note f3  $12
-	rest $12
+	release $12
 	vol $6
 	note as2 $12
 	note c3  $12
@@ -207,10 +207,10 @@ musicf09ee:
 	note c3  $24
 	vol $6
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
@@ -232,7 +232,7 @@ musicf09ee:
 	note gs3 $24
 	vol $3
 	note gs3 $12
-	rest $12
+	release $12
 	vol $6
 	note as2 $24
 	note c3  $24

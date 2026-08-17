@@ -2,19 +2,19 @@ sndFluteDimitriStart:
 
 sndFluteDimitriChannel3:
 	vol $0
-	rest $f1
+	release $f1
 	cmdff
 
 sndFluteDimitriChannel2:
 	vol $0
-	rest $1f
+	release $1f
 	duty $02
 	vol $2
 	note d5  $05
 	note g5  $04
 	note a5  $05
 	note c6  $46
-	rest $0e
+	release $0e
 	note b5  $05
 	note c6  $04
 	note b5  $05

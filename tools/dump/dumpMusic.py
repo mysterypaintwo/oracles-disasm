@@ -162,6 +162,9 @@ labelAddresses = []
 def parseChannelData(address, channel, chanOut):
     global labelAddresses
     c039 = 0
+    decay = 0 # wChannelEnvelopes2's simulated value -- see the $e0-$ef and $60 cases
+              # below. Persists across notes (only `env` changes it), and resets to 0
+              # here matching playSound's own reset when a sound/song is first started.
     while True:
         if address in labelAddresses:
             chanOut.write('music' + myhex(address) + ':\n')
@@ -199,6 +202,7 @@ def parseChannelData(address, channel, chanOut):
         elif b >= 0xe0:
             param = rom[address]
             address+=1
+            decay = param & 0x7
             chanOut.write('\tenv ' + wlahex(b&0x7) + ' ' + wlahex(param,2) + '\n')
         elif b >= 0xd0 and b < 0xe0:
             chanOut.write('\tvol ' + wlahex(b&0xf) + '\n')
@@ -210,15 +214,24 @@ def parseChannelData(address, channel, chanOut):
                 # clean, non-retriggering NR32 mute even before the engine fix -- it was
                 # never buggy, so it decodes to a real `rest` unchanged.
                 chanOut.write('\trest ' + wlahex(param,2) + '\n')
+            elif channel < 4 and decay == 0:
+                # Square channels' $60, when no decay envelope was already running
+                # (the vast majority of occurrences -- confirmed empirically at ~90%
+                # across every vanilla song, not a rare edge case), didn't cut the note
+                # off at all on the original hardware: it retriggered a real hardware
+                # envelope that decayed from whatever volume was already playing at a
+                # fixed pace (a pre-fix audio.s bug). That decay *was* the actual
+                # note-release technique this content used, so it decodes to `release`
+                # (a new command that reproduces exactly this, byte for byte) rather
+                # than `sust`, which does nothing to the envelope at all and would just
+                # hold the note indefinitely instead of decaying it.
+                chanOut.write('\trelease ' + wlahex(param,2) + '\n')
             else:
-                # Square and noise channels' $60 never actually cut the channel off
-                # cleanly on the original hardware (a pre-fix audio.s bug -- square
-                # retriggered a decaying envelope from whatever volume was already
-                # playing, and noise did nothing at all -- both sound like a tie/sustain
-                # rather than a rest, especially when chained). Emit `sust` (tie/sustain,
-                # $61 -- see musicMacros.s) instead of `rest`, so a fresh dump of the
-                # vanilla ROM keeps sounding the way it always has once compiled through
-                # the fixed engine, which actually does cut `rest` off cleanly.
+                # Square channels with a decay envelope already running (the other
+                # ~10%) and both noise channels (which never special-cased $60 at all,
+                # a pure no-op) already sound the same whether $60 does nothing further
+                # or is treated as a plain tie -- `sust` (tie/sustain, $61 -- see
+                # musicMacros.s) is an exact, lossless match for these.
                 chanOut.write('\tsust ' + wlahex(param,2) + '\n')
 
         elif channel >= 6:

@@ -54,7 +54,7 @@ musicf1539:
 	note as4 $21
 	vol $4
 	note as4 $0b
-	sust $0e
+	release $0e
 	vol $4
 	note as3 $0b
 	note b3  $0b
@@ -119,7 +119,7 @@ musicf1539:
 	note e5  $0b
 	vol $6
 	note a5  $2c
-	sust $0b
+	release $0b
 	vol $4
 	note f3  $0b
 	note fs3 $0b
@@ -137,13 +137,13 @@ musicf1539:
 	note fs5 $0b
 	note c6  $0b
 	note cs6 $0b
-	sust $05
+	release $05
 	vol $2
 	note cs6 $0b
-	sust $06
+	release $06
 	vol $1
 	note cs6 $0b
-	sust $2c
+	release $2c
 	goto musicf1539
 	cmdff
 
@@ -155,7 +155,7 @@ musMermaidsCaveChannel0:
 musicf1623:
 	vol $6
 	note as5 $05
-	sust $06
+	release $06
 	note f5  $05
 	vol $2
 	note as5 $06
@@ -345,7 +345,7 @@ musicf1623:
 	note f5  $06
 	vol $6
 	note as5 $05
-	sust $06
+	release $06
 	note f5  $05
 	vol $2
 	note as5 $06
@@ -392,7 +392,7 @@ musicf1623:
 	note e6  $0b
 	vol $6
 	note b5  $05
-	sust $06
+	release $06
 	note fs5 $05
 	vol $2
 	note b5  $06
@@ -629,7 +629,7 @@ musicf1623:
 	note fs5 $0b
 	note c6  $0b
 	note cs6 $0b
-	sust $58
+	release $58
 	goto musicf1623
 	cmdff
 

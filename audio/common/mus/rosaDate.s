@@ -15,52 +15,52 @@ musicf5995:
 	note g4  $0e
 	note c5  $0e
 	note b4  $0a
-	rest $04
+	release $04
 	duty $02
 	note b5  $03
 	note as5 $04
 	note b5  $03
 	note as5 $04
 	note b5  $03
-	rest $04
+	release $04
 	vol $3
 	note b5  $03
-	rest $04
+	release $04
 	vol $6
 	note b6  $03
 	note as6 $04
 	note b6  $03
 	note as6 $04
 	note b6  $03
-	rest $04
+	release $04
 	vol $3
 	note b6  $03
-	rest $04
+	release $04
 	duty $01
 	vol $6
 	note b3  $0e
 	note c4  $0b
-	rest $03
+	release $03
 	duty $02
 	note c5  $03
 	note b4  $04
 	note c5  $03
 	note b4  $04
 	note c5  $03
-	rest $04
+	release $04
 	vol $3
 	note c5  $03
-	rest $04
+	release $04
 	vol $6
 	note c6  $03
 	note b5  $04
 	note c6  $03
 	note b5  $04
 	note c6  $03
-	rest $04
+	release $04
 	vol $3
 	note c6  $03
-	rest $12
+	release $12
 	duty $01
 	vol $6
 	note b4  $2a
@@ -76,29 +76,29 @@ musicf5995:
 	note c5  $0e
 	note a4  $0e
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
 	note e5  $07
 	note ds5 $07
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $04
 	vol $6
 	note gs4 $07
-	rest $03
+	release $03
 	vol $3
 	note gs4 $04
 	vol $6
 	note a4  $07
-	rest $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
 	note as4 $07
-	rest $03
+	release $03
 	vol $3
 	note as4 $04
 	vol $6
@@ -117,7 +117,7 @@ musicf5995:
 	note g4  $38
 	note e4  $1c
 	note fs4 $07
-	rest $03
+	release $03
 	vol $3
 	note fs4 $04
 	duty $02
@@ -125,17 +125,17 @@ musicf5995:
 	note b5  $07
 	note as5 $07
 	note b5  $07
-	rest $03
+	release $03
 	vol $3
 	note b5  $04
 	vol $6
 	note b6  $07
 	note as6 $07
 	note b6  $07
-	rest $03
+	release $03
 	vol $3
 	note b6  $07
-	rest $0b
+	release $0b
 	duty $01
 	vol $6
 	note g4  $2a
@@ -146,7 +146,7 @@ musicf5995:
 	note g4  $07
 	vol $6
 	note fs4 $07
-	rest $03
+	release $03
 	vol $3
 	note fs4 $04
 	duty $02
@@ -156,7 +156,7 @@ musicf5995:
 	note b4  $03
 	note as4 $04
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
@@ -165,14 +165,14 @@ musicf5995:
 	note b5  $03
 	note as5 $04
 	note b5  $07
-	rest $03
+	release $03
 	vol $3
 	note b5  $07
-	rest $0b
+	release $0b
 	duty $01
 	vol $6
 	note ds5 $07
-	rest $03
+	release $03
 	vol $3
 	note ds5 $07
 	vol $6
@@ -180,18 +180,18 @@ musicf5995:
 	note ds5 $03
 	note cs5 $04
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $07
-	rest $19
+	release $19
 	vol $6
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $04
 	vol $6
 	note d5  $07
-	rest $03
+	release $03
 	vol $3
 	note d5  $07
 	vol $6
@@ -199,19 +199,19 @@ musicf5995:
 	note d5  $03
 	note c5  $04
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $07
-	rest $19
+	release $19
 	vol $6
 	note b4  $07
-	rest $03
+	release $03
 	vol $3
 	note b4  $04
 	duty $02
 	vol $6
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $04
 	vol $6
@@ -223,28 +223,28 @@ musicf5995:
 	note b4  $04
 	note as4 $03
 	note b4  $04
-	rest $03
+	release $03
 	vol $3
 	note b4  $04
-	rest $07
+	release $07
 	vol $6
 	note fs4 $03
 	note g4  $04
 	note fs4 $03
 	note g4  $04
-	rest $03
+	release $03
 	vol $3
 	note g4  $04
-	rest $07
+	release $07
 	vol $6
 	note ds4 $03
 	note e4  $04
 	note ds4 $03
 	note e4  $04
-	rest $03
+	release $03
 	vol $3
 	note e4  $04
-	rest $07
+	release $07
 	duty $01
 	vol $6
 	note b3  $0e
@@ -270,10 +270,10 @@ musicf5b54:
 	note as5 $04
 	vol $3
 	note b5  $03
-	rest $04
+	release $04
 	vol $1
 	note b5  $03
-	rest $04
+	release $04
 	vol $3
 	note b6  $03
 	note as6 $04
@@ -281,20 +281,20 @@ musicf5b54:
 	note as6 $04
 	vol $3
 	note b6  $03
-	rest $04
+	release $04
 	vol $1
 	note b6  $03
-	rest $20
+	release $20
 	vol $3
 	note c5  $03
 	note b4  $04
 	note c5  $03
 	note b4  $04
 	note c5  $03
-	rest $04
+	release $04
 	vol $1
 	note c5  $03
-	rest $04
+	release $04
 	vol $3
 	note c6  $03
 	note b5  $04
@@ -302,39 +302,39 @@ musicf5b54:
 	note c6  $03
 	note b5  $04
 	note c6  $03
-	rest $04
+	release $04
 	vol $1
 	note c6  $03
-	rest $ff
-	rest $c5
+	release $ff
+	release $c5
 	vol $3
 	note b5  $07
 	note as5 $07
 	note b5  $07
-	rest $03
+	release $03
 	vol $1
 	note b5  $04
 	vol $3
 	note b6  $07
 	note as6 $07
 	note b6  $07
-	rest $03
+	release $03
 	vol $1
 	note b6  $07
-	rest $58
+	release $58
 	vol $3
 	note fs4 $07
-	rest $03
+	release $03
 	vol $1
 	note fs4 $07
-	rest $04
+	release $04
 	vol $3
 	note b4  $03
 	note as4 $04
 	note b4  $03
 	note as4 $04
 	note b4  $07
-	rest $03
+	release $03
 	vol $1
 	note b4  $04
 	vol $3
@@ -343,35 +343,35 @@ musicf5b54:
 	note b5  $03
 	note as5 $04
 	note b5  $07
-	rest $03
+	release $03
 	vol $1
 	note b5  $07
-	rest $2e
+	release $2e
 	cmdfd $00
 	vol $6
 	note cs6 $04
 	note ds6 $05
 	note cs6 $05
 	note b5  $07
-	rest $03
+	release $03
 	vol $3
 	note b5  $07
-	rest $04
+	release $04
 	vol $1
 	note b5  $07
-	rest $2a
+	release $2a
 	vol $6
 	note c6  $04
 	note d6  $05
 	note c6  $05
 	note b5  $07
-	rest $03
+	release $03
 	vol $3
 	note b5  $07
-	rest $04
+	release $04
 	vol $1
 	note b5  $07
-	rest $15
+	release $15
 	vol $3
 	note ds5 $03
 	note e5  $04
@@ -381,28 +381,28 @@ musicf5b54:
 	note b4  $04
 	note as4 $03
 	note b4  $04
-	rest $03
+	release $03
 	vol $1
 	note b4  $04
-	rest $07
+	release $07
 	vol $3
 	note fs4 $03
 	note g4  $04
 	note fs4 $03
 	note g4  $04
-	rest $03
+	release $03
 	vol $1
 	note g4  $04
-	rest $07
+	release $07
 	vol $3
 	note ds4 $03
 	note e4  $04
 	note ds4 $03
 	note e4  $04
-	rest $03
+	release $03
 	vol $1
 	note e4  $04
-	rest $38
+	release $38
 	goto musicf5b54
 	cmdff
 

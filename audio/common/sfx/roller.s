@@ -3,7 +3,7 @@ sndRollerStart:
 sndRollerChannel2:
 	duty $00
 	vol $0
-	rest $05
+	release $05
 	vol $f
 	note c2  $01
 	vol $e

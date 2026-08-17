@@ -25,7 +25,7 @@ musicf6412:
 	note g5  $2c
 	vol $6
 	note as5 $03
-	rest $03
+	release $03
 	note d6  $05
 	vol $4
 	note as5 $03
@@ -33,16 +33,16 @@ musicf6412:
 	note as5 $03
 	vol $4
 	note d6  $05
-	rest $03
+	release $03
 	note as5 $03
 	vol $6
 	note as5 $05
-	rest $07
+	release $07
 	vol $4
 	note as5 $04
 	vol $6
 	note as5 $03
-	rest $03
+	release $03
 	note d6  $05
 	vol $4
 	note as5 $03
@@ -50,16 +50,16 @@ musicf6412:
 	note as5 $03
 	vol $4
 	note d6  $05
-	rest $03
+	release $03
 	note as5 $03
 	vol $6
 	note as5 $05
-	rest $07
+	release $07
 	vol $4
 	note as5 $04
 	vol $6
 	note as5 $03
-	rest $03
+	release $03
 	note d6  $05
 	vol $4
 	note as5 $03
@@ -67,16 +67,16 @@ musicf6412:
 	note as5 $03
 	vol $4
 	note d6  $05
-	rest $03
+	release $03
 	note as5 $03
 	vol $6
 	note as5 $05
-	rest $07
+	release $07
 	vol $4
 	note as5 $04
 	vol $6
 	note as5 $03
-	rest $03
+	release $03
 	note d6  $05
 	vol $4
 	note as5 $03
@@ -84,11 +84,11 @@ musicf6412:
 	note as5 $03
 	vol $4
 	note d6  $05
-	rest $03
+	release $03
 	note as5 $03
 	vol $6
 	note as5 $05
-	rest $07
+	release $07
 	vol $4
 	note as5 $04
 	vol $6
@@ -96,7 +96,7 @@ musicf6412:
 	note f6  $0b
 	note gs6 $0b
 	note c7  $0b
-	rest $58
+	release $58
 	vol $6
 	note cs4 $2c
 	note ds4 $42
@@ -117,7 +117,7 @@ musicf6412:
 	note fs5 $2c
 	note a5  $2c
 	note c6  $03
-	rest $03
+	release $03
 	note e6  $05
 	vol $4
 	note c6  $03
@@ -125,16 +125,16 @@ musicf6412:
 	note c6  $03
 	vol $4
 	note e6  $05
-	rest $03
+	release $03
 	note c6  $03
 	vol $6
 	note c6  $05
-	rest $07
+	release $07
 	vol $4
 	note c6  $04
 	vol $6
 	note c6  $03
-	rest $03
+	release $03
 	note e6  $05
 	vol $4
 	note c6  $03
@@ -142,16 +142,16 @@ musicf6412:
 	note c6  $03
 	vol $4
 	note e6  $05
-	rest $03
+	release $03
 	note c6  $03
 	vol $6
 	note c6  $05
-	rest $07
+	release $07
 	vol $4
 	note c6  $04
 	vol $6
 	note c6  $03
-	rest $03
+	release $03
 	note e6  $05
 	vol $4
 	note c6  $03
@@ -159,16 +159,16 @@ musicf6412:
 	note c6  $03
 	vol $4
 	note e6  $05
-	rest $03
+	release $03
 	note c6  $03
 	vol $6
 	note c6  $05
-	rest $07
+	release $07
 	vol $4
 	note c6  $04
 	vol $6
 	note c6  $03
-	rest $03
+	release $03
 	note e6  $05
 	vol $3
 	note c6  $03
@@ -176,11 +176,11 @@ musicf6412:
 	note c6  $03
 	vol $3
 	note e6  $05
-	rest $03
+	release $03
 	note c6  $03
 	vol $6
 	note c6  $05
-	rest $07
+	release $07
 	vol $3
 	note c6  $04
 	vol $6
@@ -188,7 +188,7 @@ musicf6412:
 	note g6  $0b
 	note as6 $0b
 	note c7  $0b
-	rest $58
+	release $58
 	goto musicf6412
 	cmdff
 
@@ -216,13 +216,13 @@ musicf6550:
 	note b4  $2c
 	note d5  $2c
 	note e5  $b0
-	rest $10
+	release $10
 	vol $3
 	note d6  $0b
 	note f6  $0b
 	note gs6 $0b
 	note c7  $0b
-	rest $48
+	release $48
 	vol $6
 	note gs3 $2c
 	note as3 $4d
@@ -242,13 +242,13 @@ musicf6550:
 	note cs5 $2c
 	note e5  $2c
 	note fs5 $b0
-	rest $10
+	release $10
 	vol $3
 	note e6  $0b
 	note g6  $0b
 	note as6 $0b
 	note c7  $0b
-	rest $48
+	release $48
 	goto musicf6550
 	cmdff
 

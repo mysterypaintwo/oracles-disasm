@@ -58,7 +58,7 @@ musicf02f4:
 	note as3 $05
 	vol $1
 	note as3 $04
-	sust $71
+	release $71
 	vol $6
 	note e4  $12
 	note as3 $12
@@ -92,7 +92,7 @@ musicf02f4:
 	note as4 $05
 	vol $2
 	note as4 $04
-	sust $68
+	release $68
 	vol $6
 	note b4  $09
 	note e5  $09
@@ -158,13 +158,13 @@ musicf02f4:
 	note as6 $09
 	note f7  $09
 	note e7  $09
-	sust $0d
+	release $0d
 	vol $3
 	note e7  $09
-	sust $0e
+	release $0e
 	vol $1
 	note e7  $09
-	sust $24
+	release $24
 	goto musicf02f4
 	cmdff
 
@@ -226,7 +226,7 @@ musicf041c:
 	note e3  $05
 	vol $2
 	note e3  $04
-	sust $71
+	release $71
 	vol $6
 	note fs3 $12
 	note g3  $24
@@ -262,7 +262,7 @@ musicf041c:
 	note e4  $05
 	vol $1
 	note e4  $04
-	sust $80
+	release $80
 	vol $2
 	note b4  $09
 	note e5  $09
@@ -328,10 +328,10 @@ musicf041c:
 	note a6  $09
 	note ds7 $09
 	note d7  $09
-	sust $03
+	release $03
 	vol $2
 	note e7  $03
-	sust $57
+	release $57
 	goto musicf041c
 	cmdff
 

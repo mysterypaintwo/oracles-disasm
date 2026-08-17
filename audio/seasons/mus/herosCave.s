@@ -18,13 +18,13 @@ musicf0c91:
 	note cs3 $05
 	note d3  $05
 	note ds3 $07
-	sust $0b
+	release $0b
 	vol $2
 	note ds3 $07
-	sust $0c
+	release $0c
 	vol $1
 	note ds3 $07
-	sust $0c
+	release $0c
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -39,13 +39,13 @@ musicf0c91:
 	note d6  $05
 	note c6  $05
 	note a5  $07
-	sust $0b
+	release $0b
 	vol $2
 	note a5  $07
-	sust $0c
+	release $0c
 	vol $1
 	note a5  $07
-	sust $0c
+	release $0c
 	vibrato $00
 	env $0 $03
 	vol $6
@@ -68,13 +68,13 @@ musicf0c91:
 	note gs3 $05
 	note a3  $05
 	note as3 $07
-	sust $0b
+	release $0b
 	vol $3
 	note as3 $07
-	sust $0c
+	release $0c
 	vol $2
 	note as3 $07
-	sust $0c
+	release $0c
 	vibrato $00
 	env $0 $03
 	goto musicf0c91

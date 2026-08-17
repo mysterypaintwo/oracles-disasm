@@ -6,7 +6,7 @@ sndUnknown8eChannel2:
 	note as4 $05
 	cmdf8 $00
 	vol $0
-	sust $0c
+	release $0c
 	vol $c
 	env $0 $01
 	cmdf8 $e6

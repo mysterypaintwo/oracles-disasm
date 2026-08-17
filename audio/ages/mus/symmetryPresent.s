@@ -19,12 +19,12 @@ musicef9db:
 	note e5  $24
 	vol $6
 	note fs5 $09
-	sust $04
+	release $04
 	vol $3
 	note fs5 $05
 	vol $6
 	note cs5 $09
-	sust $04
+	release $04
 	vol $3
 	note cs5 $05
 	vol $6
@@ -37,31 +37,31 @@ musicef9db:
 	note e4  $09
 	vol $6
 	note fs4 $06
-	sust $03
+	release $03
 	note fs4 $09
-	sust $04
+	release $04
 	vol $3
 	note fs4 $05
 	vol $6
 	note fs4 $09
 	note b3  $09
-	sust $04
+	release $04
 	vol $3
 	note b3  $05
 	vol $6
 	note d4  $09
-	sust $04
+	release $04
 	vol $3
 	note d4  $05
 	vol $6
 	note b4  $24
 	note cs5 $09
-	sust $04
+	release $04
 	vol $3
 	note cs5 $05
 	vol $5
 	note e5  $09
-	sust $04
+	release $04
 	vol $3
 	note e5  $05
 	vol $6
@@ -70,140 +70,140 @@ musicef9db:
 	note e5  $09
 	vol $7
 	note fs5 $09
-	sust $04
+	release $04
 	vol $3
 	note fs5 $09
-	sust $05
+	release $05
 	vol $2
 	note fs5 $09
-	sust $12
+	release $12
 	duty $02
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $21
+	release $21
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $3
 	note c6  $03
-	sust $21
+	release $21
 	vol $6
 	note f5  $03
-	sust $03
+	release $03
 	vol $5
 	note f5  $03
-	sust $03
+	release $03
 	vol $3
 	note f5  $03
-	sust $03
+	release $03
 	vol $6
 	note e6  $03
-	sust $03
+	release $03
 	vol $5
 	note f6  $03
-	sust $03
+	release $03
 	vol $4
 	note f6  $03
-	sust $03
+	release $03
 	vol $4
 	note f6  $03
-	sust $21
+	release $21
 	vol $6
 	note f5  $03
-	sust $03
+	release $03
 	vol $5
 	note f5  $03
-	sust $03
+	release $03
 	vol $3
 	note f5  $03
-	sust $03
+	release $03
 	vol $6
 	note e6  $03
-	sust $03
+	release $03
 	vol $5
 	note f6  $03
-	sust $03
+	release $03
 	vol $4
 	note f6  $03
-	sust $03
+	release $03
 	vol $3
 	note f6  $03
-	sust $b1
+	release $b1
 	vol $6
 	note g5  $03
-	sust $03
+	release $03
 	vol $5
 	note g5  $03
-	sust $03
+	release $03
 	vol $3
 	note g5  $03
-	sust $03
+	release $03
 	vol $6
 	note fs6 $03
-	sust $03
+	release $03
 	vol $5
 	note g6  $03
-	sust $03
+	release $03
 	vol $4
 	note g6  $03
-	sust $03
+	release $03
 	vol $4
 	note g6  $03
-	sust $21
+	release $21
 	vol $6
 	note c6  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $3
 	note c6  $03
-	sust $03
+	release $03
 	vol $6
 	note b6  $03
-	sust $03
+	release $03
 	vol $5
 	note c7  $03
-	sust $03
+	release $03
 	vol $4
 	note c7  $03
-	sust $03
+	release $03
 	vol $3
 	note c7  $03
-	sust $0f
+	release $0f
 	duty $01
 	goto musicef9db
 	cmdff
@@ -218,46 +218,46 @@ musicefb34:
 	note gs3 $12
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $21
+	release $21
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $3
 	note c6  $03
-	sust $0f
+	release $0f
 	duty $01
 	vol $4
 	note c3  $12
@@ -266,65 +266,65 @@ musicefb34:
 	note f3  $12
 	note a3  $12
 	note b3  $09
-	sust $04
+	release $04
 	vol $2
 	note b3  $05
 	vol $4
 	note g3  $09
 	note d3  $09
 	note g3  $11
-	sust $01
+	release $01
 	duty $02
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $2
 	note c5  $03
-	sust $15
+	release $15
 	vol $6
 	note b4  $03
-	sust $03
+	release $03
 	vol $5
 	note b4  $03
-	sust $03
+	release $03
 	vol $3
 	note b4  $03
-	sust $03
+	release $03
 	vol $6
 	note a5  $03
-	sust $03
+	release $03
 	vol $5
 	note b5  $03
-	sust $03
+	release $03
 	vol $4
 	note b5  $03
-	sust $03
+	release $03
 	vol $4
 	note b5  $03
-	sust $21
+	release $21
 	vol $6
 	note b4  $03
-	sust $03
+	release $03
 	vol $5
 	note b4  $03
-	sust $03
+	release $03
 	vol $3
 	note b4  $03
-	sust $03
+	release $03
 	vol $6
 	note a5  $03
-	sust $03
+	release $03
 	vol $5
 	note b5  $03
-	sust $03
+	release $03
 	vol $4
 	note b5  $03
-	sust $03
+	release $03
 	vol $3
 	note b5  $03
-	sust $0f
+	release $0f
 	duty $01
 	vol $4
 	note b2  $12
@@ -337,55 +337,55 @@ musicefb34:
 	note fs3 $12
 	duty $02
 	note b4  $03
-	sust $03
+	release $03
 	vol $3
 	note b4  $03
-	sust $03
+	release $03
 	vol $2
 	note b4  $03
-	sust $15
+	release $15
 	vol $6
 	note cs5 $03
-	sust $03
+	release $03
 	vol $5
 	note cs5 $03
-	sust $03
+	release $03
 	vol $3
 	note cs5 $03
-	sust $03
+	release $03
 	vol $6
 	note c6  $03
-	sust $03
+	release $03
 	vol $5
 	note cs6 $03
-	sust $03
+	release $03
 	vol $4
 	note cs6 $03
-	sust $03
+	release $03
 	vol $4
 	note cs6 $03
-	sust $21
+	release $21
 	vol $6
 	note cs5 $03
-	sust $03
+	release $03
 	vol $5
 	note cs5 $03
-	sust $03
+	release $03
 	vol $3
 	note cs5 $03
-	sust $03
+	release $03
 	vol $6
 	note c6  $03
-	sust $03
+	release $03
 	vol $5
 	note cs6 $03
-	sust $03
+	release $03
 	vol $4
 	note cs6 $03
-	sust $03
+	release $03
 	vol $3
 	note cs6 $03
-	sust $0f
+	release $0f
 	duty $01
 	vol $4
 	note c3  $12
@@ -398,13 +398,13 @@ musicefb34:
 	note e3  $12
 	duty $02
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $2
 	note c5  $03
-	sust $03
+	release $03
 	duty $01
 	vol $7
 	note f3  $09
@@ -412,10 +412,10 @@ musicefb34:
 	note a3  $09
 	note as3 $09
 	note c4  $09
-	sust $04
+	release $04
 	vol $4
 	note c4  $09
-	sust $05
+	release $05
 	vol $2
 	note c4  $09
 	vol $4
@@ -424,56 +424,56 @@ musicefb34:
 	note a5  $09
 	note as5 $09
 	note c6  $09
-	sust $04
+	release $04
 	vol $2
 	note c6  $09
-	sust $05
+	release $05
 	vol $1
 	note c6  $09
-	sust $12
+	release $12
 	duty $02
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $21
+	release $21
 	vol $6
 	note c5  $03
-	sust $03
+	release $03
 	vol $5
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $6
 	note b5  $03
-	sust $03
+	release $03
 	vol $5
 	note c6  $03
-	sust $03
+	release $03
 	vol $4
 	note c6  $03
-	sust $03
+	release $03
 	vol $3
 	note c6  $03
-	sust $0f
+	release $0f
 	duty $01
 	vol $4
 	note c3  $12
@@ -486,13 +486,13 @@ musicefb34:
 	note g4  $12
 	duty $02
 	note c5  $03
-	sust $03
+	release $03
 	vol $3
 	note c5  $03
-	sust $03
+	release $03
 	vol $2
 	note c5  $03
-	sust $03
+	release $03
 	goto musicefb34
 	cmdff
 

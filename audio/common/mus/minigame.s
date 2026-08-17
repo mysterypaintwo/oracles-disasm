@@ -8,67 +8,67 @@ musicec001:
 	env $0 $01
 	note as2 $0c
 	note as3 $0c
-	rest $0c
+	sust $0c
 	note as3 $0c
 	env $0 $02
 	note as2 $0c
 	env $0 $01
 	note as3 $0c
-	rest $0c
+	sust $0c
 	note as3 $0c
 	note gs2 $0c
 	env $0 $01
 	note gs3 $0c
-	rest $0c
+	sust $0c
 	note gs3 $0c
 	note gs2 $0c
 	env $0 $01
 	note gs3 $0c
-	rest $0c
+	sust $0c
 	note gs3 $0c
 	note fs2 $0c
 	env $0 $01
 	note fs3 $0c
-	rest $0c
+	sust $0c
 	note fs3 $0c
 	note fs2 $0c
 	env $0 $01
 	note fs3 $0c
-	rest $0c
+	sust $0c
 	note fs3 $0c
 	note cs3 $0c
 	env $0 $01
 	note cs4 $0c
-	rest $0c
+	sust $0c
 	note cs4 $0c
 	note cs3 $0c
 	env $0 $01
 	note cs4 $0c
-	rest $0c
+	sust $0c
 	note cs4 $0c
 	note b2  $0c
 	env $0 $01
 	note b3  $0c
-	rest $0c
+	sust $0c
 	note b3  $0c
 	note b2  $0c
 	env $0 $01
 	note b3  $0c
-	rest $0c
+	sust $0c
 	note b3  $0c
 	note as2 $0c
 	env $0 $01
 	note as3 $0c
-	rest $0c
+	sust $0c
 	note as3 $0c
 	note as2 $0c
 	env $0 $01
 	note as3 $0c
-	rest $0c
+	sust $0c
 	note as3 $0c
 	note c3  $0c
 	note c4  $0c
-	rest $0c
+	sust $0c
 	note c4  $0c
 	note c3  $0c
 	note c4  $0c
@@ -221,101 +221,101 @@ musicec174:
 	env $0 $00
 	vol $6
 	note as5 $06
-	rest $06
+	release $06
 	note as5 $03
-	rest $03
+	release $03
 	note c6  $03
-	rest $03
+	release $03
 	note d6  $03
-	rest $03
+	release $03
 	note ds6 $03
-	rest $03
+	release $03
 	vibrato $00
 	env $0 $07
 	note f6  $30
-	rest $18
+	sust $18
 	vibrato $00
 	env $0 $00
 	note cs6 $03
-	rest $03
+	release $03
 	note fs6 $03
-	rest $03
+	release $03
 	note gs6 $03
-	rest $03
+	release $03
 	note as6 $03
-	rest $03
+	release $03
 	vibrato $00
 	env $0 $07
 	note cs7 $30
-	rest $24
+	sust $24
 	vibrato $00
 	env $0 $00
 	note cs6 $03
-	rest $03
+	release $03
 	note ds6 $03
-	rest $03
+	release $03
 	note f6  $06
-	rest $06
+	release $06
 	note cs6 $06
-	rest $06
+	release $06
 	vibrato $00
 	env $0 $07
 	note gs5 $18
-	rest $24
+	sust $24
 	vibrato $00
 	env $0 $00
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	note fs6 $02
-	rest $0a
+	release $0a
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	vibrato $00
 	env $0 $04
 	note fs6 $18
-	rest $24
+	sust $24
 	vibrato $00
 	env $0 $00
 	note cs6 $02
-	rest $04
+	release $04
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $0a
+	release $0a
 	note cs6 $02
-	rest $04
+	release $04
 	note ds6 $02
-	rest $04
+	release $04
 	vibrato $00
 	env $0 $04
 	note f6  $18
-	rest $24
+	sust $24
 	vibrato $00
 	env $0 $00
 	note c6  $02
-	rest $04
+	release $04
 	note d6  $02
-	rest $04
+	release $04
 	note e6  $02
-	rest $0a
+	release $0a
 	note e6  $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	note g6  $02
-	rest $04
+	release $04
 	note a6  $02
-	rest $04
+	release $04
 	note as6 $02
-	rest $04
+	release $04
 	note c7  $02
-	rest $04
+	release $04
 	note a6  $06
-	rest $06
+	release $06
 	vol $8
 	note ds4 $03
 	vol $2
@@ -344,7 +344,7 @@ musicec174:
 	note ds4 $0a
 	vol $1
 	note ds4 $0a
-	rest $20
+	release $20
 	vol $8
 	note ds4 $03
 	vol $2
@@ -373,7 +373,7 @@ musicec174:
 	note ds4 $0a
 	vol $1
 	note ds4 $0a
-	rest $14
+	release $14
 	goto musicec174
 	cmdff
 musMinigameChannel4:

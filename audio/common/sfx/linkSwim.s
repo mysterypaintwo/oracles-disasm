@@ -7,7 +7,7 @@ sndLinkSwimChannel2:
 	cmdf8 $16
 	note fs3 $0f
 	cmdf8 $00
-	rest $02
+	release $02
 	env $1 $00
 	vol $1
 	cmdf8 $0f

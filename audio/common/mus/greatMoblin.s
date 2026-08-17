@@ -11,41 +11,41 @@ musicf800f:
 	vol $6
 	note cs4 $48
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
 	note fs4 $12
 	note g4  $09
-	rest $04
+	release $04
 	vol $3
 	note g4  $05
 	vol $6
 	note gs4 $12
 	note g4  $09
-	rest $04
+	release $04
 	vol $3
 	note g4  $09
-	rest $05
+	release $05
 	vol $1
 	note g4  $09
-	rest $5a
+	release $5a
 	vol $6
 	note cs4 $48
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
 	note fs4 $12
 	note g4  $09
-	rest $04
+	release $04
 	vol $3
 	note g4  $05
 	vol $6
@@ -53,39 +53,39 @@ musicf800f:
 	note a4  $0c
 	note gs4 $0c
 	note g4  $09
-	rest $04
+	release $04
 	vol $3
 	note g4  $09
-	rest $05
+	release $05
 	vol $1
 	note g4  $09
-	rest $48
+	release $48
 	vol $6
 	note c5  $48
 	note fs4 $09
-	rest $04
+	release $04
 	vol $3
 	note fs4 $09
-	rest $05
+	release $05
 	vol $1
 	note fs4 $09
 	vol $6
 	note f4  $12
 	note ds4 $09
-	rest $04
+	release $04
 	vol $3
 	note ds4 $05
 	vol $6
 	note f4  $09
 	note ds4 $09
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
-	rest $36
+	release $36
 	vol $6
 	note f4  $12
 	note ds4 $12
@@ -95,28 +95,28 @@ musicf800f:
 	note f4  $12
 	note ds4 $12
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
 	note as3 $12
 	note ds4 $12
 	note c4  $09
-	rest $04
+	release $04
 	vol $3
 	note c4  $09
-	rest $05
+	release $05
 	vol $1
 	note c4  $09
 	vol $6
 	note as3 $09
-	rest $04
+	release $04
 	vol $3
 	note as3 $09
-	rest $05
+	release $05
 	vol $1
 	note as3 $09
 	vol $6
@@ -133,50 +133,50 @@ musGreatMoblinChannel0:
 musicf80d6:
 	note c2  $24
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $3f
+	sust $3f
 	note c2  $09
-	rest $1b
+	sust $1b
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $04
-	rest $20
+	sust $20
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $04
-	rest $0e
+	sust $0e
 	note c2  $24
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $1b
+	sust $1b
 	note fs2 $09
-	rest $1b
+	sust $1b
 	note c2  $09
-	rest $1b
+	sust $1b
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $04
-	rest $05
+	sust $05
 	note as2 $12
 	note a2  $12
 	note gs2 $12
 	note g2  $12
 	note c2  $51
-	rest $09
+	sust $09
 	note fs2 $09
 	note f2  $09
 	note e2  $09
@@ -184,36 +184,36 @@ musicf80d6:
 	note d2  $09
 	note cs2 $09
 	note c2  $09
-	rest $1b
+	sust $1b
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $09
-	rest $1b
+	sust $1b
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $04
-	rest $05
+	sust $05
 	note c2  $04
-	rest $0e
+	sust $0e
 	note c2  $24
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $09
-	rest $3f
+	sust $3f
 	note c2  $09
-	rest $1b
+	sust $1b
 	note fs2 $09
-	rest $09
+	sust $09
 	note fs2 $04
-	rest $05
+	sust $05
 	note fs2 $04
-	rest $05
+	sust $05
 	note as2 $48
 	goto musicf80d6
 	cmdff

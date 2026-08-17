@@ -8,10 +8,10 @@ musGanonChannel1:
 musiced6c3:
 	vol $6
 	note c4  $06
-	rest $03
+	release $03
 	vol $3
 	note c4  $06
-	rest $03
+	release $03
 	vol $6
 	note g4  $06
 	note fs4 $48
@@ -20,139 +20,139 @@ musiced6c3:
 	note f4  $06
 	note ds4 $06
 	note c4  $06
-	rest $03
+	release $03
 	vol $3
 	note c4  $06
-	rest $03
+	release $03
 	vol $1
 	note c4  $06
 	vol $6
 	note fs3 $30
 	vol $3
 	note fs3 $30
-	rest $30
+	release $30
 	vol $6
 	note fs3 $06
 	note g3  $06
 	note c4  $06
 	note ds4 $06
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $06
-	rest $03
+	release $03
 	vol $6
 	note c5  $06
 	note b4  $30
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $06
-	rest $03
+	release $03
 	vol $6
 	note b4  $06
 	note as4 $18
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $06
-	rest $03
+	release $03
 	vol $6
 	note as4 $06
 	note a4  $18
 	note f4  $06
-	rest $03
+	release $03
 	vol $3
 	note f4  $06
-	rest $03
+	release $03
 	vol $6
 	note gs4 $06
 	note g4  $0c
 	note ds4 $06
 	note c4  $06
 	note g3  $06
-	rest $03
+	release $03
 	vol $3
 	note g3  $06
-	rest $03
+	release $03
 	vol $1
 	note g3  $06
-	rest $30
+	release $30
 	vol $6
 	note g4  $0c
 	note ds4 $06
 	note c4  $06
 	note g3  $06
-	rest $03
+	release $03
 	vol $3
 	note g3  $06
-	rest $03
+	release $03
 	vol $1
 	note g3  $06
-	rest $18
+	release $18
 	vol $6
 	note d4  $06
 	note ds4 $06
 	note g4  $06
 	note b4  $06
 	note d5  $06
-	rest $03
+	release $03
 	vol $3
 	note d5  $06
-	rest $03
+	release $03
 	vol $6
 	note f5  $06
 	note ds5 $30
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $06
-	rest $03
+	release $03
 	vol $7
 	note d5  $06
 	note c5  $18
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $06
-	rest $03
+	release $03
 	vol $7
 	note as4 $06
 	note a4  $18
 	note f4  $06
-	rest $03
+	release $03
 	vol $3
 	note f4  $06
-	rest $03
+	release $03
 	vol $7
 	note gs4 $06
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $06
-	rest $03
+	release $03
 	vol $1
 	note g4  $06
 	vol $7
 	note c4  $48
 	vol $3
 	note c4  $18
-	rest $48
+	release $48
 	vol $6
 	note f4  $06
-	rest $03
+	release $03
 	vol $3
 	note f4  $06
-	rest $03
+	release $03
 	vol $6
 	note gs4 $06
 	note cs5 $18
 	note c5  $18
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $06
-	rest $03
+	release $03
 	vol $6
 	note d5  $06
 	note g5  $24
@@ -160,10 +160,10 @@ musiced6c3:
 	note g5  $0c
 	vol $6
 	note gs5 $06
-	rest $03
+	release $03
 	vol $3
 	note gs5 $06
-	rest $03
+	release $03
 	vol $6
 	note f5  $06
 	note cs6 $0c
@@ -171,10 +171,10 @@ musiced6c3:
 	note b5  $0c
 	note as5 $0c
 	note a5  $06
-	rest $03
+	release $03
 	vol $3
 	note a5  $06
-	rest $03
+	release $03
 	vol $1
 	note a5  $06
 	vol $6
@@ -190,10 +190,10 @@ musGanonChannel0:
 musiced7fa:
 	vol $6
 	note g3  $06
-	rest $03
+	release $03
 	vol $3
 	note g3  $06
-	rest $03
+	release $03
 	vol $6
 	note ds4 $06
 	note d4  $48
@@ -202,56 +202,56 @@ musiced7fa:
 	note cs4 $06
 	note c4  $06
 	note g3  $06
-	rest $03
+	release $03
 	vol $3
 	note g3  $06
-	rest $03
+	release $03
 	vol $1
 	note g3  $06
-	rest $18
+	release $18
 	vol $6
 	note c5  $06
-	rest $03
+	release $03
 	vol $3
 	note c5  $06
-	rest $03
+	release $03
 	vol $1
 	note c5  $06
 	vol $6
 	note fs4 $06
-	rest $03
+	release $03
 	vol $3
 	note fs4 $06
-	rest $03
+	release $03
 	vol $1
 	note fs4 $06
 	vol $6
 	note c6  $06
-	rest $03
+	release $03
 	vol $3
 	note c6  $06
-	rest $03
+	release $03
 	vol $1
 	note c6  $06
 	vol $6
 	note fs5 $06
-	rest $03
+	release $03
 	vol $3
 	note fs5 $06
-	rest $03
+	release $03
 	vol $1
 	note fs5 $06
 	vol $6
 	note ds6 $06
-	rest $03
+	release $03
 	vol $3
 	note ds6 $06
-	rest $03
+	release $03
 	vol $1
 	note ds6 $06
 	vol $6
 	note c6  $06
-	rest $03
+	release $03
 	vol $3
 	note c6  $03
 	vol $4
@@ -260,7 +260,7 @@ musiced7fa:
 	note c4  $06
 	note ds4 $06
 	note g4  $08
-	rest $04
+	release $04
 	vol $6
 	note ds4 $48
 	note d4  $30
@@ -270,19 +270,19 @@ musiced7fa:
 	note c4  $06
 	note g3  $06
 	note ds3 $06
-	rest $03
+	release $03
 	vol $3
 	note ds3 $06
-	rest $03
+	release $03
 	vol $1
 	note ds3 $06
-	rest $40
+	release $40
 	vol $3
 	note g4  $0c
 	note ds4 $06
 	note c4  $06
 	note g3  $06
-	rest $02
+	release $02
 	vol $6
 	note g6  $0c
 	note ds6 $06
@@ -292,10 +292,10 @@ musiced7fa:
 	note ds4 $06
 	note g4  $06
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $06
-	rest $03
+	release $03
 	vol $1
 	note b4  $06
 	vol $6
@@ -305,51 +305,51 @@ musiced7fa:
 	note d4  $18
 	note cs4 $18
 	note c4  $06
-	rest $03
+	release $03
 	vol $3
 	note c4  $06
-	rest $03
+	release $03
 	vol $1
 	note c4  $06
 	vol $6
 	note g3  $48
 	note g5  $06
-	rest $03
+	release $03
 	vol $3
 	note g5  $06
-	rest $03
+	release $03
 	vol $1
 	note g5  $06
 	vol $6
 	note c5  $06
-	rest $03
+	release $03
 	vol $3
 	note c5  $06
-	rest $03
+	release $03
 	vol $1
 	note c5  $06
 	vol $6
 	note g6  $06
-	rest $03
+	release $03
 	vol $3
 	note g6  $06
-	rest $03
+	release $03
 	vol $1
 	note g6  $06
 	vol $6
 	note c6  $06
-	rest $03
+	release $03
 	vol $3
 	note c6  $06
-	rest $03
+	release $03
 	vol $1
 	note c6  $06
 	vol $3
 	note cs4 $06
-	rest $03
+	release $03
 	vol $1
 	note cs4 $06
-	rest $03
+	release $03
 	vol $6
 	note f4  $06
 	note gs4 $12
@@ -361,10 +361,10 @@ musiced7fa:
 	note f4  $06
 	vol $6
 	note d4  $06
-	rest $03
+	release $03
 	vol $3
 	note d4  $06
-	rest $03
+	release $03
 	vol $6
 	note g4  $06
 	note b4  $18
@@ -372,10 +372,10 @@ musiced7fa:
 	note b4  $18
 	vol $6
 	note f5  $06
-	rest $03
+	release $03
 	vol $3
 	note f5  $06
-	rest $03
+	release $03
 	vol $6
 	note cs5 $06
 	note as5 $0c
@@ -383,10 +383,10 @@ musiced7fa:
 	note gs5 $0c
 	note g5  $0c
 	note f5  $06
-	rest $03
+	release $03
 	vol $3
 	note f5  $06
-	rest $03
+	release $03
 	vol $1
 	note f5  $06
 	vol $6

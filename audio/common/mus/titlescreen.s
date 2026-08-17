@@ -7,7 +7,7 @@ musTitlescreenChannel1:
 	note as4 $18
 	vol $2
 	note as4 $14
-	rest $10
+	release $10
 	env $0 $02
 	vol $8
 	note as4 $09
@@ -346,7 +346,7 @@ musTitlescreenChannel0:
 	note d4  $18
 	vol $2
 	note d4  $14
-	rest $10
+	release $10
 	vol $8
 	env $0 $02
 	note d4  $09
@@ -493,86 +493,86 @@ musice8762:
 	env $0 $00
 	vol $6
 	note as5 $06
-	rest $06
+	release $06
 	note as5 $03
-	rest $03
+	release $03
 	note c6  $03
-	rest $03
+	release $03
 	note d6  $03
-	rest $03
+	release $03
 	note ds6 $03
-	rest $03
+	release $03
 	env $0 $07
 	note f6  $48
 	env $0 $00
 	note cs6 $03
-	rest $03
+	release $03
 	note fs6 $03
-	rest $03
+	release $03
 	note gs6 $03
-	rest $03
+	release $03
 	note as6 $03
-	rest $03
+	release $03
 	env $0 $07
 	note cs7 $54
 	env $0 $00
 	note cs6 $03
-	rest $03
+	release $03
 	note ds6 $03
-	rest $03
+	release $03
 	note f6  $06
-	rest $06
+	release $06
 	note cs6 $06
-	rest $06
+	release $06
 	env $0 $07
 	note gs5 $3c
 	env $0 $00
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	note fs6 $02
-	rest $0a
+	release $0a
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	env $0 $04
 	note fs6 $3c
 	env $0 $00
 	note cs6 $02
-	rest $04
+	release $04
 	note ds6 $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $0a
+	release $0a
 	note cs6 $02
-	rest $04
+	release $04
 	note ds6 $02
-	rest $04
+	release $04
 	env $0 $04
 	note f6  $3c
 	env $0 $00
 	note c6  $02
-	rest $04
+	release $04
 	note d6  $02
-	rest $04
+	release $04
 	note e6  $02
-	rest $0a
+	release $0a
 	note e6  $02
-	rest $04
+	release $04
 	note f6  $02
-	rest $04
+	release $04
 	note g6  $02
-	rest $04
+	release $04
 	note a6  $02
-	rest $04
+	release $04
 	note as6 $02
-	rest $04
+	release $04
 	note c7  $02
-	rest $04
+	release $04
 	note a6  $06
-	rest $06
+	release $06
 	vol $8
 	note ds4 $03
 	vol $2
@@ -601,7 +601,7 @@ musice8762:
 	note ds4 $0a
 	vol $1
 	note ds4 $0a
-	rest $20
+	release $20
 	vol $8
 	note ds4 $03
 	vol $2
@@ -630,7 +630,7 @@ musice8762:
 	note ds4 $0a
 	vol $1
 	note ds4 $0a
-	rest $14
+	release $14
 	goto musice8762
 	cmdff
 

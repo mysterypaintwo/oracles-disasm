@@ -70,7 +70,7 @@ musicf3418:
 	env $0 $00
 	vol $6
 	note a3  $03
-	sust $04
+	release $04
 	note a3  $07
 	note gs3 $07
 	note fs3 $07
@@ -107,7 +107,7 @@ musicf3418:
 	env $0 $00
 	vol $3
 	note gs4 $1c
-	sust $46
+	release $46
 	vibrato $f1
 	env $0 $00
 	vol $6
@@ -190,7 +190,7 @@ musicf3418:
 	env $0 $00
 	vol $3
 	note e4  $1c
-	sust $1c
+	release $1c
 	vibrato $f1
 	env $0 $00
 	vol $6
@@ -207,7 +207,7 @@ musicf3418:
 	note e4  $07
 	note ds4 $07
 	note e4  $54
-	sust $1c
+	release $1c
 	note fs3 $0e
 	note cs4 $0e
 	goto musicf3418
@@ -221,7 +221,7 @@ musAncientRuinsChannel0:
 	cmdf2
 	duty $02
 musicf3598:
-	sust $1c
+	release $1c
 	vol $7
 	note fs4 $0e
 	note cs5 $0e
@@ -229,7 +229,7 @@ musicf3598:
 	note c5  $02
 	note cs5 $02
 	note c5  $33
-	sust $01
+	release $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -245,7 +245,7 @@ musicf3598:
 	note gs4 $02
 	note a4  $02
 	note gs4 $33
-	sust $01
+	release $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -259,7 +259,7 @@ musicf3598:
 	note c5  $02
 	note cs5 $02
 	note c5  $33
-	sust $01
+	release $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -279,7 +279,7 @@ musicf3598:
 	note cs5 $02
 	note d5  $02
 	note cs5 $17
-	sust $01
+	release $01
 	vibrato $01
 	env $0 $00
 	vol $3
@@ -300,7 +300,7 @@ musicf3598:
 	env $0 $00
 	vol $7
 	note a4  $03
-	sust $04
+	release $04
 	note a4  $07
 	note gs4 $07
 	note fs4 $07
@@ -339,118 +339,118 @@ musicf3598:
 	note a4  $07
 	note gs4 $07
 	note g2  $03
-	sust $04
+	release $04
 	vol $3
 	note g2  $03
-	sust $04
+	release $04
 	vol $7
 	note g2  $03
-	sust $04
+	release $04
 	vol $3
 	note g2  $03
-	sust $04
+	release $04
 	vol $7
 	note gs2 $0e
 	note g2  $03
-	sust $04
+	release $04
 	vol $3
 	note g2  $03
-	sust $3c
+	release $3c
 	vol $6
 	note gs2 $03
-	sust $04
+	release $04
 	vol $3
 	note gs2 $03
-	sust $04
+	release $04
 	vol $6
 	note gs2 $03
-	sust $04
+	release $04
 	vol $3
 	note gs2 $03
-	sust $04
+	release $04
 	vol $6
 	note a2  $0e
 	note gs2 $03
-	sust $04
+	release $04
 	vol $3
 	note gs2 $03
-	sust $3c
+	release $3c
 	vol $6
 	note a2  $03
-	sust $04
+	release $04
 	vol $3
 	note a2  $03
-	sust $04
+	release $04
 	vol $6
 	note a2  $03
-	sust $04
+	release $04
 	vol $3
 	note a2  $03
-	sust $04
-	vol $6
-	note as2 $0e
-	note a2  $03
-	sust $04
-	vol $3
-	note a2  $03
-	sust $3c
-	vol $6
-	note a2  $03
-	sust $04
-	vol $3
-	note a2  $03
-	sust $04
-	vol $6
-	note a2  $03
-	sust $04
-	vol $3
-	note a2  $03
-	sust $04
+	release $04
 	vol $6
 	note as2 $0e
 	note a2  $03
-	sust $04
+	release $04
 	vol $3
 	note a2  $03
-	sust $3c
+	release $3c
+	vol $6
+	note a2  $03
+	release $04
+	vol $3
+	note a2  $03
+	release $04
+	vol $6
+	note a2  $03
+	release $04
+	vol $3
+	note a2  $03
+	release $04
+	vol $6
+	note as2 $0e
+	note a2  $03
+	release $04
+	vol $3
+	note a2  $03
+	release $3c
 	vol $6
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $04
+	release $04
 	vol $6
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $04
+	release $04
 	vol $6
 	note c3  $0e
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $3c
+	release $3c
 	vol $6
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $04
+	release $04
 	vol $6
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $04
+	release $04
 	vol $6
 	note c3  $0e
 	note b2  $03
-	sust $04
+	release $04
 	vol $3
 	note b2  $03
-	sust $46
+	release $46
 	vol $3
 	note e4  $07
 	note f4  $07
@@ -466,7 +466,7 @@ musicf3598:
 	note e4  $07
 	note ds4 $07
 	note e4  $77
-	sust $0b
+	release $0b
 	goto musicf3598
 	cmdff
 

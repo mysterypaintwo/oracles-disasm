@@ -17,7 +17,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note a5  $12
-	sust $09
+	release $09
 	vibrato $e1
 	vol $6
 	note d6  $24
@@ -42,7 +42,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note a5  $24
-	sust $09
+	release $09
 	vibrato $e1
 	vol $6
 	note a5  $24
@@ -52,7 +52,7 @@ musicee9ec:
 	vibrato $01
 	vol $4
 	note g5  $1e
-	sust $0f
+	release $0f
 	vibrato $e1
 	goto musicee9ec
 	cmdff
@@ -209,7 +209,7 @@ musiceea48:
 	note d5  $3f
 	vol $3
 	note d5  $1e
-	sust $0f
+	release $0f
 	goto musiceea48
 	cmdff
 

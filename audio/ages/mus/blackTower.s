@@ -50,42 +50,42 @@ musicf1ece:
 	note f5  $12
 	note e5  $12
 	note f5  $28
-	sust $0e
+	release $0e
 	note f5  $04
-	sust $01
+	release $01
 	note a5  $05
-	sust $03
+	release $03
 	note c6  $05
 	vol $5
 	note f6  $04
-	sust $05
+	release $05
 	vol $4
 	note f6  $04
-	sust $05
+	release $05
 	vol $3
 	note f6  $04
-	sust $05
+	release $05
 	vol $2
 	note f6  $04
-	sust $29
+	release $29
 	vol $6
 	note as3 $1b
 	note f4  $09
 	note e4  $1b
-	sust $09
+	release $09
 	note as3 $1b
 	note ds4 $09
 	note cs4 $1b
-	sust $09
+	release $09
 	note as3 $1b
 	note f4  $09
 	note e4  $1b
 	note as3 $04
-	sust $05
+	release $05
 	note as3 $1b
 	note ds4 $09
 	note cs4 $1b
-	sust $09
+	release $09
 	note f4  $12
 	note e4  $12
 	note f4  $12
@@ -94,7 +94,7 @@ musicf1ece:
 	note f4  $12
 	note e4  $12
 	note f4  $6c
-	sust $24
+	release $24
 	goto musicf1ece
 	cmdff
 
@@ -211,7 +211,7 @@ musicf1f85:
 	note e3  $09
 	note b3  $09
 	note as3 $1b
-	sust $09
+	release $09
 	note cs4 $12
 	note c4  $12
 	note cs4 $12
@@ -223,7 +223,7 @@ musicf1f85:
 	note e5  $12
 	note d5  $12
 	note e5  $15
-	sust $01
+	release $01
 	note e5  $05
 	note f5  $04
 	note c5  $05
@@ -241,25 +241,25 @@ musicf1f85:
 	note e3  $05
 	note f3  $09
 	note e3  $03
-	sust $03
+	release $03
 	vol $5
 	note e3  $03
 	vol $6
 	note as3 $09
 	note a3  $03
-	sust $03
+	release $03
 	vol $4
 	note a3  $03
 	vol $6
 	note cs4 $09
 	note c4  $03
-	sust $03
+	release $03
 	vol $4
 	note c4  $03
 	vol $6
 	note fs4 $09
 	note f4  $03
-	sust $03
+	release $03
 	vol $4
 	note f4  $03
 	goto musicf1f85

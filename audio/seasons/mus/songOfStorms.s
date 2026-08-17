@@ -15,11 +15,11 @@ musicf84c2:
 	note d4  $08
 	note f4  $08
 	note d5  $08
-	sust $04
+	release $04
 
 	vol $3
 	note d5  $08
-	sust $04
+	release $04
 
 	vol $1
 	note d5  $08
@@ -27,7 +27,7 @@ musicf84c2:
 ; Measure 7
 	vol $7
 	note e5  $10
-	sust $04
+	release $04
 	vol $3
 	note e5  $04
 
@@ -40,10 +40,10 @@ musicf84c2:
 	note c5  $08
 
 	note a4  $10
-	sust $02
+	release $02
 	vol $3
 	note a4  $08
-	sust $02
+	release $02
 	vol $1
 	note a4  $04
 ; Measure 9
@@ -72,11 +72,11 @@ musicf84c2:
 	note d4  $08
 	note f4  $08
 	note d5  $08
-	sust $04
+	release $04
 
 	vol $3
 	note d5  $08
-	sust $04
+	release $04
 
 	vol $1
 	note d5  $08
@@ -84,7 +84,7 @@ musicf84c2:
 ; Measure 15
 	vol $7
 	note e5  $10
-	sust $04
+	release $04
 	vol $3
 	note e5  $04
 
@@ -107,16 +107,16 @@ musicf84c2:
 	note g4  $08
 ; Measure 18
 	note a4  $10
-	sust $06
+	release $06
 	vol $3
 	note a4  $08
-	sust $02
+	release $02
 	vol $7
 	note a4  $10
 ; Measure 19
 	note d4  $50
 ; Measure 20-21
-	sust $70
+	release $70
 	goto musicf84c2
 	cmdff
 
@@ -131,34 +131,34 @@ musSongOfStormsChannel0:
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 2
-	sust $08
+	release $08
 	vol $6
 	note e3  $08
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 3
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note c4  $04
-	sust $02
+	release $02
 	vol $3
 	note c4  $04
-	sust $02
+	release $02
 	vol $1
 	note c4  $04
 .endr
 ; Measure 4
-	sust $08
+	release $08
 	vol $6
 	note e3  $08
 	note b3  $18
@@ -166,164 +166,164 @@ musSongOfStormsChannel0:
 	note b3  $08
 musicf85ca:
 ; Measure 5
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 6
-	sust $10
+	release $10
 	vol $6
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 7
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note c4  $04
-	sust $02
+	release $02
 	vol $3
 	note c4  $04
-	sust $02
+	release $02
 	vol $1
 	note c4  $04
 .endr
 ; Measure 8
-	sust $10
+	release $10
 	vol $6
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 9
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 10
-	sust $10
+	release $10
 	vol $6
 	note a3  $18
 	vol $3
 	note a3  $08
 ; Measure 11
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 12
-	sust $10
+	release $10
 	vol $6
 	note a3  $18
 	vol $3
 	note a3  $08
 ; Measure 13
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 14
-	sust $10
+	release $10
 	vol $6
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 15
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note c4  $04
-	sust $02
+	release $02
 	vol $3
 	note c4  $04
-	sust $02
+	release $02
 	vol $1
 	note c4  $04
 .endr
 ; Measure 16
-	sust $10
+	release $10
 	vol $6
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 17
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 18
-	sust $10
+	release $10
 	vol $6
 	note a3  $18
 	vol $3
 	note a3  $08
 ; Measure 19
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note a3  $04
-	sust $02
+	release $02
 	vol $3
 	note a3  $04
-	sust $02
+	release $02
 	vol $1
 	note a3  $04
 .endr
 ; Measure 20
-	sust $08
+	release $08
 	vol $6
 	note e3  $08
 	note b3  $18
 	vol $3
 	note b3  $08
 ; Measure 21
-	sust $10
+	release $10
 .rept 2
 	vol $6
 	note c4  $04
-	sust $02
+	release $02
 	vol $3
 	note c4  $04
-	sust $02
+	release $02
 	vol $1
 	note c4  $04
 .endr
 ; Measure 22
-	sust $08
+	release $08
 	vol $6
 	note e3  $08
 	note b3  $18

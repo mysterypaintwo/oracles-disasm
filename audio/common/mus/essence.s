@@ -27,24 +27,24 @@ musEssenceChannel1:
 	note g4  $02
 	vol $3
 	note f4  $01
-	rest $01
+	release $01
 
 	duty $01
 	vol $6
 	note b4  $04
-	rest $01
+	release $01
 	vol $3
 	note b4  $03
 
 	vol $6
 	note b4  $04
-	rest $01
+	release $01
 	vol $3
 	note b4  $03
 
 	vol $6
 	note c5  $04
-	rest $01
+	release $01
 	vol $3
 	note c5  $03
 
@@ -147,15 +147,15 @@ musEssenceChannel1:
 	note ds6 $04
 	note e6  $04
 	note fs6 $27
-	rest $01
+	release $01
 	vibrato $01
 	env $0 $00
 	vol $3
 	note fs6 $04
-	rest $01
+	release $01
 	vol $2
 	note fs6 $04
-	rest $01
+	release $01
 	vol $1
 	note fs6 $04
 	cmdff
@@ -199,7 +199,7 @@ musEssenceChannel0:
 	note d4  $02
 	vol $2
 	note b3  $01
-	rest $01
+	release $01
 
 	duty $01
 	vol $4
@@ -301,13 +301,13 @@ musEssenceChannel0:
 	note cs5 $04
 
 	note ds5 $28
-	rest $01
+	release $01
 	vol $3
 	note ds5 $03
-	rest $01
+	release $01
 	vol $2
 	note ds5 $03
-	rest $01
+	release $01
 	vol $1
 	note ds5 $03
 	cmdff

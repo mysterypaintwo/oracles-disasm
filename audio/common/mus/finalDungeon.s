@@ -373,7 +373,7 @@ musicf567e:
 	env $0 $00
 	vol $3
 	note gs3 $1e
-	rest $0f
+	release $0f
 	vibrato $00
 	env $0 $03
 	vol $4
@@ -441,7 +441,7 @@ musicf567e:
 	env $0 $00
 	vol $3
 	note g2  $1e
-	rest $0b
+	release $0b
 	vibrato $00
 	env $0 $03
 	vol $3

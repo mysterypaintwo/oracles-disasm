@@ -6,11 +6,11 @@ sndText2Channel2:
 	vol $d
 	note fs5 $05
 	vol $0
-	rest $01
+	release $01
 	vol $d
 	note b5  $05
 	vol $0
-	rest $01
+	release $01
 	vol $d
 	note e6  $05
 	cmdff

@@ -93,7 +93,7 @@ musicedd69:
 	note e4  $12
 	note fs4 $12
 	note g4  $12
-	sust $1f
+	release $1f
 	vibrato $00
 	env $0 $04
 	vol $4
@@ -125,7 +125,7 @@ musicedd69:
 	note a4  $12
 	note g4  $12
 	note b4  $12
-	sust $1f
+	release $1f
 	vibrato $00
 	env $0 $04
 	vol $4

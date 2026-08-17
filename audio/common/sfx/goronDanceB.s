@@ -3,7 +3,7 @@ sndGoronDanceBStart:
 sndGoronDanceBChannel2:
 	duty $01
 	vol $0
-	rest $03
+	release $03
 	vol $c
 	note a5  $01
 	vol $d
@@ -18,7 +18,7 @@ sndGoronDanceBChannel2:
 sndGoronDanceBChannel3:
 	duty $00
 	vol $0
-	rest $03
+	release $03
 	vol $d
 	note g5  $03
 	vol $a

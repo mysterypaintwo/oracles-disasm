@@ -8,7 +8,7 @@ musice628f:
 	note g5  $0f
 	note e5  $05
 	note c5  $05
-	rest $02
+	release $02
 	vol $3
 	note c5  $03
 	vol $6
@@ -23,7 +23,7 @@ musice628f:
 	note fs5 $0f
 	note ds5 $05
 	note b4  $05
-	rest $02
+	release $02
 	vol $3
 	note b4  $03
 	vol $6
@@ -34,7 +34,7 @@ musice628f:
 	note fs5 $0a
 	note ds5 $0a
 	note b4  $05
-	rest $02
+	release $02
 	vol $3
 	note b4  $03
 ; Measure 3
@@ -42,7 +42,7 @@ musice628f:
 	note g5  $0f
 	note e5  $05
 	note c5  $05
-	rest $02
+	release $02
 	vol $3
 	note c5  $03
 	vol $6
@@ -53,7 +53,7 @@ musice628f:
 	note g5  $0a
 	note e5  $0a
 	note c5  $05
-	rest $02
+	release $02
 	vol $3
 	note c5  $03
 ; Measure 4
@@ -61,28 +61,28 @@ musice628f:
 	note b4  $05
 	note c5  $05
 	note cs5 $05
-	rest $02
+	release $02
 	vol $3
 	note cs5 $03
 	vol $6
 	note cs5 $05
 	note ds5 $05
 	note e5  $05
-	rest $02
+	release $02
 	vol $3
 	note e5  $03
 	vol $6
 	note ds5 $05
 	note e5  $05
 	note f5  $05
-	rest $02
+	release $02
 	vol $3
 	note f5  $03
 	vol $6
 	note e5  $05
 	note f5  $05
 	note fs5 $05
-	rest $02
+	release $02
 	vol $3
 	note fs5 $03
 ; Measure 5
@@ -90,7 +90,7 @@ musice628f:
 	note g5  $0f
 	note e5  $05
 	note c5  $05
-	rest $02
+	release $02
 	vol $3
 	note c5  $03
 	vol $6
@@ -101,7 +101,7 @@ musice628f:
 	note g5  $0a
 	note e5  $0a
 	note c5  $05
-	rest $02
+	release $02
 	vol $3
 	note c5  $03
 ; Measure 6
@@ -109,7 +109,7 @@ musice628f:
 	note fs5 $0f
 	note ds5 $05
 	note b4  $05
-	rest $02
+	release $02
 	vol $3
 	note b4  $03
 	vol $6
@@ -120,24 +120,24 @@ musice628f:
 	note fs5 $0a
 	note ds5 $0a
 	note b4  $05
-	rest $02
+	release $02
 	vol $3
 	note b4  $03
 ; Measure 7
 	vol $6
 	note g5  $0a
 	note e5  $05
-	rest $02
+	release $02
 	vol $3
 	note e5  $05
-	rest $12
+	release $12
 	vol $6
 	note a5  $0a
 	note fs5 $05
-	rest $02
+	release $02
 	vol $3
 	note fs5 $05
-	rest $12
+	release $12
 ; Measure 8
 	vol $6
 	note as5 $05
@@ -160,7 +160,7 @@ musice628f:
 	note a5  $0f
 	note fs5 $05
 	note d5  $05
-	rest $02
+	release $02
 	vol $3
 	note d5  $03
 	vol $6
@@ -175,7 +175,7 @@ musice628f:
 	note gs5 $0f
 	note f5  $05
 	note cs5 $05
-	rest $02
+	release $02
 	vol $3
 	note cs5 $03
 	vol $6
@@ -190,7 +190,7 @@ musice628f:
 	note a5  $0f
 	note fs5 $05
 	note d5  $05
-	rest $02
+	release $02
 	vol $3
 	note d5  $03
 	vol $6
@@ -198,7 +198,7 @@ musice628f:
 	note fs5 $0a
 	note a5  $0a
 	note fs5 $05
-	rest $02
+	release $02
 	vol $3
 	note fs5 $03
 ; Measure 12
@@ -206,14 +206,14 @@ musice628f:
 	note gs5 $05
 	note f5  $05
 	note cs5 $05
-	rest $02
+	release $02
 	vol $3
 	note cs5 $03
 	vol $6
 	note a5  $05
 	note fs5 $05
 	note d5  $05
-	rest $02
+	release $02
 	vol $3
 	note d5  $03
 
@@ -221,14 +221,14 @@ musice628f:
 	note as5 $05
 	note g5  $05
 	note ds5 $05
-	rest $02
+	release $02
 	vol $3
 	note ds5 $03
 	vol $6
 	note b5  $05
 	note gs5 $05
 	note e5  $05
-	rest $02
+	release $02
 	vol $3
 	note e5  $03
 	vol $6
@@ -236,7 +236,7 @@ musice628f:
 	note a5  $0f
 	note fs5 $05
 	note d5  $05
-	rest $02
+	release $02
 	vol $3
 	note d5  $03
 	vol $6
@@ -244,12 +244,12 @@ musice628f:
 	note cs6 $05
 	note d6  $05
 	note e6  $05
-	rest $02
+	release $02
 	vol $3
 	note e6  $03
 	vol $6
 	note d6  $05
-	rest $02
+	release $02
 	vol $3
 	note d6  $03
 ; Measure 14
@@ -257,12 +257,12 @@ musice628f:
 	note cs6 $0f
 	note gs5 $05
 	note f5  $05
-	rest $02
+	release $02
 	vol $3
 	note f5  $03 
 	vol $6
 	note cs5 $16
-	rest $03
+	release $03
 	note cs6 $02
 	vol $3
 	note cs6 $03
@@ -273,69 +273,69 @@ musice628f:
 	note d6  $05
 ; Measure 15
 	note ds6 $05
-	rest $02
+	release $02
 	vol $3
 	note ds6 $03
 
 	vol $6
 	note ds6 $05
-	rest $02
+	release $02
 	vol $3
 	note ds6 $05
-	rest $12
+	release $12
 	
 	vol $6
 	note e6  $05
-	rest $02
+	release $02
 	vol $3
 	note e6  $03
 	
 	vol $6
 	note e6  $05
-	rest $02
+	release $02
 	vol $3
 	note e6  $05
-	rest $12
+	release $12
 ; Measure 16
 	vol $6
 	note gs6 $05
-	rest $02
+	release $02
 	vol $3
 	note gs6 $03
 	vol $6
 	note g6  $05
-	rest $02
+	release $02
 	vol $3
 	note g6  $03
 	vol $6
 	note fs6 $05
-	rest $02
+	release $02
 	vol $3
 	note fs6 $03
 	vol $6
 	note f6  $05
-	rest $02
+	release $02
 	vol $3
 	note f6  $03
 	vol $6
 
 	note e6  $05
-	rest $02
+	release $02
 	vol $3
 	note e6  $03
 	vol $6
 	note ds6 $05
-	rest $02
+	release $02
 	vol $3
 	note ds6 $03
 	vol $6
 	note d6  $05
-	rest $02
+	release $02
 	vol $3
 	note d6  $03
 	vol $6
 	note cs6 $05
-	rest $02
+	release $02
 	vol $3
 	note cs6 $03
 	goto musice628f
@@ -347,55 +347,55 @@ musice64ab:
 ; Measure 1
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $0f
-	rest $05
+	release $05
 
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 ; Measure 2
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $0f
-	rest $05
+	release $05
 
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 ; Measure 3
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $0f
-	rest $05
+	release $05
 
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 ; Measure 4
 	note ds4 $05
-	rest $05
+	release $05
 	note g4  $05
 	vol $3
 	note ds4 $05
@@ -429,63 +429,63 @@ musice64ab:
 ; Measure 5
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $0f
-	rest $05
+	release $05
 
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 ; Measure 6
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $0f
-	rest $05
+	release $05
 
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 ; Measure 7
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
-	rest $05
+	release $05
 
 	vol $3
 	note e4  $05
-	rest $05
+	release $05
 	vol $1
 	note e4  $05
-	rest $05
+	release $05
 	vol $6
 	note ds4 $05
-	rest $05
+	release $05
 	note ds4 $05
-	rest $05
+	release $05
 	vol $3
 	note ds4 $05
-	rest $05
+	release $05
 	vol $1
 	note ds4 $05
-	rest $05
+	release $05
 ; Measure 8
 	vol $6
 	note e4  $05
-	rest $05
+	release $05
 	note e4  $05
 	vol $3
 	note e4  $05
@@ -519,55 +519,55 @@ musice64ab:
 ; Measure 9
 	vol $6
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $0f
-	rest $05
+	release $05
 
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 ; Measure 10	
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $0f
-	rest $05
+	release $05
 
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 ; Measure 11
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $0f
-	rest $05
+	release $05
 
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 ; Measure 12
 	note f4  $05
-	rest $05
+	release $05
 	note a4  $05
 	vol $3
 	note f4  $05
@@ -601,57 +601,57 @@ musice64ab:
 ; Measure 13
 	vol $6
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $0f
-	rest $05
+	release $05
 
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 ; Measure 14
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $0f
-	rest $05
+	release $05
 
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 	note f4  $05
-	rest $05
+	release $05
 ; Measure 15
 	note fs4 $05
-	rest $05
+	release $05
 	note fs4 $05
-	rest $05
+	release $05
 
 	vol $3
 	note fs4 $05
-	rest $05
+	release $05
 	vol $6
 	note fs4 $05
-	rest $05
+	release $05
 
 	note g4  $05
-	rest $05
+	release $05
 	note g4  $05
-	rest $05
+	release $05
 
 	vol $3
 	note g4  $05
-	rest $05
+	release $05
 	vol $6
 	note g4  $05
 	note e4  $05

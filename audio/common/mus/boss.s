@@ -35,25 +35,25 @@ musicf9f6b:
 	vol $6
 	note as4 $06
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $03
 	vol $6
 	note c5  $06
 	note cs5 $06
-	rest $03
+	release $03
 	vol $3
 	note cs5 $03
 	vol $6
 	note d5  $06
 	note ds5 $06
-	rest $03
+	release $03
 	vol $3
 	note ds5 $03
 	vol $6
 	note e5  $06
 	note f5  $06
-	rest $03
+	release $03
 	vol $3
 	note f5  $03
 	vol $6
@@ -87,7 +87,7 @@ musicf9f6b:
 	vol $6
 	note a4  $06
 	note as4 $06
-	rest $03
+	release $03
 	vol $3
 	note as4 $03
 	vol $6
@@ -100,20 +100,20 @@ musicf9f6b:
 	note e5  $1e
 	vol $3
 	note e5  $0c
-	rest $06
+	release $06
 	vol $6
 	note c5  $12
 	note g4  $12
 	note c5  $0c
 	note b4  $12
 	note fs4 $06
-	rest $03
+	release $03
 	vol $3
 	note fs4 $06
-	rest $03
+	release $03
 	vol $1
 	note fs4 $06
-	rest $06
+	release $06
 	vol $6
 	note c5  $12
 	vol $6
@@ -121,13 +121,13 @@ musicf9f6b:
 	note c5  $0c
 	note cs5 $12
 	note gs5 $06
-	rest $03
+	release $03
 	vol $3
 	note gs5 $06
-	rest $03
+	release $03
 	vol $1
 	note gs5 $06
-	rest $06
+	release $06
 	vol $6
 	note c5  $12
 	note g4  $12
@@ -136,25 +136,25 @@ musicf9f6b:
 	note ds5 $18
 	note d5  $06
 	note cs5 $06
-	rest $03
+	release $03
 	vol $3
 	note cs5 $03
 	vol $6
 	note c5  $06
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $03
 	vol $6
 	note as4 $06
 	note a4  $06
-	rest $03
+	release $03
 	vol $3
 	note a4  $03
 	vol $6
 	note gs4 $06
 	note g4  $06
-	rest $03
+	release $03
 	vol $3
 	note g4  $03
 	vol $6
@@ -165,7 +165,7 @@ musicf9f6b:
 	note ds4 $48
 	vol $3
 	note ds4 $18
-	rest $60
+	release $60
 	goto musicf9f6b
 	cmdff
 
@@ -204,25 +204,25 @@ musicfa087:
 	vol $6
 	note d4  $06
 	note cs4 $06
-	rest $03
+	release $03
 	vol $3
 	note cs4 $03
 	vol $6
 	note c4  $06
 	note b3  $06
-	rest $03
+	release $03
 	vol $3
 	note b3  $03
 	vol $6
 	note as3 $06
 	note a3  $06
-	rest $03
+	release $03
 	vol $3
 	note a3  $03
 	vol $6
 	note gs3 $06
 	note g3  $06
-	rest $03
+	release $03
 	vol $3
 	note g3  $03
 	vol $6
@@ -254,32 +254,32 @@ musicfa087:
 	note b3  $0c
 	note e4  $0c
 	note g4  $0c
-	rest $60
+	release $60
 	note g4  $12
 	note e4  $12
 	note g4  $0c
 	note fs4 $12
 	note ds4 $06
-	rest $03
+	release $03
 	vol $3
 	note ds4 $06
-	rest $03
+	release $03
 	vol $1
 	note ds4 $06
-	rest $06
+	release $06
 	vol $6
 	note g4  $12
 	note e4  $12
 	note g4  $0c
 	note fs4 $12
 	note b4  $06
-	rest $03
+	release $03
 	vol $3
 	note b4  $06
-	rest $03
+	release $03
 	vol $1
 	note b4  $06
-	rest $06
+	release $06
 	vol $6
 	note g4  $12
 	note e4  $12
@@ -288,28 +288,28 @@ musicfa087:
 	note ds4 $0c
 	note fs4 $0c
 	note b4  $0c
-	rest $60
+	release $60
 	note ds4 $06
 	note d4  $06
-	rest $03
+	release $03
 	vol $3
 	note d4  $03
 	vol $6
 	note cs4 $06
 	note c4  $06
-	rest $03
+	release $03
 	vol $3
 	note c4  $03
 	vol $6
 	note b3  $06
 	note as3 $06
-	rest $03
+	release $03
 	vol $3
 	note as3 $03
 	vol $6
 	note a3  $06
 	note gs3 $06
-	rest $03
+	release $03
 	vol $3
 	note gs3 $03
 	vol $6
@@ -317,7 +317,7 @@ musicfa087:
 	note fs3 $06
 	note f3  $06
 	note e3  $06
-	rest $60
+	release $60
 	goto musicfa087
 	cmdff
 

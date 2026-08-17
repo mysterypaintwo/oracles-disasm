@@ -10,7 +10,7 @@ musPrecreditsChannel1:
 musicea200:
 	vol $6
 	note g4  $0e
-	rest $03
+	release $03
 	vol $3
 	note g4  $0b
 	vol $6
@@ -22,7 +22,7 @@ musicea200:
 	note g4  $0e
 	note a4  $1c
 	note d4  $0e
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
@@ -36,7 +36,7 @@ musicea200:
 	env $0 $00
 	vol $6
 	note e4  $0e
-	rest $03
+	release $03
 	vol $3
 	note e4  $0b
 	vol $6
@@ -44,7 +44,7 @@ musicea200:
 	note c4  $09
 	note e4  $0a
 	note fs4 $0e
-	rest $03
+	release $03
 	vol $3
 	note fs4 $0b
 	vol $6
@@ -53,7 +53,7 @@ musicea200:
 	note e4  $09
 	note fs4 $0a
 	note g4  $0e
-	rest $03
+	release $03
 	vol $3
 	note g4  $0b
 	vol $6
@@ -61,22 +61,22 @@ musicea200:
 	note fs4 $09
 	note g4  $0a
 	note b4  $0e
-	rest $07
+	release $07
 	vol $3
 	note b4  $07
 	vol $6
 	note a4  $0e
-	rest $07
+	release $07
 	vol $3
 	note a4  $07
 	vol $6
 	note d5  $0e
-	rest $03
+	release $03
 	vol $3
 	note d5  $0b
 	vol $6
 	note d5  $0e
-	rest $03
+	release $03
 	vol $3
 	note d5  $04
 	vol $6
@@ -97,7 +97,7 @@ musicea200:
 	env $0 $00
 	vol $6
 	note g4  $0e
-	rest $07
+	release $07
 	vol $3
 	note g4  $07
 	vol $6
@@ -105,7 +105,7 @@ musicea200:
 	note ds4 $09
 	note g4  $0a
 	note a4  $0e
-	rest $07
+	release $07
 	vol $3
 	note a4  $07
 	vol $6
@@ -113,7 +113,7 @@ musicea200:
 	note f4  $09
 	note a4  $0a
 	note as4 $0e
-	rest $07
+	release $07
 	vol $3
 	note as4 $07
 	vol $6
@@ -126,12 +126,12 @@ musicea200:
 	note cs5 $0e
 	duty $01
 	note d5  $0e
-	rest $07
+	release $07
 	vol $3
 	note d5  $07
 	vol $6
 	note d5  $0e
-	rest $03
+	release $03
 	vol $3
 	note d5  $04
 	vol $6
@@ -140,13 +140,13 @@ musicea200:
 	note d5  $0e
 	note c5  $0e
 	note as4 $07
-	rest $03
+	release $03
 	vol $3
 	note as4 $04
 	vol $6
 	note as4 $1c
 	note a4  $0e
-	rest $03
+	release $03
 	vol $3
 	note a4  $04
 	vol $6
@@ -156,12 +156,12 @@ musicea200:
 	note f4  $1c
 	vol $6
 	note as4 $0e
-	rest $07
+	release $07
 	vol $3
 	note as4 $07
 	vol $6
 	note as4 $0e
-	rest $03
+	release $03
 	vol $3
 	note as4 $04
 	vol $6
@@ -171,13 +171,13 @@ musicea200:
 	note c5  $0e
 	note as4 $0e
 	note c5  $07
-	rest $03
+	release $03
 	vol $3
 	note c5  $07
-	rest $04
+	release $04
 	vol $6
 	note d5  $03
-	rest $04
+	release $04
 	note d5  $38
 	vibrato $01
 	env $0 $00
@@ -187,26 +187,26 @@ musicea200:
 	env $0 $00
 	vol $6
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $1
 	note e5  $07
 	vol $6
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $6
 	note e5  $04
-	rest $03
+	release $03
 	note e5  $07
-	rest $03
+	release $03
 	vol $3
 	note e5  $07
-	rest $04
+	release $04
 	vol $1
 	note e5  $07
 	vol $6
@@ -217,32 +217,32 @@ musicea200:
 	note ds5 $05
 	note e5  $05
 	note fs5 $07
-	rest $03
+	release $03
 	vol $3
 	note fs5 $07
-	rest $04
+	release $04
 	vol $1
 	note fs5 $07
 	vol $6
 	note fs5 $07
-	rest $03
+	release $03
 	vol $3
 	note fs5 $07
-	rest $04
+	release $04
 	vol $6
 	note fs5 $04
-	rest $03
+	release $03
 	note fs5 $07
-	rest $03
+	release $03
 	vol $3
 	note fs5 $07
-	rest $04
+	release $04
 	vol $1
 	note fs5 $07
-	rest $1c
+	release $1c
 	vol $6
 	note g5  $0e
-	rest $03
+	release $03
 	vol $3
 	note g5  $0b
 	vol $6
@@ -250,7 +250,7 @@ musicea200:
 	note ds5 $09
 	note g5  $0a
 	note a5  $0e
-	rest $03
+	release $03
 	vol $3
 	note a5  $0b
 	vol $6
@@ -258,7 +258,7 @@ musicea200:
 	note f5  $09
 	note a5  $0a
 	note as5 $0e
-	rest $03
+	release $03
 	vol $3
 	note as5 $0b
 	vol $6
@@ -266,7 +266,7 @@ musicea200:
 	note g5  $09
 	note as5 $0a
 	note c6  $0e
-	rest $03
+	release $03
 	vol $3
 	note c6  $0b
 	vol $6
@@ -274,52 +274,52 @@ musicea200:
 	note a5  $09
 	note c6  $0a
 	note d6  $07
-	rest $03
+	release $03
 	vol $3
 	note d6  $07
-	rest $04
+	release $04
 	vol $1
 	note d6  $07
 	vol $6
 	note d6  $07
-	rest $03
+	release $03
 	vol $3
 	note d6  $07
-	rest $04
+	release $04
 	vol $6
 	note d6  $03
-	rest $04
+	release $04
 	note d6  $38
 	vibrato $01
 	env $0 $00
 	vol $3
 	note d6  $1c
-	rest $54
+	release $54
 	vibrato $e1
 	env $0 $00
 	vol $6
 	note d6  $07
-	rest $03
+	release $03
 	vol $3
 	note d6  $07
-	rest $04
+	release $04
 	vol $1
 	note d6  $07
 	vol $6
 	note d6  $07
-	rest $03
+	release $03
 	vol $3
 	note d6  $07
-	rest $04
+	release $04
 	vol $6
 	note d6  $03
-	rest $04
+	release $04
 	note d6  $38
 	vibrato $01
 	env $0 $00
 	vol $3
 	note d6  $1c
-	rest $54
+	release $54
 	vibrato $e1
 	env $0 $00
 	duty $02
@@ -334,7 +334,7 @@ musPrecreditsChannel0:
 	cmdf2
 	duty $02
 musicea42f:
-	rest $1c
+	release $1c
 	vol $6
 	note b2  $1c
 	note d3  $1c
@@ -377,12 +377,12 @@ musicea42f:
 	note b3  $07
 	note a3  $07
 	note b3  $0e
-	rest $03
+	release $03
 	vol $3
 	note b3  $0b
 	vol $6
 	note b3  $0e
-	rest $03
+	release $03
 	vol $3
 	note b3  $04
 	vol $6
@@ -394,17 +394,17 @@ musicea42f:
 	note fs3 $0e
 	note e3  $0e
 	note d3  $07
-	rest $03
+	release $03
 	vol $3
 	note d3  $07
-	rest $04
+	release $04
 	vol $1
 	note d3  $07
 	vol $6
 	note fs3 $15
 	note e3  $07
 	note fs3 $07
-	rest $03
+	release $03
 	vol $3
 	note fs3 $04
 	vol $6
@@ -419,14 +419,14 @@ musicea42f:
 	note ds4 $0e
 	note e4  $0e
 	note f4  $07
-	rest $03
+	release $03
 	vol $3
 	note f4  $04
 	vol $6
 	note as3 $07
 	note f3  $07
 	note as3 $07
-	rest $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $6
@@ -434,7 +434,7 @@ musicea42f:
 	note a3  $07
 	vol $6
 	note as3 $07
-	rest $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $6
@@ -445,21 +445,21 @@ musicea42f:
 	note d4  $07
 	note as3 $07
 	note f3  $07
-	rest $03
+	release $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
 	note e3  $07
 	note f3  $07
-	rest $03
+	release $03
 	vol $3
 	note f3  $04
 	vol $6
 	note f3  $07
 	note g3  $07
 	note a3  $07
-	rest $03
+	release $03
 	vol $3
 	note a3  $04
 	vol $6
@@ -470,18 +470,18 @@ musicea42f:
 	note as3 $07
 	note c4  $07
 	note d4  $0e
-	rest $03
+	release $03
 	vol $3
 	note d4  $0b
 	vol $6
 	note g3  $0e
-	rest $03
+	release $03
 	vol $3
 	note g3  $04
 	vol $6
 	note g3  $07
 	note a3  $0e
-	rest $03
+	release $03
 	vol $3
 	note a3  $0b
 	vol $6
@@ -490,21 +490,21 @@ musicea42f:
 	note f3  $07
 	note c4  $07
 	note d4  $07
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
 	note as3 $07
 	note a3  $07
 	note as3 $07
-	rest $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $6
 	note as3 $07
 	note a3  $07
 	note as3 $07
-	rest $03
+	release $03
 	vol $3
 	note as3 $04
 	vol $6
@@ -515,26 +515,26 @@ musicea42f:
 	note d4  $07
 	note as3 $07
 	note cs4 $07
-	rest $03
+	release $03
 	vol $3
 	note cs4 $07
-	rest $04
+	release $04
 	vol $1
 	note cs4 $07
 	vol $6
 	note cs4 $07
-	rest $03
+	release $03
 	vol $3
 	note cs4 $07
-	rest $04
+	release $04
 	vol $6
 	note cs4 $04
-	rest $03
+	release $03
 	note cs4 $07
-	rest $03
+	release $03
 	vol $3
 	note cs4 $07
-	rest $04
+	release $04
 	vol $1
 	note cs4 $07
 	vol $6
@@ -545,23 +545,23 @@ musicea42f:
 	note f4  $05
 	note e4  $05
 	note d4  $07
-	rest $03
+	release $03
 	vol $3
 	note d4  $07
-	rest $04
+	release $04
 	vol $1
 	note d4  $07
 	vol $6
 	note d4  $07
-	rest $03
+	release $03
 	vol $3
 	note d4  $07
-	rest $04
+	release $04
 	vol $6
 	note d4  $04
-	rest $03
+	release $03
 	note d4  $07
-	rest $03
+	release $03
 	vol $3
 	note d4  $04
 	vol $6
@@ -572,7 +572,7 @@ musicea42f:
 	note e4  $07
 	note fs4 $07
 	note ds4 $0e
-	rest $03
+	release $03
 	vol $3
 	note ds4 $0b
 	vol $6
@@ -580,7 +580,7 @@ musicea42f:
 	note as3 $09
 	note ds4 $0a
 	note f4  $0e
-	rest $03
+	release $03
 	vol $3
 	note f4  $0b
 	vol $6
@@ -588,7 +588,7 @@ musicea42f:
 	note c4  $09
 	note f4  $0a
 	note g4  $0e
-	rest $03
+	release $03
 	vol $3
 	note g4  $0b
 	vol $6
@@ -600,23 +600,23 @@ musicea42f:
 	note c5  $0e
 	note cs5 $0e
 	note d5  $07
-	rest $03
+	release $03
 	vol $3
 	note d5  $07
-	rest $04
+	release $04
 	vol $1
 	note d5  $07
 	vol $6
 	note fs4 $07
-	rest $03
+	release $03
 	vol $3
 	note fs4 $07
-	rest $04
+	release $04
 	vol $6
 	note fs4 $03
-	rest $04
+	release $04
 	note fs4 $31
-	rest $07
+	release $07
 	vol $6
 	note d4  $0e
 	note a3  $07
@@ -633,10 +633,10 @@ musicea42f:
 	note a3  $07
 	note c4  $07
 	note fs4 $07
-	rest $03
+	release $03
 	vol $3
 	note fs4 $07
-	rest $04
+	release $04
 	vol $1
 	note fs4 $07
 	vol $6
@@ -644,7 +644,7 @@ musicea42f:
 	note fs4 $09
 	note g4  $0a
 	note a4  $31
-	rest $07
+	release $07
 	vol $6
 	note d4  $0e
 	note a3  $07

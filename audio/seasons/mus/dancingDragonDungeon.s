@@ -7,7 +7,7 @@ musDancingDragonDungeonChannel1:
 	duty $02
 	vol $6
 	note a3  $09
-	sust $04
+	release $04
 	vol $3
 	note a3  $05
 	vol $6
@@ -42,7 +42,7 @@ musicf2144:
 	env $0 $00
 	vol $6
 	note a3  $09
-	sust $04
+	release $04
 	vol $3
 	note a3  $05
 	vol $6
@@ -81,7 +81,7 @@ musicf2144:
 	env $0 $00
 	vol $6
 	note c4  $09
-	sust $04
+	release $04
 	vol $3
 	note c4  $05
 	vol $6
@@ -99,7 +99,7 @@ musicf2144:
 	env $0 $00
 	vol $6
 	note c4  $09
-	sust $04
+	release $04
 	vol $3
 	note c4  $05
 	vol $6
@@ -117,7 +117,7 @@ musicf2144:
 	env $0 $00
 	vol $6
 	note c4  $09
-	sust $04
+	release $04
 	vol $3
 	note c4  $05
 	vol $6
@@ -131,7 +131,7 @@ musicf2144:
 	env $0 $00
 	vol $3
 	note fs4 $12
-	sust $12
+	release $12
 	vibrato $f1
 	env $0 $00
 	vol $6
@@ -146,7 +146,7 @@ musicf2144:
 	env $0 $00
 	vol $3
 	note e4  $12
-	sust $3f
+	release $3f
 	vibrato $00
 	env $0 $04
 	vol $5
@@ -406,7 +406,7 @@ musicf2144:
 	env $0 $00
 	vol $6
 	note a3  $09
-	sust $09
+	release $09
 	note a3  $09
 	note c4  $09
 	note a3  $09
@@ -423,234 +423,234 @@ musDancingDragonDungeonChannel0:
 	cmdf2
 	duty $02
 musicf2441:
-	sust $12
+	release $12
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $51
+	release $51
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $1b
+	release $1b
 	vol $6
 	note a3  $09
 	note e3  $09
 	note a3  $09
 	note e3  $09
-	sust $12
+	release $12
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $1b
+	release $1b
 	vol $6
 	note gs3 $09
 	note e3  $09
 	vol $6
 	note gs3 $09
 	note e3  $09
-	sust $12
+	release $12
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $1b
+	release $1b
 	vol $6
 	note g3  $09
 	note e3  $09
 	note g3  $09
 	note e3  $09
-	sust $12
+	release $12
 	vol $6
 	note e3  $04
-	sust $0e
+	release $0e
 	note d3  $12
 	note ds3 $09
 	note e3  $04
-	sust $02
+	release $02
 	vol $3
 	note e3  $05
-	sust $02
+	release $02
 	vol $1
 	note e3  $05
-	sust $3f
+	release $3f
 	goto musicf2441
 	cmdff
 

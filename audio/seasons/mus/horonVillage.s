@@ -42,77 +42,77 @@ musicec007:
 	vibrato $00
 	env $0 $00
 	note gs5 $04
-	sust $04
+	release $04
 	vol $3
 	note gs5 $04
-	sust $04
+	release $04
 	vol $6
 	note cs5 $04
-	sust $04
+	release $04
 	vol $3
 	note cs5 $04
-	sust $04
+	release $04
 	vol $6
 	note cs6 $04
-	sust $04
+	release $04
 	vol $3
 	note cs6 $04
-	sust $04
+	release $04
 	vol $6
 	note cs5 $04
-	sust $04
+	release $04
 	vol $3
 	note cs5 $04
-	sust $04
+	release $04
 	vol $6
 	note gs5 $04
-	sust $04
+	release $04
 	vol $3
 	note gs5 $04
-	sust $04
+	release $04
 	vol $6
 	note cs5 $04
-	sust $04
+	release $04
 	vol $3
 	note cs5 $04
-	sust $04
+	release $04
 	vol $6
 	note cs6 $04
-	sust $04
+	release $04
 	vol $3
 	note cs6 $04
-	sust $04
+	release $04
 	vol $6
 	note cs5 $04
-	sust $04
+	release $04
 	vol $3
 	note cs5 $04
-	sust $04
+	release $04
 	vol $6
 	note fs5 $08
 	note gs5 $08
 	note fs5 $08
 	note gs5 $08
 	note fs5 $08
-	sust $04
+	release $04
 	vol $3
 	note fs5 $08
-	sust $04
+	release $04
 	vol $6
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	sust $04
+	release $04
 	vol $3
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	sust $04
+	release $04
 	vol $1
 	note as5 $04
 	note cs6 $04
 	note fs6 $04
-	sust $1c
+	release $1c
 	vibrato $00
 	env $0 $03
 	goto musicec007

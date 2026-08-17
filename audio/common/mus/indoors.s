@@ -11,22 +11,22 @@ musice8007:
 	note b5  $0b
 	note c6  $0b
 	note b5  $0b
-	rest $05
+	release $05
 	vol $3
 	note b5  $06
 	vol $7
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $7
 	note e5  $0b
-	rest $05
+	release $05
 	vol $3
 	note e5  $06
 	vol $7
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $7
@@ -35,22 +35,22 @@ musice8007:
 	note a5  $0b
 	note as5 $0b
 	note a5  $0b
-	rest $05
+	release $05
 	vol $3
 	note a5  $06
 	vol $6
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $6
 	note d5  $0b
-	rest $05
+	release $05
 	vol $3
 	note d5  $06
 	vol $6
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $7
@@ -59,22 +59,22 @@ musice8007:
 	note b5  $0b
 	note c6  $0b
 	note b5  $0b
-	rest $05
+	release $05
 	vol $3
 	note b5  $06
 	vol $7
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $7
 	note e5  $0b
-	rest $05
+	release $05
 	vol $3
 	note e5  $06
 	vol $7
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $7
@@ -83,22 +83,22 @@ musice8007:
 	note a5  $0b
 	note as5 $0b
 	note a5  $0b
-	rest $05
+	release $05
 	vol $3
 	note a5  $06
 	vol $6
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $6
 	note d5  $0b
-	rest $05
+	release $05
 	vol $3
 	note d5  $06
 	vol $6
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $6
@@ -110,22 +110,22 @@ musice8007:
 	note gs5 $0b
 	vol $6
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $6
 	note ds5 $0b
-	rest $05
+	release $05
 	vol $3
 	note ds5 $06
 	vol $6
 	note c5  $0b
-	rest $05
+	release $05
 	vol $3
 	note c5  $06
 	vol $6
 	note g5  $0b
-	rest $05
+	release $05
 	vol $3
 	note g5  $06
 	vol $6
@@ -135,52 +135,52 @@ musice8007:
 	note g5  $0b
 	vol $5
 	note f5  $0b
-	rest $05
+	release $05
 	vol $2
 	note f5  $06
 	vol $6
 	note d5  $0b
-	rest $05
+	release $05
 	vol $3
 	note d5  $06
 	vol $6
 	note as4 $0b
-	rest $05
+	release $05
 	vol $3
 	note as4 $06
 	vol $6
 	note d5  $0b
-	rest $05
+	release $05
 	vol $3
 	note d5  $06
 	vol $6
 	note c5  $42
 	vol $6
 	note a4  $0b
-	rest $05
+	release $05
 	vol $3
 	note a4  $06
 	vol $6
 	note c5  $0b
-	rest $05
+	release $05
 	vol $3
 	note c5  $06
 	vol $6
 	note f5  $0b
-	rest $05
+	release $05
 	vol $3
 	note f5  $06
 	vol $8
 	note g5  $58
 	vol $5
 	note g6  $03
-	rest $03
+	release $03
 	vol $4
 	note g6  $05
-	rest $03
+	release $03
 	vol $4
 	note g6  $03
-	rest $1b
+	release $1b
 	goto musice8007
 	cmdff
 
@@ -532,7 +532,7 @@ musice8357:
 	note e5  $0b
 	vol $3
 	note e5  $16
-	rest $21
+	release $21
 	vol $6
 	note as3 $0b
 	vol $3
@@ -549,7 +549,7 @@ musice8357:
 	note d5  $0b
 	vol $3
 	note d5  $16
-	rest $21
+	release $21
 	vol $6
 	note c4  $0b
 	vol $3
@@ -566,7 +566,7 @@ musice8357:
 	note e5  $0b
 	vol $3
 	note e5  $16
-	rest $21
+	release $21
 	vol $6
 	note as3 $0b
 	vol $3
@@ -583,7 +583,7 @@ musice8357:
 	note d5  $0b
 	vol $3
 	note d5  $16
-	rest $21
+	release $21
 	vol $6
 	note gs3 $0b
 	vol $3
@@ -600,7 +600,7 @@ musice8357:
 	note c5  $0b
 	vol $3
 	note c5  $16
-	rest $21
+	release $21
 	vol $6
 	note g3  $0b
 	vol $3
@@ -617,7 +617,7 @@ musice8357:
 	note as4 $0b
 	vol $3
 	note as4 $16
-	rest $21
+	release $21
 	vol $6
 	note f3  $0b
 	vol $3
@@ -634,7 +634,7 @@ musice8357:
 	note a4  $0b
 	vol $3
 	note a4  $16
-	rest $21
+	release $21
 	vol $6
 	note g3  $0b
 	vol $3

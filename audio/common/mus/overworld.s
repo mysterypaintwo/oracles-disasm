@@ -37,7 +37,7 @@ musOverworldChannel1:
 	vibrato $e1
 	env $0 $00
 	note d5  $3c
-	rest $0c
+	release $0c
 
 	vibrato $00
 	env $0 $02
@@ -48,16 +48,16 @@ musOverworldChannel1:
 	vibrato $e1
 	env $0 $00
 	note d5  $3c
-	rest $0c
+	release $0c
 
 	vibrato $00
 	env $0 $00
 	note c5  $04
-	rest $04
+	release $04
 	note b4  $04
-	rest $04
+	release $04
 	note a4  $04
-	rest $04
+	release $04
 musiceca67:
 ; Measure 5
 	vibrato $00     ;useless?
@@ -66,7 +66,7 @@ musiceca67:
 	note d4  $18
 
 	env $0 $04
-	rest $12
+	sust $12
 	note g4  $06
 	note g4  $06
 	note a4  $06
@@ -77,7 +77,7 @@ musiceca67:
 	note d5  $30
 
 	env $0 $04
-	rest $10
+	sust $10
 	note d5  $08
 	note d5  $08
 	note ds5 $08
@@ -87,7 +87,7 @@ musiceca67:
 	note g5  $30
 
 	env $0 $04
-	rest $10
+	sust $10
 	note g5  $08
 	note g5  $08
 	note f5  $08
@@ -96,7 +96,7 @@ musiceca67:
 	vibrato $00         ;useless?
 	env $0 $00
 	note f5  $08
-	rest $08
+	release $08
 	note ds5 $08
 
 	vibrato $00         ;useless?
@@ -104,7 +104,7 @@ musiceca67:
 	note d5  $18
 
 	env $0 $04
-	rest $18
+	sust $18
 	note d5  $08
 	note ds5 $08
 	note d5  $08
@@ -117,7 +117,7 @@ musiceca67:
 	note ds5 $18
 
 	env $0 $04
-	rest $18
+	sust $18
 	note d5  $0c
 	note c5  $0c
 ; Measure 10
@@ -129,7 +129,7 @@ musiceca67:
 	note d5  $18
 
 	env $0 $04
-	rest $18
+	sust $18
 	note c5  $0c
 	note as4 $0c
 ; Measure 11
@@ -141,7 +141,7 @@ musiceca67:
 	note cs5 $18
 
 	env $0 $04
-	rest $18
+	sust $18
 	note e5  $18
 ; Measure 12
 	note d5  $0c
@@ -166,7 +166,7 @@ musiceca67:
 	vol $7
 	note fs4 $18
 	vol $6
-	rest $18
+	release $18
 ; Measure 13            repeat of M5
 	vibrato $00         ;useless?
 	env $0 $05
@@ -175,7 +175,7 @@ musiceca67:
 	note d4  $18
 
 	env $0 $04
-	rest $12
+	sust $12
 	note g4  $06
 	note g4  $06
 	note a4  $06
@@ -186,7 +186,7 @@ musiceca67:
 	note d5  $30
 
 	env $0 $04
-	rest $10
+	sust $10
 	note d5  $08
 	note d5  $08
 	note ds5 $08
@@ -196,7 +196,7 @@ musiceca67:
 	note g5  $30
     
 	env $0 $04
-	rest $10
+	sust $10
 	note g5  $08
 	note g5  $08
 	note f5  $08
@@ -205,7 +205,7 @@ musiceca67:
 	vibrato $00         ;useless?
 	env $0 $00
 	note f5  $08
-	rest $08
+	release $08
 	note ds5 $08
 
 	vibrato $00         ;useless?
@@ -213,7 +213,7 @@ musiceca67:
 	note d5  $18
 
 	env $0 $03          ;$04 in M8
-	rest $18
+	sust $18
 	note d5  $08
 	note ds5 $08
 	note d5  $08
@@ -226,7 +226,7 @@ musiceca67:
 	note ds5 $18
 
 	env $0 $04
-	rest $18
+	sust $18
 	note d5  $0c
 	note c5  $0c
 ; Measure 18
@@ -241,7 +241,7 @@ musiceca67:
 	vibrato $00         ;useless?
 	env $0 $00
 	note d5  $08
-	rest $08
+	release $08
 	note d5  $08
 	note d5  $08
 	note c5  $08
@@ -255,138 +255,138 @@ musiceca67:
 ; Measure 20
 	vol $5
 	note g5  $3c
-	rest $0c
+	release $0c
 
 	vibrato $00
 	env $0 $00          ;useless?         
 	vol $6
 	duty $01
 	note d5  $04
-	rest $04
+	release $04
 	note ds5 $04
-	rest $04
+	release $04
 	note f5  $04
-	rest $04
+	release $04
 ; Measure 21
 	vibrato $e1
 	env $0 $00          ;useless? 
 	note g5  $12
-	rest $06
+	release $06
 	note d5  $18
-	rest $12
+	release $12
 
 	vibrato $00
 	env $0 $00          ;useless? 
 	note g5  $03
-	rest $03
+	release $03
 	note g5  $03
-	rest $03
+	release $03
 	note a5  $03
-	rest $03
+	release $03
 	note as5 $03
-	rest $03
+	release $03
 	note c6  $03
-	rest $03
+	release $03
 ; Measure 22
 	note a5  $05
-	rest $0b
+	release $0b
 	note f5  $05
-	rest $03
+	release $03
     
 	vibrato $f1
 	note c5  $18
-	rest $0c
+	release $0c
 
 	vibrato $00
 	env $0 $00          ;useless? 
 	note c5  $03
-	rest $03
+	release $03
 	note d5  $03
-	rest $03
+	release $03
 	note f5  $03
-	rest $03
+	release $03
 	note ds5 $03
-	rest $03
+	release $03
 	note d5  $03
-	rest $03
+	release $03
 	note c5  $03
-	rest $03
+	release $03
 ; Measure 23
 	note d5  $05
-	rest $0b
+	release $0b
 	note g4  $04
-	rest $04
+	release $04
 
 	vibrato $e1
 	env $0 $00          ;useless? 
 	note g4  $18
-	rest $0c
+	release $0c
 
 	vibrato $00
 	env $0 $00          ;useless? 
 	note g4  $03
-	rest $03
+	release $03
 	note fs4 $03
-	rest $03
+	release $03
 	note g4  $03
-	rest $03
+	release $03
 	note a4  $03
-	rest $03
+	release $03
 	note as4 $03
-	rest $03
+	release $03
 	note c5  $03
-	rest $03
+	release $03
 ; Measure 24
 	vibrato $e1
 	env $0 $00          ;useless? 
 	note d5  $24
-	rest $24
+	release $24
 	vibrato $00
 	env $0 $00          ;useless? 
 	note d5  $04
-	rest $04
+	release $04
 	note c5  $04
-	rest $04
+	release $04
 	note d5  $04
-	rest $04
+	release $04
 ; Measure 25
 	note as5 $05
-	rest $0b
+	release $0b
 	note a5  $05
-	rest $03
+	release $03
 
 	note g5  $18
-	rest $08
+	release $08
 
 	note d5  $04
-	rest $04
+	release $04
 	note d5  $04
-	rest $04
+	release $04
 	note d5  $04
-	rest $04
+	release $04
 	note as4 $04
-	rest $04
+	release $04
 	note g5  $04
-	rest $04
+	release $04
 ; Measure 26
 	note gs5 $05
-	rest $0b
+	release $0b
 	note as5 $05
-	rest $03
+	release $03
 
 	note c6  $18
-	rest $08
+	release $08
 
 	note c6  $04
-	rest $04
+	release $04
 	note d6  $04
-	rest $04
+	release $04
 	note ds6 $04
-	rest $04
+	release $04
 	note f6  $04
-	rest $04
+	release $04
 	note ds6 $04
-	rest $04
+	release $04
 ; Measure 27
 	vibrato $e1
 	env $0 $00          ;useless? 
@@ -398,7 +398,7 @@ musiceca67:
 	note d6  $0c
 	vol $2
 	note d6  $0c
-	rest $18
+	release $18
 ; Measure 28a
 	vibrato $00
 	env $0 $01
@@ -414,7 +414,7 @@ musiceca67:
 	note e5  $08
 	env $0 $04
 	note fs5 $18
-	rest $18
+	sust $18
 	vibrato $00         ;useless?
 	env $0 $02          ;useless? (overwritten to $0 $05 before another note)
 	goto musiceca67
@@ -465,7 +465,7 @@ musOverworldChannel0:
 	note g4  $0c
 	vol $2
 	note g4  $0c
-	rest $06
+	release $06
 
 	vibrato $00
 	env $0 $02
@@ -485,7 +485,7 @@ musOverworldChannel0:
 	vol $1
 	note g4  $0c
 
-	rest $1e       ;difference from M3, takes out beat 4
+	release $1e
 musicecd1c:
 	vibrato $00
 	env $0 $03
@@ -528,7 +528,7 @@ musicecd1c:
 	note a4  $06
 
 	note as4 $06
-	rest $0a
+	sust $0a
 	note as4 $08
 
 	note as4 $08
@@ -536,7 +536,7 @@ musicecd1c:
 	note g4  $08
 ; Measure 8
 	note as4 $06
-	rest $0a
+	sust $0a
 	note f4  $08
 
 	note f4  $08
@@ -544,7 +544,7 @@ musicecd1c:
 	note ds4 $08
 
 	note f4  $08
-	rest $08
+	sust $08
 	note f4  $08
 
 	note f4  $08
@@ -610,7 +610,7 @@ musicecd1c:
 	vol $7
 	note d4  $18
 	vol $6
-	rest $18
+	sust $18
 ; Measure 13        repeat of M5
 	duty $02
 	note b3  $18
@@ -650,7 +650,7 @@ musicecd1c:
 	note a4  $06
 
 	note as4 $06
-	rest $0a
+	sust $0a
 	note as4 $08
 
 	note as4 $08
@@ -658,7 +658,7 @@ musicecd1c:
 	note g4  $08
 ; Measure 16        repeat of M8
 	note as4 $06
-	rest $0a
+	sust $0a
 	note f4  $08
 
 	note f4  $08
@@ -666,7 +666,7 @@ musicecd1c:
 	note ds4 $08
 
 	note f4  $08
-	rest $08
+	sust $08
 	note f4  $08
 
 	note f4  $08
@@ -701,7 +701,7 @@ musicecd1c:
 	vol $5      ;useless
 	note c3  $18
 	note d3  $12
-	rest $06
+	release $06
 
 	vibrato $00
 	env $0 $00
@@ -739,82 +739,82 @@ musicecd1c:
 	note a3  $04
 	vol $1
 	note a3  $04
-	rest $10
+	release $10
 
 	vol $6
 	note g3  $04
 	vol $1
 	note g3  $04
-	rest $28
+	release $28
 ; Measure 21
 	duty $01
 	vol $6
 	note as4 $10
-	rest $08
+	release $08
 
 	note g4  $18
 
-	rest $12
+	release $12
 	note as4 $03
-	rest $03
+	release $03
 
 	note as4 $03
-	rest $03
+	release $03
 	note c5  $03
-	rest $03
+	release $03
 	note d5  $03
-	rest $03
+	release $03
 	note ds5 $03
-	rest $03
+	release $03
 ; Measure 22
 	note c5  $05
-	rest $0b
+	release $0b
 	note as4 $05
-	rest $03
+	release $03
 
 	note a4  $18
-	rest $18
+	release $18
 	note f4  $14
-	rest $04
+	release $04
 ; Measure 23
 	note g4  $05
-	rest $0b
+	release $0b
 	note d4  $05
-	rest $03
+	release $03
 
 	note d4  $14
-	rest $04
+	release $04
 	note c4  $14
-	rest $04
+	release $04
 	note e4  $14
-	rest $04
+	release $04
 ; Measure 24
 	note g4  $03
-	rest $09
+	release $09
 	note g4  $03
-	rest $03
+	release $03
 	note fs4 $03
-	rest $03
+	release $03
 
 	note g4  $03
-	rest $03
+	release $03
 	note a4  $03
-	rest $03
+	release $03
 	note as4 $03
-	rest $03
+	release $03
 	note c5  $03
-	rest $03
+	release $03
 
 	note d5  $18
 	vol $3
 	note d5  $0c
-	rest $0c
+	release $0c
 ; Measure 25
 	vol $6
 	note d5  $05
-	rest $0b
+	release $0b
 	note c5  $05
-	rest $03
+	release $03
 
 	note as4 $18
 	vol $3
@@ -822,20 +822,20 @@ musicecd1c:
 	vol $1
 	note as4 $0c
 
-	rest $18
+	release $18
 ; Measure 26
 	vol $6
 	note c5  $05
-	rest $0b
+	release $0b
 	note ds5 $05
-	rest $03
+	release $03
 
 	note gs5 $18
 	vol $3
 	note gs5 $0c
 	vol $1
 	note gs5 $0c
-	rest $30
+	release $30
 ; Measure 27b
 	vibrato $00
 	env $0 $02
@@ -843,29 +843,29 @@ musicecd1c:
 	vol $6
 
 	note g4  $04
-	rest $04
+	sust $04
 	note g4  $04
-	rest $04
+	sust $04
 	note g4  $04
-	rest $04
+	sust $04
 
 	env $0 $04
 	note g4  $0c
 
 	env $0 $02
-	rest $3c
+	sust $3c
 ; Measure 28b
 	note c5  $04
-	rest $04
+	sust $04
 	note c5  $04
-	rest $04
+	sust $04
 	note c5  $04
-	rest $04
+	sust $04
     
 	env $0 $04
 	note d5  $0c
 	env $0 $02
-	rest $24
+	sust $24
 	goto musicecd1c
 	cmdff
 

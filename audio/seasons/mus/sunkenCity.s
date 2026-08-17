@@ -8,26 +8,26 @@ musiced98b:
 	vol $6
 	note g4  $1c
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
 	note fs4 $1c
 	note b4  $07
-	sust $03
+	release $03
 	vol $3
 	note b4  $07
-	sust $04
+	release $04
 	vol $1
 	note b4  $07
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
@@ -36,17 +36,17 @@ musiced98b:
 	note g4  $0e
 	note fs4 $0e
 	note cs5 $04
-	sust $06
+	release $06
 	vol $3
 	note cs5 $04
 	vol $6
 	note as4 $04
-	sust $06
+	release $06
 	vol $3
 	note as4 $04
 	vol $6
 	note fs4 $04
-	sust $06
+	release $06
 	vol $3
 	note fs4 $04
 	vol $6
@@ -54,34 +54,34 @@ musiced98b:
 	note f5  $05
 	note fs5 $05
 	note g5  $04
-	sust $03
+	release $03
 	vol $4
 	note g5  $02
-	sust $02
+	release $02
 	vol $3
 	note g5  $03
-	sust $1c
+	release $1c
 	vol $6
 	note b6  $04
 	note a6  $05
 	note g6  $05
 	note ds6 $04
-	sust $03
+	release $03
 	vol $4
 	note ds6 $02
-	sust $02
+	release $02
 	vol $2
 	note ds6 $03
-	sust $1c
+	release $1c
 	vol $6
 	note g4  $1c
 	note c5  $07
-	sust $03
+	release $03
 	vol $3
 	note c5  $04
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
@@ -92,7 +92,7 @@ musiced98b:
 	note as4 $0e
 	vol $6
 	note g4  $07
-	sust $03
+	release $03
 	vol $3
 	note g4  $04
 	vol $6
@@ -101,13 +101,13 @@ musiced98b:
 	note e5  $0e
 	note fs5 $0e
 	note ds5 $0e
-	sust $03
+	release $03
 	vol $3
 	note ds5 $07
-	sust $04
+	release $04
 	vol $6
 	note a5  $0e
-	sust $38
+	release $38
 	vibrato $00
 	env $0 $02
 	duty $00
@@ -156,22 +156,22 @@ musiceda60:
 	note f2  $05
 	note fs2 $05
 	note g2  $04
-	sust $03
+	release $03
 	vol $5
 	note g2  $02
-	sust $02
+	release $02
 	vol $3
 	note g2  $03
-	sust $1c
+	release $1c
 	vol $6
 	note b2  $04
 	note a2  $05
 	note g2  $05
 	note ds2 $04
-	sust $03
+	release $03
 	vol $4
 	note ds2 $02
-	sust $05
+	release $05
 	vibrato $00
 	env $0 $03
 	vol $6

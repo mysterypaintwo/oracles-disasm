@@ -63,7 +63,7 @@ musicf1a32:
 	note as4 $16
 	vol $3
 	note as4 $16
-	sust $16
+	release $16
 	vol $6
 	note as4 $16
 	note b4  $16
@@ -83,13 +83,13 @@ musicf1a32:
 	note d4  $0b
 	note c4  $0b
 	note as3 $0b
-	sust $05
+	release $05
 	vol $3
 	note as3 $0b
-	sust $06
+	release $06
 	vol $1
 	note as3 $0b
-	sust $2c
+	release $2c
 	vol $6
 	note as4 $16
 	note gs4 $16
@@ -130,7 +130,7 @@ musicf1a32:
 	vibrato $01
 	vol $3
 	note as4 $2b
-	sust $01
+	release $01
 	vibrato $e1
 	goto musicf1a32
 	cmdff
@@ -173,18 +173,18 @@ musicf1b2a:
 	vol $6
 	note ds4 $16
 	note f4  $0b
-	sust $05
+	release $05
 	vol $3
 	note f4  $0b
-	sust $06
+	release $06
 	vol $1
 	note f4  $0b
 	vol $6
 	note ds4 $0b
-	sust $05
+	release $05
 	vol $3
 	note ds4 $0b
-	sust $06
+	release $06
 	vol $1
 	note ds4 $0b
 	vol $6
@@ -197,22 +197,22 @@ musicf1b2a:
 	note d4  $0b
 	note f4  $0b
 	note gs3 $0b
-	sust $05
+	release $05
 	vol $3
 	note gs3 $06
 	vol $6
 	note b3  $0b
-	sust $05
+	release $05
 	vol $3
 	note b3  $06
 	vol $6
 	note gs3 $0b
-	sust $05
+	release $05
 	vol $3
 	note gs3 $06
 	vol $6
 	note b3  $0b
-	sust $05
+	release $05
 	vol $3
 	note b3  $06
 	vol $6
@@ -225,22 +225,22 @@ musicf1b2a:
 	note f4  $0b
 	note as4 $0b
 	note f4  $0b
-	sust $05
+	release $05
 	vol $3
 	note f4  $06
 	vol $6
 	note ds4 $0b
-	sust $05
+	release $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note d4  $0b
-	sust $05
+	release $05
 	vol $3
 	note d4  $06
 	vol $6
 	note c4  $0b
-	sust $05
+	release $05
 	vol $3
 	note c4  $06
 	vol $6
@@ -281,10 +281,10 @@ musicf1b2a:
 	note gs4 $0b
 	note b4  $0b
 	note as4 $0b
-	sust $05
+	release $05
 	vol $3
 	note as4 $0b
-	sust $06
+	release $06
 	vol $1
 	note as4 $0b
 	vol $6
@@ -293,22 +293,22 @@ musicf1b2a:
 	note ds4 $16
 	note d4  $16
 	note ds4 $0b
-	sust $05
+	release $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note as3 $0b
-	sust $05
+	release $05
 	vol $3
 	note as3 $06
 	vol $6
 	note ds4 $0b
-	sust $05
+	release $05
 	vol $3
 	note ds4 $06
 	vol $6
 	note as3 $0b
-	sust $05
+	release $05
 	vol $3
 	note as3 $06
 	vol $6
@@ -317,22 +317,22 @@ musicf1b2a:
 	note f4  $16
 	note ds4 $16
 	note f4  $0b
-	sust $05
+	release $05
 	vol $3
 	note f4  $06
 	vol $6
 	note d4  $0b
-	sust $05
+	release $05
 	vol $3
 	note d4  $06
 	vol $6
 	note f4  $0b
-	sust $05
+	release $05
 	vol $3
 	note f4  $06
 	vol $6
 	note d4  $0b
-	sust $05
+	release $05
 	vol $3
 	note d4  $06
 	vol $6
