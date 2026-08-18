@@ -198,10 +198,14 @@ def parseChannelData(address, channel, chanOut):
             param = rom[address]
             address+=1
             chanOut.write('\tpitchSlide ' + wlahex(param,2) + '\n')
-        elif b == 0xf9 or b == 0xfd:
+        elif b == 0xf9:
             param = rom[address]
             address+=1
             chanOut.write('\tcmd' + myhex(b) + ' ' + wlahex(param,2) + '\n')
+        elif b == 0xfd:
+            param = rom[address]
+            address += 1
+            chanOut.write('\tpitchOffset ' + wlahexSigned(param,2) + '\n')
         elif b >= 0xf0:
             chanOut.write('\tcmd' + myhex(b) + '\n')
         elif b >= 0xe0:

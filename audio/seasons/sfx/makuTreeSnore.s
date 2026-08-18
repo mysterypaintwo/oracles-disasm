@@ -4,7 +4,7 @@ sndMakuTreeSnoreChannel2:
 	env $2 $04
 	vol $7
 	pitchSlide $09
-	cmdfd $fc
+	pitchOffset -$04
 	note b3  $41
 	vol $0
 	rest $11
