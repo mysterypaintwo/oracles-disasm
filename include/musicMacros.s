@@ -227,8 +227,9 @@
 	.db $60 \1
 .endm
 
-; 61: wait without changing the previous note or rest, can be used to extend a note or rest (for channels 0-3)
-.macro rest2 ; Unused?
+; 61: extends the currently playing note/rest without retriggering or otherwise
+;     affecting it. this is a tie/sustain, not a rest.
+.macro sust
 	.db $61 \1
 .endm
 
@@ -240,16 +241,17 @@
 	.db $d0 | \1
 .endm
 
-; e0-e7: set envelopes (for channels 0-3)
+; e0-e7: set envelope (\1 $0-$7: software-simulated attack envelope speed, starting at volume 1 and
+;        snapping to the note's target volume after a fixed delay)
+;        and increasing to volume 15 entirely in hardware at the given speed (\1 & $7)
+; \2 ($0-$7 either way): decay speed -- an exact hardware envelope match in both cases,
+;        decreasing from the note's target volume to 0
 .macro env
-	.if \1 > $7
 		.fail
 	.endif
 	.db $e0 | \1
 	.db \2
 .endm
-
-; e8-ef: same as e0-e7
 
 ; f0: does various things for channels 0-5, sets volume and envelope for channel 7, see audio.s for details
 .macro cmdf0
@@ -258,6 +260,7 @@
 
 ; f1-f3: does nothing
 .macro cmdf1
+; f1-f3: Unused as bare no-op bytes by every vanilla song: may be repurposed (patternCall / patternEnd, perhaps?)
 	.db $f1
 .endm
 .macro cmdf2
@@ -282,8 +285,10 @@
 
 ; f7: duplicate of ff
 
-; f8: sets sweep (for channels 0-5)
 .macro cmdf8
+; single frame for as long as it stays nonzero, so the pitch keeps sliding
+; indefinitely rather than settling on a target. Use pitchSlide $00
+; to stop an ongoing slide.
 	.db $f8 \1
 .endm
 
@@ -296,9 +301,11 @@
 
 ; fa-fc: duplicates of ff
 
-; fd: sets wChannelPitchShift (for channels 0-5)
-; Shifts pitch
-.macro cmdfd
+; fd: flat pitch offset (channels 0-5 only, i.e. pulse/wave, both the music
+; and sfx slots; a no-op on noise, 6-7). \1 is a signed byte, added once to the frequency
+; every time a note triggers on this channel and held constant for that note's whole duration.
+; Use pitchOffset $00 to disable again.
+.macro pitchOffset
 	.db $fd \1
 .endm
 
