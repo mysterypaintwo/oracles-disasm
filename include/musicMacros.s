@@ -295,10 +295,9 @@
 
 ; f8: continuous pitch slide (channels 0-5 only). \1 is a signed byte, re-added to the note's frequency every
 ; single frame for as long as it stays nonzero, so the pitch keeps sliding
-; indefinitely rather than settling on a target. Use pitchSlide $00
 ; indefinitely rather than settling on a target (the latter behavior would be "portamento")
-; Use "cmdf8 $00" to stop an ongoing slide.
-.macro cmdf8
+; Use "pitchSlide $00" to stop an ongoing slide.
+.macro pitchSlide
 	.db $f8 \1
 .endm
 
