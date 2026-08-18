@@ -277,7 +277,6 @@
 .endm
 
 ; f4-f5: duplicates of ff
-; f4-f5: duplicates of ff?
 .macro cmdf4
 	.db $f4
 .endm
