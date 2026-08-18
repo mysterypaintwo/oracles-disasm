@@ -229,6 +229,8 @@
 
 ; 61: extends the currently playing note/rest without retriggering or otherwise
 ;     affecting it. this is a tie/sustain, not a rest.
+;	  the existing rest macro (60) is bugged: it behaves like a sustain, so they are both coded to sustain the note.
+;	  this true sustain command is unused in all vanilla songs, utilizing cmd60 (rest) for all of its wait durations between notes.
 .macro sust
 	.db $61 \1
 .endm
@@ -247,21 +249,25 @@
 ; \2 ($0-$7 either way): decay speed -- an exact hardware envelope match in both cases,
 ;        decreasing from the note's target volume to 0
 .macro env
+	.if \1 > $f
 		.fail
 	.endif
 	.db $e0 | \1
 	.db \2
 .endm
 
-; f0: does various things for channels 0-5, sets volume and envelope for channel 7, see audio.s for details
+; f0: unknown
+; Sometimes sets wc039
 .macro cmdf0
 	.db $f0 \1
 .endm
 
-; f1-f3: does nothing
-.macro cmdf1
-; f1-f3: Unused as bare no-op bytes by every vanilla song: may be repurposed (patternCall / patternEnd, perhaps?)
+; f1/f3: pattern-call / pattern-end (editable-build only -- see code/audio.s). Confirmed
+; unused as bare no-op bytes by every vanilla song, which is what let them be repurposed.
+.macro patternCall
 	.db $f1
+	.dw \1
+	.db \2
 .endm
 .macro cmdf2
 	.db $f2
@@ -271,6 +277,7 @@
 .endm
 
 ; f4-f5: duplicates of ff
+; f4-f5: duplicates of ff?
 .macro cmdf4
 	.db $f4
 .endm
@@ -285,10 +292,13 @@
 
 ; f7: duplicate of ff
 
-.macro cmdf8
+
+; f8: continuous pitch slide (channels 0-5 only). \1 is a signed byte, re-added to the note's frequency every
 ; single frame for as long as it stays nonzero, so the pitch keeps sliding
 ; indefinitely rather than settling on a target. Use pitchSlide $00
-; to stop an ongoing slide.
+; indefinitely rather than settling on a target (the latter behavior would be "portamento")
+; Use "cmdf8 $00" to stop an ongoing slide.
+.macro cmdf8
 	.db $f8 \1
 .endm
 
