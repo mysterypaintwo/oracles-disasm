@@ -222,6 +222,309 @@
 	.endr
 .endm
 
+; Sets up note-length constants (T1-T8, W1-W12, and their groupings) for a given tempo, in beats
+; per minute. BEAT is set to 1, so "beat"/"note" length arguments become raw frame counts scaled
+; off Q (frames per beat at this tempo). Ported from a Tarm Ruins-era macro set; not tied to any
+; particular song and safe to call multiple times (e.g. once per tempo change within a song).
+.macro tempo
+	.redefine Q (150*24 - (150*24) # \1) / \1
+
+	.if ((150*24) # \1) >= 0.5*\1
+		.redefine Q Q+1
+	.endif
+
+	.redefine T1 (Q - (Q # 8))/8
+	.redefine T2 (Q * 2 - ((Q * 2) # 8))/8 - T1
+	.redefine T3 (Q * 3 - ((Q * 3) # 8))/8 - (T1+T2)
+	.redefine T4 (Q * 4 - ((Q * 4) # 8))/8 - (T1+T2+T3)
+	.redefine T5 (Q * 5 - ((Q * 5) # 8))/8 - (T1+T2+T3+T4)
+	.redefine T6 (Q * 6 - ((Q * 6) # 8))/8 - (T1+T2+T3+T4+T5)
+	.redefine T7 (Q * 7 - ((Q * 7) # 8))/8 - (T1+T2+T3+T4+T5+T6)
+	.redefine T8 (Q * 8 - ((Q * 8) # 8))/8 - (T1+T2+T3+T4+T5+T6+T7)
+
+	.redefine S1 T1+T2
+	.redefine S2 T3+T4
+	.redefine S3 T5+T6
+	.redefine S4 T7+T8
+	.redefine E1 S1+S2
+	.redefine E2 S3+S4
+	.redefine HF Q*2
+	.redefine W Q*4
+	.redefine BEAT 1
+
+	.redefine W1 (Q - (Q # 12))/12
+	.redefine W2 (Q * 2 - ((Q * 2) # 12))/12 - W1
+	.redefine W3 (Q * 3 - ((Q * 3) # 12))/12 - (W1+W2)
+	.redefine W4 (Q * 4 - ((Q * 4) # 12))/12 - (W1+W2+W3)
+	.redefine W5 (Q * 5 - ((Q * 5) # 12))/12 - (W1+W2+W3+W4)
+	.redefine W6 (Q * 6 - ((Q * 6) # 12))/12 - (W1+W2+W3+W4+W5)
+	.redefine W7 (Q * 7 - ((Q * 7) # 12))/12 - (W1+W2+W3+W4+W5+W6)
+	.redefine W8 (Q * 8 - ((Q * 8) # 12))/12 - (W1+W2+W3+W4+W5+W6+W7)
+	.redefine W9 (Q * 9 - ((Q * 9) # 12))/12 - (W1+W2+W3+W4+W5+W6+W7+W8)
+	.redefine W10 (Q * 10 - ((Q * 10) # 12))/12 - (W1+W2+W3+W4+W5+W6+W7+W8+W9)
+	.redefine W11 (Q * 11 - ((Q * 11) # 12))/12 - (W1+W2+W3+W4+W5+W6+W7+W8+W9+W10)
+	.redefine W12 (Q * 12 - ((Q * 12) # 12))/12 - (W1+W2+W3+W4+W5+W6+W7+W8+W9+W10+W11)
+
+	.redefine Y1 W1+W2
+	.redefine Y2 W3+W4
+	.redefine Y3 W5+W6
+	.redefine Y4 W7+W8
+	.redefine Y5 W9+W10
+	.redefine Y6 W11+W12
+	.redefine R1 Y1+Y2
+	.redefine R2 Y3+Y4
+	.redefine R3 Y5+Y6
+.endm
+
+; Subdivides Q (see "tempo") into \1 equal parts (X1-X\1), for note lengths that don't fit the
+; eighth/twelfth-based groupings "tempo" already provides (e.g. triplets, quintuplets).
+.macro noteLen
+	.redefine X1 (Q - (Q # \1))/\1
+	.redefine X2 (Q * 2 - ((Q * 2) # \1))/\1 - X1
+	.redefine X3 (Q * 3 - ((Q * 3) # \1))/\1 - (X1+X2)
+	.redefine X4 (Q * 4 - ((Q * 4) # \1))/\1 - (X1+X2+X3)
+	.redefine X5 (Q * 5 - ((Q * 5) # \1))/\1 - (X1+X2+X3+X4)
+	.redefine X6 (Q * 6 - ((Q * 6) # \1))/\1 - (X1+X2+X3+X4+X5)
+	.redefine X7 (Q * 7 - ((Q * 7) # \1))/\1 - (X1+X2+X3+X4+X5+X6)
+	.redefine X8 (Q * 8 - ((Q * 8) # \1))/\1 - (X1+X2+X3+X4+X5+X6+X7)
+	.redefine X9 (Q * 9 - ((Q * 9) # \1))/\1 - (X1+X2+X3+X4+X5+X6+X7+X8)
+	.redefine X10 (Q * 10 - ((Q * 10) # \1))/\1 - (X1+X2+X3+X4+X5+X6+X7+X8+X9)
+	.redefine X11 (Q * 11 - ((Q * 11) # \1))/\1 - (X1+X2+X3+X4+X5+X6+X7+X8+X9+X10)
+	.redefine X12 (Q * 12 - ((Q * 12) # \1))/\1 - (X1+X2+X3+X4+X5+X6+X7+X8+X9+X10+X11)
+.endm
+
+; A variation of the "beat" macro that includes a common functionality of the volume adjustments
+; in the music: each note plays for HI_VOL first, then drops to LO_VOL for the rest of its length
+; (ratio set by caller-defined LO_VOL_RATIO, e.g. 1/4). Optional caller-defined settings:
+;   NO_FIRST_VOL: skip the initial HI_VOL volume/duty command (e.g. if already set)
+;   CHANNEL: set to 4 to use "duty" instead of "vol" for the volume commands (wave channel)
+;   NOTE_MID_WAIT / NOTE_END_WAIT: carve a rest out of the end of the HI_VOL / LO_VOL portion
+; Following a note/length pair with "r <length>" extends the rest at the end of that note.
+;	vol $6
+;	beat a 1
+;	vol $3
+;	beat a 1
+;
+;	volbeat a 2
+.macro volbeat
+	.ifndef HI_VOL
+		.define HI_VOL 0
+	.endif
+
+	.ifndef LO_VOL
+		.define LO_VOL 0
+	.endif
+
+	.ifndef NO_FIRST_VOL
+		.define NO_FIRST_VOL 0
+	.endif
+
+	.ifndef REST
+		.define REST 0
+	.endif
+	.redefine REST 0
+
+	.ifndef CHANNEL
+		.define CHANNEL 0
+	.endif
+	.ifndef NOTE_MID_WAIT
+		.define NOTE_MID_WAIT 0
+	.endif
+
+	.ifndef NOTE_END_WAIT
+		.define NOTE_END_WAIT 0
+	.endif
+
+	.redefine offset 0
+	.rept NARGS
+	.if NARGS >= 1
+		.if \1 == od
+			octaved
+			.redefine offset offset-12
+			.shift
+		.else
+		.if \1 == ou
+			octaveu
+			.redefine offset offset+12
+			.shift
+		.endif
+		.endif
+	.endif
+
+	.if NARGS >= 2
+	.if \1 == r
+		rest \2*BEAT
+		.shift
+		.shift
+	.else
+	.if \1 >= 0
+		; First volume change
+		.if NO_FIRST_VOL == 0
+			.if CHANNEL == 4
+				duty HI_VOL
+			.else
+				vol HI_VOL
+			.endif
+		.endif
+
+		; First note
+		.db \1+offset
+
+		.redefine LO_LENGTH ((\2*BEAT)-((\2*BEAT)#(1/LO_VOL_RATIO)))*LO_VOL_RATIO
+		.if ((\2*BEAT)#(1/LO_VOL_RATIO)) >= 0.5/LO_VOL_RATIO
+			.redefine LO_LENGTH LO_LENGTH + 1
+		.endif
+		.redefine HI_LENGTH (\2*BEAT)-LO_LENGTH
+
+		.if NOTE_MID_WAIT != 0
+			.db HI_LENGTH - NOTE_MID_WAIT
+			rest NOTE_MID_WAIT
+		.else
+			.db HI_LENGTH
+		.endif
+
+		; Second volume change
+		.if CHANNEL == 4
+			duty LO_VOL
+		.else
+			vol LO_VOL
+		.endif
+
+		; Second note
+		.db \1+offset
+
+		.if NARGS >= 4
+			.if \3 == r
+				.redefine REST \4*BEAT
+			.endif
+		.endif
+
+		.if NOTE_END_WAIT != 0
+			.db LO_LENGTH - (NOTE_END_WAIT + REST)
+			rest NOTE_END_WAIT + REST
+		.else
+			.db LO_LENGTH
+		.endif
+
+		.if NARGS >= 4
+			.if \3 == r
+				.if NOTE_END_WAIT == 0
+					rest REST
+				.endif
+				.shift
+				.shift
+			.endif
+		.endif
+
+		.shift
+		.shift
+	.endif
+	.endif
+	.endif
+	.endr
+.endm
+
+; Used for alternating two notes with a volume dip on each, e.g. Tarm Ruins' music. Call
+; repeatedly with one note/length pair per call; each call plays the *previous* call's note at
+; LO_VOL for its tail (via TARM_NOTE) before the current note's HI_VOL attack, except the first
+; call which only plays its own note.
+;	vol HI_VOL
+;	beat a 12
+;	rest 12
+;
+;	beat b 12
+;	vol LO_VOL
+;	beat a 12
+;
+;	vol HI_VOL
+;	beat c 12
+;	vol LO_VOL
+;	beat b 12
+;
+;	tarmbeat a 24 b 24 c 24
+.macro tarmbeat
+	.redefine offset 0
+	.rept NARGS
+	.if NARGS >= 1
+		.if \1 == od
+			octaved
+			.redefine offset offset-12
+			.shift
+		.else
+		.if \1 == ou
+			octaveu
+			.redefine offset offset+12
+			.shift
+		.endif
+		.endif
+	.endif
+
+	.if NARGS >= 2
+	.if \1 == r
+		rest \2*BEAT
+		.shift
+		.shift
+	.else
+	.if \1 >= 0
+		.ifndef HI_VOL
+			.define HI_VOL 0
+		.endif
+
+		.ifndef LO_VOL
+			.define LO_VOL 0
+		.endif
+
+		.ifndef NO_FIRST_VOL
+			.define NO_FIRST_VOL 0
+		.endif
+
+		.ifndef CHANNEL
+			.define CHANNEL 0
+		.endif
+
+		.ifndef TARM_NOTE
+			.define TARM_NOTE 0
+		.endif
+
+		; First volume change
+		.if NO_FIRST_VOL == 0
+			.if CHANNEL == 4
+				duty HI_VOL
+			.else
+				vol HI_VOL
+			.endif
+		.endif
+		; First note
+		.db \1+offset
+		.db \2*BEAT*(1-LO_VOL_RATIO)
+
+		; Second volume change
+		.if TARM_NOTE != 0
+			.if CHANNEL == 4
+				duty LO_VOL
+			.else
+				vol LO_VOL
+			.endif
+
+			; Second note
+			.db TARM_NOTE
+			.db \2*BEAT*LO_VOL_RATIO
+			.redefine NO_FIRST_VOL 0
+		.else
+			rest \2*BEAT*LO_VOL_RATIO
+			.redefine NO_FIRST_VOL 1
+		.endif
+
+		.redefine TARM_NOTE \1+offset
+
+		.shift
+		.shift
+	.endif
+	.endif
+	.endif
+	.endr
+.endm
+
 ; 60: rest, stops playing the previous note and sets wait counter
 .macro rest
 	.db $60 \1
