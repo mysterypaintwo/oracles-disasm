@@ -387,12 +387,10 @@
 	.db $f0 \1
 .endm
 
-; f1/f3: pattern-call / pattern-end (editable-build only -- see code/audio.s). Confirmed
-; unused as bare no-op bytes by every vanilla song, which is what let them be repurposed.
-.macro patternCall
+; f1-f3: does nothing
+.macro cmdf1
+; f1-f3: Unused as bare no-op bytes by every vanilla song: may be repurposed (patternCall / patternEnd, perhaps?)
 	.db $f1
-	.dw \1
-	.db \2
 .endm
 .macro cmdf2
 	.db $f2
